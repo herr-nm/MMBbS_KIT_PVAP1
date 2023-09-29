@@ -1,0 +1,37 @@
+site_name: KIT Prüfungsvorbereitung AP1
+
+theme:
+  name: material
+  language: de
+  font: false
+  favicon: bilder/favicon.png
+  logo: bilder/logo.png
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - include-markdown
+  - search
+
+extra_css:
+  - 'extra.css'
+
+use_directory_urls: false
+
+repo_url: https://github.com/herr-nm/MMBbS_KIT_PVAP1
+
+site_url: https://herr-nm.github.io/MMBbS_KIT_PVAP1
+
+nav:
+    - Informationen zur Kurslizenz: 'index.md'
+    - Aufbau und Inhalt der IHK-Prüfung (AP1): '00_aufbau_und_inhalt.md'
+    - Projektmanagement (div. LF): '01_projektmanagement.md'
+    - Wirtschaftliche Grundlagen (LF1 & LF2): '02_wirtschaftliche_grundlagen.md'
+    - IT-Grundlagen (LF2): '03_it_grundlagen.md'
+    - Netzwerktechnik (LF3): '04_netzwerktechnik.md'
+    - IT-Sicherheit (LF4): '05_it_sicherheit.md'
+    - Anwendungsentwicklung (LF5): '06_anwendungsentwicklung.md'
+    - Prüfungstraining: '07_pruefungstraining.md'
