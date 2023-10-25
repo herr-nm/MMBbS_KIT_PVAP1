@@ -57,7 +57,7 @@ Dem Prüfungskatalog der IHK kann entnommen werden, welche Themen für die Prüf
 
 ![u-Form-Verlag: Prüfungskatalog KSM](https://www.u-form-shop.de/abschlusspruefung/kaufmann-kauffrau-fuer-it-system-management/abschlusspruefung-teil-1/kaufmann-frau-fuer-it-system-management-pruefungskatalog-fuer-die-ihk-abschlusspruefung-neuordnung)
 
-![Auszug des Prüfungskatalogs als Mindmap](material/IHK_AP1_Prüfungskatalog_Auszug.pdf)
+![Auszug des Prüfungskatalogs als Mindmap](material/00_ihk_ap1_pruefungskatalog_auszug_mindmap.pdf)
 
 ## Themenübersichten vergangener Prüfungen
 

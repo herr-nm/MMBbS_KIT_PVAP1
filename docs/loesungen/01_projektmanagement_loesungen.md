@@ -183,7 +183,7 @@ Der Unterschied zwischen Lasten- und Pflichtenheft liegt in ihrer Funktion und P
 In einem Projektzyklus folgt das Pflichtenheft auf das Lastenheft. Das Lastenheft liefert die Anforderungen und Bedürfnisse des Kunden, während das Pflichtenheft die Umsetzung dieser Anforderungen beschreibt, damit das Projekt den Kundenerwartungen entspricht.
 
 {%
-   include-markdown "inhalte/lizenzhinweis.md"
+   include-markdown "../inhalte/lizenzhinweis.md"
    start="<!--include-start-->"
    end="<!--include-end-->"
 %}
