@@ -160,6 +160,7 @@ Um eine nachvollziehbare Gewichtung der Kriterien zu erhalten, soll die Präfere
 | **2** | **Leistung**  |   | - |   |   |  |  |  |
 | **3** | **Region**    | 0 | 1 | - | 1 |  |  |  |
 | **4** | **Service**   | 0 | 0 | 1 | - |  |  |  |
+|       | **Summe**     |   |   |   |   |  | - |  |
 
 Vervollständigen Sie im ersten Schritt die Zeile "Leistung". Beim zeilenweisen Vergleich ist folgendes anzunehmen:
 
