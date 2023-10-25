@@ -37,13 +37,13 @@ Die Bewertung der AP1 erfolgt bei allen IT-Berufen mit 20% der IHK-Gesamtnote. F
 
 ![KDM Prüfungsteile](bilder/kap_00_kdm_pruefungsteile.png)
 
-*Bildquelle: BIBB Ausbildung gestalten - Kaufleute für Digitalisierungsmanagement (2020): S. , [LINK]()*
+*Bildquelle: BIBB Ausbildung gestalten - Kaufleute für Digitalisierungsmanagement (2020): S. , [LINK](https://www.bibb.de/dienst/publikationen/en/download/16667)*
 
 Die Bewertung der AP1 erfolgt bei allen IT-Berufen mit 20% der IHK-Gesamtnote. Für die KSM sind die Prüfungsteile hier dargestellt:
 
 ![KSM Prüfungsteile](bilder/kap_00_ksm_pruefungsteile.png)
 
-*Bildquelle: BIBB Ausbildung gestalten - Kaufleute für IT-System-Management (2020): S. , [LINK]()*
+*Bildquelle: BIBB Ausbildung gestalten - Kaufleute für IT-System-Management (2020): S. , [LINK](https://www.bibb.de/dienst/publikationen/de/download/16670)*
 
 Die bisherigen Prüfungsergebnisse vergangener Prüfungen können unter folgendem Link in der Prüfungsstatistik der IHK abgerufen werden:
 
@@ -53,11 +53,11 @@ Die bisherigen Prüfungsergebnisse vergangener Prüfungen können unter folgende
 
 Dem Prüfungskatalog der IHK kann entnommen werden, welche Themen für die Prüfungsteile zugelassen sind. Der gesamten Prüfungskatalog ist über den u-Form-Verlag bestellbar.
 
-![u-Form-Verlag: Prüfungskatalog KDM](https://www.u-form-shop.de/abschlusspruefung/kaufmann-kauffrau-fuer-digitalisierungsmanagement/abschlusspruefung-teil-1/kaufleute-fuer-digitalisierungsmanagement-pruefungskatalog-fuer-die-ihk-abschlusspruefung-neuordnung)
+[u-Form-Verlag: Prüfungskatalog KDM](https://www.u-form-shop.de/abschlusspruefung/kaufmann-kauffrau-fuer-digitalisierungsmanagement/abschlusspruefung-teil-1/kaufleute-fuer-digitalisierungsmanagement-pruefungskatalog-fuer-die-ihk-abschlusspruefung-neuordnung)
 
-![u-Form-Verlag: Prüfungskatalog KSM](https://www.u-form-shop.de/abschlusspruefung/kaufmann-kauffrau-fuer-it-system-management/abschlusspruefung-teil-1/kaufmann-frau-fuer-it-system-management-pruefungskatalog-fuer-die-ihk-abschlusspruefung-neuordnung)
+[u-Form-Verlag: Prüfungskatalog KSM](https://www.u-form-shop.de/abschlusspruefung/kaufmann-kauffrau-fuer-it-system-management/abschlusspruefung-teil-1/kaufmann-frau-fuer-it-system-management-pruefungskatalog-fuer-die-ihk-abschlusspruefung-neuordnung)
 
-![Auszug des Prüfungskatalogs als Mindmap](material/00_ihk_ap1_pruefungskatalog_auszug_mindmap.pdf)
+[Auszug des Prüfungskatalogs als Mindmap](material/00_ihk_ap1_pruefungskatalog_auszug_mindmap.pdf)
 
 ## Themenübersichten vergangener Prüfungen
 
