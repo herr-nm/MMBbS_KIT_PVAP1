@@ -4,7 +4,7 @@
 
 ### Aufgabe 1
 
-![Mindmap Projekte definieren A1](bilder/../../bilder/kap_00_projekte_definieren_aufgabe_1.png)
+![Mindmap Projekte definieren A1](bilder/../../bilder/kap_01_projekte_definieren_aufgabe_1.png)
 
 ### Aufgabe 2
 
@@ -51,7 +51,7 @@ Die Stakeholder in einem Projekt in einem Unternehmen sind Personen oder Gruppen
 
 ### Aufgabe 1
 
-![Netzplan Lösung](../bilder/kap_00_netzplaene_erstellen.png)
+![Netzplan Lösung](../bilder/kap_01_netzplaene_erstellen.png)
 
 ### Aufgabe 2
 
@@ -83,7 +83,7 @@ Um trotz einer relevanten Verschiebung des Projektfinales nach hinten das urspr�
 
 ### Aufgabe 1
 
-![Gantt Diagramm](../bilder/kap_00_ganttdiagramme_erstellen_aufgabe_1.png)
+![Gantt Diagramm](../bilder/kap_01_ganttdiagramme_erstellen_aufgabe_1.png)
 
 ### Aufgabe 2
 
