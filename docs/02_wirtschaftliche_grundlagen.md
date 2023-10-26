@@ -39,6 +39,8 @@ Wann ist der Kaufvertrag zustande gekommen? Beschreiben Sie, welche beiden Aspek
 
 ## Beschaffungskalkulation durchführen
 
+### Arbeitsauftrag - Beschaffungskalkulation durchführen
+
 #### Aufgabe 1
 
 Sie holen für 10 neue Notebooks Preise bei vier Lieferanten ein:
@@ -65,6 +67,8 @@ Welches weitere Entscheidungskriterium könnte für den Fall aus #### Aufgabe 1 
 
 ## Variable und fixe Kosten unterscheiden (BEP-Analyse)
 
+### Arbeitsauftrag -  Variable und fixe Kosten unterscheiden
+
 #### Aufgabe 1
 
 Wie stehen die Begriffe "variable Kosten", "Fixkosten" und "Gesamtkosten" miteinander in Beziehung?
@@ -86,6 +90,8 @@ Erläutern Sie, wie die Break-even-Menge bei Anteiligen Stück (bspw. 14,2 Stüc
 ---
 
 ## Kostenvergleich (Leasing, Kauf, ...) durchführen
+
+### Arbeitsauftrag - Kostenvergleich durchführen
 
 #### Aufgabe 1
 
