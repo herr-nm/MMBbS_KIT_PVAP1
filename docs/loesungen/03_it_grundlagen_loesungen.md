@@ -70,3 +70,125 @@ Die MTBF ist ein nützlicher Indikator, um die Ausfallsicherheit von Speichermed
 #### Aufgabe 3
 
 ![Aufgabe 3](../bilder/kap_03_uebertragung_von_daten_aufgabe_3.png)
+
+## Energieeffizienz von IT-Systemen vergleichen
+
+### Arbeitsauftrag - Energieeffizienz von IT-Systemen vergleichen
+
+#### Aufgabe 1
+
+**Elektrische Leistung**
+
+Elektrische Leistung (P) = Elektrische Spannung (U) * Elektrischer Strom (I)
+
+`P = U * I`
+
+Beachten Sie dabei:
+- Die Maßeinheit von P ist Watt (W).
+- Die Maßeinheit von I ist Ampere (A).
+- Die Maßeinheit von U ist Volt (V).
+
+**Elektrische Energie**
+
+Elektrische Energie (E) = Elektrische Leistung (P) * Zeit (t)
+
+`E = P * t`
+
+Beachten Sie dabei:
+- Die Maßeinheit von E ist Wattstunden (Wh).
+- Die Maßeinheit der Zeit ist für diesen Aufgabentyp in Stunden zu berechnen.
+
+**Kosten**
+
+Kosten = Elektrische Energie (E) * Preis (€)
+
+`Kosten = E * Preis`
+
+Beachten Sie dabei:
+- Der Preis wird in der Regel in €/kWh angegeben.
+- Die elektrische Energie muss in der Regel von Wattstunden (Wh) in Kilowattstunden (kWh) umgerechnet werden.
+
+#### Aufgabe 2
+
+![Rechenweg](../bilder/kap_03_energieeffizienz_berechnen_aufgabe_2.png)
+
+#### Aufgabe 3
+
+![Rechenweg](../bilder/kap_03_energieeffizienz_berechnen_aufgabe_3.png)
+
+#### Aufgabe 4
+
+**Frage 1:**
+
+Power Usage Effectiveness (PUE) ist eine Metrik, die zur Schätzung der Energieeffizienz eines Rechenzentrums verwendet werden kann. Es wird berechnet, indem die Gesamtmenge an Energie, die in ein Rechenzentrum eingeht, durch die Energie geteilt wird, die nur für den Betrieb der IT-Ausrüstung im Rechenzentrum erforderlich ist. Je näher dieser Wert 1,0 kommt, desto effizienter ist das Rechenzentrum.
+
+*"Power Usage Effectiveness (PUE) is a metric that can be used to estimate the energy efficiency of a data center. It is calculated by dividing the total amount of energy entering a data center by the energy required only to operate the IT equipment in the data center."*
+
+**Frage 2:**
+
+Die Überwachung einer Metrik wie PUE ist nützlich, um die Effizienz eines Rechenzentrums zu benchmarken. Unternehmen und Rechenzentrumsmanager verwenden die Metrik, um die aktuelle Effizienz ihrer Infrastruktur und den Erfolg von Modernisierungsbemühungen festzustellen. Dies hilft dabei, den Energieverbrauch und die Energiekosten zu senken.
+
+*"Monitoring a metric like PUE is useful for benchmarking data center efficiency. Companies and data center managers use the metric to determine the current efficiency of their infrastructure and the success of modernization efforts. This helps reduce power consumption and energy costs."*
+
+**Frage 3:**
+
+Vorteile von Power Usage Effectiveness (PUE):
+
+1. **Laufende Bewertung**: PUE kann kontinuierlich neu berechnet werden, um die Effektivität von Energieeinsparungsmaßnahmen zu überwachen.
+2. **Effizientere Praktiken**: Effizienz kann gut gemessen werden, da sie sich in der Kennzahl niederschlägt.
+3. **Beliebte Metrik**: PUE ist eine weit verbreitete Metrik in Data Center Infrastructure Management (DCIM) Software.
+4. **Wettbewerbsvorteil**: Unternehmen mit guten PUE-Werten können diese in ihrer Werbematerialien verwenden.
+
+(s. Aufzählung im Text)
+
+**Frage 4:**
+
+Nachteile von Power Usage Effectiveness (PUE):
+
+1. **Schwierige Gesamtleistungsberechnung**: Die genaue Berechnung der Gesamtleistung ist oft schwierig und kann zu ungenauen Ergebnissen führen.
+2. **Rack-Ebene nicht erfasst**: PUE erfasst nicht den Energieverbrauch auf Rack-Ebene, was die Genauigkeit beeinträchtigen kann.
+3. **Keine Marketingmetrik**: Obwohl PUE von Unternehmen für Marketingzwecke verwendet werden kann, ist es eigentlich eine Bewertungs- und Verbesserungsmetrik und sollte nicht übermäßig für Marketingzwecke genutzt werden.
+4. **Berücksichtigt nicht die Rechenzentrumsgröße und Softwareeffizienz**: PUE sagt nichts darüber aus, ob ein Rechenzentrum angemessen dimensioniert ist oder ob effiziente Software verwendet wird.
+5. **Berücksichtigt nicht alle Umweltaspekte**: PUE berücksichtigt nicht andere Umweltaspekte wie Wasserverbrauch, die Lebensdauer von Geräten oder das Recycling von Altgeräten. Es ist möglich, den PUE durch umweltschädliche Maßnahmen zu senken, was der Umwelt insgesamt schaden kann.
+
+(s. Aufzählung im Text)
+
+**Frage 5:**
+
+Um den PUE-Wert näher an 1,0 zu bringen, sind verschiedene Maßnahmen möglich, einschließlich der Virtualisierung von Servern, Optimierung der Kühlung, Nutzung von "free cooling", Stilllegung ineffizienter Hardware, Einsatz effizienterer USV-Systeme und effizienterer Beleuchtung.
+
+*"To bring your PUE closer to 1.0, the following measures are possible: Virtualize servers, Optimize cooling, Use free cooling, Retire inefficient hardware, Deploy a more efficient UPS, Don't forget lighting."*
+
+**Frage 6:**
+
+Welche Rolle spielt die Virtualisierung bei der Verbesserung des PUE-Werts?
+
+Virtualisierung ermöglicht es, die gleichen Workloads auf weniger Servern auszuführen, was zu mehr Rechenleistung bei gleicher oder kleinerer Infrastruktur führt.
+
+*"Virtualization enables you to run the same workloads on fewer servers. This gives you more computing power with the same or smaller infrastructure."*
+
+**Frage 7:**
+
+Warum ist die Optimierung der Kühlung in einem Rechenzentrum wichtig?
+
+Kühlsysteme gehören zu den energieintensivsten Komponenten der Rechenzentrumsinfrastruktur. Durch eine optimale Kühlungsplanung können Hotspots vermieden werden, wodurch zusätzliche Kühlleistung nicht erforderlich ist.
+
+*"Air conditioning systems are among the most energy-intensive components of data center infrastructure. Depending on how you plan your layout, you can avoid hotspots and thus the need for additional cooling power."*
+
+**Frage 8:**
+
+Free cooling" bezieht sich auf die Nutzung von Außenluftkühlung, die wesentlich weniger Energie verbraucht als Klimaanlagen. Die Verwendung von "free cooling" kann dazu beitragen, den PUE-Wert zu senken.
+
+*"Because air-conditioning systems are so power-hungry, rely on outside air cooling as often as possible, which uses much less power."*
+
+**Frage 9:**
+
+USVs sind entscheidend, um den Betrieb aufrechtzuerhalten. Die Wahl eines effizienten USV-Systems kann zur Senkung des Energieverbrauchs beitragen.
+
+*"UPSs are essential to maintain operations throughout. But there are more or less efficient options here."*
+
+**Frage 10:**
+
+Es gibt verschiedene Maßnahmen, wie die Verwendung von Bewegungssensoren oder Zeitschaltern, um Licht nur dann einzuschalten, wenn es wirklich benötigt wird, sowie den Einsatz von LEDs zur Beleuchtung.
+
+*"While the energy used for lighting is only a small part of the data center's power needs, it's especially easy to reduce that portion. Make sure lights are only on when employees really need them (for example, through a motion detector or timer) and switch light sources to LEDs."*
