@@ -138,11 +138,11 @@ To bring your PUE closer to 1.0, the following measures are possible:
 
 #### Aufgabe 1
 
+Welche Themenbereiche sind bei der Ergonomie am Arbeitsplatz zu berücksichtigen? Geben Sie einen Überblick in Stichpunkten.
+
 #### Aufgabe 2
 
-#### Aufgabe 3
-
-#### Aufgabe 4
+Welche Faktoren sind bei der Auswahl und Bildeinstellung eines Monitors zu berücksichtigen?
 
 ## Cloudlösungen unterscheiden
 
@@ -150,11 +150,19 @@ To bring your PUE closer to 1.0, the following measures are possible:
 
 #### Aufgabe 1
 
+Beschreiben Sie in eigenen Worten, was Cloud-Computing ist.
+
 #### Aufgabe 2
+
+Nennen und beschreiben Sie die "... as a Service"-Konzepte.
 
 #### Aufgabe 3
 
+Wie funktioniert die Abrechnung von Cloud-Diensten? Welche Bezahlmodelle sind hierfür üblich?
+
 #### Aufgabe 4
+
+Wie schätzen Sie die Sicherheit von Cloud-Diensten hinsichtlich des Datenschutzes ein?
 
 ## Hardwarekomponenten unterscheiden
 
@@ -162,11 +170,19 @@ To bring your PUE closer to 1.0, the following measures are possible:
 
 #### Aufgabe 1
 
+Nennen und beschreiben Sie die Komponenten eines Desktop-Computers inkl. der notwendigen und der üblichen Peripherie.
+
 #### Aufgabe 2
+
+Welche Eingabegeräte können IT-Systeme haben und wie sind die Geräte zu unterscheiden?
 
 #### Aufgabe 3
 
+Welche Verarbeitungsgeräte können IT-Systeme haben und wie sind die Geräte zu unterscheiden?
+
 #### Aufgabe 4
+
+Welche Ausgabegeräte können IT-Systeme haben und wie sind die Geräte zu unterscheiden?
 
 ## Virtualisierung nutzen
 
@@ -174,11 +190,35 @@ To bring your PUE closer to 1.0, the following measures are possible:
 
 #### Aufgabe 1
 
+Was ist die Virtualisierung von IT-Systemen?
+
 #### Aufgabe 2
+
+Unterscheiden Sie bei der Virtualisierung von IT-Systemen zwischen dem Typ-1- und Typ-2-Hypervisor. Beschreiben Sie beide Konzepte kurz in eigenen Worten und ordnen Sie zu, für welchen Einsatzzweck die jeweilige Art der Virtualisierung geeignet/optimiert ist.
 
 #### Aufgabe 3
 
+Unterscheiden Sie zu der Virtualisierung mit Typ-1- bzw. Typ-2-Hypervisor die Virtualisierung mittels Container wie bspw. Docker. Was sind die Vorteile von Docker bzw. was sind die Nachteile gegenüber der "klassischen" Virtualisierung.
+
 #### Aufgabe 4
+
+Welche Schwachstellen die Virtualisierung und wie ist die Gefährdungslage einzuschätzen?
+
+## Logische Grundfunktionen der Digitaltechnik auswerten
+
+#### Aufgabe 1
+
+Stellen Sie die Wahrheitstabellen für die Logikbausteine AND, OR, XOR und NOT auf.
+
+#### Aufgabe 2
+
+Folgende Logikschaltung wird in einem System zur Ansteuerung von Kontrollleuchten an einem Übersichtspult genutzt:
+
+Bestimmen Sie tabellarisch, in welchen Fällen die Kontrollleuchte eingeschaltet wird.
+
+#### Aufgabe 3
+
+Ein Serverraum soll anhand eines Systems gegen unbefugtes Betreten geschützt werden. Hierzu sind in den beiden Zugangstüren jeweils Sensoren verbaut, die eine Öffnung der Tür feststellen. Türöffnungen sollen in einer Logdatei protokolliert werden. Welcher Logikbaustein wird benötigt, um bei jeder Türöffnung die Protokollierung des Zeitstempels korrekt auszulösen.
 
 {%
    include-markdown "inhalte/lizenzhinweis.md"
