@@ -170,7 +170,7 @@ Wie schätzen Sie die Sicherheit von Cloud-Diensten hinsichtlich des Datenschutz
 
 #### Aufgabe 1
 
-Nennen und beschreiben Sie die Komponenten eines Desktop-Computers inkl. der notwendigen und der üblichen Peripherie.
+Nennen und beschreiben Sie die Komponenten eines Desktop-Computers inkl. der notwendigen und der üblichen Peripherie. Suchen Sie außerdem ein repräsentatives Bild zu jeder Komponente heraus.
 
 #### Aufgabe 2
 
@@ -211,12 +211,6 @@ Welche Schwachstellen die Virtualisierung und wie ist die Gefährdungslage einzu
 Stellen Sie die Wahrheitstabellen für die Logikbausteine AND, OR, XOR und NOT auf.
 
 #### Aufgabe 2
-
-Folgende Logikschaltung wird in einem System zur Ansteuerung von Kontrollleuchten an einem Übersichtspult genutzt:
-
-Bestimmen Sie tabellarisch, in welchen Fällen die Kontrollleuchte eingeschaltet wird.
-
-#### Aufgabe 3
 
 Ein Serverraum soll anhand eines Systems gegen unbefugtes Betreten geschützt werden. Hierzu sind in den beiden Zugangstüren jeweils Sensoren verbaut, die eine Öffnung der Tür feststellen. Türöffnungen sollen in einer Logdatei protokolliert werden. Welcher Logikbaustein wird benötigt, um bei jeder Türöffnung die Protokollierung des Zeitstempels korrekt auszulösen.
 
