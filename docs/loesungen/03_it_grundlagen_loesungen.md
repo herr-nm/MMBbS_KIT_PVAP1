@@ -247,3 +247,188 @@ Die Abrechnung von Cloud-Diensten erfolgt in der Regel auf Grundlage von Verbrau
 - **Zugriffskontrolle:** Cloud-Anbieter bieten oft Möglichkeiten zur Verwaltung von Zugriffsrechten und Berechtigungen, um den Zugriff auf Daten zu kontrollieren.
 - **Compliance und Zertifizierungen:** Anbieter können Zertifizierungen für Sicherheitsstandards wie ISO 27001 oder SOC 2 vorweisen, die auf die Einhaltung strenger Sicherheitsrichtlinien hinweisen.
 - **Datensicherung und Wiederherstellung:** Cloud-Anbieter bieten oft Möglichkeiten zur Datensicherung und -wiederherstellung, um den Schutz vor Datenverlust zu gewährleisten.
+
+## Hardwarekomponenten unterscheiden
+
+### Arbeitsauftrag - Hardwarekomponenten unterscheiden
+
+#### Aufgabe 1
+
+**Komponenten eines Desktop-PC**
+
+| Abbildung | Komponente | Beschreibung |
+| :---: | :--- | :--- |
+| ![CPU](../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_CPU.png) | Zentrale Verarbeitungseinheit (CPU) | Die CPU ist das Gehirn des Computers und führt die meisten Berechnungen und Aufgaben aus. Sie besteht aus einem Mikroprozessor. |
+| ![RAM](../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_RAM.png) | Arbeitsspeicher (RAM) | RAM dient als temporärer Speicher für laufende Programme und Daten. Je mehr RAM ein Computer hat, desto besser kann er mit verschiedenen Aufgaben gleichzeitig umgehen. |
+| ![HDD](bilder/../../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_HDD.png) | HDD oder SSD | Die HDD oder SSD ist der langfristige Speicher des Computers. Hier werden das Betriebssystem, Programme und Dateien dauerhaft gespeichert. | 
+| ![GPU](../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_GPU.png) | Grafikkarte (GPU) | Die Grafikkarte ist für die Anzeige von Grafiken und Videos verantwortlich. In einigen Fällen kann sie auch zur Beschleunigung von Berechnungen eingesetzt werden, z.B. bei 3D-Anwendungen und Spielen. |
+| ![Mainboard](../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Motherboard.png) | Mainboard (Hauptplatine) | Das Mainboard ist die Hauptplatine, auf der die meisten Komponenten des Computers miteinander verbunden sind. Es enthält Anschlüsse für die CPU, den RAM, die Grafikkarte und andere Erweiterungskarten. |
+| ![Netzteil](../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Netzteil.png) | Netzteil | Das Netzteil versorgt den Computer mit Strom und wandelt den Wechselstrom aus der Steckdose in Gleichstrom um, den der Computer benötigt. |
+
+**Notwendige Peripherie**
+
+| Abbildung | Komponente | Beschreibung |
+| :---: | :--- | :--- |
+| ![Tastatur](../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Tastatur.png) | Tastatur | Eingabegerät zur Eingabe von Text und Befehlen. |
+| ![Maus](../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Maus.png) | Maus | Eingabegerät zur Steuerung des Mauszeigers auf dem Bildschirm. |
+| ![Monitor](../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Monitor.png) | Monitor | Ausgabegerät, das den Bildschirminhalt anzeigt. |
+
+**Übliche Peripherie**
+
+| Abbildung | Komponente | Beschreibung |
+| :---: | :--- | :--- |
+| ![Drucker](../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Drucker.png) | Drucker | Zum Drucken von Dokumenten und Bildern. |
+| ![Headset](../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Headset.png) | Headset | Zur Audioausgabe sowie Mikrofon zur Aufnahme der Stimme. |
+| ![Webcam](../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Webcam.png)  | Webcam | Für Videoaufnahmen und Videokonferenzen. |
+| ![Scanner](../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Scanner.png) | Scanner | Zum Digitalisieren von Dokumenten. |
+| ![USB](../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_usb.png) | weitere USB-Geräte | wie externe Festplatten, USB-Sticks, ... |
+
+#### Aufgabe 2
+
+Eingabegeräte können nach ihrer Art der Dateneingabe und Interaktion mit dem System unterschieden werden. Zum Beispiel können Tastatur und Maus als physische Eingabegeräte klassifiziert werden, während ein Touchscreen ein berührungsempfindliches Eingabegerät ist. Mikrofone und Scanner sind Beispiele für Geräte, die analoge Daten in digitale Daten umwandeln.
+
+#### Aufgabe 3
+
+Verarbeitungsgeräte in IT-Systemen sind im Wesentlichen CPUs (Zentrale Verarbeitungseinheiten) oder Prozessoren. Sie sind verantwortlich für die Ausführung von Berechnungen und Aufgaben. Diese Prozessoren können unterschieden werden:
+
+- **Zentrale Verarbeitungseinheit (CPU):** Dies ist der Standardprozessor in einem Computer und wird für allgemeine Aufgaben verwendet. Es gibt verschiedene CPU-Architekturen, wie x86, ARM usw., die je nach Gerät variieren.
+- **Grafikprozessor (GPU):** GPUs sind spezialisierte Prozessoren, die hauptsächlich für grafikintensive Aufgaben und parallele Berechnungen in 3D-Anwendungen und wissenschaftlichen Anwendungen verwendet werden.
+- **Koprozessor:** Ein Koprozessor ist ein zusätzlicher Prozessor, der spezielle Aufgaben wie Verschlüsselung, Signalverarbeitung oder künstliche Intelligenz beschleunigen kann.
+
+#### Aufgabe 4
+
+Ausgabegeräte werden nach dem Typ der ausgegebenen Informationen unterschieden, z.B. visuell (Monitor), auditiv (Lautsprecher), physisch (Drucker) usw. Sie dienen dazu, Informationen aus dem IT-System für den Benutzer zugänglich zu machen.
+
+## Virtualisierung nutzen
+
+### Arbeitsauftrag - Virtualisierung nutzen
+
+#### Aufgabe 1
+
+Die Virtualisierung von IT-Systemen ist eine Technologie, die es ermöglicht, mehrere virtuelle Instanzen von Computern, Betriebssystemen oder Anwendungen auf einer physischen Hardwareplattform auszuführen. Dabei wird die physische Hardware logisch in mehrere virtuelle Umgebungen unterteilt, wodurch Ressourcen effizienter genutzt werden können. Diese Virtualisierungstechnik bietet eine flexiblere und kosteneffizientere Möglichkeit, IT-Ressourcen bereitzustellen und zu verwalten.
+
+#### Aufgabe 2
+
+**Typ-1-Hypervisor**
+
+- Typ-1-Hypervisoren sind auch als Bare-Metal-Hypervisoren bekannt.
+- Sie laufen direkt auf der physischen Hardware, ohne ein zugrunde liegendes Betriebssystem.
+- Dies macht sie leistungsstark und sicherer.
+- Geeignet für Servervirtualisierung und Cloud-Infrastrukturen, bei denen hohe Leistung und Isolation erforderlich sind.
+
+**Typ-2-Hypervisor**
+
+- Typ-2-Hypervisoren laufen auf einem zugrunde liegenden Betriebssystem.
+- Sie sind einfacher zu installieren und zu verwenden, eignen sich jedoch nicht so gut für leistungsintensive Anwendungen.
+- Geeignet für Entwicklungs- und Testumgebungen, bei denen Leistung weniger kritisch ist.
+
+Hier ein Schaubild, welches bereits Virtualisierung mit Containern (s. Aufgabe 3) enthält:
+
+![VM](../bilder/03_virtualisierung_nutzen_aufgabe_2-3.png)
+
+#### Aufgabe 3
+
+**Virtualisierung mit Containern (z.B. Docker)**
+
+Container sind leichtgewichtige Virtualisierungseinheiten, die Anwendungen und ihre Abhängigkeiten isoliert ausführen.
+Container teilen das Betriebssystem des Hosts und sind daher ressourceneffizienter.
+Sie ermöglichen eine schnellere Bereitstellung von Anwendungen und eine einfachere Skalierbarkeit.
+
+**Vorteile von Docker gegenüber "klassischer" Virtualisierung**
+
+- **Effizienz:** Container benötigen weniger Ressourcen im Vergleich zu Virtualisierung mit Hypervisoren, da sie das Betriebssystem des Hosts teilen.
+- **Schnelle Bereitstellung:** Container können sehr schnell gestartet und gestoppt werden, was die Anwendungsbereitstellung beschleunigt.
+- **Konsistenz:** Docker-Container sorgen für eine konsistente Umgebung und eliminieren "Es funktioniert auf meinem System" -Probleme.
+- **Skalierbarkeit:** Container können einfach skaliert werden, um Anwendungen je nach Bedarf zu erweitern.
+
+**Nachteile von Docker gegenüber "klassischer" Virtualisierung**
+
+- **Isolation:** Container teilen das Betriebssystem mit dem Host, was die Isolation von Anwendungen im Vergleich zur Hypervisor-Virtualisierung verringert.
+- **Anwendungsbeschränkungen:** Docker eignet sich am besten für Anwendungen, die in einem Linux-Umfeld laufen. Einige Windows-Anwendungen sind nicht gut geeignet für Container.
+- **Sicherheit:** Container-Sicherheit erfordert spezielle Konfiguration und Überwachung, um potenzielle Risiken zu minimieren.
+
+#### Aufgabe 4
+
+Gemäß [*SYS.1.5 Virtualisierung*](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_5_Virtualisierung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1) hält das Bundesamt für Sicherheit in der Informationstechnik (BSI) folgende Aspekte zur Gefährdungslage beim Einsatz von Virutalisierung fest:
+
+- **Fehlerhafte Planung der Virtualisierung:** Eine unzureichende Planung der Integration von Virtualisierungsservern in die bestehende IT-Infrastruktur kann zu unklaren Zuständigkeiten und Überschneidungen führen. Es kann auch dazu führen, dass keine angemessene Rechtestruktur vorhanden ist, um administrative Zugriffe für verschiedene Bereiche zu trennen.
+- **Fehlerhafte Konfiguration der Virtualisierung:** Die Umstellung auf Virtualisierung ändert die Art und Weise, wie Server bereitgestellt werden. Fehlerhafte Konfigurationen können auftreten, wenn beispielsweise schutzbedürftige virtuelle IT-Systeme in einer unsicheren Umgebung platziert werden, was ein erhöhtes Sicherheitsrisiko darstellt.
+- **Unzureichende Ressourcen für virtuelle IT-Systeme:** Wenn nicht ausreichend Speicherplatz, Prozessorleistung, Arbeitsspeicher oder Netzwerkressourcen für virtuelle IT-Systeme zur Verfügung stehen, können dies zu Verfügbarkeitsproblemen, Datenintegrität und Betriebsstörungen führen. Dies betrifft sowohl den Speicherplatz auf Festplatten und im Speichernetzwerk als auch die Ressourcen für CPU, RAM und Netzwerkanbindung. Eine sorgfältige Ressourcenplanung und Überwachung sind entscheidend, um solche Probleme zu vermeiden.
+- **Informationsabfluss oder Ressourcen-Engpass durch Snapshots:** Wenn Snapshots von virtuellen Maschinen erstellt und wiederhergestellt werden, gehen alle nachträglichen Änderungen verloren. Dies kann zu erneuten Sicherheitslücken, inkonsistenten Daten und Speicherplatzproblemen führen. Zudem könnten Snapshots bei Angriffen verwendet werden, um auf Daten zuzugreifen, und sie können sehr groß werden.
+- **Ausfall des Verwaltungsservers für Virtualisierungssysteme:** Der Verwaltungsserver ist zentral für die Steuerung und Verwaltung der virtuellen Infrastruktur verantwortlich. Ein Ausfall dieses Servers führt dazu, dass keine Konfigurationsänderungen vorgenommen werden können, und es ist nicht möglich, auf auftretende Probleme zu reagieren oder die Infrastruktur zu erweitern.
+- **Missbräuchliche Nutzung von Gastwerkzeugen:** Gastwerkzeuge, die in virtuellen Maschinen mit hohen Berechtigungen laufen, können für Denial-of-Service-Angriffe missbraucht werden und könnten es Angreifern ermöglichen, den gesamten Virtualisierungsserver zu übernehmen.
+- **Kompromittierung der Virtualisierungssoftware:** Die Virtualisierungssoftware (Hypervisor) ist die zentrale Komponente eines Virtualisierungsservers. Wenn sie erfolgreich angegriffen wird, können alle virtuellen IT-Systeme auf dem Server gefährdet sein.
+
+## Logische Grundfunktionen der Digitaltechnik auswerten
+
+### Arbeitsauftrag - Logische Grundfunktionen der Digitaltechnik auswerten
+
+#### Aufgabe 1
+
+**AND**
+
+| A | B | X |
+| :---: | :---: | :---: |
+| 1 | 1 | 1 |
+| 1 | 0 | 0 |
+| 0 | 1 | 0 |
+| 0 | 0 | 0 |
+
+*Symbolik für das AND*
+
+| Symbol | Zusammenhang |
+| :---: | :--- |
+| ![AND](../bilder/03_logik_aufgabe_1_AND.png) | Elektrotechnik |
+| ![AND](../bilder/03_logik_aufgabe_1_EAND.png) | EPK |
+| ![AND](../bilder/03_logik_aufgabe_1_BAND.png) | BPMN |
+
+**OR**
+
+| A | B | X |
+| :---: | :---: | :---: |
+| 1 | 1 | 1 |
+| 1 | 0 | 1 |
+| 0 | 1 | 1 |
+| 0 | 0 | 0 |
+
+*Symbolik für das OR*
+
+| Symbol | Zusammenhang |
+| :---: | :--- |
+| ![OR](../bilder/03_logik_aufgabe_1_OR.png) | Elektrotechnik |
+| ![OR](../bilder/03_logik_aufgabe_1_EOR.png) | EPK |
+| ![OR](../bilder/03_logik_aufgabe_1_BOR.png) | BPMN |
+
+**XOR**
+
+| A | B | X |
+| :---: | :---: | :---: |
+| 1 | 1 | 0 |
+| 1 | 0 | 1 |
+| 0 | 1 | 1 |
+| 0 | 0 | 0 |
+
+*Symbolik für das XOR*
+
+| Symbol | Zusammenhang |
+| :---: | :--- |
+| ![XOR](../bilder/03_logik_aufgabe_1_XOR.png) | Elektrotechnik |
+| ![XOR](../bilder/03_logik_aufgabe_1_EXOR.png) | EPK |
+| ![XOR](../bilder/03_logik_aufgabe_1_BXOR.png) | BPMN |
+
+**NOT**
+
+| A | B | X |
+| :---: | :---: | :---: |
+| 1 | 1 | 1 |
+| 1 | 0 | 0 |
+
+*Symbolik für das NOT*
+
+| Symbol | Zusammenhang |
+| :---: | :--- |
+| ![NOT](../bilder/03_logik_aufgabe_1_NOT.png) | Elektrotechnik (Hinweis, das NOT ist lediglich der rot markierte Kreis, dieser kann bspw. an anderen Bausteinen am Ein- oder Ausgang angebracht werden) |
+
+#### Aufgabe 2
+
+Es wird das OR-Gatter benötigt. Die Protokollierung soll gestartet werden, wenn Tür A geöffnet wird, wenn Tür B geöffnet wird oder wenn gleichzeitig Tür A und B geöffnet werden.
