@@ -2,9 +2,11 @@
 
 ## Grundkonzepte von Netzwerken beschreiben
 
+### Arbeitsauftrag - Grundkonzepte von Netzwerken beschreiben
+
 #### Aufgabe 1
 
-Definieren Sie, was ein Netzwerk ist. Unterscheiden Sie hierzu zwischen Peer-to-Peer und Client-Server.
+Definieren Sie, was ein Netzwerk ist. Unterscheiden Sie hierzu zwischen Peer-to-Peer- und Client-Server-Verbindungen.
 
 #### Aufgabe 2
 
@@ -12,9 +14,11 @@ Aus welchen Gründen werden Computer-Netzwerke eingerichtet?
 
 #### Aufgabe 3
 
-Nennen und beschreiben Sie typische Kopplungselemente (d.h. Hardware) für die Herstellung von Computer-Netzwerken.
+Nennen und beschreiben Sie typische Kopplungselemente (d.h. Hardware) für die Herstellung von Computer-Netzwerken. Suchen Sie jeweils ein Bild für einen Stellvertreter der Kategorie heraus.
 
 #### Aufgabe 4
+
+Welche Faktoren sind bei der Planung von Netzwerken bei einem Kunden zu berücksichtigen?
 
 ## Clients einem Netzwerk hinzufügen
 
