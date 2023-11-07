@@ -222,11 +222,15 @@ Cloud-Computing ist ein Ansatz zur Bereitstellung von IT-Ressourcen und Diensten
 
 #### Aufgabe 2
 
-Die "... as a Service"-Konzepte, auch als XaaS abgekürzt, umfassen verschiedene Bereitstellungsmodelle, bei denen Dienste und Ressourcen über das Internet zur Verfügung gestellt werden. Hier sind einige Beispiele:
+Die "... as a Service"-Konzepte, auch als XaaS abgekürzt, umfassen verschiedene Bereitstellungsmodelle, bei denen Dienste und Ressourcen über das Internet zur Verfügung gestellt werden.
 
 - **Infrastructure as a Service (IaaS):** Bei IaaS werden virtuelle Hardwarekomponenten wie Server, Speicher und Netzwerkressourcen bereitgestellt. Benutzer können diese Ressourcen nutzen, um eigene Betriebssysteme und Anwendungen zu hosten.
 - **Platform as a Service (PaaS):** PaaS bietet eine Entwicklungsplattform, auf der Entwickler Anwendungen erstellen, testen und bereitstellen können. Dabei müssen sie sich nicht um die zugrunde liegende Infrastruktur kümmern.
 - **Software as a Service (SaaS):** SaaS-Dienste bieten fertige Softwareanwendungen, die über das Internet genutzt werden können. Benutzer mieten oder abonnieren diese Anwendungen, anstatt sie zu kaufen und lokal zu installieren.
+
+Etwas seltener genannt:
+
+- **Storage as a Service (StaaS)**: StaaS bildet Onlinespeicher ab, die es Kund:innen erlauben Dateien hochzuladen. In der Regel gibt es für den Zugriff browsergestützte Versionen, die durch Clients ergänzt werden können.
 - **Function as a Service (FaaS):** FaaS ermöglicht die Ausführung von Funktionen oder Code in einer serverlosen Umgebung. Entwickler laden ihren Code hoch, und die Plattform führt ihn aus, wenn er benötigt wird.
 - **Database as a Service (DBaaS):** DBaaS stellt Datenbanken als Dienst zur Verfügung, wodurch Benutzer Datenbanken erstellen, verwalten und abfragen können, ohne sich um die zugrunde liegende Datenbankinfrastruktur kümmern zu müssen.
 
