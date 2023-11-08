@@ -65,3 +65,66 @@ Entscheiden Sie, ob das Netzwerk drahtlos oder kabelgebunden sein soll, und ber�
 - **Verwaltung und Wartung:** Denken Sie an Netzwerkmanagementtools und -prozesse, um das Netzwerk effizient zu verwalten und Wartungsarbeiten durchzuführen.
 - **Rechtsvorschriften und Compliance:** Stellen Sie sicher, dass das Netzwerk den geltenden gesetzlichen Bestimmungen und Compliance-Anforderungen entspricht.
 - **Benutzerzugriff und Berechtigungen:** Planen Sie die Zugriffsrechte und Berechtigungen sorgfältig, um sicherzustellen, dass Benutzer nur auf die für sie relevanten Ressourcen zugreifen können.
+
+## Clients einem Netzwerk hinzufügen
+
+### Arbeitsauftrag - Clients einem Netzwerk hinzufügen
+
+#### Aufgabe 1
+
+- **IP-Adresse:** Der Netzwerk-Client benötigt eine eindeutige IP-Adresse, um im Netzwerk identifiziert zu werden. Diese Adresse kann statisch (manuell konfiguriert) oder dynamisch (durch DHCP) zugewiesen werden.
+- **Subnetzmaske:** Die Subnetzmaske wird verwendet, um festzulegen, welcher Bereich von IP-Adressen im Netzwerk lokal erreichbar ist. Sie bestimmt die Netzwerkteilung und die IP-Bereiche, die im selben Subnetz liegen.
+- **Gateway-Adresse:** Das Gateway ist die IP-Adresse des Routers, der den Netzwerkverkehr zwischen dem lokalen Netzwerk und anderen Netzwerken, wie dem Internet, vermittelt. Der Netzwerk-Client muss wissen, welche IP-Adresse als Gateway verwendet wird.
+- **DNS-Server-Adresse:** Der DNS-Server (Domain Name System) wird verwendet, um Domainnamen in IP-Adressen aufzulösen. Der Netzwerk-Client benötigt mindestens eine DNS-Server-Adresse, um Internetdienste und Ressourcen im Netzwerk anhand von Namen statt IP-Adressen zu erreichen.
+
+#### Aufgabe 2
+
+Ein DHCP-Server (Dynamic Host Configuration Protocol) übernimmt in einem Netzwerk verschiedene Aufgaben in Bezug auf die Zuweisung von IP-Adressen und anderen Netzwerkkonfigurationsinformationen an angeschlossene Clients.
+
+- **IP-Adresszuweisung:** Der DHCP-Server weist IP-Adressen an Netzwerkclients dynamisch zu. Dies bedeutet, dass er Clients bei Bedarf eine freie IP-Adresse aus einem vordefinierten Adresspool zuweist. Dies erleichtert die Verwaltung von IP-Adressen im Netzwerk, da keine manuelle Konfiguration erforderlich ist.
+- **Subnetzmaskenzuweisung:** Der DHCP-Server weist den Clients auch die passende Subnetzmaske zu, um festzulegen, welcher Bereich von IP-Adressen im lokalen Netzwerk erreichbar ist.
+- **Gateway-Informationen:** Der DHCP-Server teilt den Clients die IP-Adresse des Standardgateways mit, das für die Weiterleitung von Datenverkehr außerhalb des lokalen Netzwerks verwendet wird.
+- **DNS-Server-Informationen:** Der DHCP-Server gibt den Clients die IP-Adressen der DNS-Server im Netzwerk, die zur Auflösung von Domainnamen in IP-Adressen benötigt werden.
+- **Weitere Konfigurationsoptionen:** DHCP kann auch zusätzliche Informationen wie Zeitserver, NTP-Server, WINS-Server und spezielle DHCP-Optionen bereitstellen, die von den Clients verwendet werden können.
+- **Leasemanagement:** DHCP-Server weisen IP-Adressen auf Zeitbasis zu. Clients erhalten eine temporäre Leasetime für die zugewiesene IP-Adresse, und der DHCP-Server aktualisiert oder erneuert die Leases, wenn sie ablaufen. Dies ermöglicht die effiziente Nutzung von IP-Adressen, da nicht verwendete Adressen freigegeben werden.
+- **Fehlerbehandlung:** Der DHCP-Server kann Fehler behandeln, wie z.B. IP-Adresskonflikte, die auftreten können, wenn eine bereits verwendete IP-Adresse erneut zugewiesen wird.
+
+#### Aufgabe 3
+
+**Für Windows-Systeme:**
+
+1. Öffnen Sie die Eingabeaufforderung (CMD): Klicken Sie auf "Start", geben Sie "cmd" in das Suchfeld ein und drücken Sie "Enter". Dies öffnet das Eingabeaufforderungsfenster.
+2. Geben Sie den Befehl "ipconfig" ein und drücken Sie "Enter". Dieser Befehl zeigt Ihnen Informationen zur Netzwerkkonfiguration Ihres Windows-Systems, einschließlich Ihrer IP-Adresse, Subnetzmaske, Standardgateway und DNS-Server.
+3. Für weitere Details können Sie "ipconfig /all" eingeben. Dies zeigt erweiterte Informationen, einschließlich Ihrer MAC-Adresse und DHCP-Konfiguration.
+4. Wenn Sie Informationen zur Netzwerkkarte benötigen, können Sie den Befehl "netsh interface show interface" verwenden, um Details zur Netzwerkschnittstelle anzuzeigen.
+
+**Für Linux-Systeme:**
+
+1. Öffnen Sie das Terminal: Je nach Ihrem Linux-Desktop-Umgebung können Sie das Terminal über das Anwendungsmenü oder mit einer Tastenkombination öffnen.
+2. Geben Sie den Befehl "ifconfig" ein und drücken Sie "Enter". Dieser Befehl zeigt Informationen zur Netzwerkkonfiguration Ihres Linux-Systems, einschließlich Ihrer IP-Adresse, Subnetzmaske und MAC-Adresse.
+3. Für neuere Linux-Distributionen oder solche, die das "ip" -Befehlszeilenwerkzeug verwenden, können Sie "ip addr show" verwenden, um ähnliche Informationen anzuzeigen.
+4. Wenn Sie weitere Netzwerkinformationen benötigen, können Sie "route -n" verwenden, um Details zu Ihrer Routing-Tabelle anzuzeigen.
+5. Für erweiterte Informationen und Konfigurationen können Sie je nach Linux-Distribution das Network Manager-Tool oder das "nmcli" -Befehlszeilenwerkzeug verwenden.
+
+#### Aufgabe 4
+
+Um die Netzwerkverbindung zu einem anderen Client im Netzwerk zu testen, können Sie den "ping" -Befehl verwenden. Dieser Befehl wird verwendet, um festzustellen, ob ein Remote-Host (in diesem Fall der Ziel-Client mit der IP-Adresse 192.168.178.2) erreichbar ist.
+
+`> ping 192.168.178.2`
+
+Wenn der Ziel-Client erreichbar ist und die Verbindung ordnungsgemäß funktioniert, erhalten Sie eine Antwort vom Ziel-Client in Form von ICMP-Echo-Antworten. Wenn Sie keine Antwort erhalten oder "Zeitüberschreitung" oder "Host nicht erreichbar" sehen, bedeutet dies, dass es ein Problem mit der Verbindung zum Ziel-Client gibt.
+
+#### Aufgabe 5
+
+Für private Netzwerke werden spezielle IP-Adressbereiche verwendet, die in den folgenden RFC-Dokumenten (Request for Comments) festgelegt sind, um Konflikte mit öffentlichen IP-Adressen im Internet zu vermeiden. Diese privaten IP-Adressbereiche sind für die Verwendung in privaten Netzwerken und lokalen Netzwerken reserviert:
+
+**IPv4-Adressbereiche für private Netze:**
+
+- **10.0.0.0 bis 10.255.255.255 (10.0.0.0/8):** Dieser Bereich umfasst 16.777.216 IP-Adressen und ist für größere private Netzwerke geeignet.
+- **172.16.0.0 bis 172.31.255.255 (172.16.0.0/12):** Dieser Bereich umfasst 1.048.576 IP-Adressen und wird häufig in mittelgroßen Netzwerken verwendet.
+- **192.168.0.0 bis 192.168.255.255 (192.168.0.0/16):** Dieser Bereich bietet 65.536 IP-Adressen und ist für kleinere Netzwerke oder Heimnetzwerke geeignet.
+
+**IPv6-Adressbereiche für private Netze:**
+
+- **fc00::/7:** Dieser Bereich ist für IPv6-Adressen in privaten Netzwerken reserviert. Innerhalb dieses Bereichs können private IPv6-Adressbereiche erstellt werden, um die Adressierung in lokalen Netzwerken zu ermöglichen.
+

@@ -22,6 +22,8 @@ Welche Faktoren sind bei der Planung von Netzwerken bei einem Kunden zu berücks
 
 ## Clients einem Netzwerk hinzufügen
 
+### Arbeitsauftrag - Clients einem Netzwerk hinzufügen
+
 #### Aufgabe 1
 
 Welche Informationen muss ein kabelgebundener Netzwerk-Client wie bspw. ein Desktop-PC erhalten, um am Netzwerk teilnehmen zu können?
@@ -32,15 +34,15 @@ Wenn in einem Netzwerk ein DHCP verfügbar ist, übernimmt dieser Aufgaben. Welc
 
 #### Aufgabe 3
 
-Wenn kein DHCP zur Verfügung steht, was muss dann unternommen werden, um einen Client in das Netzwerk zu integrieren? Welche Informationen werden dazu benötigt?
+Wie erhalte ich mit einem verbundenen Client Informationen zu den Netzwerk-Details. Unterscheiden Sie zwischen Windows- & Linux-Systemen.
 
 #### Aufgabe 4
 
-Wie erhalte ich mit einem Client Informationen zu den Netzwerk-Details. Unterscheiden Sie zwischen Windows- & Linux-Systemen.
+Wie lautet der Kommandozeilenbefehl, um die Anbindung an einen anderen Client im Netzwerk zu testen, wenn der Ziel-Client die IP-Adresse 192.168.178.2 hat?
 
 #### Aufgabe 5
 
-Wie lautet der Kommandozeilenbefehl, um die Anbindung an einen anderen Client im Netzwerk zu testen, wenn der Ziel-Client die IP-Adresse 192.168.178.2 hat?
+Welche IP-Adressbereiche kommen für private Netze in Frage?
 
 ## OSI-Modell nutzen
 
