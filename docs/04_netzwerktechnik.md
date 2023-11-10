@@ -64,11 +64,23 @@ Beschreiben Sie die einzelnen Schichten nun etwas detaillierter. Was sind die Au
 
 Führen Sie die folgenden Protokolle tabellarisch auf. Ordnen Sie die OSI-Schicht, den ausgeschriebenen Namen sowie eine Beschreibung zu:
 
-- 
+- DNS
+- SMB
+- NFS
+- SMTP/S
+- HTTP/S
+- IPSEC
+- IP
+- TCP
+- UDP
+- SSH
+- DHCP
+- ARP
+- TLS
 
 #### Aufgabe 2
 
-Suchen Sie die Protokolle und Einstellungen zur Konfiguration Ihrer Schul-E-Mail-Adresse in einem Client heraus.
+Welche Informationen sind zur Konfiguration eines E-Mail-Accounts in einem Client notwendig? Suchen Sie die Protokolle und Einstellungen zur Konfiguration Ihrer Schul-E-Mail-Adresse in einem Client heraus.
 
 #### Aufgabe 3
 
@@ -76,6 +88,7 @@ Inwiefern unterscheiden sich die Protokolle HTTP und HTTPS voneinander? Erläute
 
 #### Aufgabe 4
 
+Was genau ist HTTPS-Inspection? Welche Probleme können damit einher gehen?
 
 ## Netzwerkkomponenten dimensionieren
 
