@@ -160,7 +160,7 @@ Der quantitative Angebotsvergleich hingegen verwendet messbare Kriterien wie die
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | | | **Preis** | **Leistung** | **Region** | **Service** | **Punkte** | **Rang** | **Gewichtung in %** |
 | **1** | **Preis**     | - | 2 | 2 | 2 | **6** | **1** | **50** |
-| **2** | **Leistung**  |   | - |   |   | **3** | **2** | **25** |
+| **2** | **Leistung**  | **0**  | - | **1**  | **2**  | **3** | **2** | **25** |
 | **3** | **Region**    | 0 | 1 | - | 1 | **2** | **3** | **17** |
 | **4** | **Service**   | 0 | 0 | 1 | - | **1** | **4** | **8** |
 |       | **Summe**     |   |   |   |   | **12** | - | **100** |
