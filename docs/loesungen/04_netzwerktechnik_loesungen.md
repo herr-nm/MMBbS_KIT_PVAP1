@@ -128,3 +128,63 @@ Für private Netzwerke werden spezielle IP-Adressbereiche verwendet, die in den 
 
 - **fc00::/7:** Dieser Bereich ist für IPv6-Adressen in privaten Netzwerken reserviert. Innerhalb dieses Bereichs können private IPv6-Adressbereiche erstellt werden, um die Adressierung in lokalen Netzwerken zu ermöglichen.
 
+## OSI-Modell nutzen
+
+#### Aufgabe 1
+
+| Layer-Nr. | Englischer Name          | Deutscher Name            | Aufgaben der Schicht                                         |
+|-----------|--------------------------|---------------------------|--------------------------------------------------------------|
+| 7         | Application              | Anwendung                 | Bereitstellung von Netzwerkdiensten für Anwendungen          |
+| 6         | Presentation             | Darstellung               | Datenübersetzung, Verschlüsselung und Kompression            |
+| 5         | Session                  | Sitzung                   | Aufrechterhaltung und Beendigung von Kommunikationssitzungen |
+| 4         | Transport                | Transport                 | Zuverlässiger Datenaustausch und Flusskontrolle              |
+| 3         | Network                  | Netzwerk                  | Routing, Logische Adressierung, Paketweiterleitung           |
+| 2         | Data Link                | Sicherung                 | Zuverlässige Datenübertragung im lokalen Netzwerk            |
+| 1         | Physical                 | Bitübertragungsschicht    | Physikalische Verbindung und Bitübertragung                  |
+
+#### Aufgabe 2
+
+- **Standardisierung:**
+   - *Ziel:* Eine gemeinsame Basis für die Entwicklung von Netzwerktechnologien schaffen.
+   - *Erläuterung:* Das OSI-Referenzmodell bietet einen Rahmen für die Standardisierung von Netzwerkprotokollen und -technologien. Dies ermöglicht die Interoperabilität verschiedener Systeme und Geräte, die auf der ganzen Welt entwickelt werden.
+- **Klare Strukturierung:**
+   - *Ziel:* Die Komplexität von Netzwerken in überschaubare Schichten unterteilen.
+   - *Erläuterung:* Das Modell organisiert Netzwerkfunktionalitäten in sieben klar definierte Schichten. Dies erleichtert das Verständnis, die Entwicklung und den Betrieb von Netzwerklösungen, indem komplexe Aufgaben in leichter handhabbare Teile zerlegt werden.
+- **Fehlerisolierung und -behebung:**
+   - *Ziel:* Die Lokalisierung von Fehlern in Netzwerken vereinfachen.
+   - *Erläuterung:* Durch die klare Schichtstruktur des OSI-Modells kann bei Netzwerkproblemen leichter identifiziert werden, in welcher Schicht der Fehler auftritt. Dies erleichtert die Fehlerdiagnose und -behebung.
+- **Förderung von Interoperabilität:**
+   - *Ziel:* Die Kommunikation zwischen unterschiedlichen Systemen und Technologien ermöglichen.
+   - *Erläuterung:* Das OSI-Modell fördert die Interoperabilität, da es als Referenzrahmen dient, dem verschiedene Hersteller bei der Entwicklung ihrer Netzwerkprodukte folgen können. Dadurch wird die nahtlose Integration von Produkten unterschiedlicher Hersteller erleichtert.
+
+#### Aufgabe 3
+
+1. **Bitübertragungsschicht (Physical Layer):**
+   - *Aufgaben:* Übertragung von Bitfolgen über physikalische Medien (Kabel, Funkwellen).
+   - *Genutzte Pakete:* Bits.
+   - *Mögliche Fehler:* Signalverlust, Rauschen, Physische Kabelprobleme.
+2. **Sicherungsschicht (Data Link Layer):**
+   - *Aufgaben:* Zuverlässige Übertragung von Frames zwischen direkt benachbarten Knoten. Adressierung, Fehlererkennung und -korrektur.
+   - *Genutzte Pakete:* Frames.
+   - *Mögliche Fehler:* Kollisionen, verlorene Frames, Duplikate.
+3. **Netzwerkschicht (Network Layer):**
+   - *Aufgaben:* Logische Adressierung, Routing von Paketen zwischen verschiedenen Netzwerken, Paketweiterleitung.
+   - *Genutzte Pakete:* Pakete.
+   - *Mögliche Fehler:* Fehlerrate bei der Weiterleitung, Routing-Probleme.
+4. **Transportschicht (Transport Layer):**
+   - *Aufgaben:* Segmentierung von Daten in kleinere Einheiten, Flusskontrolle, Zuverlässige Übertragung von Daten zwischen Endsystemen.
+   - *Genutzte Pakete:* Segmente.
+   - *Mögliche Fehler:* Datenverlust, Überlastung, fehlerhafte Reihenfolge der Segmente.
+5. **Sitzungsschicht (Session Layer):**
+   - *Aufgaben:* Aufrechterhaltung und Beendigung von Sitzungen, Synchronisation von Datenübertragung.
+   - *Genutzte Pakete:* Keine eigenen Pakete, verwendet die Dienste der darunterliegenden Schichten.
+   - *Mögliche Fehler:* Sitzungsabbruch, Probleme bei der Synchronisation.
+6. **Darstellungsschicht (Presentation Layer):**
+   - *Aufgaben:* Datenübersetzung, Verschlüsselung, Kompression, Umwandlung von Datenformaten.
+   - *Genutzte Pakete:* Keine eigenen Pakete, verwendet die Dienste der darunterliegenden Schichten.
+   - *Mögliche Fehler:* Probleme bei der Datenübersetzung, Dekodierung oder Verschlüsselung.
+7. **Anwendungsschicht (Application Layer):**
+   - *Aufgaben:* Bereitstellung von Netzwerkdiensten für Anwendungen, Nutzerinteraktion.
+   - *Genutzte Pakete:* Nutzerdaten.
+   - *Mögliche Fehler:* Anwendungsfehler, unerwartetes Verhalten von Anwendungen.
+

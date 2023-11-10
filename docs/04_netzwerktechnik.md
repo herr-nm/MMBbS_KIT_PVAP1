@@ -56,16 +56,15 @@ Welche Ziele werden mit der Nutzung / Erläuterung von Netzwerken mithilfe des O
 
 #### Aufgabe 3
 
-Beschreiben Sie die einzelnen Schichten nun etwas detaillierter.
-
-#### Aufgabe 4
-
+Beschreiben Sie die einzelnen Schichten nun etwas detaillierter. Was sind die Aufgaben, welche Pakete werden genutzt, welche Fehler könnten in dieser Schicht vorliegen?
 
 ## Wichtige Protokolle zuordnen
 
 #### Aufgabe 1
 
-Führen Sie die folgenden Protokolle tabellarisch auf. Ordnen Sie die OSI-Schicht, den ausgeschriebenen Namen sowie eine Beschreibung zu.
+Führen Sie die folgenden Protokolle tabellarisch auf. Ordnen Sie die OSI-Schicht, den ausgeschriebenen Namen sowie eine Beschreibung zu:
+
+- 
 
 #### Aufgabe 2
 
