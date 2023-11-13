@@ -114,6 +114,8 @@ Für ein kleines Unternehmen wird diskutiert, ob ein managed oder unmanaged Swit
 
 ## Verkabelung von Netzwerkkomponenten dimensionieren
 
+### Arbeitsauftrag - Verkabelung von Netzwerkkomponenten dimensionieren
+
 #### Aufgabe 1
 
 Beschreiben Sie den primären, sekundären und tertiären Bereich der strukturierten Verkabelung für Netzwerke.
