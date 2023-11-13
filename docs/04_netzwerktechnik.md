@@ -90,15 +90,27 @@ Inwiefern unterscheiden sich die Protokolle HTTP und HTTPS voneinander? Erläute
 
 Was genau ist HTTPS-Inspection? Welche Probleme können damit einher gehen?
 
-## Netzwerkkomponenten dimensionieren
+## Netzwerkkomponenten unterscheiden
+
+### Arbeitsauftrag - Netzwerkkomponenten unterscheiden
 
 #### Aufgabe 1
 
+Beschreiben Sie den Aufbau mithilfe von Netzwerk-Komponenten, die das Netzwerk in folgendem Beispiel abbilden. Welche teilweise auch nicht eingezeichneten/nicht explizit genannten Kopplungselemente werden für das Netzwerk benötigt?
+
+![Netzwerk](bilder/04_netzwerkkomponenten_dimensionieren_aufgabe_1.png)
+
 #### Aufgabe 2
+
+Welche Aufgabe hat ein Router? Machen Sie diese mithilfe eines Beispiels mit IP-Adressen Ihrer Wahl deutlich.
 
 #### Aufgabe 3
 
+Ein Server-Rack hat eine definierte Größe sowohl in der Höhe als auch in der Breite. In welchen Maßeinheiten werden diese angegeben?
+
 #### Aufgabe 4
+
+Für ein kleines Unternehmen wird diskutiert, ob ein managed oder unmanaged Switch eingesetzt werden sollte. Stellen Sie beide Varianten gegenüber und wägen Sie die Vor- und Nachteile ab.
 
 ## Verkabelung von Netzwerkkomponenten dimensionieren
 
