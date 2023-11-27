@@ -64,7 +64,7 @@ Dem Prüfungskatalog der IHK kann entnommen werden, welche Themen für die Prüf
 ### KIT AP1 - 2023 Herbst - Themenübersicht
 
 - UML Anwendungsfalldiagramm ergänzen
-- Störungsmeldungen via E-Mail 
+- Störungsmeldungen via E-Mail
   - Nachteile nennen
   - Verbesserungen nennen
 - Methoden für die Bedarfsanalyse eines Kunden beschreiben
