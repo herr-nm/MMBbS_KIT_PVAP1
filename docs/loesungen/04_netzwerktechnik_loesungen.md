@@ -449,3 +449,37 @@ Hier ist eine tabellarische Gegenüberstellung von Kupferkabeln (UTP) und Lichtw
 - **Leistungsreserven:** Planen Sie Kapazitätsreserven ein, um zukünftige Netzwerkanforderungen und Technologieupgrades zu berücksichtigen.
 - **Dokumentation:** Führen Sie eine detaillierte Dokumentation der Netzwerkverkabelung, einschließlich Kabeltypen, Längen, Anschlüsse und Verbindungen.
 - **Qualitätsprüfung:** Führen Sie umfassende Tests und Qualitätsprüfungen durch, um sicherzustellen, dass die Verkabelung den spezifizierten Anforderungen entspricht.
+
+## IPv4-Netzwerke planen
+
+### Arbeitsauftrag - IPv4-Netzwerke planen
+
+#### Aufgabe 1
+
+In IPv4 wurden historisch gesehen drei Netzklassen definiert: A, B und C. Jede Klasse hat einen festgelegten Bereich von IP-Adressen. Hier sind die Informationen tabellarisch aufgeführt:
+
+| Netzklassen | Bereich der ersten Oktett | Standard Subnetzmaske       | Anzahl der Netzwerke | Anzahl der Hosts pro Netzwerk |
+|--------------|---------------------------|-----------------------------|----------------------|-------------------------------|
+| Klasse A      | 1-126                     | 255.0.0.0 (8 Bit)           | 128                  | ~16 Millionen                |
+| Klasse B      | 128-191                   | 255.255.0.0 (16 Bit)        | 16.384               | 65.534                      |
+| Klasse C      | 192-223                   | 255.255.255.0 (24 Bit)      | 2.097.152            | 254                         |
+
+#### Aufgabe 2
+
+Für private Netze wurden die folgenden IPv4-Bereiche definiert:
+
+- Klasse A: 10.0.0.0 bis 10.255.255.255
+- Klasse B: 172.16.0.0 bis 172.31.255.255
+- Klasse C: 192.168.0.0 bis 192.168.255.255
+
+#### Aufgabe 3
+
+Das Netz 192.168.178.0 mit einer Subnetzmaske von 255.255.255.0 kann in CIDR-Schreibweise als "192.168.178.0/24" dargestellt werden. Die CIDR-Schreibweise kombiniert die IP-Adresse und die Anzahl der gesetzten Bits für das Netzwerkpräfix.
+
+Im Allgemeinen funktioniert die CIDR-Schreibweise so, dass die IP-Adresse und die Anzahl der gesetzten Bits für das Netzwerkpräfix durch einen Schrägstrich getrennt werden. Zum Beispiel repräsentiert "/24" eine Subnetzmaske mit den ersten 24 Bits, was der üblichen Subnetzmaske 255.255.255.0 entspricht.
+
+#### Aufgabe 4
+Subnetting ist ein Konzept in Computernetzwerken, bei dem ein großes IP-Netzwerk in kleinere, logische Subnetze aufgeteilt wird. Dies ermöglicht eine effizientere Nutzung von IP-Adressen und verbessert die Netzwerkleistung und Sicherheit. Durch Subnetting können Organisationen ihre IP-Adressen besser organisieren und den Datenverkehr innerhalb ihres Netzwerks effektiver steuern.
+
+Bei Subnetting wird die Subnetzmaske eines Netzwerks verfeinert, indem Bits aus dem Host-Teil der Adresse in den Netzwerk-Teil verschoben werden. Dies führt zu kleineren, logischen Subnetzen mit jeweils einer begrenzten Anzahl von Hosts. Subnetting ist besonders nützlich in großen Netzwerken, in denen die Aufteilung in Subnetze die Verwaltung und den Datenverkehr optimiert.
+

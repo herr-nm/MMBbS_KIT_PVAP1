@@ -136,13 +136,26 @@ Was gilt es bei der Herstellung von Netzwerken hinsichtlich der Verkabelung zu b
 
 #### Aufgabe 1
 
-Welche IPv4-Bereiche sind für private Netze definiert?
+Welche (historischen) Netzklassen sind in IPv4 definiert? Welche Adressbereiche bzw. Subnetzmasken sind hier standardmäßig eingeplant? Führen Sie die Informationen tabellarisch auf.
 
 #### Aufgabe 2
+
+Welche IPv4-Bereiche sind für private Netze definiert?
+
+#### Aufgabe 3
+
+Eine mögliche Angabe zur Definition eines Netzes wäre bspw. 192.168.178.0 mit einer Subnetzmaske 255.255.255.0. Beschreiben Sie dieses Netz mittels CIDR-Schreibweise und erläutern Sie im Allgemeinen, wie die CIDR-Schreibweise funktioniert.
+
+#### Aufgabe 4
+
+Erläutern Sie, was genau unter dem Konzept des "Subnetting" zu verstehen ist.
+
+#### Aufgabe 5
 
 
 
 ## IPv6-Netzwerke planen
+
 ## VPN-Einsatz prüfen
 
 #### Aufgabe 1
