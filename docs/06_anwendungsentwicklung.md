@@ -50,7 +50,7 @@ Beschreiben Sie in eigenen Worten alle Elemente, die in einem Struktogramm verwe
 
 #### Aufgabe 2
 
-Struktogramme werden für die Planung von Programmlogiken verwendet. Beschreiben Sie das Ziel in der Verwendung in eigenen Worten und nennen Sie Vor- und Nachteile dieser  Notationsform.
+Struktogramme werden für die Planung von Programmlogiken verwendet. Beschreiben Sie das Ziel in der Verwendung in eigenen Worten und nennen Sie Vor- und Nachteile dieser Notationsform.
 
 #### Aufgabe 3
 
@@ -185,6 +185,8 @@ Die Bücherei eines Dorfes in der Nähe von Hannover arbeitet bisher zur Verwalt
    - Die Benutzer können das Programm beenden, indem sie Option 4 auswählen.
 
 ### Arbeitsauftrag - Struktogramme mithilfe des Schreibtischtests prüfen
+
+
 
 {%
    include-markdown "inhalte/lizenzhinweis.md"
