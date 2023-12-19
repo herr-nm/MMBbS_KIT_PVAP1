@@ -474,7 +474,7 @@ Für private Netze wurden die folgenden IPv4-Bereiche definiert:
 
 #### Aufgabe 3
 
-Das Netz 192.168.178.0 mit einer Subnetzmaske von 255.255.255.0 kann in CIDR-Schreibweise als "192.168.178.0/24" dargestellt werden. Die CIDR-Schreibweise kombiniert die IP-Adresse und die Anzahl der gesetzten Bits für das Netzwerkpräfix.
+Das Netz 192.168.178.0 mit einer Subnetzmaske von 255.255.255.0 kann in CIDR-Schreibweise als "192.168.178.0/24" dargestellt werden. Die CIDR-Schreibweise kombiniert die IP-Adresse und die Anzahl der gesetzten Bits (Anzahl der 1 in der binären Schreibweise der Subnetzmaske) für das Netzwerkpräfix.
 
 Im Allgemeinen funktioniert die CIDR-Schreibweise so, dass die IP-Adresse und die Anzahl der gesetzten Bits für das Netzwerkpräfix durch einen Schrägstrich getrennt werden. Zum Beispiel repräsentiert "/24" eine Subnetzmaske mit den ersten 24 Bits, was der üblichen Subnetzmaske 255.255.255.0 entspricht.
 
