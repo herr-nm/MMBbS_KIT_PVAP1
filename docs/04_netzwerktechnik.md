@@ -152,7 +152,37 @@ Erläutern Sie, was genau unter dem Konzept des "Subnetting" zu verstehen ist.
 
 #### Aufgabe 5
 
+Die Dokumentation eines Netzwerks beim Kunden ist unvollständig. Ermitteln Sie die fehlenden Informationen mithilfe der Abbildung. Orientieren Sie sich dabei an den Vorgaben des Routers:
 
+![IPv4 Topologie](bilder/04_ipv4_aufgabe_5.png)
+
+| Geräte/<br>Angaben | NAS-System | Desktop PC Client 1 | Netzwerk-Drucker |
+| :--- | :--- | :--- | :--- |
+| IP-Adresse | | | |
+| Subnetzmaske | | | |
+| Standardgateway | | | |
+
+#### Aufgabe 6
+
+In einem Großhandel soll die Netzwerkanbindung der Arbeitsplätze und verschiedener Netzwerkkomponenten erneuert werden. Hierfür sollen Subnetze gebildet werden. Wie lautet die Subnetmaske bei der Netzadresse 15.0.0.0 mit 10 verwendbaren Subnetzen, sowie mit mindestens 12 Hosts je Subnetz?
+
+#### Aufgabe 7
+
+Sie werden zur Dokumentation eines Netzwerks herangezogen, um die Ist-Analyse durchzuführen. Ihnen liegen folgende Informationen vor:
+
+- Netzadresse: 192.52.190.0
+- Subnetze: 6
+- Mindestanzahl von Hosts je Subnetz: 10
+
+Ermitteln Sie die Subnetzmaske.
+
+#### Aufgabe 8
+
+Ein neuer Server soll in ein vorhandenes Netzwerk integriert werden. Dazu muss dieser manuell hinsichtlich der IP-Adresse konfiguriert werden. Beurteilen Sie jeweils, ob die vorgeschlagenen IP-Adressen geeignet sind und begründen Sie Ihre Entscheidung:
+
+1. Vorschlag: 192.168.10.0 /24
+2. Vorschlag: 192.168.10.200 /24
+3. Vorschlag: 127.0.0.1 /8
 
 ## IPv6-Netzwerke planen
 

@@ -483,3 +483,37 @@ Subnetting ist ein Konzept in Computernetzwerken, bei dem ein großes IP-Netzwer
 
 Bei Subnetting wird die Subnetzmaske eines Netzwerks verfeinert, indem Bits aus dem Host-Teil der Adresse in den Netzwerk-Teil verschoben werden. Dies führt zu kleineren, logischen Subnetzen mit jeweils einer begrenzten Anzahl von Hosts. Subnetting ist besonders nützlich in großen Netzwerken, in denen die Aufteilung in Subnetze die Verwaltung und den Datenverkehr optimiert.
 
+#### Aufgabe 5
+
+| Geräte/<br>Angaben | NAS-System | Desktop PC Client 1 | Netzwerk-Drucker |
+| :--- | :--- | :--- | :--- |
+| IP-Adresse | 192.168.1.98-110 | 192.168.1.98-110 | 192.168.1.98-110 |
+| Subnetzmaske | 255.255.255.240 | 255.255.255.240 | 255.255.255.240 |
+| Standardgateway | 192.168.1.97 | 192.168.1.97 | 192.168.1.97 |
+
+- IP-Adresse vom NAS-System und Client 1 und dem Netzwerkdrucker dürfen nicht gleich sein.
+- IP-Adressbereich 192.168.1.98 bis 192.168.1.110
+- Subnetzmaske /28 oder 255.255.255.240
+
+#### Aufgabe 6
+
+- Klasse A ist bis 127.0.0.0 definiert, 15.0.0.0 passt damit in Klasse A
+- Subnetzmaske muss zu Klasse A gehören, Standard-Subnetmaske 255.0.0.0
+- Anzahl der benötigten Subnetze: 10. Anzahl Bit, die hierfür notwendig sind betragen 2^4 = 16 Bit (bei 2^3 wären es lediglich 8, also 2 zu wenig).
+- Umrechnung des Teils der Subnetzmaske von BIN zu DEZ: 11110000 -> 240
+- Zusammensetzen der Standard-Subnetzmaske und der Anpassung nach Subnetzbildung: 255.240.0.0 bzw. bei klassenlosem Routing (CIDR) 255.255.255.240.
+
+Lösung: 255.240.0.0
+
+#### Aufgabe 7
+
+- Netzadresse steht für ein Klasse C Netzwerk, Standard-Subnetzmaske 255.255.255.0
+- Anzahl der benötigten Subnetze: 6. Anzahl Bit, die hierfür notwendig sind betragen 2^3 = 8 Bit (bei 2^2 wären es lediglich 4, also 2 zu wenig).
+- Umrechnung des Teils der Subnetzmaske von BIN zu DEZ: 1110000 -> 224
+- Zusammensetzen der Standard-Subnetzmaske und der Anpassung nach Subnetzbildung: 255.255.255.224
+
+#### Aufgabe 8
+
+- 192.168.10.0: Netzadresse darf/sollte nicht vergeben werden
+- 192.168.10.200: Kann für den Server genutzt werden, ist gültig
+- 127.0.0.1: Loop-Back-IP für Loop-Back und Diagnosefunktion reserviert
