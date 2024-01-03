@@ -228,7 +228,50 @@ Die Bücherei eines Dorfes in der Nähe von Hannover arbeitet bisher zur Verwalt
 
 ### Arbeitsauftrag - Struktogramme mithilfe des Schreibtischtests prüfen
 
+#### Aufgabe 1
 
+Beschreiben Sie den Ablauf eines Schreibtischtests zur Prüfung von Struktogrammen im Allgemeinen.
+
+#### Aufgabe 2
+
+Sie haben ein Browsergame auf Ihrer Webseite implementiert. Einen User haben Sie eine Runde spielen lassen. Hieraus leiten Sie die Eingaben zur Kontrolle mit dem Struktogramm ab.
+
+Das Spiel "Schlange" wird durch folgendes Spielfeld beschrieben:
+
+![Spielfeld](bilder/06_schreibtischtest_aufgabe_2_schlangefeld.png)
+
+- Die roten Felder sind "Äpfel", die es aufzusammeln gilt.
+- Das orangene Feld ist der Kopf der Schlange. Diese kann sich nur nach vorne bewegen, wird aber in der Richtung (vorwärts, links, rechts) durch den User gesteuert.
+- Die gelben Felder sind der Körper der Schlange.
+- Wenn ein Apfel gefressen wurde:
+  - Der Spieler erhält einen Punkt.
+  - Außerdem verlängert sich die Schlange um zwei gelbe Felder und wird eine Geschwindigkeitsstufe schneller.
+  - Die Bewegung findet aber dennoch Feld für Feld statt und kann für jedes nächste Feld gesteuert werden.
+  - Der Apfel wird vom Spielfeld entfernt.
+- Wenn der User keine Eingabe der Richtung vorgibt, wird automatisch vorwärts gewählt.
+- Das Spiel endet sofort, wenn durch einen Schritt Vorwärts die Wand oder ein Teil der Schlange selbst  betreten wird.
+- Wurde ein Hindernis getroffen, wird "Ooopsi" ausgegeben und die Kollisionserkennung ausgelöst.
+- Nach Ende des Spiels wird der Punktestand sowie die Anzahl der Bewegungen auf den Feldern ausgegeben.
+- Die Funktion getAktuellesFeldX() ermittelt die aktuelle Position auf der X-Achse. Die Schlange startet in dem Beispiel auf `20`.
+- Die Funktion getAktuellesFeldY() ermittelt die aktuelle Position auf der Y-Achse. Die Schlange startet in dem Beispiel auf `K`.
+- Die Funktion `getFeldInformationen(aktuellePositionX, aktuellePositionY)` erhält zwei Übergabeparameter in der Form `X-Wert, Y-Wert`. Der Rückgabewert der Funktion ist `False`, wenn das Feld frei ist. Wenn das Feld eine Wand enthält ist der Rückgabewert `True`.
+- Die Funktion `getSchlangePosition(aktuellePositionX, aktuellePositionY)` erhält zwei Übergabeparameter in der Form `X-Wert, Y-Wert`. Der Rückgabewert der Funktion ist False, wenn das Feld frei ist. Wenn das `Feld` einen Teil der Schlange enthält ist der Rückgabewert `True`.
+- Die Funktion `getApfelInformation(aktuellePositionX, aktuellePositionY)` erhält zwei Übergabeparameter in der Form `X-Wert, Y-Wert`. Der Rückgabewert der Funktion ist False, wenn das Feld frei ist. Wenn das `Feld` einen Apfel enthält ist der Rückgabewert `True`.
+- Die Funktion `apfelEntfernen()` sorgt lediglich dafür, dass auf dem Spielfeld ein gefressener Apfel nicht mehr angezeigt wird.
+
+Das Struktogramm liegt Ihnen vor:
+
+![Struktogramm Schlange](bilder/06_schreibtischtest_aufgabe_2_schlangestruktog.png)
+
+Die User-Eingaben für den Test waren:
+
+- Vorwärts
+- Vorwärts
+- Danach hat der User das Programm bei dreheKopf(pfeilrichtungNaechsterSchritt) beendet.
+
+1. Führen Sie den Schreibtischtest dieser Spiel-Runde durch.
+2. Beschreiben Sie den Ablauf der Test-Spielrunde durch den User in eigenen Worten.
+3. Welche zwei Fehler hinsichtlich der Programm-/Spiel-Logik sind im Struktogramm enthalten?
 
 {%
    include-markdown "inhalte/lizenzhinweis.md"

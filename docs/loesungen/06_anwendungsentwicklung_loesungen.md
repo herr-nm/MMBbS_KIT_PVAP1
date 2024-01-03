@@ -161,3 +161,78 @@ Das Hauptziel der Verwendung von Struktogrammen liegt in der klaren und verstän
 #### Aufgabe 5
 
 ![Struktogramm](../bilder/06_struktog_aufgabe_5_bücherei.png)
+
+### Arbeitsauftrag - Struktogramme mithilfe des Schreibtischtests prüfen
+
+#### Aufgabe 1
+
+Der Schreibtischtest wird wie folgt vorgenommen:
+
+1. Jede Anweisung / jedes Element im Struktogramm erhält eine Nummer, welche es möglicht, die aktuelle Position festzuhalten.
+2. Anlegen einer Tabelle
+3. In der ersten Spalte wird mit der Überschrift Position (Pos.) der aktuelle Programmschritt festgehalten.
+4. Für jede im Struktogramm vorkommende Variable wird eine Spalte angelegt, diese erhält den Namen der Variablen als Überschrift.
+5. Optional können zwei Spalten für die User-Eingaben sowie die Programmausgaben ergänzt werden.
+
+#### Aufgabe 2
+
+zu 1.
+
+![Struktogramm für Schreibtischtest](../bilder/06_schreibtischtest_aufgabe_2_schlangestruktog_lösung.png)
+
+| Pos. | punkte | anzahlBewegungen | anzahlAepfel | laenge | geschwindigkeit | kollision | aktuellePositionX | aktuellePositionY | feldMitWand | feldMitSchlange | feldMitApfel | pfeilrichtungNaechsterSchritt | User-Eingabe | Spiel-Ausgabe |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
+| 1  | 0 | - | - | - | - | - | - | -  | - | -     | -     | -     | -        | -        | - |
+| 2  | 0 | 0 | - | - | - | - | - | -  | - | -     | -     | -     | -        | -        | - |
+| 3  | 0 | 0 | 7 | - | - | - | - | -  | - | -     | -     | -     | -        | -        | - |
+| 4  | 0 | 0 | 7 | 3 | - | - | - | -  | - | -     | -     | -     | -        | -        | - |
+| 5  | 0 | 0 | 7 | 3 | 1 | - | - | -  | - | -     | -     | -     | -        | -        | - |
+| 6  | 0 | 0 | 7 | 3 | 1 | False | -  | - | -     | -     | -     | -        | -        | - |
+| 7  | 0 | 0 | 7 | 3 | 1 | False | -  | - | -     | -     | -     | -        | -        | - |
+| 8  | 0 | 0 | 7 | 3 | 1 | False | -  | - | -     | -     | -     | -        | -        | - |
+| 9  | 0 | 1 | 7 | 3 | 1 | False | -  | - | -     | -     | -     | -        | -        | - |
+| 10 | 0 | 1 | 7 | 3 | 1 | False | 21 | - | -     | -     | -     | -        | -        | - |
+| 11 | 0 | 1 | 7 | 3 | 1 | False | 21 | K | -     | -     | -     | -        | -        | - |
+| 12 | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | -     | -     | -        | -        | - |
+| 13 | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | False | -     | -        | -        | - |
+| 14 | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | False | -     | -        | -        | - |
+| 17 | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | False | False | -        | -        | - |
+| 18 | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | False | False | -        | -        | - |
+| 23 | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | False | False | Vorwärts | Vorwärts | - |
+| 24 | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | False | False | Vorwärts | -        | - |
+| 7  | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | False | False | Vorwärts | -        | - |
+| 8  | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | False | False | Vorwärts | -        | - |
+| 9  | 0 | 2 | 7 | 3 | 1 | False | 21 | K | False | False | False | Vorwärts | -        | - |
+| 10 | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 11 | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 12 | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 13 | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 14 | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 17 | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 18 | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 23 | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 7  | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 8  | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 9  | 0 | 3 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 10 | 0 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 11 | 0 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 12 | 0 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 13 | 0 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 14 | 0 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 17 | 0 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | True  | Vorwärts | -        | - |
+| 18 | 0 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 19 | 0 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 20 | 1 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 21 | 1 | 5 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 22 | 1 | 5 | 7 | 3 | 2 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 23 | 1 | 5 | 7 | 3 | 2 | False | 23 | K | False | False | False | Vorwärts | Vorwärts | - |
+| 24 | 1 | 5 | 7 | 3 | 2 | False | 23 | K | False | False | False | Vorwärts | Ende des Programms | - |
+
+zu 2.
+
+Die Schlange wird zwei mal vorwärts geleitet, sodass der Apfel auf 23, K gefressen wird. Hierdurch ist die Schlange um 2 Felder länger und um 1 mal schneller. Der Spieler hat einen Punktestand von 1 Punkt und die der Apfel ist nicht mehr zu sehen. Danach wird die Schlange vorwärts gesteuert und würde damit ein weiteres Feld auf die Wand zu gehen. Der User hat aber das Programm vorher beendet
+
+zu 3.
+
+- Ein Fehler im Struktogramm bezieht sich auf die Anzahl der Äpfel. Diese wird zu Beginn im Programm auf 7 Stück festgelegt. Im Rahmen des Programms wird die Anzahl allerdings nicht gemindert. Hieraus entsteht eine Art Endlosschleife, da die Abbruchbedingung des Programms entweder eine Kollision oder aber das Auffressen aller Äpfel beinhalten sollte (solange kollision == False AND anzahlAepfel >=1). Damit wäre ein Spielende immer nur mit einer Kollision möglich.
+- Der zweite Fehler betrifft die Variable feldMitApfel. Diese wird nach dem fressen des vorhandenen Apfels nicht zurückgesetzt. Dadurch würde im nächsten Programmdurchlauf auch bei einem leeren Feld die Methode apfelEntfernen() [s. 19] erneut aufgerufen werden, ohne dass ein Apfel vorhanden wäre und damit das Programm durch einen Fehler beendet werden.
