@@ -95,6 +95,13 @@ Im Beispiel gibt es eine allgemeingültige Weise, den individuellen Stundenplan 
   - Boolean: Wahrheitswert, der entweder True oder False bzw. 1 oder 0 ist - hier z.B. True
 - Ein Beispiel wäre nun der Basisstein:<br> ![UML-Klassendiagramm Basisstein](../bilder/06_umlklassen_aufgabe_5_basisstein.png)
 
+```
+bezeichnung = "Brick 2x2"   # (geerbt aus der Klasse legoDuploTeil)
+farbe = "Flat Dark Gold"    # (geerbt aus der Klasse legoDuploTeil)
+anzahlNoppen = 4            # (geerbt aus der Klasse legoDuploTeil)
+legoKompatibel = True       # (aus der Klasse basisstein)
+```
+
 ## Struktogramme zur Planung von Anwendungen nutzen
 
 ### Arbeitsauftrag - Struktogramme erstellen
