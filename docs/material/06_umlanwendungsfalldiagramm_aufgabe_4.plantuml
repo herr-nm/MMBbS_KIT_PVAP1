@@ -1,0 +1,30 @@
+@startuml "Veranstaltungstickets"
+left to right direction
+
+actor Customer as "Kunde"
+actor Organizer as "Veranstalter"
+actor TicketSystem as "Ticket-System"
+
+rectangle "Anwendungsfälle" {
+  usecase "Anmelden" as Anmelden
+  usecase "Tickets durchsuchen" as TicketsDurchsuchen
+  usecase "Veranstaltung erstellen" as VeranstaltungErstellen
+  usecase "Tickettypen festlegen" as TickettypenFestlegen
+  usecase "Verkaufsberichte einsehen" as VerkaufsberichteEinsehen
+  usecase "Ticket kaufen" as TicketKaufen
+  usecase "Bestellungsverwaltung" as Bestellungsverwaltung
+  usecase "Verfügbarkeit prüfen" as VerfügbarkeitPrüfen
+  usecase "Benachrichtigungen senden" as BenachrichtigungSenden
+}
+
+Customer -- Anmelden
+Customer -- TicketsDurchsuchen
+Organizer -- VeranstaltungErstellen
+Organizer -- TickettypenFestlegen
+Organizer -- VerkaufsberichteEinsehen
+Customer -- TicketKaufen
+TicketSystem -- Bestellungsverwaltung
+TicketSystem -- VerfügbarkeitPrüfen
+TicketSystem -- BenachrichtigungSenden
+
+@enduml
