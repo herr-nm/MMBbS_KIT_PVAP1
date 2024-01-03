@@ -41,11 +41,59 @@ Das UML-Anwendungsfalldiagramm ist in der objektorientierten Programmierung (OOP
 
 #### Aufgabe 4
 
-
+![UML-Anwendungsfalldiagramm zum Veranstaltungsticketverkauf](../bilder/06_umlanwendungsfall_aufgabe_4_Veranstaltungstickets.png)
 
 ## UML-Klassendiagramme erstellen
 
 ### Arbeitsauftrag - UML-Klassendiagramme erstellen
+
+#### Aufgabe 1
+
+Eine Klasse im Sinne der objektorientierten Programmierung (OOP) ist ein Bauplan oder eine Vorlage, die die Struktur und das Verhalten von Objekten in einem Programm definiert. Eine Klasse enthält Attribute (Daten) und Methoden (Funktionen), die die Eigenschaften und das Verhalten der damit erstellten Objekte festlegen.
+
+![Klassendiagramm Klasse](../bilder/06_umlklassen_aufgabe_1_Klasse.png)
+
+In dem Beispiel wird die Klasse "User" gezeigt. Diese hat die privaten (private) Attribute (Eigenschaften) um den Vor- und Nachnamen sowie das Geburtsdatum zu speichern. Die Datentypen werden hierzu aufgeführt (String für Texte, Date für das Datum). Außerdem sind öffentliche (public) Methoden genannt, welche zur Ausgabe des Namens sowie des Alters (auf Basis des hinterlegten Geburtsdatums berechnet) dienen.
+
+#### Aufgabe 2
+
+Vererbung in der objektorientierten Programmierung (OOP) ist ein Konzept, bei dem eine neue Klasse (abgeleitete Klasse oder Subklasse) von einer bestehenden Klasse (Basis- oder Elternklasse) erbt. Die abgeleitete Klasse übernimmt die Attribute und Methoden der Basisklasse und kann diese erweitern, ändern oder spezialisieren, ohne die ursprüngliche Klasse zu ändern.
+
+Beispielsweise ist in einem Stundenplan-System der User in der allgemeinen Form nicht realisierbar (abstrakte Klasse), es können aber die vom User erbenden Schüler und Lehrer erstellt werden.
+
+![Klassendiagramm User](../bilder/06_umlklassen_aufgabe_2_user.png)
+
+Die Klassen Schueler und Lehrer erben aus der Klasse User (das machen die Pfeile mit der geschlossenen nicht ausgefüllten Pfeilspitze klar) die allgemeinen Attribute und Methoden. Schüler als auch Lehrer erhalten damit Vor- und Nachnamen, ein Geburtsdatum, die Methode zur Ausgabe des Namen und des Alters. Die Lehrer erhalten zusätzlich zu den allgemeinen Attributen ein Kürzel.
+
+#### Aufgabe 3
+
+Im Zusammenhang mit der Vererbung von Klassen bedeutet Generalisierung, dass eine abgeleitete Klasse allgemeinere Eigenschaften oder Verhaltensweisen von der Basisklasse erbt. Also haben Lehrer und Schüler als User im Stundenplan-System jeweils Vor- und Nachnamen, die in der Oberklasse User hinterlegt - und damit generalisiert - werden können.
+
+Spezialisierung hingegen bedeutet, dass eine abgeleitete Klasse spezifischere Eigenschaften oder Verhaltensweisen hinzufügt oder vorhandene Eigenschaften und Verhaltensweisen der Basisklasse weiter einschränkt. Hier haben aus der Perspektive der User die allgemeinen Attribute Vor- und Nachnamen. Im Stundenplan-System können die Lehrkräfte aber noch ein Kürzel haben, dies wäre die Spezialisierung von User zur Klasse Lehrer.
+
+#### Aufgabe 4
+
+Polymorphie in der objektorientierten Programmierung (OOP) bezieht sich auf die Fähigkeit von Objekten unterschiedlicher Klassen, auf dieselbe Weise auf Anfragen oder Methodenaufrufe zu reagieren. Es gibt zwei Hauptarten von Polymorphie: statische Polymorphie, die zur Compilezeit auftritt und Methodenüberladung ermöglicht, und dynamische Polymorphie, die zur Laufzeit auftritt und durch Vererbung und Methodenüberschreibung ermöglicht wird. Polymorphie ermöglicht eine flexible und erweiterbare Gestaltung von OOP-Programmen.
+
+![Klassendiagramm Polymorphie](../bilder/06_umlklassen_aufgabe_4_poly.png)
+
+Im Beispiel gibt es eine allgemeingültige Weise, den individuellen Stundenplan zu erhalten, diese ist in der Klasse User hinterlegt und wird an Schüler vererbt. Auch der Lehrer erbt aus der Klasse User die Methode, diese wird beim Lehrer aber überschrieben und in anderer Art und Weise ausgeführt. Bspw. können Lehrer auch einen Raum-Stundenplan erhalten, um zu sehen, welche Klasse gerade parallel in welchem Raum der Schule ist.
+
+#### Aufgabe 5
+
+![UML-Klassendiagramm Lego](../bilder/06_umlklassen_aufgabe_5_lego.png)
+
+- Die oberste Klasse legoDuploTeil ist eine abstrakte Klasse. Das bedeutet, dass hieraus keine Instanz also kein Objekt gebildet werden kann. Die Klasse dient nur zur Sammlung von Attributen und Methoden, um diese dann weiterzuvererben.
+- In dem genutzten Programm (plantuml) wird die Darstellung der Sichtbarkeit über Symbole geregelt:
+  - ![UML-Klassendiagramm Sichtbarkeit](../bilder/06_umlklassen_aufgabe_5_sichtbarkeit.png)
+- Ein **basisstein** kann als Objekt aus dem Bauplan zusammengestellt werden. Aus der vererbenden Klasse **legoDuploTeil** werden die Bezeichnung, Farbe und Anzahl der Noppen geerbt und durch die Eigenschaft der Lego-Kompatibilität ergänzt.
+- Der **konstruktionsstein** ist ebenfalls eine abstrakte Klasse ohne eigene Instanzen und dient der Vererbung an **schiene** und **platte**. Wenn Sie also in der Lego-Duplo-Spielecke aufgefordert würden, einen Konstruktionsstein zu reichen, müssten Sie sich für eine Schiene oder eine Platte entscheiden.
+- Die benutzten Datentypen sind wie folgt:
+  - String: Textdatentyp - hier z.B. "Brick 2x2"
+  - Double: Gleitkommazahl - hier z.B. "12.5" (cm)
+  - Integer: Ganzzahl - hier z.B. "4"
+  - Boolean: Wahrheitswert, der entweder True oder False bzw. 1 oder 0 ist - hier z.B. True
+- Ein Beispiel wäre nun der Basisstein:<br> ![UML-Klassendiagramm Basisstein](../bilder/06_umlklassen_aufgabe_5_basisstein.png)
 
 ## Struktogramme zur Planung von Anwendungen nutzen
 

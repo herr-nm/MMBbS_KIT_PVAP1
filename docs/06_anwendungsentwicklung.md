@@ -21,7 +21,7 @@ Beschreiben Sie die einzelnen Bausteine/Elemente, die in einem UML-Anwendungsfal
 
 Ihnen ist das folgende UML-Anwendungsfalldiagramm gegeben. Formulieren Sie aus den Anwendungsfallen (Use-Cases) mindestens drei User-Stories.
 
-![UML-Anwendungsfalldiagramm zum 3D-Drucker](bilder/06_umlanwendungfall_3D-Drucker.png)
+![UML-Anwendungsfalldiagramm zum 3D-Drucker](bilder/06_umlanwendungsfall_aufgabe_3_3D-Drucker.png)
 
 #### Aufgabe 4
 
@@ -30,17 +30,17 @@ Erstellen Sie das UML-Anwendungsfalldiagramm zu dem im Folgenden beschriebenen O
 Das UML-Anwendungsfalldiagramm für den Online-Ticket-Verkauf repräsentiert die Interaktionen zwischen verschiedenen Akteuren und den definierten Anwendungsfällen. Die Hauptakteure in diesem System sind normalerweise der Kunde, der Veranstalter und das Ticket-System selbst. Die Anwendungsfälle stellen die verschiedenen Funktionen dar, die das System den Benutzern zur Verfügung stellt.
 
 - Kunde:
-  - Anmelden: Der Kunde kann sich im System anmelden, um personalisierte Funktionen wie den Zugriff auf vergangene Bestellungen und spezielle Angebote zu nutzen.
-  - Tickets durchsuchen: Der Kunde kann nach verfügbaren Veranstaltungen und Tickets suchen, indem er Filter und Suchkriterien anwendet.
+  - Anmelden: Der Kunde kann sich im System anmelden, um personalisierte Funktionen wie den Zugriff auf die Bestellhistorie und spezielle Angebote abzurufen.
+  - Tickets durchsuchen: Der Kunde kann nach seiner Anmeldung nach verfügbaren Veranstaltungen und Tickets suchen, indem er Filter und Suchkriterien anwendet.
+  - Ticket kaufen: Der Kunde kann nach Anmeldung am System Tickets für eine ausgewählte Veranstaltung kaufen.
 - Veranstalter:
   - Veranstaltung erstellen: Der Veranstalter kann eine neue Veranstaltung mit relevanten Informationen wie Name, Datum, Ort usw. erstellen.
-  - Tickettypen festlegen: Der Veranstalter kann verschiedene Tickettypen für eine Veranstaltung definieren, z. B. reguläre Tickets, VIP-Tickets usw.
+  - Tickettypen festlegen: Der Veranstalter kann verschiedene Tickettypen für eine Veranstaltung definieren, z.B. reguläre Tickets, VIP-Tickets usw.
   - Verkaufsberichte einsehen: Der Veranstalter kann Berichte über den Ticketverkauf für seine Veranstaltungen einsehen.
 - Ticket-System:
-  - Ticket kaufen: Der Kunde kann Tickets für eine ausgewählte Veranstaltung kaufen.
   - Bestellungsverwaltung: Das System ermöglicht die Verwaltung von Bestellungen, einschließlich Stornierungen, Bestellhistorie und Zahlungsinformationen.
-  - Verfügbarkeit prüfen: Das System überprüft die Verfügbarkeit von Tickets für eine bestimmte Veranstaltung.
-  - Benachrichtigungen senden: Das System kann automatische Benachrichtigungen an Kunden und Veranstalter senden, z. B. Bestätigungsmails und E-Tickets.
+  - Verfügbarkeit prüfen: Das System überprüft die Verfügbarkeit von Tickets für eine bestimmte Veranstaltung. Wenn der Kunde nach Tickets sucht, wird dieser Anwendungsfall immer mit einbezogen.
+  - Benachrichtigungen senden: Das System kann automatische Benachrichtigungen an Kunden und Veranstalter senden, z.B. Bestätigungsmails und E-Tickets.
 
 ## UML-Klassendiagramme erstellen
 
