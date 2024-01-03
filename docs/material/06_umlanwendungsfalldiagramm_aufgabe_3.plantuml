@@ -1,0 +1,25 @@
+@startuml 3D-Drucker
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor User as "Benutzer"
+actor Maintenance as "Wartungspersonal"
+
+rectangle "3D-Drucker-Software" {
+  usecase "3D-Modell auswählen" as SelectModel
+  usecase "Druckparameter einstellen" as SetParameters
+  usecase "Druckauftrag starten" as StartPrint
+  usecase "Druckfortschritt überwachen" as MonitorProgress
+  usecase "Druck abbrechen" as CancelPrint
+  usecase "Wartung durchführen" as PerformMaintenance
+}
+
+User -- SelectModel
+Maintenance -- SetParameters
+User -- StartPrint
+User -- MonitorProgress
+User -- CancelPrint
+Maintenance -- PerformMaintenance
+
+@enduml
