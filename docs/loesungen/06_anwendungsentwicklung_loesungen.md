@@ -41,11 +41,66 @@ Das UML-Anwendungsfalldiagramm ist in der objektorientierten Programmierung (OOP
 
 #### Aufgabe 4
 
-
+![UML-Anwendungsfalldiagramm zum Veranstaltungsticketverkauf](../bilder/06_umlanwendungsfall_aufgabe_4_Veranstaltungstickets.png)
 
 ## UML-Klassendiagramme erstellen
 
 ### Arbeitsauftrag - UML-Klassendiagramme erstellen
+
+#### Aufgabe 1
+
+Eine Klasse im Sinne der objektorientierten Programmierung (OOP) ist ein Bauplan oder eine Vorlage, die die Struktur und das Verhalten von Objekten in einem Programm definiert. Eine Klasse enthält Attribute (Daten) und Methoden (Funktionen), die die Eigenschaften und das Verhalten der damit erstellten Objekte festlegen.
+
+![Klassendiagramm Klasse](../bilder/06_umlklassen_aufgabe_1_Klasse.png)
+
+In dem Beispiel wird die Klasse "User" gezeigt. Diese hat die privaten (private) Attribute (Eigenschaften) um den Vor- und Nachnamen sowie das Geburtsdatum zu speichern. Die Datentypen werden hierzu aufgeführt (String für Texte, Date für das Datum). Außerdem sind öffentliche (public) Methoden genannt, welche zur Ausgabe des Namens sowie des Alters (auf Basis des hinterlegten Geburtsdatums berechnet) dienen.
+
+#### Aufgabe 2
+
+Vererbung in der objektorientierten Programmierung (OOP) ist ein Konzept, bei dem eine neue Klasse (abgeleitete Klasse oder Subklasse) von einer bestehenden Klasse (Basis- oder Elternklasse) erbt. Die abgeleitete Klasse übernimmt die Attribute und Methoden der Basisklasse und kann diese erweitern, ändern oder spezialisieren, ohne die ursprüngliche Klasse zu ändern.
+
+Beispielsweise ist in einem Stundenplan-System der User in der allgemeinen Form nicht realisierbar (abstrakte Klasse), es können aber die vom User erbenden Schüler und Lehrer erstellt werden.
+
+![Klassendiagramm User](../bilder/06_umlklassen_aufgabe_2_user.png)
+
+Die Klassen Schueler und Lehrer erben aus der Klasse User (das machen die Pfeile mit der geschlossenen nicht ausgefüllten Pfeilspitze klar) die allgemeinen Attribute und Methoden. Schüler als auch Lehrer erhalten damit Vor- und Nachnamen, ein Geburtsdatum, die Methode zur Ausgabe des Namen und des Alters. Die Lehrer erhalten zusätzlich zu den allgemeinen Attributen ein Kürzel.
+
+#### Aufgabe 3
+
+Im Zusammenhang mit der Vererbung von Klassen bedeutet Generalisierung, dass eine abgeleitete Klasse allgemeinere Eigenschaften oder Verhaltensweisen von der Basisklasse erbt. Also haben Lehrer und Schüler als User im Stundenplan-System jeweils Vor- und Nachnamen, die in der Oberklasse User hinterlegt - und damit generalisiert - werden können.
+
+Spezialisierung hingegen bedeutet, dass eine abgeleitete Klasse spezifischere Eigenschaften oder Verhaltensweisen hinzufügt oder vorhandene Eigenschaften und Verhaltensweisen der Basisklasse weiter einschränkt. Hier haben aus der Perspektive der User die allgemeinen Attribute Vor- und Nachnamen. Im Stundenplan-System können die Lehrkräfte aber noch ein Kürzel haben, dies wäre die Spezialisierung von User zur Klasse Lehrer.
+
+#### Aufgabe 4
+
+Polymorphie in der objektorientierten Programmierung (OOP) bezieht sich auf die Fähigkeit von Objekten unterschiedlicher Klassen, auf dieselbe Weise auf Anfragen oder Methodenaufrufe zu reagieren. Es gibt zwei Hauptarten von Polymorphie: statische Polymorphie, die zur Compilezeit auftritt und Methodenüberladung ermöglicht, und dynamische Polymorphie, die zur Laufzeit auftritt und durch Vererbung und Methodenüberschreibung ermöglicht wird. Polymorphie ermöglicht eine flexible und erweiterbare Gestaltung von OOP-Programmen.
+
+![Klassendiagramm Polymorphie](../bilder/06_umlklassen_aufgabe_4_poly.png)
+
+Im Beispiel gibt es eine allgemeingültige Weise, den individuellen Stundenplan zu erhalten, diese ist in der Klasse User hinterlegt und wird an Schüler vererbt. Auch der Lehrer erbt aus der Klasse User die Methode, diese wird beim Lehrer aber überschrieben und in anderer Art und Weise ausgeführt. Bspw. können Lehrer auch einen Raum-Stundenplan erhalten, um zu sehen, welche Klasse gerade parallel in welchem Raum der Schule ist.
+
+#### Aufgabe 5
+
+![UML-Klassendiagramm Lego](../bilder/06_umlklassen_aufgabe_5_lego.png)
+
+- Die oberste Klasse legoDuploTeil ist eine abstrakte Klasse. Das bedeutet, dass hieraus keine Instanz also kein Objekt gebildet werden kann. Die Klasse dient nur zur Sammlung von Attributen und Methoden, um diese dann weiterzuvererben.
+- In dem genutzten Programm (plantuml) wird die Darstellung der Sichtbarkeit über Symbole geregelt:
+  - ![UML-Klassendiagramm Sichtbarkeit](../bilder/06_umlklassen_aufgabe_5_sichtbarkeit.png)
+- Ein **basisstein** kann als Objekt aus dem Bauplan zusammengestellt werden. Aus der vererbenden Klasse **legoDuploTeil** werden die Bezeichnung, Farbe und Anzahl der Noppen geerbt und durch die Eigenschaft der Lego-Kompatibilität ergänzt.
+- Der **konstruktionsstein** ist ebenfalls eine abstrakte Klasse ohne eigene Instanzen und dient der Vererbung an **schiene** und **platte**. Wenn Sie also in der Lego-Duplo-Spielecke aufgefordert würden, einen Konstruktionsstein zu reichen, müssten Sie sich für eine Schiene oder eine Platte entscheiden.
+- Die benutzten Datentypen sind wie folgt:
+  - String: Textdatentyp - hier z.B. "Brick 2x2"
+  - Double: Gleitkommazahl - hier z.B. "12.5" (cm)
+  - Integer: Ganzzahl - hier z.B. "4"
+  - Boolean: Wahrheitswert, der entweder True oder False bzw. 1 oder 0 ist - hier z.B. True
+- Ein Beispiel wäre nun der Basisstein:<br> ![UML-Klassendiagramm Basisstein](../bilder/06_umlklassen_aufgabe_5_basisstein.png)
+
+```
+bezeichnung = "Brick 2x2"   # (geerbt aus der Klasse legoDuploTeil)
+farbe = "Flat Dark Gold"    # (geerbt aus der Klasse legoDuploTeil)
+anzahlNoppen = 4            # (geerbt aus der Klasse legoDuploTeil)
+legoKompatibel = True       # (aus der Klasse basisstein)
+```
 
 ## Struktogramme zur Planung von Anwendungen nutzen
 
@@ -106,3 +161,78 @@ Das Hauptziel der Verwendung von Struktogrammen liegt in der klaren und verstän
 #### Aufgabe 5
 
 ![Struktogramm](../bilder/06_struktog_aufgabe_5_bücherei.png)
+
+### Arbeitsauftrag - Struktogramme mithilfe des Schreibtischtests prüfen
+
+#### Aufgabe 1
+
+Der Schreibtischtest wird wie folgt vorgenommen:
+
+1. Jede Anweisung / jedes Element im Struktogramm erhält eine Nummer, welche es möglicht, die aktuelle Position festzuhalten.
+2. Anlegen einer Tabelle
+3. In der ersten Spalte wird mit der Überschrift Position (Pos.) der aktuelle Programmschritt festgehalten.
+4. Für jede im Struktogramm vorkommende Variable wird eine Spalte angelegt, diese erhält den Namen der Variablen als Überschrift.
+5. Optional können zwei Spalten für die User-Eingaben sowie die Programmausgaben ergänzt werden.
+
+#### Aufgabe 2
+
+zu 1.
+
+![Struktogramm für Schreibtischtest](../bilder/06_schreibtischtest_aufgabe_2_schlangestruktog_lösung.png)
+
+| Pos. | punkte | anzahlBewegungen | anzahlAepfel | laenge | geschwindigkeit | kollision | aktuellePositionX | aktuellePositionY | feldMitWand | feldMitSchlange | feldMitApfel | pfeilrichtungNaechsterSchritt | User-Eingabe | Spiel-Ausgabe |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
+| 1  | 0 | - | - | - | - | - | - | -  | - | -     | -     | -     | -        | -        | - |
+| 2  | 0 | 0 | - | - | - | - | - | -  | - | -     | -     | -     | -        | -        | - |
+| 3  | 0 | 0 | 7 | - | - | - | - | -  | - | -     | -     | -     | -        | -        | - |
+| 4  | 0 | 0 | 7 | 3 | - | - | - | -  | - | -     | -     | -     | -        | -        | - |
+| 5  | 0 | 0 | 7 | 3 | 1 | - | - | -  | - | -     | -     | -     | -        | -        | - |
+| 6  | 0 | 0 | 7 | 3 | 1 | False | -  | - | -     | -     | -     | -        | -        | - |
+| 7  | 0 | 0 | 7 | 3 | 1 | False | -  | - | -     | -     | -     | -        | -        | - |
+| 8  | 0 | 0 | 7 | 3 | 1 | False | -  | - | -     | -     | -     | -        | -        | - |
+| 9  | 0 | 1 | 7 | 3 | 1 | False | -  | - | -     | -     | -     | -        | -        | - |
+| 10 | 0 | 1 | 7 | 3 | 1 | False | 21 | - | -     | -     | -     | -        | -        | - |
+| 11 | 0 | 1 | 7 | 3 | 1 | False | 21 | K | -     | -     | -     | -        | -        | - |
+| 12 | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | -     | -     | -        | -        | - |
+| 13 | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | False | -     | -        | -        | - |
+| 14 | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | False | -     | -        | -        | - |
+| 17 | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | False | False | -        | -        | - |
+| 18 | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | False | False | -        | -        | - |
+| 23 | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | False | False | Vorwärts | Vorwärts | - |
+| 24 | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | False | False | Vorwärts | -        | - |
+| 7  | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | False | False | Vorwärts | -        | - |
+| 8  | 0 | 1 | 7 | 3 | 1 | False | 21 | K | False | False | False | Vorwärts | -        | - |
+| 9  | 0 | 2 | 7 | 3 | 1 | False | 21 | K | False | False | False | Vorwärts | -        | - |
+| 10 | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 11 | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 12 | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 13 | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 14 | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 17 | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 18 | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 23 | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 7  | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 8  | 0 | 2 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 9  | 0 | 3 | 7 | 3 | 1 | False | 22 | K | False | False | False | Vorwärts | -        | - |
+| 10 | 0 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 11 | 0 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 12 | 0 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 13 | 0 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 14 | 0 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 17 | 0 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | True  | Vorwärts | -        | - |
+| 18 | 0 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 19 | 0 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 20 | 1 | 3 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 21 | 1 | 5 | 7 | 3 | 1 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 22 | 1 | 5 | 7 | 3 | 2 | False | 23 | K | False | False | False | Vorwärts | -        | - |
+| 23 | 1 | 5 | 7 | 3 | 2 | False | 23 | K | False | False | False | Vorwärts | Vorwärts | - |
+| 24 | 1 | 5 | 7 | 3 | 2 | False | 23 | K | False | False | False | Vorwärts | Ende des Programms | - |
+
+zu 2.
+
+Die Schlange wird zwei mal vorwärts geleitet, sodass der Apfel auf 23, K gefressen wird. Hierdurch ist die Schlange um 2 Felder länger und um 1 mal schneller. Der Spieler hat einen Punktestand von 1 Punkt und die der Apfel ist nicht mehr zu sehen. Danach wird die Schlange vorwärts gesteuert und würde damit ein weiteres Feld auf die Wand zu gehen. Der User hat aber das Programm vorher beendet
+
+zu 3.
+
+- Ein Fehler im Struktogramm bezieht sich auf die Anzahl der Äpfel. Diese wird zu Beginn im Programm auf 7 Stück festgelegt. Im Rahmen des Programms wird die Anzahl allerdings nicht gemindert. Hieraus entsteht eine Art Endlosschleife, da die Abbruchbedingung des Programms entweder eine Kollision oder aber das Auffressen aller Äpfel beinhalten sollte (solange kollision == False AND anzahlAepfel >=1). Damit wäre ein Spielende immer nur mit einer Kollision möglich.
+- Der zweite Fehler betrifft die Variable feldMitApfel. Diese wird nach dem fressen des vorhandenen Apfels nicht zurückgesetzt. Dadurch würde im nächsten Programmdurchlauf auch bei einem leeren Feld die Methode apfelEntfernen() [s. 19] erneut aufgerufen werden, ohne dass ein Apfel vorhanden wäre und damit das Programm durch einen Fehler beendet werden.

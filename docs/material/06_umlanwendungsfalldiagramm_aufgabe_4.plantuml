@@ -5,8 +5,10 @@ actor Customer as "Kunde"
 actor Organizer as "Veranstalter"
 actor TicketSystem as "Ticket-System"
 
-rectangle "Anwendungsfälle" {
+rectangle "Veranstaltungstickets" {
   usecase "Anmelden" as Anmelden
+  usecase "Angebot abrufen" as AngebotAbrufen
+  usecase "Bestellhistorie anzeigen" as BestellhistorieAnzeigen
   usecase "Tickets durchsuchen" as TicketsDurchsuchen
   usecase "Veranstaltung erstellen" as VeranstaltungErstellen
   usecase "Tickettypen festlegen" as TickettypenFestlegen
@@ -18,13 +20,17 @@ rectangle "Anwendungsfälle" {
 }
 
 Customer -- Anmelden
-Customer -- TicketsDurchsuchen
 Organizer -- VeranstaltungErstellen
 Organizer -- TickettypenFestlegen
 Organizer -- VerkaufsberichteEinsehen
-Customer -- TicketKaufen
 TicketSystem -- Bestellungsverwaltung
 TicketSystem -- VerfügbarkeitPrüfen
 TicketSystem -- BenachrichtigungSenden
+
+Anmelden <.- AngebotAbrufen : extend
+Anmelden <.- BestellhistorieAnzeigen : extend
+Anmelden <.- TicketsDurchsuchen : extend
+Anmelden <.- TicketKaufen : extend
+VerfügbarkeitPrüfen .-> TicketsDurchsuchen : include
 
 @enduml

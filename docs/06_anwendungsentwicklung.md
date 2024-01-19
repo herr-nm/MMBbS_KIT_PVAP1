@@ -21,7 +21,7 @@ Beschreiben Sie die einzelnen Bausteine/Elemente, die in einem UML-Anwendungsfal
 
 Ihnen ist das folgende UML-Anwendungsfalldiagramm gegeben. Formulieren Sie aus den Anwendungsfallen (Use-Cases) mindestens drei User-Stories.
 
-![UML-Anwendungsfalldiagramm zum 3D-Drucker](bilder/06_umlanwendungfall_3D-Drucker.png)
+![UML-Anwendungsfalldiagramm zum 3D-Drucker](bilder/06_umlanwendungsfall_aufgabe_3_3D-Drucker.png)
 
 #### Aufgabe 4
 
@@ -30,17 +30,17 @@ Erstellen Sie das UML-Anwendungsfalldiagramm zu dem im Folgenden beschriebenen O
 Das UML-Anwendungsfalldiagramm für den Online-Ticket-Verkauf repräsentiert die Interaktionen zwischen verschiedenen Akteuren und den definierten Anwendungsfällen. Die Hauptakteure in diesem System sind normalerweise der Kunde, der Veranstalter und das Ticket-System selbst. Die Anwendungsfälle stellen die verschiedenen Funktionen dar, die das System den Benutzern zur Verfügung stellt.
 
 - Kunde:
-  - Anmelden: Der Kunde kann sich im System anmelden, um personalisierte Funktionen wie den Zugriff auf vergangene Bestellungen und spezielle Angebote zu nutzen.
-  - Tickets durchsuchen: Der Kunde kann nach verfügbaren Veranstaltungen und Tickets suchen, indem er Filter und Suchkriterien anwendet.
+  - Anmelden: Der Kunde kann sich im System anmelden, um personalisierte Funktionen wie den Zugriff auf die Bestellhistorie und spezielle Angebote abzurufen.
+  - Tickets durchsuchen: Der Kunde kann nach seiner Anmeldung nach verfügbaren Veranstaltungen und Tickets suchen, indem er Filter und Suchkriterien anwendet.
+  - Ticket kaufen: Der Kunde kann nach Anmeldung am System Tickets für eine ausgewählte Veranstaltung kaufen.
 - Veranstalter:
   - Veranstaltung erstellen: Der Veranstalter kann eine neue Veranstaltung mit relevanten Informationen wie Name, Datum, Ort usw. erstellen.
-  - Tickettypen festlegen: Der Veranstalter kann verschiedene Tickettypen für eine Veranstaltung definieren, z. B. reguläre Tickets, VIP-Tickets usw.
+  - Tickettypen festlegen: Der Veranstalter kann verschiedene Tickettypen für eine Veranstaltung definieren, z.B. reguläre Tickets, VIP-Tickets usw.
   - Verkaufsberichte einsehen: Der Veranstalter kann Berichte über den Ticketverkauf für seine Veranstaltungen einsehen.
 - Ticket-System:
-  - Ticket kaufen: Der Kunde kann Tickets für eine ausgewählte Veranstaltung kaufen.
   - Bestellungsverwaltung: Das System ermöglicht die Verwaltung von Bestellungen, einschließlich Stornierungen, Bestellhistorie und Zahlungsinformationen.
-  - Verfügbarkeit prüfen: Das System überprüft die Verfügbarkeit von Tickets für eine bestimmte Veranstaltung.
-  - Benachrichtigungen senden: Das System kann automatische Benachrichtigungen an Kunden und Veranstalter senden, z. B. Bestätigungsmails und E-Tickets.
+  - Verfügbarkeit prüfen: Das System überprüft die Verfügbarkeit von Tickets für eine bestimmte Veranstaltung. Wenn der Kunde nach Tickets sucht, wird dieser Anwendungsfall immer mit einbezogen.
+  - Benachrichtigungen senden: Das System kann automatische Benachrichtigungen an Kunden und Veranstalter senden, z.B. Bestätigungsmails und E-Tickets.
 
 ## UML-Klassendiagramme erstellen
 
@@ -228,7 +228,50 @@ Die Bücherei eines Dorfes in der Nähe von Hannover arbeitet bisher zur Verwalt
 
 ### Arbeitsauftrag - Struktogramme mithilfe des Schreibtischtests prüfen
 
+#### Aufgabe 1
 
+Beschreiben Sie den Ablauf eines Schreibtischtests zur Prüfung von Struktogrammen im Allgemeinen.
+
+#### Aufgabe 2
+
+Sie haben ein Browsergame auf Ihrer Webseite implementiert. Einen User haben Sie eine Runde spielen lassen. Hieraus leiten Sie die Eingaben zur Kontrolle mit dem Struktogramm ab.
+
+Das Spiel "Schlange" wird durch folgendes Spielfeld beschrieben:
+
+![Spielfeld](bilder/06_schreibtischtest_aufgabe_2_schlangefeld.png)
+
+- Die roten Felder sind "Äpfel", die es aufzusammeln gilt.
+- Das orangene Feld ist der Kopf der Schlange. Diese kann sich nur nach vorne bewegen, wird aber in der Richtung (vorwärts, links, rechts) durch den User gesteuert.
+- Die gelben Felder sind der Körper der Schlange.
+- Wenn ein Apfel gefressen wurde:
+  - Der Spieler erhält einen Punkt.
+  - Außerdem verlängert sich die Schlange um zwei gelbe Felder und wird eine Geschwindigkeitsstufe schneller.
+  - Die Bewegung findet aber dennoch Feld für Feld statt und kann für jedes nächste Feld gesteuert werden.
+  - Der Apfel wird vom Spielfeld entfernt.
+- Wenn der User keine Eingabe der Richtung vorgibt, wird automatisch vorwärts gewählt.
+- Das Spiel endet sofort, wenn durch einen Schritt Vorwärts die Wand oder ein Teil der Schlange selbst  betreten wird.
+- Wurde ein Hindernis getroffen, wird "Ooopsi" ausgegeben und die Kollisionserkennung ausgelöst.
+- Nach Ende des Spiels wird der Punktestand sowie die Anzahl der Bewegungen auf den Feldern ausgegeben.
+- Die Funktion getAktuellesFeldX() ermittelt die aktuelle Position auf der X-Achse. Die Schlange startet in dem Beispiel auf `20`.
+- Die Funktion getAktuellesFeldY() ermittelt die aktuelle Position auf der Y-Achse. Die Schlange startet in dem Beispiel auf `K`.
+- Die Funktion `getFeldInformationen(aktuellePositionX, aktuellePositionY)` erhält zwei Übergabeparameter in der Form `X-Wert, Y-Wert`. Der Rückgabewert der Funktion ist `False`, wenn das Feld frei ist. Wenn das Feld eine Wand enthält ist der Rückgabewert `True`.
+- Die Funktion `getSchlangePosition(aktuellePositionX, aktuellePositionY)` erhält zwei Übergabeparameter in der Form `X-Wert, Y-Wert`. Der Rückgabewert der Funktion ist False, wenn das Feld frei ist. Wenn das `Feld` einen Teil der Schlange enthält ist der Rückgabewert `True`.
+- Die Funktion `getApfelInformation(aktuellePositionX, aktuellePositionY)` erhält zwei Übergabeparameter in der Form `X-Wert, Y-Wert`. Der Rückgabewert der Funktion ist False, wenn das Feld frei ist. Wenn das `Feld` einen Apfel enthält ist der Rückgabewert `True`.
+- Die Funktion `apfelEntfernen()` sorgt lediglich dafür, dass auf dem Spielfeld ein gefressener Apfel nicht mehr angezeigt wird.
+
+Das Struktogramm liegt Ihnen vor:
+
+![Struktogramm Schlange](bilder/06_schreibtischtest_aufgabe_2_schlangestruktog.png)
+
+Die User-Eingaben für den Test waren:
+
+- Vorwärts
+- Vorwärts
+- Danach hat der User das Programm bei dreheKopf(pfeilrichtungNaechsterSchritt) beendet.
+
+1. Führen Sie den Schreibtischtest dieser Spiel-Runde durch.
+2. Beschreiben Sie den Ablauf der Test-Spielrunde durch den User in eigenen Worten.
+3. Welche zwei Fehler hinsichtlich der Programm-/Spiel-Logik sind im Struktogramm enthalten?
 
 {%
    include-markdown "inhalte/lizenzhinweis.md"
