@@ -581,3 +581,56 @@ Verschlüsselung und Virtual Private Networks (VPNs) sind eng miteinander verbun
 #### Aufgabe 6
 
 Zero-Knowledge-Proof ist ein Beweisverfahren, bei dem eine Partei nachweisen kann, dass sie eine Information kennt, ohne die Information selbst preiszugeben. Das bedeutet, dass eine Partei in der Lage ist, etwas zu beweisen, ohne genaue Details oder den tatsächlichen Inhalt preiszugeben. Dieses Konzept wird in der Kryptografie verwendet, um Authentifizierung oder Besitz ohne Offenlegung sensibler Informationen zu ermöglichen.
+
+### Arbeitsauftrag - Benutzer und Rollen systematisch planen
+
+#### Aufgabe 1
+
+Ein Verzeichnisdienst ist eine zentrale Datenbank, die Informationen über Ressourcen in einem Netzwerk speichert und verwaltet. Er spielt eine Schlüsselrolle bei der Organisation, Suche und Bereitstellung von Informationen über Benutzer, Gruppen, Computer und andere Netzwerkressourcen.
+
+#### Aufgabe 2
+
+- **Zentralisierter Verzeichnisdienst:** Hier werden alle Informationen an einem zentralen Ort gespeichert und verwaltet. Vorteile sind zentrale Kontrolle und einfache Verwaltung, aber Nachteile könnten Single Points of Failure und Skalierbarkeitsprobleme sein.
+- **Dezentralisierter Verzeichnisdienst:** Informationen sind auf mehrere Standorte verteilt. Vorteile sind höhere Ausfallsicherheit und Skalierbarkeit, aber die Verwaltung kann komplexer sein.
+
+#### Aufgabe 3
+
+- Authentifizierung und Autorisierung sind entscheidend.
+- Verschlüsselung für Datenübertragung.
+- Überwachung von Zugriffen und Aktivitäten.
+- Regelmäßige Aktualisierung von Passwörtern und Zugriffsrechten.
+- Implementierung von Firewalls und Intrusion Detection Systems.
+
+#### Aufgabe 4
+
+**Rollen im Active Directory:**
+
+- **Domain Controller:**
+   - Ein Domain Controller (DC) ist ein Server, der das Active Directory speichert und verwaltet.
+   - Er spielt eine Schlüsselrolle bei der Authentifizierung und Autorisierung von Benutzern und Ressourcen in einer Domäne.
+- **Flexible Single Master Operations (FSMO) Rollen:**
+   - Es gibt fünf verschiedene FSMO-Rollen im Active Directory, die bestimmte Aufgaben wie die Verwaltung von Kennwörtern und die Wartung der Verzeichnisreplikation übernehmen.
+   - Dazu gehören Rollen wie der Schema-Master, Domain Naming Master, RID Master, PDC Emulator und Infrastructure Master.
+- **Organizational Units (OU):**
+   - OUs sind Container in einer Domäne, die dazu dienen, Objekte wie Benutzer, Gruppen und Computer zu organisieren.
+   - Sie ermöglichen eine logische Strukturierung des Verzeichnisses und erleichtern die Delegation von Verwaltungsaufgaben.
+
+**Benutzer im Active Directory:**
+
+- **Benutzerkonten:**
+   - Benutzerkonten repräsentieren individuelle Benutzer in der Active Directory-Domäne.
+   - Sie enthalten Informationen wie Benutzername, Kennwort, E-Mail-Adresse und andere Attribute.
+- **Gruppen:**
+   - Gruppen sind Sammlungen von Benutzern, die gemeinsame Berechtigungen oder Richtlinien erhalten können.
+   - Es gibt Sicherheitsgruppen und Verteilergruppen, die jeweils unterschiedliche Funktionen erfüllen.
+- **Benutzerprofile:**
+   - Benutzerprofile speichern individuelle Einstellungen und Anpassungen für Benutzer, wenn sie sich an einem beliebigen Computer in der Domäne anmelden.
+   - Profile können lokal oder zentral (roaming) gespeichert werden.
+- **Richtlinien und Berechtigungen:**
+   - Das Active Directory ermöglicht die Definition von Gruppenrichtlinien, die das Verhalten von Benutzerkonten und Computern in der Domäne steuern.
+   - Berechtigungen können auf Objekte in der Domäne angewendet werden, um den Zugriff zu regeln.
+
+**Delegation von Verwaltung:**
+
+- Die Delegation von Verwaltung ermöglicht es, bestimmte administrative Aufgaben an Benutzer oder Gruppen zu übertragen, ohne ihnen volle Kontrolle über das gesamte Verzeichnis zu geben.
+- Dies erleichtert die Verteilung von Verantwortlichkeiten und die effiziente Verwaltung.

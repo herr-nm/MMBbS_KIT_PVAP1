@@ -283,9 +283,23 @@ Inwiefern stehen Verschlüsselung und VPN miteinander in Beziehung?
 
 Was ist ein Zero-Knowledge-Proof?
 
-### Arbeitsauftrag - Zugriffskontrollen systematisch planen
+### Arbeitsauftrag - Benutzer und Rollen systematisch planen
 
-AD
+#### Aufgabe 1
+
+Für die Verwaltung von Usern, Gruppen und Rollen werden sogenannte Verzeichnisdienste genutzt. Beschreiben Sie diese in eigenen Worten.
+
+#### Aufgabe 2
+
+Welche Unterschiede bestehen zwischen einem zentralisierten und einem dezentralisierten Verzeichnisdienst? Welche Vor- und Nachteile haben beide Ansätze?
+
+#### Aufgabe 3
+
+Welche Sicherheitsaspekte sind bei der Implementierung und Verwaltung von Verzeichnisdiensten zu beachten? Wie können Unternehmen ihre Verzeichnisdienste vor unberechtigtem Zugriff schützen?
+
+#### Aufgabe 4
+
+Wie hängen die User, Gruppen und Rollen in einem Verzeichnisdienst wie dem Active Directory zusammen?
 
 {%
    include-markdown "inhalte/lizenzhinweis.md"
