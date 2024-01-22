@@ -56,6 +56,38 @@ Welche Handlungen sind in einer IT-Abteilung angebracht, um auf eine Ransomware-
 
 Beschreiben Sie den Ablauf einer DDoS-Attacke und zeigen Sie Handlungsoptionen auf, wie diesem Angriff begegnet werden kann.
 
+### Arbeitsauftrag - Grundlagen der Computersicherheit einhalten
+
+#### Aufgabe 1
+
+Nennen Sie Merkmale eines sicheren Passwortes.
+
+#### Aufgabe 2
+
+Beschreiben Sie, was unter 2-Faktor-Authentifizierung zu verstehen ist. Machen Sie dabei im Detail deutlich, was die zwei Faktoren sind.
+
+#### Aufgabe 3
+
+Beschreiben Sie den technischen Ablauf zur Einrichtung und Nutzung einer 2FA mithilfe von TOTP.
+
+#### Aufgabe 4
+
+Welche Vor- und welche Nachteile hat die Verwendung von biometrischem zweiten Faktor im Rahmen der 2FA?
+
+### Arbeitsauftrag - Technisch-organisatorische Maßnahmen anwenden
+
+#### Aufgabe 1
+
+Was ist unter technisch-organisatorischen Maßnahmen im Allgemeinen zu verstehen?
+
+#### Aufgabe 2
+
+Sie arbeiten in einem Unternehmen, welches einen eigenen Serverraum für On-Premise Dienste betreibt. Beschreiben Sie an diesem Beispiel, welche technisch-organisatorischen Maßnahmen ergriffen werden können, um eine sichere Umgebung zum Betrieb des Servers zu gewährleisten.
+
+#### Aufgabe 3
+
+Welche technisch-organisatorischen Maßnahmen können direkt an einem Server vorgenommen werden, um die Informationssicherheit zu erhöhen?
+
 ## IT-Grundschutz planen
 
 ### Arbeitsauftrag - IT-Grundschutz planen
@@ -133,31 +165,93 @@ Beschreiben Sie die Funktionsweise einer portbasierten Firewall.
 
 Beschreiben Sie die Funktionsweise einer Firewall mit Deep-Packet-Inspection.
 
-## Grundlagen der Computersicherheit einhalten
+#### Aufgabe 4
 
-### Arbeitsauftrag - Grundlagen der Computersicherheit einhalten
+Beschreiben Sie kritische Aspekte bei der Nutzung von Deep-Packet-Inspection.
+
+#### Aufgabe 5
+
+Die schnelle Reaktion auf einen Cyberangriff ist wichtig, doch dazu muss dieser erst mal auffallen. Beschreiben Sie Möglichkeiten, ein Netzwerk-Monitoring durchzuführen.
+
+#### Aufgabe 6
+
+Welche Rolle spielen VLANs in einer Sicherheitsstrategie für das eigene Netzwerk?
+
+#### Aufgabe 7
+
+Wie ist eine DMZ in einem Unternehmensnetzwerk aufgebaut? Unterscheiden Sie mit Blick auf die Informationssicherheit die verschiedenen Netzbereiche.
+
+## Verfügbarkeit sicherstellen
+
+### Arbeitsauftrag - Unterbrechungsfreie Stromversorgung planen
 
 #### Aufgabe 1
 
-Nennen Sie Merkmale eines sicheren Passwortes.
+Unterscheiden Sie die Konzepte "Notstrom" und "unterbrechungsfreie Stromversorgung". Welche Ziele haben diese jeweils und wie werden sie technisch realisiert?
 
 #### Aufgabe 2
 
-Beschreiben Sie, was unter 2-Faktor-Authentifizierung zu verstehen ist. Machen Sie dabei im Detail deutlich, was die zwei Faktoren sind.
+Beschreiben Sie die Funktionsweise einer Online-USV.
 
 #### Aufgabe 3
 
-Beschreiben Sie den technischen Ablauf zur Einrichtung und Nutzung einer 2FA mithilfe von TOTP.
+Beschreiben Sie die Funktionsweise einer Line-Interactive-USV.
 
-### Arbeitsauftrag - Technisch-organisatorische Maßnahmen anwenden
+#### Aufgabe 4
+
+Beschreiben Sie die Funktionsweise einer Offline-USV.
+
+#### Aufgabe 5
+
+Ein Startup betreibt einen Serverrack mit dem Ziel Online-Dienste anzubieten und ein Speichersystem zu nutzen. Das Rack hat eine Leistungsaufnahme von 2,5 kW. Damit ein plötzlicher Stromausfall nicht zu technischen Problemen führt, wird das Rack über eine USV mit einer Nennleistung von 12 kVA abgesichert. Die Batterie in der USV hat eine Kapazität von 5 kWh.
+
+1. Berechnen Sie die Autonomiezeit der USV in ganzen Minuten unter der Bedingung, dass diese bei Stromausfall zu 95% geladen ist.
+2. Durch gezieltes Herunterfahren von wenig genutzten Speichern wird die Leistungsaufnahme des Racks um 1 kW gesenkt. Welchen Effekt hat dies auf die Autonomiezeit in ganzen Minuten?
+3. Die Verfügbarkeit des Stromnetzes ist von hoher Wichtigkeit. Am Standort des Servers hat es im vergangenen Kalenderjahr 3 Stromausfälle gegeben. Ein Bagger hatte im Februar eine Leitung in der Straße unterbrochen, sodass der Strom für eine Stunde ausgefallen war. Im Oktober führte ein Sturm zu einer Unterbrechung von zwei Stunden, weil ein Baum in die Stromtrasse gefallen war. Im November fiel der Strom aufgrund von Handwerkertätigkeiten am Sicherungskasten des Bürokomplexes planmäßig für weitere zwei Stunden aus. Berechnen Sie die Verfügbarkeit des Stroms für das Startup.
+
+### Arbeitsauftrag - Backupverfahren anwenden
 
 #### Aufgabe 1
 
-Was ist unter technisch-organisatorischen Maßnahmen zu verstehen?
+Unterscheiden Sie die Begriffe "Differenzielles Backup" und "Inkrementelles Backup".
 
 #### Aufgabe 2
 
-Sie arbeiten in einem Unternehmen, welches einen eigenen Serverraum für On-Premise Dienste betreibt. Beschreiben Sie an diesem Beispiel, welche technisch-organisatorischen Maßnahmen ergriffen werden können, um eine sichere Umgebung zum Betrieb des Servers zu gewährleisten.
+Was ist unter unveränderlichen Backups zu verstehen und wofür werden diese genutzt?
+
+#### Aufgabe 3
+
+Für Backups besteht die 3-2-1-Regel. Welche Handlungsempfehlungen lassen sich hieraus ableiten?
+
+#### Aufgabe 4
+
+Für systematische Backups mit mehreren Medien wird das Großvater-Vater-Sohn-Prinzip vorgeschlagen. Welche Handlungen sind hiermit verbunden?
+
+#### Aufgabe 5
+
+Backups sollten verschlüsselt werden und es muss eine Zugriffskontrolle für Backup-Dateien bestehen. Außerdem müssen Backup-Verfahren getestet werden. Beschreiben Sie notwendige Vorgehensweisen hierfür.
+
+#### Aufgabe 6
+
+Welche Datenschutzbestimmungen sind bei Cloud-Backups einzuhalten?
+
+#### Aufgabe 7
+
+Welche Aspekte sind im Rahmen einer Notfallwiederherstellung zu berücksichtigen? Nehmen Sie auch Bezug zu RTO und RPO.
+
+## Integrität gewährleisten
+
+### Arbeitsauftrag - Digitale Signaturen und Zertifikate verwenden
+
+### Arbeitsauftrag - Mechanismen zur Versionskontrolle einsetzen
+
+### Arbeitsauftrag - Hash-Funktionen nutzen
+
+## Vertraulichkeit herstellen
+
+### Arbeitsauftrag - Verschlüsselungsverfahren beschreiben
+
+### Arbeitsauftrag - Zugriffskontrollen systematisch planen
 
 {%
    include-markdown "inhalte/lizenzhinweis.md"

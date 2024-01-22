@@ -91,6 +91,76 @@ Beispiel: Ein E-Commerce-Unternehmen muss sicherstellen, dass seine Website stä
    - **Netzwerkinfrastruktur optimieren:** Implementierung von Technologien wie Content Delivery Networks (CDNs) zur effizienten Verteilung von Inhalten.
    - **Frühzeitige Erkennung:** Überwachung des Netzwerkverkehrs, um Anomalien frühzeitig zu erkennen und Gegenmaßnahmen zu ergreifen.
 
+### Arbeitsauftrag - Grundlagen der Computersicherheit einhalten
+
+#### Aufgabe 1
+
+- **Länge:** Ein sicheres Passwort sollte ausreichend lang sein, üblicherweise mindestens 12 Zeichen.
+- **Komplexität:** Verwenden Sie eine Kombination aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen.
+- **Einzigartigkeit:** Vermeiden Sie leicht erratbare Informationen wie Namen, Geburtsdaten oder Wörter aus dem Wörterbuch.
+- **Regelmäßige Aktualisierung:** Ändern Sie Ihr Passwort in regelmäßigen Abständen (die auch etwas größer sein können), um die Sicherheit zu erhöhen.
+- **Keine Wiederholungen:** Vermeiden Sie die Verwendung von bereits verwendeten Passwörtern für verschiedene Konten.
+
+#### Aufgabe 2
+
+Die 2-Faktor-Authentifizierung (2FA) ist eine Methode zur Sicherung von Konten, die auf zwei unabhängigen Bestätigungsfaktoren basiert. Die zwei Faktoren sind in der Regel:
+
+1. **Etwas, das Sie wissen:** Zum Beispiel Ihr Passwort oder PIN.
+2. **Etwas, das Sie besitzen:** Dies kann ein physisches Gerät wie Ihr Smartphone oder eine Sicherheitstoken sein.
+
+Die Idee ist, dass selbst wenn ein Angreifer Ihr Passwort kennt, er immer noch den zweiten Faktor benötigt, um Zugriff zu erhalten.
+
+#### Aufgabe 3
+
+1. **Registrierung:** Der Benutzer meldet sich bei einem Dienst an und aktiviert die 2FA-Option.
+2. **Gerät verbinden:** Das Gerät des Benutzers wird mit dem Dienst verbunden, normalerweise durch Scannen eines QR-Codes.
+3. **Erzeugung von TOTP-Codes:** Eine TOTP-App auf dem Gerät generiert zeitbasierte Einmalpasswörter (TOTP-Codes).
+4. **Eingabe des Codes:** Bei der Anmeldung gibt der Benutzer neben seinem Passwort auch den aktuellen TOTP-Code ein.
+5. **Zeitbasierte Synchronisation:** Der Dienst und die TOTP-App sind zeitsynchronisiert, um sicherzustellen, dass der generierte Code korrekt ist.
+
+#### Aufgabe 4
+
+**Vorteile der biometrischen 2FA:**
+- **Bequemlichkeit:** Biometrische Daten wie Fingerabdrücke oder Gesichtserkennung sind für den Benutzer bequem und erfordern keine zusätzlichen Passwörter oder Codes.
+- **Hohe Genauigkeit:** Biometrische Merkmale sind in der Regel eindeutig und schwer zu fälschen, was die Sicherheit erhöht.
+
+**Nachteile der biometrischen 2FA:**
+- **Datenschutzbedenken:** Die Speicherung biometrischer Daten kann Datenschutzbedenken hervorrufen, insbesondere wenn diese in zentralen Datenbanken gespeichert sind.
+- **Fälschungsmöglichkeiten:** Während biometrische Merkmale schwer zu fälschen sind, gibt es dennoch Möglichkeiten zur Überlistung, z. B. durch Fingerabdruckkopien oder Gesichtsimitationen.
+- **Nicht änderbar:** Im Gegensatz zu Passwörtern können biometrische Merkmale nicht einfach geändert werden. Wenn sie einmal kompromittiert sind, bleibt dies eine dauerhafte Sicherheitslücke.
+
+### Arbeitsauftrag - Technisch-organisatorische Maßnahmen anwenden
+
+#### Aufgabe 1
+
+Technisch-organisatorische Maßnahmen (TOM) sind Sicherheitsvorkehrungen, die sowohl technische als auch organisatorische Aspekte berücksichtigen, um die Sicherheit von Informationssystemen und Daten zu gewährleisten. Diese Maßnahmen dienen dazu, Risiken zu minimieren, Schutzmechanismen zu implementieren und die Verfügbarkeit, Integrität und Vertraulichkeit von Informationen sicherzustellen. Technisch-organisatorische Maßnahmen können beispielsweise Richtlinien, Prozesse, Schulungen, Zugriffskontrollen, Verschlüsselungstechnologien, Firewalls und andere Sicherheitsinfrastrukturen umfassen.
+
+#### Aufgabe 2
+
+- **Zugriffskontrolle:** Begrenzung des physischen Zugangs zum Serverraum durch biometrische Authentifizierung, Schlüsselkarten oder andere Zugangskontrollsysteme. Zudem sollten strenge Zugriffsrichtlinien für autorisiertes Personal festgelegt werden.
+- **Videoüberwachung:** Installation von Überwachungskameras im Serverraum, um unbefugten Zugriff zu überwachen und aufzuzeichnen.
+- **Brandschutzmaßnahmen:** Implementierung von Brandmeldesystemen, automatischen Feuerlöschanlagen und anderen Brandschutzvorkehrungen, um die physische Sicherheit des Serverraums zu gewährleisten.
+- **Klimatisierung:** Kontrolle der Temperatur und Luftfeuchtigkeit im Serverraum, um optimale Bedingungen für die Serverhardware sicherzustellen und Überhitzung zu verhindern.
+- **Stromversorgung:** Einsatz von unterbrechungsfreien Stromversorgungen (USV) und Generatoren, um einen kontinuierlichen Betrieb der Server bei Stromausfällen zu gewährleisten.
+- **Alarmierungssysteme:** Einrichtung von Alarmen bei ungewöhnlichen Aktivitäten, wie zum Beispiel unbefugten Zutritt oder Temperaturabweichungen.
+- **Dokumentation und Schulung:** Erstellung von klaren Richtlinien und Prozeduren für den Zugang zum Serverraum sowie Schulungen für Mitarbeiter, um sicherzustellen, dass alle Sicherheitsmaßnahmen bekannt sind und eingehalten werden.
+- **Regelmäßige Überprüfungen und Audits:** Durchführung regelmäßiger Sicherheitsüberprüfungen und Audits, um sicherzustellen, dass die etablierten Sicherheitsmaßnahmen wirksam sind und den aktuellen Bedrohungen standhalten können.
+
+#### Aufgabe 3
+
+- **Firewalls:** Konfiguration und Einsatz von Firewalls, um den Netzwerkverkehr zu überwachen und unerwünschten Datenverkehr zu blockieren.
+- **Intrusion Detection/Prevention System (IDS/IPS):** Einrichtung von Systemen zur Erkennung und Prävention von Eindringversuchen, um unautorisierte Zugriffsversuche zu erkennen und zu blockieren.
+- **Verschlüsselung:** Verschlüsselung von Daten auf dem Server, insbesondere bei der Übertragung sensibler Informationen über das Netzwerk (z.B., HTTPS für Webanwendungen).
+- **Patches und Updates:** Regelmäßige Aktualisierung von Betriebssystemen, Anwendungen und anderen Softwarekomponenten, um bekannte Sicherheitslücken zu schließen.
+- **Zugriffskontrolle:** Implementierung von strikten Zugriffskontrollen und Berechtigungen für Benutzer und Prozesse, um den Zugang zu sensiblen Daten zu beschränken.
+- **Authentifizierungsmethoden:** Verwendung von starken Authentifizierungsmethoden wie Multi-Faktor-Authentifizierung (MFA), um die Sicherheit von Zugriffen auf den Server zu erhöhen.
+- **Logging und Überwachung:** Einrichtung von Protokollierungssystemen, um Aktivitäten auf dem Server zu überwachen und verdächtige Aktivitäten frühzeitig zu erkennen.
+- **Antivirus-Software:** Installation von Antivirus-Programmen, um schädliche Software zu erkennen und zu entfernen.
+- **Backup-Strategien:** Implementierung von regelmäßigen Backup-Strategien, um im Falle eines Datenverlusts oder einer Systembeschädigung eine Wiederherstellung zu ermöglichen.
+- **Netzwerksicherheit:** Konfiguration von Netzwerksicherheitsmaßnahmen wie VLANs (Virtual Local Area Networks) und sichere Konfiguration von Netzwerkprotokollen.
+- **Ressourcenüberwachung:** Überwachung der Serverressourcen wie CPU-Auslastung, Speicherverbrauch und Netzwerkauslastung, um Engpässe oder Anomalien frühzeitig zu identifizieren.
+- **Richtlinien und Schulungen:** Erstellung von Sicherheitsrichtlinien und Durchführung von Schulungen für das Serverpersonal, um bewusstes Handeln im Sinne der Informationssicherheit zu fördern.
+
 ## IT-Grundschutz planen
 
 ### Arbeitsauftrag - IT-Grundschutz planen
@@ -261,3 +331,177 @@ Identifizierbare Daten, pseudonymisierte Daten und anonyme Daten unterscheiden s
    - Anonyme Daten sind Informationen, die so stark verfremdet oder aggregiert wurden, dass keine Möglichkeit mehr besteht, die Daten einer bestimmten Person zuzuordnen.
    - Selbst durch Kombination mit anderen Daten oder den Einsatz von zusätzlichen Analysemethoden ist keine Identifikation möglich.
    - Anonyme Daten unterliegen in vielen Rechtsordnungen nicht den Datenschutzregelungen, da sie keine personenbezogenen Informationen mehr darstellen.
+
+## Abwehr von Angriffen planen
+
+### Arbeitsauftrag - Abwehr von Angriffen planen
+
+#### Aufgabe 1
+
+- **Signaturerkennung:** Das Antiviren-Programm vergleicht Dateien und Programme auf dem Computer mit einer Datenbank bekannter Malware-Signaturen. Wenn eine Übereinstimmung gefunden wird, wird die Datei als schädlich identifiziert.
+- **Heuristische Analyse:** Das Programm analysiert das Verhalten von Dateien und Programmen. Verdächtiges Verhalten, auch wenn keine genaue Signatur bekannt ist, kann auf eine Bedrohung hinweisen.
+- **Verhaltensanalyse:** Fortschrittlichere Antiviren-Programme überwachen das Verhalten von Anwendungen in Echtzeit. Abweichungen von normalem Verhalten können auf eine Infektion hinweisen.
+- **Sandboxing:** Einige Antiviren-Programme isolieren potenziell gefährliche Dateien in einer sicheren Umgebung (Sandbox) und beobachten deren Verhalten, um festzustellen, ob sie schädlich sind.
+- **Automatische Updates:** Die Antiviren-Software aktualisiert regelmäßig ihre Signaturen und Datenbanken, um gegen neu auftretende Bedrohungen gewappnet zu sein.
+
+#### Aufgabe 2
+
+Eine portbasierte Firewall arbeitet auf Netzwerkschicht und entscheidet, ob Datenpakete zwischen verschiedenen Netzwerken passieren dürfen oder nicht. Die Funktionsweise umfasst:
+
+- **Portfilterung:** Die Firewall überprüft die Ziel- und Quell-Ports der Datenpakete. Portnummern sind numerische Identifikatoren für bestimmte Dienste. Die Firewall kann Regeln haben, die den Datenverkehr basierend auf diesen Portnummern erlauben oder blockieren.
+- **Zustandsbasierte Überwachung:** Die Firewall verfolgt den Zustand der Netzwerkverbindungen und erlaubt nur den Datenverkehr, der zu einer bestehenden, erlaubten Verbindung gehört. Dies erhöht die Sicherheit, da nur erwarteter und autorisierter Datenverkehr durchgelassen wird.
+- **Protokollüberwachung:** Die Firewall kann bestimmte Netzwerkprotokolle überwachen und den Datenverkehr basierend auf diesen Protokollen steuern.
+- **NAT (Network Address Translation):** Die Firewall kann NAT verwenden, um die internen Netzwerkadressen vor externen Netzwerken zu verbergen und den ausgehenden Datenverkehr zu verwalten.
+
+#### Aufgabe 3
+
+- **Paketinspektion auf Anwendungsebene:** DPI geht über traditionelle Firewall-Methoden hinaus, indem es den gesamten Inhalt der Datenpakete auf Anwendungsebene analysiert. Dies schließt die Überprüfung von Protokollen, Headerinformationen und dem eigentlichen Nutzdateninhalt ein.
+- **Entschlüsselung von HTTPS-Traffic:** Da DPI den gesamten Inhalt der Pakete analysiert, kann es auch verschlüsselten HTTPS-Verkehr entschlüsseln, um den Inhalt zu inspizieren. Dies erfordert jedoch den Einsatz von Methoden wie SSL/TLS-Man-in-the-Middle (MitM)-Angriffen, bei denen die Firewall sich zwischen dem Benutzer und dem Server positioniert und den verschlüsselten Verkehr entschlüsselt, um ihn zu überprüfen.
+- **Protokoll- und Anwendungserkennung:** DPI identifiziert nicht nur Ports und IP-Adressen, sondern auch die spezifischen Anwendungen und Protokolle, die für den Datenverkehr verwendet werden. Dies ermöglicht es, genauere Sicherheitsrichtlinien basierend auf Anwendungen zu erstellen.
+- **Mustererkennung und Signaturen:** DPI sucht nach spezifischen Mustern oder Signaturen in den Datenpaketen, um schädliche Inhalte wie Viren, Malware oder verdächtige Aktivitäten zu identifizieren. Die Firewall kann dabei auf eine umfassende Datenbank von Signaturen zurückgreifen.
+- **Content-Filtering:** Die Firewall kann den Zugriff auf bestimmte Arten von Inhalten basierend auf dem analysierten Inhalt blockieren oder erlauben. Dies umfasst die Filterung von Websites, Dateitypen oder spezifischem Content.
+- **Zustandsbezogene Überwachung:** DPI kann den Zustand von Netzwerkverbindungen überwachen und sicherstellen, dass nur erwarteter und autorisierter Datenverkehr zugelassen wird. Dies trägt zur Erhöhung der Sicherheit bei.
+- **Verschlüsselte HTTPS-Inspektion (SSL/TLS-Decryption):** Bei verschlüsseltem HTTPS-Verkehr setzt die Firewall möglicherweise SSL/TLS-Decryption ein. Hierbei wird der verschlüsselte Datenverkehr entschlüsselt, inspiziert und dann wieder verschlüsselt, bevor er weitergeleitet wird. Dies ermöglicht die Analyse des Inhalts, selbst wenn er über HTTPS übertragen wird.
+
+#### Aufgabe 4
+
+Die Entschlüsselung von HTTPS-Datenverkehr kann mit Datenschutz- und Compliance-Anforderungen in Konflikt stehen kann, und Organisationen müssen sicherstellen, dass sie dies unter Einhaltung der relevanten Gesetze und Vorschriften durchführen.
+
+#### Aufgabe 5
+
+- **Packet Sniffing:** Erfassen und analysieren Sie den Datenverkehr im Netzwerk, um Anomalien oder verdächtige Aktivitäten zu erkennen.
+- **Log-Analyse:** Überwachen und analysieren Sie Logdateien von Netzwerkkomponenten, Betriebssystemen und Anwendungen auf ungewöhnliche Ereignisse.
+- **Netzwerk-Scans:** Führen Sie regelmäßige Scans durch, um Schwachstellen und potenzielle Sicherheitslücken im Netzwerk zu identifizieren.
+- **Intrusion Detection System (IDS):** Implementieren Sie ein IDS, das Anomalien und potenzielle Angriffe erkennt und Alarme auslöst.
+- **Flow-Monitoring:** Überwachen Sie den Fluss von Datenpaketen im Netzwerk, um Muster und Abweichungen zu identifizieren.
+- **Verhaltensanalyse:** Analysieren Sie das normale Verhalten des Netzwerks, um Anomalien oder ungewöhnliche Aktivitäten zu erkennen.
+
+#### Aufgabe 6
+
+- **Segmentierung:** VLANs ermöglichen die logische Segmentierung eines physischen Netzwerks in separate virtuelle Netzwerke. Dies hilft, den Datenverkehr zu isolieren und die Ausbreitung von Angriffen zu begrenzen.
+- **Sicherheitszonen:** Durch die Zuweisung von VLANs zu bestimmten Sicherheitszonen können Sicherheitsrichtlinien und Zugriffskontrollen effektiv durchgesetzt werden.
+- **Broadcast-Isolation:** VLANs reduzieren Broadcast-Domänen, wodurch die Auswirkungen von Broadcast-Stürmen minimiert werden und die Netzwerksicherheit verbessert wird.
+- **Ressourcenisolierung:** Kritische Ressourcen können in separaten VLANs platziert werden, um den Zugriff zu beschränken und die Sicherheit zu erhöhen.
+- **Einfachere Verwaltung:** Die Verwaltung von Netzwerkressourcen wird durch die Verwendung von VLANs vereinfacht, da Änderungen in einem VLAN die anderen Bereiche des Netzwerks nicht beeinträchtigen.
+
+#### Aufgabe 7
+
+- **Internet-facing Firewall:** Diese Firewall verbindet das interne Netzwerk über den Router mit dem Internet. Sie filtert den ein- und ausgehenden Datenverkehr und leitet den relevanten Datenverkehr zur DMZ weiter.
+- **DMZ-Server:** In der DMZ platzierte Server, wie Webserver, E-Mail-Server oder öffentlich zugängliche Dienste, sind für den externen Verkehr zugänglich. Diese Server sind von den internen Ressourcen getrennt, um das interne Netzwerk vor direkten Angriffen zu schützen.
+- **Internes Firewall-Gateway:** Dieses Firewall-Gateway trennt die DMZ von internen Netzwerken und sorgt für zusätzliche Sicherheit durch Regelwerke und Zugriffskontrollen.
+
+Unterscheidung der Netzbereiche:
+
+- **Interne Netzwerke (LAN):** Hier befinden sich die Unternehmensressourcen, Daten und Mitarbeitergeräte. Der Zugriff ist normalerweise auf autorisierte Benutzer beschränkt.
+- **DMZ:** Diese Zone enthält öffentlich zugängliche Server und Dienste. Der Zugriff ist beschränkt, um sicherzustellen, dass externe Angriffe nicht direkt auf das interne Netzwerk zugreifen können.
+- **Externes Netzwerk (Internet):** Das öffentliche Internet, von dem aus Datenverkehr in die DMZ und das interne Netzwerk geleitet wird.
+
+## Verfügbarkeit sicherstellen
+
+### Arbeitsauftrag - Unterbrechungsfreie Stromversorgung planen
+
+#### Aufgabe 1
+
+**Notstrom:**
+- **Ziel:** Bereitstellung von elektrischer Energie während eines Stromausfalls, um den Betrieb für eine begrenzte Zeit aufrechtzuerhalten.
+- **Realisierung:** Verwendung von Dieselgeneratoren oder anderen primären Energiequellen, die kontinuierlich elektrische Energie liefern können.
+
+**Unterbrechungsfreie Stromversorgung (USV):**
+- **Ziel:** Gewährleistung einer unterbrechungsfreien Stromversorgung, indem sie während eines Stromausfalls sofort auf interne Batterien umschaltet.
+- **Realisierung:** Verwendung von Batterien, die kontinuierlich aufgeladen werden, während das Netzstrom verfügbar ist. Bei Stromausfall erfolgt der nahtlose Übergang auf die Batterieversorgung.
+
+#### Aufgabe 2
+
+Die Last ist permanent über die Batterien mit Wechselstrom versorgt. Der Wechselrichter wandelt die Batterie-Gleichspannung kontinuierlich in Wechselspannung um. Der Netzstrom wird kontinuierlich genutzt, um die Batterien aufzuladen. Bei einem Stromausfall schaltet die USV sofort auf Batteriebetrieb um, ohne eine Unterbrechung in der Stromversorgung zu verursachen.
+
+#### Aufgabe 3
+
+Der Netzstrom versorgt die angeschlossene Last und lädt gleichzeitig die Batterien über einen internen Laderegler auf. Bei einem Stromausfall schaltet die USV auf Batteriebetrieb um. Bei Spannungsschwankungen oder -störungen wird die Netzspannung durch den internen Wechselrichter korrigiert.
+
+#### Aufgabe 4
+
+Die Last wird normalerweise direkt vom Netzstrom versorgt. Die Batterien sind nicht ständig mit der Last verbunden, sondern nur im Falle eines Stromausfalls. Bei einem Ausfall schaltet die USV auf Batteriebetrieb um und versorgt die Last über den internen Wechselrichter.
+
+#### Aufgabe 5
+
+zu 1.:
+
+- Autonomiezeit (in Stunden) = (Batteriekapazität in kWh) / (Leistungsaufnahme des Racks in kW)
+- Autonomiezeit = 5 kWh / 2,5 kW = 2 Stunden = 120 Minuten
+
+zu 2.:
+
+- Neue Leistungsaufnahme = 2,5 kW - 1 kW = 1,5 kW
+- Neue Autonomiezeit = 5 kWh / 1,5 kW = 3,33 Stunden = 199 Minuten
+
+zu 3.:
+
+- Gesamtzeit ohne Strom = 1 Stunde (Februar) + 2 Stunden (Oktober) + 2 Stunden (November) = 5 Stunden
+- Verfügbarkeit = (365 Tage * 24 Stunden - Gesamtzeit ohne Strom) / (365 Tage * 24 Stunden) * 100%
+- Verfügbarkeit = (8760 - 5) / 8760 * 100% = 99,94%
+
+### Arbeitsauftrag - Backupverfahren anwenden
+
+#### Aufgabe 1
+
+- **Differenzielles Backup:** Sichert alle Daten, die seit dem letzten Vollbackup geändert wurden. Es beinhaltet nur die Unterschiede zwischen dem letzten Vollbackup und dem aktuellen Zustand.
+- **Inkrementelles Backup:** Sichert nur die Daten, die seit dem letzten Backup (egal ob Voll- oder Inkrementell) hinzugefügt oder geändert wurden. Es nimmt nur die Änderungen seit dem letzten Backup auf. Ganz vorne in der Kette steht ein Vollbackup.
+
+#### Aufgabe 2
+
+- **Verständnis:** Unveränderliche Backups sind Sicherungskopien, die nach ihrer Erstellung nicht mehr geändert werden können.
+- **Nutzung:** Diese Backups werden oft für die langfristige Aufbewahrung von Daten eingesetzt, um sicherzustellen, dass die gesicherten Informationen unverändert bleiben, insbesondere im Kontext von Compliance-Anforderungen. Unveränderbare Backups spielen außerdem eine entscheidende Rolle im Rahmen von Ransomware-Angriffen. In diesem Kontext sind unveränderliche Backups von großer Bedeutung, da sie als wirksame Schutzmaßnahme vor Datenverlust bei einem Angriff dienen können.
+
+#### Aufgabe 3
+
+- **3 Kopien der Daten:** Erstellen Sie mindestens drei Kopien Ihrer Daten, um Redundanz zu gewährleisten.
+- **2 verschiedene Medientypen:** Verwenden Sie unterschiedliche Medientypen (z.B., Festplatten, Bänder, Cloud), um sich vor Ausfallrisiken zu schützen.
+- **1 Kopie extern speichern:** Speichern Sie mindestens eine Kopie Ihrer Daten an einem externen Ort, um vor physischen Katastrophen zu schützen.
+
+#### Aufgabe 4
+
+- **Großvater:** Regelmäßige Vollbackups, typischerweise wöchentlich, die für eine längere Zeit aufbewahrt werden.
+- **Vater:** Tägliche oder inkrementelle Backups, die über eine mittlere Zeitspanne aufbewahrt werden.
+- **Sohn:** Häufige, inkrementelle Backups, die nur für kurze Zeiträume aufbewahrt werden.
+
+Dieses Prinzip ermöglicht eine effiziente und langfristige Aufbewahrung von Backups bei gleichzeitiger Minimierung des Speicherplatzbedarfs.
+
+#### Aufgabe 5
+
+- **Verschlüsselung:** Verwenden Sie starke Verschlüsselung für Backup-Daten, um die Vertraulichkeit zu gewährleisten. Dies gilt insbesondere für cloudbasierte Backupverfahren.
+- **Zugriffskontrolle:** Implementieren Sie strenge Zugriffskontrollen, um unbefugten Zugriff auf Backup-Dateien zu verhindern. Backup-Server sollten besonders geschützt und von Remote-Zugriffen mit Lese- und Löschrechten abgesehen werden. Der User, der befähigt ist, auf dem Backupserver zu schreiben sollte keine Berechtigung zum Löschen haben. Der "Master-Root-Admin" sollte bestenfalls gar nicht für Remoteverbindungen eingerichtet sein. 
+- **Backup-Verfahren testen:** Führen Sie regelmäßige Tests von Wiederherstellungsverfahren durch, um sicherzustellen, dass Backups erfolgreich wiederhergestellt werden können. Oftmals wird leider erst im Fall eines Datenverlustes festgestellt, dass der Backup-Mechanismus an einer Stelle nicht funktioniert hat.
+
+#### Aufgabe 6
+
+- **Einwilligung:** Stellen Sie sicher, dass Sie die Einwilligung der Betroffenen für das Speichern ihrer Daten in der Cloud haben.
+- **Datensicherheit:** Gewährleisten Sie, dass die Cloud-Plattform den erforderlichen Datenschutz- und Sicherheitsstandards entspricht.
+- **Datentransparenz:** Informieren Sie die Nutzer darüber, wie und wo ihre Daten gespeichert und verarbeitet werden.
+
+#### Aufgabe 7
+
+Notfallwiederherstellung bezieht sich auf die Fähigkeit einer Organisation, nach schwerwiegenden Störungen oder Katastrophen den normalen Geschäftsbetrieb so schnell wie möglich wiederherzustellen.
+
+Wenn Ihr Ausbildungsbetrieb zu den Unternehmen der kritischen Infrastruktur (KRITIS) zählt, werden ggf. weitere Maßnahmen notwendig sein.
+
+- **Notfallwiederherstellungspläne:**
+   - Erstellung von detaillierten Plänen, die den Prozess und die Verfahren zur Wiederherstellung von IT-Systemen im Falle eines Notfalls beschreiben.
+   - Identifikation kritischer Systeme und Daten, die priorisiert wiederhergestellt werden sollten.
+- **RTO und RPO:**
+   - **Recovery Time Objective (RTO):** Die maximale tolerierbare Zeit, die benötigt wird, um einen bestimmten Service oder eine Anwendung nach einem Ausfall wiederherzustellen.
+   - **Recovery Point Objective (RPO):** Der maximale akzeptable Datenverlust, der im Falle eines Notfalls toleriert werden kann.
+- **Backup-Tests und Simulationen:**
+   - Durchführung von regelmäßigen Tests und Simulationen von Notfallszenarien, um sicherzustellen, dass die Wiederherstellungspläne effektiv sind.
+   - Identifizierung von Schwachstellen und kontinuierliche Verbesserung der Notfallwiederherstellungsstrategien.
+- **Notfallwiederherstellungsteams:**
+   - Benennung und Schulung von Notfallwiederherstellungsteams, die im Falle eines Notfalls die Verantwortung für die Umsetzung der Wiederherstellungspläne übernehmen.
+   - Klare Zuweisung von Aufgaben und Verantwortlichkeiten im Team.
+- **Sicherung von Notfallstandorten:**
+   - Einrichtung von physischen oder virtuellen Notfallstandorten, an denen kritische Systeme und Daten im Notfall wiederhergestellt werden können.
+   - Sicherstellung, dass die Notfallstandorte die erforderlichen Ressourcen und Infrastruktur für eine schnelle Wiederherstellung bereitstellen können.
+- **Kommunikationsstrategien:**
+   - Entwicklung von Kommunikationsstrategien, um interne und externe Stakeholder während eines Notfalls angemessen zu informieren.
+   - Klare Kommunikationswege und Verfahren für den Informationsaustausch während der Notfallwiederherstellung.
+- **Dokumentation:**
+   - Umfassende Dokumentation aller Notfallwiederherstellungspläne, -verfahren und -tests, um eine einfache Überprüfung und Aktualisierung zu ermöglichen.
+   - Einbeziehung von Inventarlisten, Konfigurationen und Kontaktdaten in die Dokumentation.
