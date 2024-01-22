@@ -505,3 +505,79 @@ Wenn Ihr Ausbildungsbetrieb zu den Unternehmen der kritischen Infrastruktur (KRI
 - **Dokumentation:**
    - Umfassende Dokumentation aller Notfallwiederherstellungspläne, -verfahren und -tests, um eine einfache Überprüfung und Aktualisierung zu ermöglichen.
    - Einbeziehung von Inventarlisten, Konfigurationen und Kontaktdaten in die Dokumentation.
+
+## Integrität gewährleisten
+
+### Arbeitsauftrag - Integrität von Daten kontrollieren
+
+#### Aufgabe 1
+
+Eine Hash-Funktion ist ein mathematischer Algorithmus, der dazu dient, Daten jeder Größe in eine feste Länge von Zeichen, den sogenannten Hash-Wert, umzuwandeln. Dieser Hash-Wert ist ein eindeutiger, pseudozufälliger String, der charakteristisch für die ursprünglichen Daten ist. Hash-Funktionen sind so konzipiert, dass geringfügige Änderungen an den Daten zu völlig unterschiedlichen Hash-Werten führen.
+
+Die Prüfung der Integrität von Daten mithilfe von Hash-Funktionen erfolgt in der Regel, indem der Sender einen Hash-Wert der Daten erstellt und diesen zusammen mit den Daten übermittelt. Der Empfänger kann dann denselben Hash-Algorithmus auf die empfangenen Daten anwenden und den generierten Hash-Wert mit dem vom Sender übermittelten Hash-Wert vergleichen. Stimmen die Hash-Werte überein, kann davon ausgegangen werden, dass die Daten unverändert sind. Eine Änderung an den Daten würde zu einem unterschiedlichen Hash-Wert führen, was auf eine mögliche Manipulation hinweist.
+
+Als Beispiel sind hier SHA256 oder auch MD5 als Hash-Algorithmus zu nennen. 
+
+#### Aufgabe 2
+
+Eine Checksumme ist eine Zahl oder eine Zeichenfolge, die aus den Daten berechnet wird, um Fehler oder Veränderungen während der Übertragung oder Speicherung zu erkennen. Die Berechnung der Checksumme erfolgt durch Anwendung eines speziellen Algorithmus auf die Daten. Diese Checksumme wird zusammen mit den Daten übertragen.
+
+Um die Integrität von Daten mithilfe von Checksummen zu überprüfen, berechnet der Empfänger eine neue Checksumme der empfangenen Daten und vergleicht sie mit der ursprünglichen Checksumme. Wenn die beiden Checksummen übereinstimmen, wird angenommen, dass die Daten unverändert sind. Eine Veränderung an den Daten würde zu einer unterschiedlichen Checksumme führen, was auf mögliche Fehler oder Manipulationen hinweist.
+
+Bspw. ist hier CRC-32 (cyclic redundancy check) als Methode zu nennen.
+
+#### Aufgabe 3
+
+Eine Digitale Signatur ist ein kryptografisches Verfahren, bei dem der Sender einer Nachricht oder Daten einen eindeutigen digitalen Code, die Signatur, mithilfe seines privaten Schlüssels erstellt. Der Empfänger kann dann die Signatur mit dem öffentlichen Schlüssel des Senders überprüfen.
+
+Die Integrität von Daten wird durch digitale Signaturen auf folgende Weise sichergestellt: Der Sender erzeugt einen Hash-Wert der Daten und signiert diesen mit seinem privaten Schlüssel. Der Empfänger kann dann den Hash-Wert mithilfe des öffentlichen Schlüssels des Senders entschlüsseln und mit einem selbst berechneten Hash-Wert der empfangenen Daten vergleichen. Stimmen die Hash-Werte überein und die Signatur kann erfolgreich verifiziert werden, zeigt dies an, dass die Daten unverändert und authentisch sind. Eine Änderung an den Daten oder eine ungültige Signatur würde den Prüfprozess scheitern lassen, was auf mögliche Manipulationen hinweist.
+
+Ein Beispiel wären DocuSign oder Adobe PDF Digital Signature zu nennen.
+
+## Vertraulichkeit herstellen
+
+### Arbeitsauftrag - Verschlüsselung von Daten durchführen
+
+#### Aufgabe 1
+
+1. **Schlüsselgenerierung:**
+   - Sender und Empfänger müssen denselben geheimen Schlüssel teilen.
+
+2. **Verschlüsselung:**
+   - Der Sender verwendet den gemeinsamen Schlüssel, um die Mitteilung zu verschlüsseln. Dies erzeugt den verschlüsselten Text.
+
+3. **Übertragung:**
+   - Der verschlüsselte Text wird über das unsichere Netzwerk übertragen.
+
+4. **Empfang:**
+   - Der Empfänger verwendet den gemeinsamen Schlüssel, um die Mitteilung zu entschlüsseln und den ursprünglichen Text wiederherzustellen.
+
+#### Aufgabe 2
+
+1. **Schlüsselgenerierung:**
+   - Der Empfänger erstellt ein Schlüsselpaar mit einem öffentlichen und einem privaten Schlüssel. Der öffentliche Schlüssel wird veröffentlicht, während der private Schlüssel geheim bleibt.
+
+2. **Verschlüsselung:**
+   - Der Sender verwendet den öffentlichen Schlüssel des Empfängers, um die Mitteilung zu verschlüsseln.
+
+3. **Übertragung:**
+   - Der verschlüsselte Text wird über das unsichere Netzwerk übertragen.
+
+4. **Entschlüsselung:**
+   - Nur der Empfänger kann die Mitteilung mit seinem privaten Schlüssel entschlüsseln.
+
+#### Aufgabe 3
+
+Bei einer Ende-zu-Ende-Verschlüsselung werden Daten so verschlüsselt, dass nur der beabsichtigte Empfänger in der Lage ist, sie zu entschlüsseln. Dies erfolgt, unabhängig von der Anzahl der Server oder Übertragungspunkte auf dem Übertragungsweg. Selbst der Serviceanbieter, der die Daten übermittelt, kann die verschlüsselten Daten nicht lesen. Ein Beispiel hierfür ist die Ende-zu-Ende-Verschlüsselung in Messaging-Apps wie WhatsApp oder Signal.
+
+#### Aufgabe 4
+
+Eine Public Key Infrastructure ist eine Infrastruktur, die die Erzeugung, Verwaltung und Verteilung von Schlüsselpaaren in der asymmetrischen Verschlüsselung unterstützt. Eine PKI umfasst Zertifizierungsstellen (CAs), die digitale Zertifikate ausstellen, die die Echtheit von öffentlichen Schlüsseln bestätigen. Diese Zertifikate werden verwendet, um das Vertrauen in die asymmetrische Verschlüsselung zu stärken.
+
+#### Aufgabe 5
+
+Verschlüsselung und Virtual Private Networks (VPNs) sind eng miteinander verbunden. VPNs verwenden Verschlüsselungstechniken, um den Datenverkehr zwischen einem Benutzer und einem entfernten Server zu schützen. Durch die Verschlüsselung werden die Daten während der Übertragung über unsichere Netzwerke geschützt, wodurch die Privatsphäre und Sicherheit der Benutzer verbessert werden.
+
+#### Aufgabe 6
+
+Zero-Knowledge-Proof ist ein Beweisverfahren, bei dem eine Partei nachweisen kann, dass sie eine Information kennt, ohne die Information selbst preiszugeben. Das bedeutet, dass eine Partei in der Lage ist, etwas zu beweisen, ohne genaue Details oder den tatsächlichen Inhalt preiszugeben. Dieses Konzept wird in der Kryptografie verwendet, um Authentifizierung oder Besitz ohne Offenlegung sensibler Informationen zu ermöglichen.

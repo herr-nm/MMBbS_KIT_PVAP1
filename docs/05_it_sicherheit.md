@@ -241,17 +241,51 @@ Welche Aspekte sind im Rahmen einer Notfallwiederherstellung zu berücksichtigen
 
 ## Integrität gewährleisten
 
-### Arbeitsauftrag - Digitale Signaturen und Zertifikate verwenden
+### Arbeitsauftrag - Integrität von Daten kontrollieren
 
-### Arbeitsauftrag - Mechanismen zur Versionskontrolle einsetzen
+#### Aufgabe 1
 
-### Arbeitsauftrag - Hash-Funktionen nutzen
+Beschreiben Sie, was eine Hash-Funktion ist und wie diese zur Prüfung der Integrität von Daten herangezogen werden kann.
+
+#### Aufgabe 2
+
+Beschreiben Sie, was eine Checksum ist und wie diese zur Prüfung der Integrität von Daten herangezogen werden kann.
+
+#### Aufgabe 3
+
+Beschreiben Sie, was eine Digitale Signatur ist und wie diese zur Prüfung der Integrität von Daten herangezogen werden kann.
 
 ## Vertraulichkeit herstellen
 
-### Arbeitsauftrag - Verschlüsselungsverfahren beschreiben
+### Arbeitsauftrag - Verschlüsselung von Daten durchführen
+
+#### Aufgabe 1
+
+Beschreiben Sie den Ablauf bei Übertragung einer Mitteilung, die symmetrisch verschlüsselt wurde.
+
+#### Aufgabe 2
+
+Beschreiben Sie den Ablauf bei Übertragung einer Mitteilung, die asymmetrisch verschlüsselt wurde.
+
+#### Aufgabe 3
+
+Was ist unter einer Ende-zu-Ende-Verschlüsselung zu verstehen?
+
+#### Aufgabe 4
+
+Was ist eine Public Key Infrastructure?
+
+#### Aufgabe 5
+
+Inwiefern stehen Verschlüsselung und VPN miteinander in Beziehung?
+
+#### Aufgabe 6
+
+Was ist ein Zero-Knowledge-Proof?
 
 ### Arbeitsauftrag - Zugriffskontrollen systematisch planen
+
+AD
 
 {%
    include-markdown "inhalte/lizenzhinweis.md"
