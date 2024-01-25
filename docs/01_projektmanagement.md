@@ -8,8 +8,6 @@
 - Anforderungen erheben
 - Lasten- und Pflichtenheft unterscheiden
 
----
-
 ## Projekte definieren
 
 ### Arbeitsauftrag - Projekte definieren
@@ -29,8 +27,6 @@ Nennen Sie die Phasen eines Projektes in der korrekten Reihenfolge und ordnen Si
 #### Aufgabe 4
 
 Welche Stakeholder hat ein Projekt in einem Unternehmen?
-
----
 
 ## Netzplantechnik anwenden
 
@@ -83,8 +79,6 @@ Angenommen der Lieferant kann die Server erst 8 Tage später liefern, welche Aus
 
 Was kann der Projektleiter unternehmen, um trotz einer relevanten Verschiebung des Projektfinales nach hinten, das ursprüngliche Projektende zu erreichen?
 
----
-
 ## Gantt-Diagramme anwenden
 
 ### Arbeitsauftrag Gantt-Diagramme erstellen
@@ -118,15 +112,11 @@ Welche Vorteile hat das Gantt-Diagramm gegenüber dem Netzplan?
 
 Welche Nachteile hat das Gantt-Diagramm gegenüber dem Netzplan?
 
----
-
 **Informationsmaterial zu dieser Kompetenz:**
 
 ### Lernvideo - Gantt-Diagramm (Studyflix)
 
 [Studyflix - Gantt-Diagramm](https://studyflix.de/wirtschaft/gantt-diagramm-659)
-
----
 
 ## Anforderungen erheben
 
@@ -148,13 +138,9 @@ Welchen Gütekriterien sollte eine formulierte Anforderung genügen?
 
 Zur Dokumentation von Anforderungen bspw. an eine Software können sogenannte User Stories genutzt werden. Beschreiben Sie in eigenen Worten, was dies ist. Stellen Sie außerdem einen Zusammenhang zum UML Use-Case-Diagramm her.
 
----
-
 **Informationsmaterial zu dieser Kompetenz:**
 
 [Informationsmaterial - Anforderungen (IT-Berufe Podcast & Shownotes)](https://it-berufe-podcast.de/anforderungsermittlung-nicht-nur-fuer-dein-abschlussprojekt-it-berufe-podcast-159/)
-
----
 
 ## Lasten- und Pflichtenheft unterscheiden
 
