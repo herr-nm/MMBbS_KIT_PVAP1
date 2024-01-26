@@ -1,5 +1,118 @@
 # Anwendungsentwicklung
 
+## Idealtypische Vorgehensmodelle unterscheiden
+
+### Arbeitsauftrag - Klassische und agile Vorgehensmodelle unterscheiden
+
+#### Aufgabe 1
+
+Beschreiben Sie in eigenen Worten, was ein Vorgehensmodell in der Projektplanung bzw. der Softwareentwicklung ist.
+
+#### Aufgabe 2
+
+Beschreiben Sie das Wasserfallmodell. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
+
+#### Aufgabe 3
+
+Beschreiben Sie das Spiralmodell. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
+
+#### Aufgabe 4
+
+Beschreiben Sie das V-Modell. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
+
+#### Aufgabe 5
+
+Beschreiben Sie Scrum. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
+
+#### Aufgabe 6
+
+Beschreiben Sie Kanban. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
+
+#### Aufgabe 7
+
+Beschreiben Sie Extreme Programming. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
+
+#### Aufgabe 8
+
+Zu den klassischen Vorgehensmodellen gehören unter anderem das Wasserfallmodell, das Spiralmodell sowie das V-Modell. Wie unterscheiden sich diese von den agilen Vorgehensmodellen wie bspw. Scrum, Kanban oder Extreme Programming?
+
+#### Aufgabe 9
+
+Beschreiben Sie, was im Zusammenhang mit den Vorgehensmodellen ein MVP (Minimal Viable Product) ist.
+
+## Betriebssystem und Anwendungssoftware unterscheiden
+
+### Arbeitsauftrag - Betriebssysteme unterscheiden
+
+#### Aufgabe 1
+
+Welche marktüblichen Betriebssysteme kennen Sie? Auf welcher Art von IT-System werden diese üblicherweise betrieben?
+
+#### Aufgabe 2
+
+Stellen Sie in eigenen Worten dar, wie das Betriebssystem mit dem BIOS/UEFI und Anwendungssoftware in Beziehung steht.
+
+#### Aufgabe 3
+
+Unter Windows wird die Kommandozeile / Commandline genutzt, um das Betriebssystem über Text-Befehle zu steuern. Hierauf sattelt die PowerShell (eine ursprünlich für Windows entwickelte Programmiersprache) auf. Geben Sie die Funktion der folgenden Kommandozeilenbefehle für Windows-Systeme an und zeigen Sie an einem Beispiel, wie der Befehl benutzt wird.
+
+- dir
+- mkdir
+- cd
+- ipconfig
+- ping
+- del
+- copy
+- tracert
+
+#### Aufgabe 4
+
+Unter Linux wird das Terminal genutzt, um das Betriebssystem über Text-Befehle zu steuern. Geben Sie die Funktion der folgenden Kommandozeilenbefehle für Windows-Systeme an und zeigen Sie an einem Beispiel, wie der Befehl benutzt wird.
+
+- ls
+- mkdir
+- cd
+- ifconfig
+- ping
+- iproute2
+- arp
+- cp
+- chmod
+- alias
+- traceroute
+
+### Arbeitsauftrag - Anwendungssoftware unterscheiden
+
+#### Aufgabe 1
+
+Anwendungen können sogenannte Standardsoftware sein, was bedeutet dies?
+
+#### Aufgabe 2
+
+Beschreiben Sie, was mit Branchensoftware gemeint ist.
+
+#### Aufgabe 3
+
+Beschreiben Sie was Individualsoftware ist.
+
+### Arbeitsauftrag - Programmiersprachen für Software unterscheiden
+
+#### Aufgabe 1
+
+Nach welchen Kriterien können Programmiersprachen unterschieden werden?
+
+#### Aufgabe 2
+
+Was macht objektorientierte Sprachen aus?
+
+#### Aufgabe 3
+
+Was ist der Unterschied zwischen kompilierten und interpretierten Programmiersprachen?
+
+#### Aufgabe 4
+
+Was ist der Unterschied zwischen der Programmierung nativer und cross-platform Anwendungen?
+
 ## UML-Anwendungsfalldiagramme erstellen
 
 #### Aufgabe 1
@@ -273,45 +386,7 @@ Die User-Eingaben für den Test waren:
 2. Beschreiben Sie den Ablauf der Test-Spielrunde durch den User in eigenen Worten.
 3. Welche zwei Fehler hinsichtlich der Programm-/Spiel-Logik sind im Struktogramm enthalten?
 
-## Idealtypische Vorgehensmodelle unterscheiden
 
-### Arbeitsauftrag - Klassische und agile Vorgehensmodelle unterscheiden
-
-#### Aufgabe 1
-
-Beschreiben Sie in eigenen Worten, was ein Vorgehensmodell in der Projektplanung bzw. der Softwareentwicklung ist.
-
-#### Aufgabe 2
-
-Beschreiben Sie das Wasserfallmodell. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
-
-#### Aufgabe 3
-
-Beschreiben Sie das Spiralmodell. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
-
-#### Aufgabe 4
-
-Beschreiben Sie das V-Modell. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
-
-#### Aufgabe 5
-
-Beschreiben Sie Scrum. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
-
-#### Aufgabe 6
-
-Beschreiben Sie Kanban. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
-
-#### Aufgabe 7
-
-Beschreiben Sie Extreme Programming. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
-
-#### Aufgabe 8
-
-Zu den klassischen Vorgehensmodellen gehören unter anderem das Wasserfallmodell, das Spiralmodell sowie das V-Modell. Wie unterscheiden sich diese von den agilen Vorgehensmodellen wie bspw. Scrum, Kanban oder Extreme Programming?
-
-#### Aufgabe 9
-
-Beschreiben Sie, was im Zusammenhang mit den Vorgehensmodellen ein MVP (Minimal Viable Product) ist.
 
 {%
    include-markdown "inhalte/lizenzhinweis.md"
