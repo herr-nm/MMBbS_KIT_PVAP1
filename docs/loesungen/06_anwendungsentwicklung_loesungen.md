@@ -236,3 +236,101 @@ zu 3.
 
 - Ein Fehler im Struktogramm bezieht sich auf die Anzahl der Äpfel. Diese wird zu Beginn im Programm auf 7 Stück festgelegt. Im Rahmen des Programms wird die Anzahl allerdings nicht gemindert. Hieraus entsteht eine Art Endlosschleife, da die Abbruchbedingung des Programms entweder eine Kollision oder aber das Auffressen aller Äpfel beinhalten sollte (solange kollision == False AND anzahlAepfel >=1). Damit wäre ein Spielende immer nur mit einer Kollision möglich.
 - Der zweite Fehler betrifft die Variable feldMitApfel. Diese wird nach dem fressen des vorhandenen Apfels nicht zurückgesetzt. Dadurch würde im nächsten Programmdurchlauf auch bei einem leeren Feld die Methode apfelEntfernen() [s. 19] erneut aufgerufen werden, ohne dass ein Apfel vorhanden wäre und damit das Programm durch einen Fehler beendet werden.
+
+## Idealtypische Vorgehensmodelle unterscheiden
+
+### Arbeitsauftrag - Klassische und agile Vorgehensmodelle unterscheiden
+
+#### Aufgabe 1
+
+Ein Vorgehensmodell in der Projektplanung bzw. der Softwareentwicklung ist ein strukturierter Ansatz oder eine Methode, die den Prozess beschreibt, wie ein Projekt geplant, durchgeführt und abgeschlossen wird. Es bietet Richtlinien und Schritte, die Teams dabei unterstützen, ihre Ziele zu erreichen und die Qualität ihrer Arbeit zu verbessern.
+
+#### Aufgabe 2
+
+Das Wasserfallmodell ist ein lineares Vorgehensmodell, bei dem der Entwicklungsprozess in aufeinanderfolgende Phasen unterteilt ist. Jede Phase muss abgeschlossen sein, bevor die nächste beginnt. Die Phasen umfassen Anforderungsanalyse, Systementwurf, Implementierung, Testen, Deployment und Wartung. 
+
+*Vorteile:*
+- Klare Struktur und einfache Handhabung.
+- Gut geeignet für kleine Projekte mit klaren Anforderungen.
+
+*Nachteile:*
+- Starre Natur, Anpassungen sind schwer.
+- Kundenrückmeldungen werden erst spät berücksichtigt.
+
+#### Aufgabe 3
+
+Das Spiralmodell ist iterativ und inkrementell. Es kombiniert Ideen des Wasserfallmodells mit Prototyping. Der Prozess besteht aus sich wiederholenden Zyklen, die schrittweise die Entwicklung vorantreiben. Jede Spirale repräsentiert eine Iteration.
+
+*Vorteile:*
+- Flexibilität durch iterative Natur.
+- Risikomanagement ist integriert.
+
+*Nachteile:*
+- Komplexität und Aufwand der Planung.
+
+#### Aufgabe 4
+
+Das V-Modell ist ein Vorgehensmodell, das speziell auf die Verbindung von Entwicklungsphasen und dazugehörigen Testphasen Wert legt. Es zeigt die Beziehung zwischen jeder Entwicklungsphase und ihrer zugehörigen Testphase in einem V-Diagramm.
+
+*Vorteile:*
+- Betonung von Testaktivitäten.
+- Klare Verknüpfung von Entwicklungs- und Testprozessen.
+
+*Nachteile:*
+- Starre Struktur.
+- Wenig Flexibilität bei Änderungen.
+
+#### Aufgabe 5
+
+Scrum ist ein agiles Framework für die Softwareentwicklung, das auf iterativen, inkrementellen Prozessen basiert. Es verwendet Sprints (typischerweise 2-4 Wochen) für die Entwicklung von funktionsfähigen Softwareteilen.
+
+*Vorteile:*
+- Hohe Flexibilität und Anpassungsfähigkeit.
+- Enge Zusammenarbeit im Team.
+
+*Nachteile:*
+- Nicht immer geeignet für Projekte mit festen Anforderungen.
+- Komplexität der Implementierung.
+
+#### Aufgabe 6
+
+Kanban ist ein agiles Framework, das den Fokus auf kontinuierliche Lieferung legt. Es verwendet visuelle Boards zur Darstellung des Arbeitsprozesses und begrenzt die gleichzeitige Arbeit in den verschiedenen Phasen.
+
+*Vorteile:*
+- Flexibilität und kontinuierliche Lieferung.
+- Geringe Overhead-Kosten.
+
+*Nachteile:*
+- Möglicher Mangel an Struktur.
+- Nicht für komplexe Projekte geeignet.
+
+#### Aufgabe 7
+
+Extreme Programming ist eine agile Methode, die auf intensiver Zusammenarbeit und kontinuierlichem Feedback basiert. Sie betont Praktiken wie Paarprogrammierung, Testgetriebene Entwicklung und kurze Entwicklungszyklen.
+
+*Vorteile:*
+- Hohe Softwarequalität durch Fokus auf Tests.
+- Flexibilität und Anpassungsfähigkeit.
+
+*Nachteile:*
+- Kann für traditionelle Organisationen zu radikal sein.
+- Erfordert hochmotivierte Teams.
+
+#### Aufgabe 8
+
+Die klassischen Vorgehensmodelle wie Wasserfall, Spiral und V-Modell zeichnen sich durch ihre linearen und plangetriebenen Ansätze aus. Sie setzen auf detaillierte Planung und Dokumentation im Voraus, was zu einer geringen Flexibilität bei Änderungen führen kann. Diese Modelle eignen sich gut für Projekte mit stabilen Anforderungen und klaren Spezifikationen.
+
+Im Gegensatz dazu sind agile Vorgehensmodelle wie Scrum, Kanban und Extreme Programming iterative und inkrementelle Ansätze. Sie betonen Flexibilität, schnelle Anpassung an Änderungen und kontinuierliche Lieferung von funktionierender Software. Agile Modelle sind besonders effektiv in Umgebungen, in denen sich Anforderungen häufig ändern oder nicht von Anfang an klar definiert sind.
+
+#### Aufgabe 9
+
+Ein MVP, oder Minimal Viable Product (Minimales Produkt mit Überlebensfähigkeit), ist ein zentrales Konzept in der Produktentwicklung, insbesondere im Zusammenhang mit verschiedenen Vorgehensmodellen, einschließlich agiler Methoden. Es bezieht sich auf die Entwicklung und Bereitstellung einer grundlegenden Version eines Produkts oder einer Anwendung, die gerade ausreichend ist, um die Kernfunktionalitäten zu demonstrieren und einen Wert für die Benutzer zu bieten.
+
+Die Idee hinter einem MVP ist es, schnell auf den Markt zu kommen und Feedback von echten Benutzern zu erhalten. Dieses Feedback wird dann genutzt, um das Produkt weiter zu verbessern und besser an die tatsächlichen Bedürfnisse der Benutzer anzupassen. Das MVP-Konzept unterstützt somit den iterativen und inkrementellen Ansatz, der in vielen agilen Vorgehensmodellen wie Scrum und Extreme Programming betont wird.
+
+Ein MVP zeichnet sich durch folgende Merkmale aus:
+
+- **Minimale Funktionalität:** Es enthält nur die grundlegenden Funktionen, die notwendig sind, um das Produkt als brauchbar zu betrachten. Alle zusätzlichen Funktionen werden zurückgestellt, bis das Feedback der Benutzer ausgewertet wurde.
+- **Validierung von Annahmen:** Das MVP hilft bei der Überprüfung von Annahmen und Hypothesen über das Produkt. Durch die Bereitstellung einer minimalen Version kann das Team schnell feststellen, ob ihre Ideen und Konzepte den tatsächlichen Bedürfnissen der Benutzer entsprechen.
+- **Schnelle Markteinführung:** Der Fokus liegt darauf, das Produkt so schnell wie möglich auf den Markt zu bringen, anstatt monatelang an einer umfassenden Version zu arbeiten. Dies ermöglicht es, frühzeitig Rückmeldungen zu sammeln und den Entwicklungsprozess entsprechend anzupassen.
+- **Iterative Entwicklung:** Nachdem das MVP veröffentlicht wurde, folgen weitere Iterationen, um das Produkt basierend auf dem Feedback und den gewonnenen Erkenntnissen zu verbessern. Dieser iterative Ansatz ermöglicht eine ständige Anpassung an sich ändernde Anforderungen und Kundenwünsche.

@@ -273,6 +273,46 @@ Die User-Eingaben für den Test waren:
 2. Beschreiben Sie den Ablauf der Test-Spielrunde durch den User in eigenen Worten.
 3. Welche zwei Fehler hinsichtlich der Programm-/Spiel-Logik sind im Struktogramm enthalten?
 
+## Idealtypische Vorgehensmodelle unterscheiden
+
+### Arbeitsauftrag - Klassische und agile Vorgehensmodelle unterscheiden
+
+#### Aufgabe 1
+
+Beschreiben Sie in eigenen Worten, was ein Vorgehensmodell in der Projektplanung bzw. der Softwareentwicklung ist.
+
+#### Aufgabe 2
+
+Beschreiben Sie das Wasserfallmodell. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
+
+#### Aufgabe 3
+
+Beschreiben Sie das Spiralmodell. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
+
+#### Aufgabe 4
+
+Beschreiben Sie das V-Modell. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
+
+#### Aufgabe 5
+
+Beschreiben Sie Scrum. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
+
+#### Aufgabe 6
+
+Beschreiben Sie Kanban. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
+
+#### Aufgabe 7
+
+Beschreiben Sie Extreme Programming. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.
+
+#### Aufgabe 8
+
+Zu den klassischen Vorgehensmodellen gehören unter anderem das Wasserfallmodell, das Spiralmodell sowie das V-Modell. Wie unterscheiden sich diese von den agilen Vorgehensmodellen wie bspw. Scrum, Kanban oder Extreme Programming?
+
+#### Aufgabe 9
+
+Beschreiben Sie, was im Zusammenhang mit den Vorgehensmodellen ein MVP (Minimal Viable Product) ist.
+
 {%
    include-markdown "inhalte/lizenzhinweis.md"
    start="<!--include-start-->"
