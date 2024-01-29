@@ -517,3 +517,114 @@ Lösung: 255.240.0.0
 - 192.168.10.0: Netzadresse darf/sollte nicht vergeben werden
 - 192.168.10.200: Kann für den Server genutzt werden, ist gültig
 - 127.0.0.1: Loop-Back-IP für Loop-Back und Diagnosefunktion reserviert
+
+## IPv6-Netzwerke planen
+
+### Arbeitsauftrag - IPv6-Netzwerke planen
+
+#### Aufgabe 1
+
+- **Adresslänge:**
+   - IPv4 verwendet 32-Bit-Adressen, was zu einer begrenzten Anzahl von etwa 4,3 Milliarden eindeutigen Adressen führt.
+   - IPv6 verwendet 128-Bit-Adressen, was eine nahezu unbegrenzte Anzahl von Adressen ermöglicht. Die Anzahl der IPv6-Adressen ist so groß, dass sie praktisch unerschöpflich ist.
+- **Schreibweise:**
+   - IPv4-Adressen werden in vier Oktetten mit dezimalen Zahlen dargestellt, getrennt durch Punkte. Zum Beispiel: `192.168.0.1`.
+   - IPv6-Adressen werden in acht Gruppen von je vier Hexadezimalziffern dargestellt, getrennt durch Doppelpunkte. Zum Beispiel: `2001:0db8:85a3:0000:0000:8a2e:0370:7334`.
+- **Notation und Kürzung:**
+   - IPv6-Adressen erlauben die Kürzung von aufeinanderfolgenden Nullblöcken und die Verwendung der Doppelpunktnotation für eine kompaktere Darstellung. Dies ermöglicht eine leichtere Lesbarkeit und Handhabung.
+- **Adressarten:**
+   - IPv4-Adressen können in öffentliche (im Internet routbare) und private (für den internen Gebrauch in lokalen Netzwerken reservierte) Adressen unterteilt werden.
+   - IPv6-Adressen haben verschiedene Typen, darunter Unicast (für die Einzel-zu-Einzel-Kommunikation), Multicast (für die Ein-zu-Viele-Kommunikation) und Anycast (für die Kommunikation mit einem beliebigen Knoten einer Gruppe).
+- **Automatische Konfiguration:**
+   - IPv6 unterstützt die automatische Konfiguration durch Stateless Address Autoconfiguration (SLAAC), was es Geräten ermöglicht, Adressen ohne die Notwendigkeit eines zentralen DHCP-Servers zu erhalten.
+   - In IPv4 ist dies durch DHCP (Dynamic Host Configuration Protocol) üblicherweise umgesetzt.
+
+#### Aufgabe 2
+
+2001:db8::42:0:8a2e:370:7334
+
+#### Aufgabe 3
+
+Link-Local-Adressen sind auf das lokale Netzwerksegment (auch als Link oder Subnetz bezeichnet) beschränkt, in dem das IPv6-Gerät aktiv ist. Sie sind nicht routenfähig und können daher nur für die Kommunikation auf dem lokalen Netzwerk verwendet werden.
+
+Link-Local-Adressen können automatisch von den Geräten auf einem Netzwerksegment generiert werden, ohne dass dazu ein zentraler DHCP-Server erforderlich ist. Dies wird durch das Stateless Address Autoconfiguration (SLAAC) ermöglicht.
+
+Bspw.: **fe80**::abcd:1234:5678:9abc
+
+#### Aufgabe 4
+
+Nehmen Sie die IPv6-Adresse 2001:0db8:abcd:0023::/64 und erstellen Sie vier Subnetze. Geben Sie die Subnetz-IDs und Range für jedes Subnetz an.
+
+- Subnetz 1: 2001:db8:abcd:23::/66
+  - Expanded IPv6: 2001:0db8:abcd:0023:0000:0000:0000:0000/66
+  - First Address: 2001:0db8:abcd:0023:0000:0000:0000:0000
+  - Last Address: 2001:0db8:abcd:0023:3fff:ffff:ffff:ffff
+- Subnetz 2: 2001:db8:abcd:23:4000::/66
+  - Expanded IPv6: 2001:0db8:abcd:0023:4000:0000:0000:0000/66
+  - First Address: 2001:0db8:abcd:0023:4000:0000:0000:0000
+  - Last Address: 2001:0db8:abcd:0023:7fff:ffff:ffff:ffff
+- Subnetz 3: 2001:db8:abcd:23:8000::/66
+  - Expanded IPv6: 2001:0db8:abcd:0023:8000:0000:0000:0000/66
+  - First Address: 2001:0db8:abcd:0023:8000:0000:0000:0000
+  - Last Address: 2001:0db8:abcd:0023:bfff:ffff:ffff:ffff
+- Subnetz 4: 2001:db8:abcd:23:c000::/66
+  - Expanded IPv6: 2001:0db8:abcd:0023:c000:0000:0000:0000/66
+  - First Address: 2001:0db8:abcd:0023:c000:0000:0000:0000
+  - Last Address: 2001:0db8:abcd:0023:ffff:ffff:ffff:ffff
+
+#### Aufgabe 5
+
+Die "Loopback-Adresse" in IPv6 hat den gleichen Zweck wie in IPv4. Sie dient dazu, dass ein Netzwerkgerät mit sich selbst kommunizieren kann, ohne den gesamten Netzwerkstack und die Netzwerkschnittstelle zu belasten. In IPv6 wird die Loopback-Adresse durch `::1` repräsentiert.
+
+Die Loopback-Adresse `::1` ist die IPv6-Äquivalente zur IPv4-Loopback-Adresse `127.0.0.1`. Wenn ein Gerät versucht, mit der Loopback-Adresse zu kommunizieren (zum Beispiel durch Pingen von `::1`), wird der Datenverkehr nicht über das physische Netzwerk übertragen. Stattdessen bleibt er innerhalb des lokalen Geräts und wird auf der Loopback-Schnittstelle verarbeitet.
+
+Zweck der Loopback-Schnittstelle:
+
+- **Lokale Netzwerktests:** Entwickler können die Loopback-Adresse verwenden, um Netzwerkanwendungen lokal zu testen, ohne eine tatsächliche Netzwerkverbindung herstellen zu müssen.
+- **Selbsttests von Netzwerkschnittstellen:** Netzwerkschnittstellen und -protokolle können auf ihre Funktionstüchtigkeit überprüft werden, indem Datenverkehr zur Loopback-Adresse gesendet wird.
+- **Interne Kommunikation zwischen Prozessen auf demselben Gerät:** Anwendungen können die Loopback-Adresse nutzen, um intern miteinander zu kommunizieren, insbesondere wenn mehrere Prozesse auf demselben Gerät laufen.
+
+## WLAN planen
+
+### Arbeitsauftrag - WLAN planen
+
+#### Aufgabe 1
+
+| IEEE-Standard | Maximale Übertragungsrate | Frequenz-Band          |
+|---------------|---------------------------|------------------------|
+| 802.11b       | 11 Mbps                   | 2.4 GHz                |
+| 802.11a       | 54 Mbps                   | 5 GHz                  |
+| 802.11g       | 54 Mbps                   | 2.4 GHz                |
+| 802.11n       | Bis zu 600 Mbps           | 2.4 GHz / 5 GHz        |
+| 802.11ac      | Bis zu 3.5 Gbps            | 5 GHz                  |
+| 802.11ax      | Bis zu 9.6 Gbps            | 2.4 GHz / 5 GHz        |
+
+#### Aufgabe 2
+
+- **Drahtlose Verbindung:** WLAN ermöglicht die drahtlose Verbindung von Geräten, was Kabelsalat vermeidet und die Flexibilität erhöht.
+- **Einfache Einrichtung:** WLAN-Netzwerke lassen sich einfach einrichten und erweitern, ohne physische Kabel verlegen zu müssen.
+- **Mobilität:** Nutzer können sich innerhalb der Reichweite des WLAN-Netzwerks frei bewegen, ohne die Verbindung zu verlieren.
+- **Breite Verfügbarkeit:** WLAN ist weit verbreitet und in vielen öffentlichen Orten, Unternehmen und Privathaushalten verfügbar.
+
+#### Aufgabe 3
+
+- **Begrenzte Reichweite:** WLAN hat eine begrenzte Reichweite im Vergleich zu kabelgebundenen Netzwerken.
+- **Störanfälligkeit:** Drahtlose Signale können durch Interferenzen, Wände und andere Hindernisse gestört werden.
+- **Sicherheitsrisiken:** WLAN-Netzwerke können anfällig für Sicherheitsrisiken wie unautorisierten Zugriff sein, wenn sie nicht ordnungsgemäß geschützt sind.
+- **Geschwindigkeitsverlust:** Die tatsächliche Übertragungsgeschwindigkeit kann aufgrund von Störungen und Entfernungen von Access Points variieren.
+
+#### Aufgabe 4
+
+SSID steht für "Service Set Identifier" und ist der Name, der einem drahtlosen Netzwerk zugeordnet ist. Er dient dazu, Netzwerke voneinander zu unterscheiden. Beim Verbinden mit einem WLAN wird die SSID verwendet, um das gewünschte Netzwerk auszuwählen.
+
+#### Aufgabe 5
+
+- **WEP (Wired Equivalent Privacy):** Eine veraltete und unsichere Methode, die leicht geknackt werden kann.
+- **WPA (Wi-Fi Protected Access):** Eine verbesserte Version von WEP, aber dennoch anfällig für Angriffe.
+- **WPA2:** Eine weiterentwickelte Version von WPA mit stärkeren Sicherheitsmechanismen.
+- **WPA3:** Der aktuellste Standard mit verbesserter Verschlüsselung und Sicherheit gegen Brute-Force-Angriffe.
+
+#### Aufgabe 6
+
+- **Repeater:** Ein Repeater empfängt das WLAN-Signal, verstärkt es und sendet es erneut aus, um die Reichweite des WLAN-Netzwerks zu vergrößern. Er fungiert als Verstärker, um das Signal über größere Entfernungen zu tragen.
+- **Access Point:** Ein Access Point (AP) ist ein Gerät, das in ein kabelgebundenes Netzwerk integriert ist und drahtlose Verbindungen zu WLAN-Geräten ermöglicht. Im Gegensatz zum Repeater erstellt ein Access Point ein neues WLAN-Netzwerk und ermöglicht es Geräten, sich direkt mit diesem Netzwerk zu verbinden.

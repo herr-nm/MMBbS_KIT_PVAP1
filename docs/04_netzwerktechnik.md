@@ -186,21 +186,33 @@ Ein neuer Server soll in ein vorhandenes Netzwerk integriert werden. Dazu muss d
 
 ## IPv6-Netzwerke planen
 
-## VPN-Einsatz prüfen
+### Arbeitsauftrag - IPv6-Netzwerke planen
 
 #### Aufgabe 1
 
-Definieren Sie in eigenen Worten, was VPN ist und wie dieses funktioniert?
+Erklären Sie den Unterschied zwischen einer IPv4-Adresse und einer IPv6-Adresse.
 
 #### Aufgabe 2
 
-Unterscheiden Sie Site-to-Site sowie Client-to-Site im Zusammenhang von VPN.
+Kürzen Sie die folgende IPv6-Adresse gemäß den Kürzungsregeln: 
+
+2001:0db8:0000:0042:0000:8a2e:0370:7334
 
 #### Aufgabe 3
 
+Erläutern Sie den Zweck von Link-Local-Adressen in IPv6.
 
+#### Aufgabe 4
+
+Nehmen Sie die IPv6-Adresse 2001:0db8:abcd:0023::/64 und erstellen Sie vier Subnetze. Geben Sie die Subnetz-IDs und Range für jedes Subnetz an.
+
+#### Aufgabe 5
+
+Was ist eine "Loopback-Adresse" in IPv6 und welche Adresse wird dafür verwendet?
 
 ## WLAN planen
+
+### Arbeitsauftrag - WLAN planen
 
 #### Aufgabe 1
 
@@ -225,6 +237,8 @@ Welche aktuellen WLAN-Verschlüsselungsmethoden werden genutzt? Wie unterscheide
 #### Aufgabe 6
 
 Unterscheiden Sie die Funktionsweise eines Repeaters von der eines Access-Points.
+
+
 
 {%
    include-markdown "inhalte/lizenzhinweis.md"
