@@ -7,8 +7,6 @@
 - Prüfungskatalog
 - Themenübersichten vergangener Prüfungen
 
----
-
 ## Ablauf und Aufbau der AP1
 
 Die AP1 ist die erste schriftliche IHK-Prüfung im Rahmen der gestreckten Abschlussprüfung der IT-Berufe. Alle IT-Berufe schreiben eine identische AP1. Die Bearbeitungsdauer beträgt 90 Minuten.
@@ -28,8 +26,6 @@ Gemäß der Verordnung über die Berufsausbildung sind die Inhalte:
 Die genauen Termine der AP1 veröffentlicht die IHK Hannover unter folgenden Link:
 
 [IHK Hannover: Termine der AP1](https://www.ihk.de/hannover/hauptnavigation/ausbildung-und-weiterbildung/ausbildung/aktuell/termine-fuer-teil-1-der-ap-in-kaufmaennischen-berufen-5438396)
-
----
 
 ## Bewertung der AP1
 

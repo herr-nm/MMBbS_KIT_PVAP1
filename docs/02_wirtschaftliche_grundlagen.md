@@ -33,8 +33,6 @@ Welche Pflichten ergeben sich für den Verkäufer und den Käufer aus einem Kauf
 
 Wann ist der Kaufvertrag zustande gekommen? Beschreiben Sie, welche beiden Aspekte die Willenserklärungen darstellen?
 
----
-
 ## Beschaffungskalkulation durchführen
 
 ### Arbeitsauftrag - Beschaffungskalkulation durchführen
@@ -61,8 +59,6 @@ Weshalb müssen die Preise bei verschiedenen Lieferanten i.d.R. über die Einsta
 
 Welches weitere Entscheidungskriterium könnte für den Fall aus #### Aufgabe 1 noch herangezogen werden?
 
----
-
 ## Variable und fixe Kosten unterscheiden (BEP-Analyse)
 
 ### Arbeitsauftrag -  Variable und fixe Kosten unterscheiden
@@ -84,8 +80,6 @@ Berechnen Sie, bei welcher Verkaufsmenge der Break-even-Point erreicht wird.
 #### Aufgabe 4
 
 Erläutern Sie, wie die Break-even-Menge bei Anteiligen Stück (bspw. 14,2 Stück) gerundet werden muss und warum dies der Fall ist. Beziehen Sie bei der Erläuterung die Begriffe Gewinnzone und Verlustzone mit ein.
-
----
 
 ## Kostenvergleich (Leasing, Kauf, ...) durchführen
 
@@ -129,8 +123,6 @@ Welche Gründe sprechen für das Leasing, auch wenn dieses teurer wäre?
 #### Aufgabe 6
 
 Welche Gründe sprechen für den Kauf mittels Darlehen, auch wenn dieses Vorgehen teurer wäre?
-
----
 
 ## Qualitativen Angebotsvergleich durchführen
 
@@ -233,8 +225,6 @@ Informationen:
 - Tastatur und Maus
      - Preis: 34,00 EUR
 
----
-
 ## Lizenzarten unterscheiden
 
 ### Arbeitsauftrag - Lizenzarten unterscheiden
@@ -282,8 +272,6 @@ Ist eine Open-Source-Software immer kostenlos? Die Antwort können wir hier vorw
 - Open-Source-Software mit Freemium-Modell
 - Open-Source-Software mit Abonnementmodell
 
----
-
 ## Marktformen unterscheiden
 
 ### Arbeitsauftrag - Marktformen unterscheiden
@@ -304,8 +292,6 @@ Beschreiben Sie den Markt mit Blick auf die Eintrittsbarrieren. Was bringen hohe
 #### Aufgabe 4
 
 Welchen Einfluss kann staatliche Regulierung auf die Marktform haben?
-
----
 
 ## Zielgruppen definieren
 
