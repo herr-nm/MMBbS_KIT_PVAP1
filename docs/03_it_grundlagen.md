@@ -1,5 +1,15 @@
 # IT-Grundlagen
 
+![Kapitelbild](bilder/kap_03_kapitelbild.jpg)
+
+- RAID-Level unterscheiden
+- Übertragung von Daten berechnen
+- Energieeffizienz von IT-Systemen vergleichen
+- Ergonomie am Arbeitsplatz herstellen
+- Cloudlösungen unterscheiden
+- Hardwarekomponenten unterscheiden
+- Virtualisierung nutzen
+
 ## RAID-Level unterscheiden
 
 ### Arbeitsauftrag - RAID-Level unterscheiden

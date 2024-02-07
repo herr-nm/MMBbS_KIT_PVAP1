@@ -1,5 +1,15 @@
 # IT-Sicherheit
 
+![Kapitelbild](bilder/kap_05_kapitelbild.jpg)
+
+- Grundlagen der Informationssicherheit anwenden
+- IT-Grundschutz planen
+- DSGVO-konform handeln
+- Abwehr von Angriffen planen
+- Verfügbarkeit sicherstellen
+- Integrität gewährleisten
+- Vertraulichkeit herstellen
+
 ## Grundlagen der Informationssicherheit anwenden
 
 ### Arbeitsauftrag - Dimensionen der Informationssicherheit unterscheiden

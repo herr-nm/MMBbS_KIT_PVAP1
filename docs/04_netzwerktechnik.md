@@ -1,5 +1,17 @@
 # Netzwerktechnik
 
+![Kapitelbild](bilder/kap_04_kapitelbild.jpg)
+
+- Grundkonzepte von Netzwerken beschreiben
+- Clients einem Netzwerk hinzufügen
+- OSI-Modell nutzen
+- Wichtige Protokolle zuordnen
+- Netzwerkkomponenten unterscheiden
+- Verkabelung von Netzwerkkomponenten dimensionieren
+- IPv4-Netzwerke planen
+- IPv6-Netzwerke planen
+- WLAN planen
+
 ## Grundkonzepte von Netzwerken beschreiben
 
 ### Arbeitsauftrag - Grundkonzepte von Netzwerken beschreiben

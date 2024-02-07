@@ -1,6 +1,9 @@
 # Prüfungstraining
 
-![Kapitelbild](bilder/kap_07_kapitelbild.jpg)
+![Kapitelbild](bilder/kap_08_kapitelbild.jpg)
+
+- Externe Prüfungsvorbereitung
+- Zusätzliches Lernmaterial
 
 {%
    include-markdown "inhalte/lizenzhinweis.md"

@@ -11,8 +11,6 @@
 - Marktformen unterscheiden
 - Zielgruppen definieren
 
----
-
 ## Zustandekommen von Kaufverträgen bewerten
 
 ### Arbeitsauftrag - Willenserklärungen & Kaufverträge

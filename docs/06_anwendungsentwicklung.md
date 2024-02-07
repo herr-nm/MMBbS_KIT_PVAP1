@@ -1,5 +1,15 @@
 # Anwendungsentwicklung
 
+![Kapitelbild](bilder/kap_06_kapitelbild.jpg)
+
+- Idealtypische Vorgehensmodelle unterscheiden
+- Betriebssystem und Anwendungssoftware unterscheiden
+- UML-Anwendungsfalldiagramme erstellen
+- UML-Klassendiagramme erstellen
+- Struktogramme zur Planung von Anwendungen nutzen
+- Datenbanken mit ER-Modellen planen
+- Datenbanken abfragen
+
 ## Idealtypische Vorgehensmodelle unterscheiden
 
 ### Arbeitsauftrag - Klassische und agile Vorgehensmodelle unterscheiden
