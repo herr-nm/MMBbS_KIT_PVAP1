@@ -427,12 +427,12 @@ Die Last wird normalerweise direkt vom Netzstrom versorgt. Die Batterien sind ni
 zu 1.:
 
 - Autonomiezeit (in Stunden) = (Batteriekapazität in kWh) / (Leistungsaufnahme des Racks in kW)
-- Autonomiezeit = 5 kWh / 2,5 kW = 2 Stunden = 120 Minuten
+- Autonomiezeit = 5 kWh * 0,95 / 2,5 kW = 1,9 Stunden = 114 Minuten
 
 zu 2.:
 
 - Neue Leistungsaufnahme = 2,5 kW - 1 kW = 1,5 kW
-- Neue Autonomiezeit = 5 kWh / 1,5 kW = 3,33 Stunden = 199 Minuten
+- Neue Autonomiezeit = 5 kWh * 0,95 / 1,5 kW = 3,17 Stunden = 190 Minuten
 
 zu 3.:
 
