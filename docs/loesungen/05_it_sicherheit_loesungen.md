@@ -426,19 +426,20 @@ Die Last wird normalerweise direkt vom Netzstrom versorgt. Die Batterien sind ni
 
 zu 1.:
 
-- Autonomiezeit (in Stunden) = (Batteriekapazität in kWh) / (Leistungsaufnahme des Racks in kW)
+- \(\text{Autonomiezeit (in Stunden)} = \frac{\text{Batteriekapazität in kWh}}{\text{Leistungsaufnahme des Racks in kW}}\)
 - Autonomiezeit = 5 kWh * 0,95 / 2,5 kW = 1,9 Stunden = 114 Minuten
+- \(\text{Autonomiezeit}=\frac{5\,\text{kWh} * 0,95}{2,5\,\text{kWh}} = 1,9\,\text{Stunden} = 114\,\text{Minuten}\)
 
 zu 2.:
 
-- Neue Leistungsaufnahme = 2,5 kW - 1 kW = 1,5 kW
-- Neue Autonomiezeit = 5 kWh * 0,95 / 1,5 kW = 3,17 Stunden = 190 Minuten
+- \(\text{Neue Leistungsaufnahme} = 2,5\,\text{kW} - 1\,\text{kW} = 1,5\,\text{kW}\)
+- \(\text{Neue Autonomiezeit} = \frac{5\,\text{kWh} * 0,95}{1,5\,\text{kW}} = 3,17\,\text{Stunden} = 190\,\text{Minuten}\)
 
 zu 3.:
 
-- Gesamtzeit ohne Strom = 1 Stunde (Februar) + 2 Stunden (Oktober) + 2 Stunden (November) = 5 Stunden
-- Verfügbarkeit = (365 Tage * 24 Stunden - Gesamtzeit ohne Strom) / (365 Tage * 24 Stunden) * 100%
-- Verfügbarkeit = (8760 - 5) / 8760 * 100% = 99,94%
+- \(\text{Gesamtzeit ohne Strom} = 1\,\text{Stunde (Februar)} + 2\,\text{Stunden (Oktober)} + 2\,\text{Stunden (November)} = 5\,\text{Stunden}\)
+- \(\text{Verfügbarkeit} = \frac{(365\,\text{Tage} * 24\,\text{Stunden} - \text{Gesamtzeit ohne Strom)}}{365\,\text{Tage} * 24\,\text{Stunden}} * 100\)
+- \(\text{Verfügbarkeit} = \frac{(8.760\,\text{Std.} - 5\,\text{Std.})}{8.760\,\text{Std.}} * 100 = 99,94\,\text{%}\)
 
 ### Arbeitsauftrag - Backupverfahren anwenden
 
