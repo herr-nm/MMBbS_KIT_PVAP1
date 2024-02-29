@@ -57,6 +57,37 @@ Dem Prüfungskatalog der IHK kann entnommen werden, welche Themen für die Prüf
 
 ## Themenübersichten vergangener Prüfungen
 
+### KIT AP1 - 2024 Frühjahr - Themenübersicht
+
+- Nutzwertanalyse
+- Monatliche Kosten von Hardware und Software berechnen
+- Steckertypen Display
+- Kaufvertrag
+  - Willenserklärungen
+  - Kaufvertragsstörungen
+- Netzwerkkarte LED
+- OSI-Schichten benennen & Elemente zuordnen
+- IPv6 Link-Local
+  - Länge IPv6 in Bit
+  - Kürzungsregel
+  - Präfixlänge
+  - Interface-Identifier
+- Aufgabe von DHCP
+- Aufgabe von ARP
+- Ping-Befehl verwenden
+- unbekannte Dateiformate
+  - klären
+  - Konverter benennen
+  - ASCII vs Binär-Format
+- Dateigröße (Bildgröße) berechnen
+- Leistung eines IT-Systems berechnen
+- Gewährleistung von Geheimhaltung im mobilen Arbeiten
+- VPN erklären
+- Datensicherheit bei Festplatten
+- Malware nennen und erläutern
+- Technisch organisatorische Maßnahmen zum Schutz vor Malware
+- Dateiübertragung berechnen
+
 ### KIT AP1 - 2023 Herbst - Themenübersicht
 
 - UML Anwendungsfalldiagramm ergänzen
