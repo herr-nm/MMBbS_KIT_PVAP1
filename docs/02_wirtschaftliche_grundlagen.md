@@ -57,7 +57,7 @@ Weshalb müssen die Preise bei verschiedenen Lieferanten i.d.R. über die Einsta
 
 #### Aufgabe 3
 
-Welches weitere Entscheidungskriterium könnte für den Fall aus #### Aufgabe 1 noch herangezogen werden?
+Welches weitere Entscheidungskriterium könnte für den Fall aus Aufgabe 1 noch herangezogen werden?
 
 ## Variable und fixe Kosten unterscheiden (BEP-Analyse)
 
