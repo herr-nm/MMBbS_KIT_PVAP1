@@ -33,13 +33,37 @@ Die Bewertung der AP1 erfolgt bei allen IT-Berufen mit 20% der IHK-Gesamtnote. F
 
 ![KDM Prüfungsteile](bilder/kap_00_kdm_pruefungsteile.png)
 
-*Bildquelle: BIBB Ausbildung gestalten - Kaufleute für Digitalisierungsmanagement (2020): S. , [LINK](https://www.bibb.de/dienst/publikationen/en/download/16667)*
+*Bildquelle: BIBB Ausbildung gestalten - Kaufleute für Digitalisierungsmanagement (2020): S. 76, [LINK](https://www.bibb.de/dienst/publikationen/en/download/16667)*
 
 Die Bewertung der AP1 erfolgt bei allen IT-Berufen mit 20% der IHK-Gesamtnote. Für die KSM sind die Prüfungsteile hier dargestellt:
 
 ![KSM Prüfungsteile](bilder/kap_00_ksm_pruefungsteile.png)
 
-*Bildquelle: BIBB Ausbildung gestalten - Kaufleute für IT-System-Management (2020): S. , [LINK](https://www.bibb.de/dienst/publikationen/de/download/16670)*
+*Bildquelle: BIBB Ausbildung gestalten - Kaufleute für IT-System-Management (2020): S. 74, [LINK](https://www.bibb.de/dienst/publikationen/de/download/16670)*
+
+Die Bewertung der AP1 erfolgt bei allen IT-Berufen mit 20% der IHK-Gesamtnote. Für die FISI sind die Prüfungsteile hier dargestellt:
+
+![FISI Prüfungsteile](bilder/00_FISI_pruefungsteile.png)
+
+*Bildquelle: BIBB Ausbildung gestalten - Fachinformatiker (2020): S. 100, [LINK](https://www.bibb.de/dienst/publikationen/de/download/16661)*
+
+Die Bewertung der AP1 erfolgt bei allen IT-Berufen mit 20% der IHK-Gesamtnote. Für die FIAE sind die Prüfungsteile hier dargestellt:
+
+![FIAE Prüfungsteile](bilder/00_FIAE_pruefungsteile.png)
+
+*Bildquelle: BIBB Ausbildung gestalten - Fachinformatiker (2020): S. 100, [LINK](https://www.bibb.de/dienst/publikationen/de/download/16661)*
+
+Die Bewertung der AP1 erfolgt bei allen IT-Berufen mit 20% der IHK-Gesamtnote. Für die FIDP sind die Prüfungsteile hier dargestellt:
+
+![FIDP Prüfungsteile](bilder/00_FIDP_pruefungsteile.png)
+
+*Bildquelle: BIBB Ausbildung gestalten - Fachinformatiker (2020): S. 101, [LINK](https://www.bibb.de/dienst/publikationen/de/download/16661)*
+
+Die Bewertung der AP1 erfolgt bei allen IT-Berufen mit 20% der IHK-Gesamtnote. Für die FIDV sind die Prüfungsteile hier dargestellt:
+
+![FIDV Prüfungsteile](bilder/00_FIDV_pruefungsteile.png)
+
+*Bildquelle: BIBB Ausbildung gestalten - Fachinformatiker (2020): S. 101, [LINK](https://www.bibb.de/dienst/publikationen/de/download/16661)*
 
 Die bisherigen Prüfungsergebnisse vergangener Prüfungen können unter folgendem Link in der Prüfungsstatistik der IHK abgerufen werden:
 
@@ -49,15 +73,18 @@ Die bisherigen Prüfungsergebnisse vergangener Prüfungen können unter folgende
 
 Dem Prüfungskatalog der IHK kann entnommen werden, welche Themen für die Prüfungsteile zugelassen sind. Der gesamten Prüfungskatalog ist über den u-Form-Verlag bestellbar.
 
-[u-Form-Verlag: Prüfungskatalog KDM](https://www.u-form-shop.de/abschlusspruefung/kaufmann-kauffrau-fuer-digitalisierungsmanagement/abschlusspruefung-teil-1/kaufleute-fuer-digitalisierungsmanagement-pruefungskatalog-fuer-die-ihk-abschlusspruefung-neuordnung)
-
-[u-Form-Verlag: Prüfungskatalog KSM](https://www.u-form-shop.de/abschlusspruefung/kaufmann-kauffrau-fuer-it-system-management/abschlusspruefung-teil-1/kaufmann-frau-fuer-it-system-management-pruefungskatalog-fuer-die-ihk-abschlusspruefung-neuordnung)
+- [u-Form-Verlag: Prüfungskatalog KDM](https://www.u-form-shop.de/abschlusspruefung/kaufmann-kauffrau-fuer-digitalisierungsmanagement/abschlusspruefung-teil-1/kaufleute-fuer-digitalisierungsmanagement-pruefungskatalog-fuer-die-ihk-abschlusspruefung-neuordnung)
+- [u-Form-Verlag: Prüfungskatalog KSM](https://www.u-form-shop.de/abschlusspruefung/kaufmann-kauffrau-fuer-it-system-management/abschlusspruefung-teil-1/kaufmann-frau-fuer-it-system-management-pruefungskatalog-fuer-die-ihk-abschlusspruefung-neuordnung)
+- [u-Form-Verlag: Prüfungskatalog FISI](https://www.u-form-shop.de/abschlusspruefung/fachinformatiker-fachinformatikerin/systemintegration/fachinformatiker-fachinformatikerin-systemintegration-pruefungskatalog-fuer-die-ihk-abschlusspruefung)
+- [u-Form-Verlag: Prüfungskatalog FIDV](https://www.u-form-shop.de/abschlusspruefung/fachinformatiker-fachinformatikerin/digitale-vernetzung/fachinformatiker-fachinformatikerin-digitale-vernetzung-pruefungskatalog-fuer-die-ihk-abschlusspruefung)
+- [u-Form-Verlag: Prüfungskatalog FIAE](https://www.u-form-shop.de/abschlusspruefung/fachinformatiker-fachinformatikerin/anwendungsentwicklung/fachinformatiker-fachinformatikerin-anwendungsentwicklung-pruefungskatalog-fuer-die-ihk-abschlusspruefung)
+- [u-Form-Verlag: Prüfungskatalog FIDP](https://www.u-form-shop.de/abschlusspruefung/fachinformatiker-fachinformatikerin/daten-und-prozessanalyse/fachinformatiker-fachinformatikerin-daten-und-prozessanalyse-pruefungskatalog-fuer-die-ihk-abschlusspruefung)
 
 [Auszug des Prüfungskatalogs als Mindmap](material/00_ihk_ap1_pruefungskatalog_auszug_mindmap.pdf)
 
 ## Themenübersichten vergangener Prüfungen
 
-### KIT AP1 - 2024 Frühjahr - Themenübersicht
+### AP1 - 2024 Frühjahr - Themenübersicht
 
 - Nutzwertanalyse
 - Monatliche Kosten von Hardware und Software berechnen
@@ -88,7 +115,7 @@ Dem Prüfungskatalog der IHK kann entnommen werden, welche Themen für die Prüf
 - Technisch organisatorische Maßnahmen zum Schutz vor Malware
 - Dateiübertragung berechnen
 
-### KIT AP1 - 2023 Herbst - Themenübersicht
+### AP1 - 2023 Herbst - Themenübersicht
 
 - UML Anwendungsfalldiagramm ergänzen
 - Störungsmeldungen via E-Mail
@@ -117,7 +144,7 @@ Dem Prüfungskatalog der IHK kann entnommen werden, welche Themen für die Prüf
 - Puffer bestimmen
 - SQL-Abfragen auf Basis eines ERM
 
-### KIT AP1 - 2023 Frühjahr - Themenübersicht
+### AP1 - 2023 Frühjahr - Themenübersicht
 
 - IT-Systeme Vor- und Nachteile
   - Notebook
@@ -153,7 +180,7 @@ Dem Prüfungskatalog der IHK kann entnommen werden, welche Themen für die Prüf
   - mit Polymorphie
 - SQL-Abfragen formulieren (auf Basis eines ERM)
 
-### KIT AP1 - 2022 Herbst - Themenübersicht
+### AP1 - 2022 Herbst - Themenübersicht
 
 - Marktformen (nach Anzahl der Marktteilnehmer)
 - Projektschritte
@@ -178,7 +205,7 @@ Dem Prüfungskatalog der IHK kann entnommen werden, welche Themen für die Prüf
 - Struktogramm vervollständigen
 - ERM vervollständigen
 
-### KIT AP1 - 2022 Frühjahr - Themenübersicht
+### AP1 - 2022 Frühjahr - Themenübersicht
 
 - Präsentationstechniken (mit PowerPoint o.ä.)
 - Begriffsdefinitionen
@@ -217,7 +244,7 @@ Dem Prüfungskatalog der IHK kann entnommen werden, welche Themen für die Prüf
 - Struktogramm
 - Berechnung der Übertragung von Daten
 
-### KIT AP1 - 2021 Herbst - Themenübersicht
+### AP1 - 2021 Herbst - Themenübersicht
 
 - Merkmale eines Projektes
 - SMART-Zielformulierungen
