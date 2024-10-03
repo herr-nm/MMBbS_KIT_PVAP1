@@ -1,0 +1,2013 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://herr-nm.github.io/MMBbS_KIT_PVAP1/loesungen/04_netzwerktechnik_loesungen.html">
+      
+      
+      
+      
+      <link rel="icon" href="../bilder/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
+    
+    
+      
+        <title>Netzwerktechnik - KIT Prüfungsvorbereitung AP1</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#netzwerktechnik" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../index.html" title="KIT Prüfungsvorbereitung AP1" class="md-header__button md-logo" aria-label="KIT Prüfungsvorbereitung AP1" data-md-component="logo">
+      
+  <img src="../bilder/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            KIT Prüfungsvorbereitung AP1
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Netzwerktechnik
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/herr-nm/MMBbS_KIT_PVAP1" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="KIT Prüfungsvorbereitung AP1" class="md-nav__button md-logo" aria-label="KIT Prüfungsvorbereitung AP1" data-md-component="logo">
+      
+  <img src="../bilder/logo.png" alt="logo">
+
+    </a>
+    KIT Prüfungsvorbereitung AP1
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/herr-nm/MMBbS_KIT_PVAP1" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Informationen zur Kurslizenz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../00_aufbau_und_inhalt.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aufbau und Inhalt der IHK-Prüfung (AP1)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_projektmanagement.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projektmanagement (div. LF)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_wirtschaftliche_grundlagen.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wirtschaftliche Grundlagen (LF1 & LF2)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03_it_grundlagen.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IT-Grundlagen (LF2)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04_netzwerktechnik.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Netzwerktechnik (LF3)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05_it_sicherheit.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IT-Sicherheit (LF4)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_anwendungsentwicklung.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anwendungsentwicklung (LF5)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07_pruefungstraining.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Prüfungstraining
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08_themeninputs.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Themeninputs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09_lernpartner_kursangebote_material.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lernpartner, Kursangebote & Material
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#grundkonzepte-von-netzwerken-beschreiben" class="md-nav__link">
+    <span class="md-ellipsis">
+      Grundkonzepte von Netzwerken beschreiben
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Grundkonzepte von Netzwerken beschreiben">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-grundkonzepte-von-netzwerken-beschreiben" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Grundkonzepte von Netzwerken beschreiben
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Grundkonzepte von Netzwerken beschreiben">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clients-einem-netzwerk-hinzufugen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clients einem Netzwerk hinzufügen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Clients einem Netzwerk hinzufügen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-clients-einem-netzwerk-hinzufugen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Clients einem Netzwerk hinzufügen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Clients einem Netzwerk hinzufügen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#osi-modell-nutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      OSI-Modell nutzen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="OSI-Modell nutzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wichtige-protokolle-zuordnen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wichtige Protokolle zuordnen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Wichtige Protokolle zuordnen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#netzwerkkomponenten-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Netzwerkkomponenten unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Netzwerkkomponenten unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-netzwerkkomponenten-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Netzwerkkomponenten unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Netzwerkkomponenten unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verkabelung-von-netzwerkkomponenten-dimensionieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verkabelung von Netzwerkkomponenten dimensionieren
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Verkabelung von Netzwerkkomponenten dimensionieren">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-verkabelung-von-netzwerkkomponenten-dimensionieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Verkabelung von Netzwerkkomponenten dimensionieren
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Verkabelung von Netzwerkkomponenten dimensionieren">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ipv4-netzwerke-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      IPv4-Netzwerke planen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="IPv4-Netzwerke planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-ipv4-netzwerke-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - IPv4-Netzwerke planen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - IPv4-Netzwerke planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 6
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 7
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 8
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ipv6-netzwerke-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      IPv6-Netzwerke planen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="IPv6-Netzwerke planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-ipv6-netzwerke-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - IPv6-Netzwerke planen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - IPv6-Netzwerke planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wlan-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      WLAN planen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="WLAN planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-wlan-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - WLAN planen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - WLAN planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-6_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 6
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="netzwerktechnik">Netzwerktechnik</h1>
+<h2 id="grundkonzepte-von-netzwerken-beschreiben">Grundkonzepte von Netzwerken beschreiben</h2>
+<h3 id="arbeitsauftrag-grundkonzepte-von-netzwerken-beschreiben">Arbeitsauftrag - Grundkonzepte von Netzwerken beschreiben</h3>
+<h4 id="aufgabe-1">Aufgabe 1</h4>
+<p>Ein Netzwerk ist eine Verbindung von zwei oder mehr Computern oder anderen Geräten, die miteinander kommunizieren können, um Ressourcen und Informationen auszutauschen. Netzwerke können auf verschiedene Arten organisiert sein, und sie ermöglichen die gemeinsame Nutzung von Daten, Hardware und Diensten.</p>
+<p><strong>Peer-to-Peer-Verbindung:</strong></p>
+<ul>
+<li>In einem Peer-to-Peer-Netzwerk sind alle Geräte gleichberechtigt (Peers) und können miteinander kommunizieren, ohne dass ein zentraler Server erforderlich ist.</li>
+<li>Jedes Gerät kann sowohl als Client (Anforderung von Ressourcen oder Diensten) als auch als Server (Bereitstellung von Ressourcen oder Diensten) fungieren.</li>
+<li>Typische Anwendungen von Peer-to-Peer-Netzwerken sind das gemeinsame Nutzen von Dateien zwischen Computern in einem kleinen Büro, die Dateien über das Internet teilen.</li>
+</ul>
+<p><strong>Client-Server-Verbindung:</strong></p>
+<ul>
+<li>In einem Client-Server-Netzwerk gibt es eine klare Unterscheidung zwischen Clients und Servern. Die Server stellen Ressourcen oder Dienste zur Verfügung, während die Clients diese Ressourcen anfordern.</li>
+<li>Server sind in der Regel leistungsstärkere und speziell dafür konfigurierte Geräte, die Anfragen von Clients bearbeiten und Daten oder Dienste bereitstellen.</li>
+<li>Beispiele für Client-Server-Anwendungen sind Webserver (die Webseiten an Browser-Clients senden), E-Mail-Server (die E-Mails an E-Mail-Clients senden) und Datenbankserver (die Daten abrufbar machen).</li>
+</ul>
+<h4 id="aufgabe-2">Aufgabe 2</h4>
+<ul>
+<li><strong>Ressourcenfreigabe:</strong> Computer-Netzwerke ermöglichen die gemeinsame Nutzung von Hardware-Ressourcen wie Druckern, Scannern, Speichergeräten und anderen Peripheriegeräten. Dies reduziert die Anschaffungskosten und verhindert die Redundanz von Ressourcen.</li>
+<li><strong>Datenfreigabe:</strong> Netzwerke ermöglichen die gemeinsame Nutzung und den Zugriff auf Dateien und Datenbanken, wodurch die Zusammenarbeit und der Datenaustausch in Unternehmen und zwischen Einzelpersonen vereinfacht werden.</li>
+<li><strong>Kommunikation:</strong> Computer-Netzwerke bieten effiziente Kommunikationsmittel. E-Mail, Instant Messaging, Videoanrufe und VoIP sind Beispiele für Kommunikationsanwendungen, die von Netzwerken unterstützt werden.</li>
+<li><strong>Zugriff auf das Internet:</strong> Netzwerke ermöglichen den Zugriff auf das World Wide Web und andere Online-Ressourcen. Dies ist für Recherche, E-Commerce, soziale Netzwerke und viele andere Aspekte des modernen Lebens von entscheidender Bedeutung.</li>
+<li><strong>Zentralisierte Verwaltung:</strong> Netzwerke erleichtern die zentrale Verwaltung und Aktualisierung von Software, Sicherheitseinstellungen und anderen Aspekten der IT-Infrastruktur in Unternehmen.</li>
+<li><strong>Sicherheit:</strong> Netzwerke ermöglichen die Implementierung von Sicherheitsmaßnahmen wie Firewalls, Verschlüsselung und Zugriffskontrollen, um Daten und Ressourcen zu schützen.</li>
+<li><strong>Skalierbarkeit:</strong> Unternehmen können ihre Netzwerke einfach erweitern, wenn sie wachsen, ohne die gesamte Infrastruktur neu erstellen zu müssen.</li>
+<li><strong>Redundanz und Ausfallsicherheit:</strong> Netzwerke können so konfiguriert werden, dass sie Redundanz und Ausfallsicherheit bieten, um sicherzustellen, dass wichtige Systeme auch im Falle eines Hardwarefehlers weiterhin verfügbar sind.</li>
+<li><strong>Remote-Zugriff:</strong> Mit Netzwerken können Benutzer von entfernten Standorten aus auf Ressourcen und Daten zugreifen, was die Flexibilität und die Möglichkeit zur Fernarbeit erhöht.</li>
+</ul>
+<h4 id="aufgabe-3">Aufgabe 3</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Abbildung</th>
+<th style="text-align: left;">Bezeichnung</th>
+<th style="text-align: left;">Beschreibung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="Router" src="../bilder/04_grundkonzepte_aufgabe_3_router.jpg" /></td>
+<td style="text-align: left;">Router</td>
+<td style="text-align: left;">Ein Router ist ein wesentliches Element in einem Netzwerk, da er den Datenverkehr zwischen verschiedenen Netzwerksegmenten, einschließlich lokaler Netzwerke (LANs) und dem Internet, steuert. Router bestimmen den besten Pfad für Datenpakete, um sie zu ihrem Ziel zu leiten. Die Hauptaufgabe ist das verbinden zweier Netzwerke miteinander.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="PatchPanel" src="../bilder/04_grundkonzepte_aufgabe_3_patchpanel.jpg" /></td>
+<td style="text-align: left;">Patch-Panel</td>
+<td style="text-align: left;">Ein Patchpanel ist eine rechteckige oder quadratische Platte mit vielen Anschlüssen oder Ports. Es wird in der Regel in Serverräumen, Rechenzentren oder Verkabelungsschränken montiert. Die Ports des Patchpanels sind in der Regel standardisierte RJ45-Buchsen für Ethernet-Kabelverbindungen. Jeder Port auf dem Patchpanel ist mit einem spezifischen Kabel in einem Netzwerk verbunden. Das Patchpanel erleichtert die physische Verbindung von Geräten und die Organisation von Netzwerkkabeln</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="Switch" src="../bilder/04_grundkonzepte_aufgabe_3_switch.jpg" /></td>
+<td style="text-align: left;">Switch</td>
+<td style="text-align: left;">Ein Switch ist ein Gerät, das in lokalen Netzwerken (LANs) verwendet wird, um Datenpakete zwischen Geräten in einem Netzwerk weiterzuleiten. Switches sind in der Regel schneller als Hubs und unterstützen eine effiziente Kommunikation zwischen Geräten.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="Hub" src="../bilder/04_grundkonzepte_aufgabe_3_hub.jpg" /></td>
+<td style="text-align: left;">Hub</td>
+<td style="text-align: left;">Ein Hub ist ein einfaches Gerät, das Datenpakete an alle angeschlossenen Geräte im Netzwerk sendet. Hubs werden heute selten eingesetzt, da sie weniger effizient sind als Switches.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="Access-Point" src="../bilder/04_grundkonzepte_aufgabe_3_accesspoint.jpg" /></td>
+<td style="text-align: left;">Access Point (AP)</td>
+<td style="text-align: left;">Ein Access Point ist ein Gerät, das drahtlose Netzwerke (WLANs) bereitstellt. Es ermöglicht drahtlosen Geräten, sich mit dem Netzwerk zu verbinden, um auf Ressourcen und das Internet zuzugreifen.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="Modem" src="../bilder/04_grundkonzepte_aufgabe_3_modem.png" /></td>
+<td style="text-align: left;">Modem</td>
+<td style="text-align: left;">Ein Modem (Modulator-Demodulator) ermöglicht die Verbindung eines Netzwerks mit dem Internet über verschiedene Übertragungsmedien wie DSL, Kabel oder Glasfaser. Es wandelt digitale Daten in analoge Signale um und umgekehrt.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="NIC" src="../bilder/04_grundkonzepte_aufgabe_3_nic.jpg" /></td>
+<td style="text-align: left;">Netzwerkkarten (Network Interface Cards, NICs)</td>
+<td style="text-align: left;">Netzwerkkarten sind Hardwarekomponenten, die in Computern und anderen Geräten eingebaut sind, um eine physische Verbindung zum Netzwerk herzustellen. Sie können drahtgebundene (Ethernet) oder drahtlose (WLAN) Verbindungen unterstützen.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="Firewall" src="../bilder/04_grundkonzepte_aufgabe_3_firewall.jpg" /></td>
+<td style="text-align: left;">(Hardware) Firewalls</td>
+<td style="text-align: left;">Firewalls sind Sicherheitsgeräte, die den Datenverkehr überwachen und filtern, um unerwünschten Zugriff und schädliche Aktivitäten zu verhindern. Sie schützen Netzwerke vor Bedrohungen aus dem Internet.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="Proxy" src="../bilder/04_grundkonzepte_aufgabe_3_proxy.jpg" /></td>
+<td style="text-align: left;">Proxy-Server</td>
+<td style="text-align: left;">Ein Proxy-Server fungiert als Vermittler zwischen internen Netzwerken und dem Internet. Er kann den Datenverkehr filtern, Zwischenspeicherung durchführen, Lastverteilungen durchführen und Sicherheitsfunktionen bereitstellen.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="Kabel" src="../bilder/04_grundkonzepte_aufgabe_3_kabel.jpg" /></td>
+<td style="text-align: left;">Kabel und Verkabelung</td>
+<td style="text-align: left;">Die Auswahl der richtigen Kabel und Verkabelung ist entscheidend, um die physische Verbindung zwischen Geräten und Netzwerkkomponenten sicherzustellen. Dies umfasst Ethernet-Kabel (Cat5e, Cat6, Cat7), Glasfaserkabel und koaxiale Kabel.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="sec" src="../bilder/04_grundkonzepte_aufgabe_3_ids.png" /></td>
+<td style="text-align: left;">Sicherheitsgeräte</td>
+<td style="text-align: left;">Neben Firewalls umfassen Sicherheitsgeräte wie Intrusion Detection Systems (IDS) und Intrusion Prevention Systems (IPS) Hardwarekomponenten, die Netzwerke vor Sicherheitsbedrohungen schützen.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="aufgabe-4">Aufgabe 4</h4>
+<ul>
+<li><strong>Preis:</strong> Welches Budget steht zur Verfügung.</li>
+<li><strong>Geschäftsanforderungen:</strong> Es ist entscheidend, die geschäftlichen Ziele und Anforderungen des Kunden zu verstehen. Welche Art von Diensten und Anwendungen sollen unterstützt werden? Welche Leistungsanforderungen gibt es?</li>
+<li><strong>Größe und Skalierbarkeit:</strong> Berücksichtigen Sie die Größe des Netzwerks und die mögliche zukünftige Expansion. Das Netzwerk muss skalierbar sein, um mit dem Wachstum des Unternehmens Schritt zu halten.</li>
+<li><strong>Budget und Ressourcen:</strong> Das Budget des Kunden und die verfügbaren Ressourcen sind wichtige Faktoren. Die Netzwerkplanung muss innerhalb des Budgets bleiben und die verfügbaren Ressourcen optimal nutzen.</li>
+<li><strong>Netzwerktopologie:</strong> Die Auswahl der richtigen Netzwerktopologie (z.B. Stern, Bus, Ring, Mesh) hängt von den Anforderungen des Kunden ab. Die Topologie beeinflusst die Skalierbarkeit, Redundanz und Leistung des Netzwerks.</li>
+<li><strong>Verkabelung und Infrastruktur:</strong> Die Auswahl der richtigen Art der Verkabelung (z. B. Kupfer- oder Glasfaserkabel) und die Gestaltung der Netzwerkinfrastruktur sind entscheidend für die Netzwerkzuverlässigkeit und -leistung.</li>
+<li><strong>Netzwerkprotokolle und -technologien:</strong> Die Auswahl der richtigen Netzwerkprotokolle und -technologien (z. B. Ethernet, WLAN, VPN) hängt von den spezifischen Anforderungen des Kunden ab.</li>
+<li><strong>Sicherheit:</strong> Die Sicherheit des Netzwerks ist von entscheidender Bedeutung. Berücksichtigen Sie die Sicherheitsanforderungen des Kunden, um das Netzwerk vor Bedrohungen zu schützen.</li>
+<li><strong>QoS (Quality of Service):</strong> Wenn das Netzwerk Sprach- oder Videokommunikation unterstützen soll, ist die Implementierung von QoS wichtig, um eine hohe Qualität und geringe Latenzzeiten sicherzustellen.</li>
+<li><strong>Redundanz und Ausfallsicherheit:</strong> Planen Sie Redundanzmechanismen, um sicherzustellen, dass das Netzwerk bei Ausfällen oder Störungen weiterhin funktioniert. Lastverteilung im Netzwerk sollte ebenfalls berücksichtigt werden.</li>
+<li><strong>Drahtlos oder kabelgebunden:</strong>
+Entscheiden Sie, ob das Netzwerk drahtlos oder kabelgebunden sein soll, und berücksichtigen Sie die Abdeckung und Leistung von WLAN in verschiedenen Bereichen.</li>
+<li><strong>Verwaltung und Wartung:</strong> Denken Sie an Netzwerkmanagementtools und -prozesse, um das Netzwerk effizient zu verwalten und Wartungsarbeiten durchzuführen.</li>
+<li><strong>Rechtsvorschriften und Compliance:</strong> Stellen Sie sicher, dass das Netzwerk den geltenden gesetzlichen Bestimmungen und Compliance-Anforderungen entspricht.</li>
+<li><strong>Benutzerzugriff und Berechtigungen:</strong> Planen Sie die Zugriffsrechte und Berechtigungen sorgfältig, um sicherzustellen, dass Benutzer nur auf die für sie relevanten Ressourcen zugreifen können.</li>
+</ul>
+<h2 id="clients-einem-netzwerk-hinzufugen">Clients einem Netzwerk hinzufügen</h2>
+<h3 id="arbeitsauftrag-clients-einem-netzwerk-hinzufugen">Arbeitsauftrag - Clients einem Netzwerk hinzufügen</h3>
+<h4 id="aufgabe-1_1">Aufgabe 1</h4>
+<ul>
+<li><strong>IP-Adresse:</strong> Der Netzwerk-Client benötigt eine eindeutige IP-Adresse, um im Netzwerk identifiziert zu werden. Diese Adresse kann statisch (manuell konfiguriert) oder dynamisch (durch DHCP) zugewiesen werden.</li>
+<li><strong>Subnetzmaske:</strong> Die Subnetzmaske wird verwendet, um festzulegen, welcher Bereich von IP-Adressen im Netzwerk lokal erreichbar ist. Sie bestimmt die Netzwerkteilung und die IP-Bereiche, die im selben Subnetz liegen.</li>
+<li><strong>Gateway-Adresse:</strong> Das Gateway ist die IP-Adresse des Routers, der den Netzwerkverkehr zwischen dem lokalen Netzwerk und anderen Netzwerken, wie dem Internet, vermittelt. Der Netzwerk-Client muss wissen, welche IP-Adresse als Gateway verwendet wird.</li>
+<li><strong>DNS-Server-Adresse:</strong> Der DNS-Server (Domain Name System) wird verwendet, um Domainnamen in IP-Adressen aufzulösen. Der Netzwerk-Client benötigt mindestens eine DNS-Server-Adresse, um Internetdienste und Ressourcen im Netzwerk anhand von Namen statt IP-Adressen zu erreichen.</li>
+</ul>
+<h4 id="aufgabe-2_1">Aufgabe 2</h4>
+<p>Ein DHCP-Server (Dynamic Host Configuration Protocol) übernimmt in einem Netzwerk verschiedene Aufgaben in Bezug auf die Zuweisung von IP-Adressen und anderen Netzwerkkonfigurationsinformationen an angeschlossene Clients.</p>
+<ul>
+<li><strong>IP-Adresszuweisung:</strong> Der DHCP-Server weist IP-Adressen an Netzwerkclients dynamisch zu. Dies bedeutet, dass er Clients bei Bedarf eine freie IP-Adresse aus einem vordefinierten Adresspool zuweist. Dies erleichtert die Verwaltung von IP-Adressen im Netzwerk, da keine manuelle Konfiguration erforderlich ist.</li>
+<li><strong>Subnetzmaskenzuweisung:</strong> Der DHCP-Server weist den Clients auch die passende Subnetzmaske zu, um festzulegen, welcher Bereich von IP-Adressen im lokalen Netzwerk erreichbar ist.</li>
+<li><strong>Gateway-Informationen:</strong> Der DHCP-Server teilt den Clients die IP-Adresse des Standardgateways mit, das für die Weiterleitung von Datenverkehr außerhalb des lokalen Netzwerks verwendet wird.</li>
+<li><strong>DNS-Server-Informationen:</strong> Der DHCP-Server gibt den Clients die IP-Adressen der DNS-Server im Netzwerk, die zur Auflösung von Domainnamen in IP-Adressen benötigt werden.</li>
+<li><strong>Weitere Konfigurationsoptionen:</strong> DHCP kann auch zusätzliche Informationen wie Zeitserver, NTP-Server, WINS-Server und spezielle DHCP-Optionen bereitstellen, die von den Clients verwendet werden können.</li>
+<li><strong>Leasemanagement:</strong> DHCP-Server weisen IP-Adressen auf Zeitbasis zu. Clients erhalten eine temporäre Leasetime für die zugewiesene IP-Adresse, und der DHCP-Server aktualisiert oder erneuert die Leases, wenn sie ablaufen. Dies ermöglicht die effiziente Nutzung von IP-Adressen, da nicht verwendete Adressen freigegeben werden.</li>
+<li><strong>Fehlerbehandlung:</strong> Der DHCP-Server kann Fehler behandeln, wie z.B. IP-Adresskonflikte, die auftreten können, wenn eine bereits verwendete IP-Adresse erneut zugewiesen wird.</li>
+</ul>
+<h4 id="aufgabe-3_1">Aufgabe 3</h4>
+<p><strong>Für Windows-Systeme:</strong></p>
+<ol>
+<li>Öffnen Sie die Eingabeaufforderung (CMD): Klicken Sie auf "Start", geben Sie "cmd" in das Suchfeld ein und drücken Sie "Enter". Dies öffnet das Eingabeaufforderungsfenster.</li>
+<li>Geben Sie den Befehl "ipconfig" ein und drücken Sie "Enter". Dieser Befehl zeigt Ihnen Informationen zur Netzwerkkonfiguration Ihres Windows-Systems, einschließlich Ihrer IP-Adresse, Subnetzmaske, Standardgateway und DNS-Server.</li>
+<li>Für weitere Details können Sie "ipconfig /all" eingeben. Dies zeigt erweiterte Informationen, einschließlich Ihrer MAC-Adresse und DHCP-Konfiguration.</li>
+<li>Wenn Sie Informationen zur Netzwerkkarte benötigen, können Sie den Befehl "netsh interface show interface" verwenden, um Details zur Netzwerkschnittstelle anzuzeigen.</li>
+</ol>
+<p><strong>Für Linux-Systeme:</strong></p>
+<ol>
+<li>Öffnen Sie das Terminal: Je nach Ihrem Linux-Desktop-Umgebung können Sie das Terminal über das Anwendungsmenü oder mit einer Tastenkombination öffnen.</li>
+<li>Geben Sie den Befehl "ifconfig" ein und drücken Sie "Enter". Dieser Befehl zeigt Informationen zur Netzwerkkonfiguration Ihres Linux-Systems, einschließlich Ihrer IP-Adresse, Subnetzmaske und MAC-Adresse.</li>
+<li>Für neuere Linux-Distributionen oder solche, die das "ip" -Befehlszeilenwerkzeug verwenden, können Sie "ip addr show" verwenden, um ähnliche Informationen anzuzeigen.</li>
+<li>Wenn Sie weitere Netzwerkinformationen benötigen, können Sie "route -n" verwenden, um Details zu Ihrer Routing-Tabelle anzuzeigen.</li>
+<li>Für erweiterte Informationen und Konfigurationen können Sie je nach Linux-Distribution das Network Manager-Tool oder das "nmcli" -Befehlszeilenwerkzeug verwenden.</li>
+</ol>
+<h4 id="aufgabe-4_1">Aufgabe 4</h4>
+<p>Um die Netzwerkverbindung zu einem anderen Client im Netzwerk zu testen, können Sie den "ping" -Befehl verwenden. Dieser Befehl wird verwendet, um festzustellen, ob ein Remote-Host (in diesem Fall der Ziel-Client mit der IP-Adresse 192.168.178.2) erreichbar ist.</p>
+<p><code>&gt; ping 192.168.178.2</code></p>
+<p>Wenn der Ziel-Client erreichbar ist und die Verbindung ordnungsgemäß funktioniert, erhalten Sie eine Antwort vom Ziel-Client in Form von ICMP-Echo-Antworten. Wenn Sie keine Antwort erhalten oder "Zeitüberschreitung" oder "Host nicht erreichbar" sehen, bedeutet dies, dass es ein Problem mit der Verbindung zum Ziel-Client gibt.</p>
+<h4 id="aufgabe-5">Aufgabe 5</h4>
+<p>Für private Netzwerke werden spezielle IP-Adressbereiche verwendet, die in den folgenden RFC-Dokumenten (Request for Comments) festgelegt sind, um Konflikte mit öffentlichen IP-Adressen im Internet zu vermeiden. Diese privaten IP-Adressbereiche sind für die Verwendung in privaten Netzwerken und lokalen Netzwerken reserviert:</p>
+<p><strong>IPv4-Adressbereiche für private Netze:</strong></p>
+<ul>
+<li><strong>10.0.0.0 bis 10.255.255.255 (10.0.0.0/8):</strong> Dieser Bereich umfasst 16.777.216 IP-Adressen und ist für größere private Netzwerke geeignet.</li>
+<li><strong>172.16.0.0 bis 172.31.255.255 (172.16.0.0/12):</strong> Dieser Bereich umfasst 1.048.576 IP-Adressen und wird häufig in mittelgroßen Netzwerken verwendet.</li>
+<li><strong>192.168.0.0 bis 192.168.255.255 (192.168.0.0/16):</strong> Dieser Bereich bietet 65.536 IP-Adressen und ist für kleinere Netzwerke oder Heimnetzwerke geeignet.</li>
+</ul>
+<p><strong>IPv6-Adressbereiche für private Netze:</strong></p>
+<ul>
+<li><strong>fc00::/7:</strong> Dieser Bereich ist für IPv6-Adressen in privaten Netzwerken reserviert. Innerhalb dieses Bereichs können private IPv6-Adressbereiche erstellt werden, um die Adressierung in lokalen Netzwerken zu ermöglichen.</li>
+</ul>
+<h2 id="osi-modell-nutzen">OSI-Modell nutzen</h2>
+<h4 id="aufgabe-1_2">Aufgabe 1</h4>
+<table>
+<thead>
+<tr>
+<th>Layer-Nr.</th>
+<th>Englischer Name</th>
+<th>Deutscher Name</th>
+<th>Aufgaben der Schicht</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td>Application</td>
+<td>Anwendung</td>
+<td>Bereitstellung von Netzwerkdiensten für Anwendungen</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Presentation</td>
+<td>Darstellung</td>
+<td>Datenübersetzung, Verschlüsselung und Kompression</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Session</td>
+<td>Sitzung</td>
+<td>Aufrechterhaltung und Beendigung von Kommunikationssitzungen</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Transport</td>
+<td>Transport</td>
+<td>Zuverlässiger Datenaustausch und Flusskontrolle</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Network</td>
+<td>Netzwerk</td>
+<td>Routing, Logische Adressierung, Paketweiterleitung</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Data Link</td>
+<td>Sicherung</td>
+<td>Zuverlässige Datenübertragung im lokalen Netzwerk</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Physical</td>
+<td>Bitübertragungsschicht</td>
+<td>Physikalische Verbindung und Bitübertragung</td>
+</tr>
+</tbody>
+</table>
+<h4 id="aufgabe-2_2">Aufgabe 2</h4>
+<ul>
+<li><strong>Standardisierung:</strong></li>
+<li><em>Ziel:</em> Eine gemeinsame Basis für die Entwicklung von Netzwerktechnologien schaffen.</li>
+<li><em>Erläuterung:</em> Das OSI-Referenzmodell bietet einen Rahmen für die Standardisierung von Netzwerkprotokollen und -technologien. Dies ermöglicht die Interoperabilität verschiedener Systeme und Geräte, die auf der ganzen Welt entwickelt werden.</li>
+<li><strong>Klare Strukturierung:</strong></li>
+<li><em>Ziel:</em> Die Komplexität von Netzwerken in überschaubare Schichten unterteilen.</li>
+<li><em>Erläuterung:</em> Das Modell organisiert Netzwerkfunktionalitäten in sieben klar definierte Schichten. Dies erleichtert das Verständnis, die Entwicklung und den Betrieb von Netzwerklösungen, indem komplexe Aufgaben in leichter handhabbare Teile zerlegt werden.</li>
+<li><strong>Fehlerisolierung und -behebung:</strong></li>
+<li><em>Ziel:</em> Die Lokalisierung von Fehlern in Netzwerken vereinfachen.</li>
+<li><em>Erläuterung:</em> Durch die klare Schichtstruktur des OSI-Modells kann bei Netzwerkproblemen leichter identifiziert werden, in welcher Schicht der Fehler auftritt. Dies erleichtert die Fehlerdiagnose und -behebung.</li>
+<li><strong>Förderung von Interoperabilität:</strong></li>
+<li><em>Ziel:</em> Die Kommunikation zwischen unterschiedlichen Systemen und Technologien ermöglichen.</li>
+<li><em>Erläuterung:</em> Das OSI-Modell fördert die Interoperabilität, da es als Referenzrahmen dient, dem verschiedene Hersteller bei der Entwicklung ihrer Netzwerkprodukte folgen können. Dadurch wird die nahtlose Integration von Produkten unterschiedlicher Hersteller erleichtert.</li>
+</ul>
+<h4 id="aufgabe-3_2">Aufgabe 3</h4>
+<ol>
+<li><strong>Bitübertragungsschicht (Physical Layer):</strong></li>
+<li><em>Aufgaben:</em> Übertragung von Bitfolgen über physikalische Medien (Kabel, Funkwellen).</li>
+<li><em>Genutzte Pakete:</em> Bits.</li>
+<li><em>Mögliche Fehler:</em> Signalverlust, Rauschen, Physische Kabelprobleme.</li>
+<li><strong>Sicherungsschicht (Data Link Layer):</strong></li>
+<li><em>Aufgaben:</em> Zuverlässige Übertragung von Frames zwischen direkt benachbarten Knoten. Adressierung, Fehlererkennung und -korrektur.</li>
+<li><em>Genutzte Pakete:</em> Frames.</li>
+<li><em>Mögliche Fehler:</em> Kollisionen, verlorene Frames, Duplikate.</li>
+<li><strong>Netzwerkschicht (Network Layer):</strong></li>
+<li><em>Aufgaben:</em> Logische Adressierung, Routing von Paketen zwischen verschiedenen Netzwerken, Paketweiterleitung.</li>
+<li><em>Genutzte Pakete:</em> Pakete.</li>
+<li><em>Mögliche Fehler:</em> Fehlerrate bei der Weiterleitung, Routing-Probleme.</li>
+<li><strong>Transportschicht (Transport Layer):</strong></li>
+<li><em>Aufgaben:</em> Segmentierung von Daten in kleinere Einheiten, Flusskontrolle, Zuverlässige Übertragung von Daten zwischen Endsystemen.</li>
+<li><em>Genutzte Pakete:</em> Segmente.</li>
+<li><em>Mögliche Fehler:</em> Datenverlust, Überlastung, fehlerhafte Reihenfolge der Segmente.</li>
+<li><strong>Sitzungsschicht (Session Layer):</strong></li>
+<li><em>Aufgaben:</em> Aufrechterhaltung und Beendigung von Sitzungen, Synchronisation von Datenübertragung.</li>
+<li><em>Genutzte Pakete:</em> Keine eigenen Pakete, verwendet die Dienste der darunterliegenden Schichten.</li>
+<li><em>Mögliche Fehler:</em> Sitzungsabbruch, Probleme bei der Synchronisation.</li>
+<li><strong>Darstellungsschicht (Presentation Layer):</strong></li>
+<li><em>Aufgaben:</em> Datenübersetzung, Verschlüsselung, Kompression, Umwandlung von Datenformaten.</li>
+<li><em>Genutzte Pakete:</em> Keine eigenen Pakete, verwendet die Dienste der darunterliegenden Schichten.</li>
+<li><em>Mögliche Fehler:</em> Probleme bei der Datenübersetzung, Dekodierung oder Verschlüsselung.</li>
+<li><strong>Anwendungsschicht (Application Layer):</strong></li>
+<li><em>Aufgaben:</em> Bereitstellung von Netzwerkdiensten für Anwendungen, Nutzerinteraktion.</li>
+<li><em>Genutzte Pakete:</em> Nutzerdaten.</li>
+<li><em>Mögliche Fehler:</em> Anwendungsfehler, unerwartetes Verhalten von Anwendungen.</li>
+</ol>
+<h2 id="wichtige-protokolle-zuordnen">Wichtige Protokolle zuordnen</h2>
+<h4 id="aufgabe-1_3">Aufgabe 1</h4>
+<table>
+<thead>
+<tr>
+<th>Protokoll</th>
+<th>OSI-Schicht</th>
+<th>Ausgeschriebener Name</th>
+<th>Beschreibung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DNS</td>
+<td>Anwendung</td>
+<td>Domain Name System</td>
+<td>Übersetzt Hostnamen in IP-Adressen und umgekehrt.</td>
+</tr>
+<tr>
+<td>SMB</td>
+<td>Sicherung</td>
+<td>Server Message Block</td>
+<td>Protokoll für die Datei- und Druckerfreigabe in Netzwerken.</td>
+</tr>
+<tr>
+<td>NFS</td>
+<td>Anwendung</td>
+<td>Network File System</td>
+<td>Ermöglicht den Zugriff auf Dateien über ein Netzwerk.</td>
+</tr>
+<tr>
+<td>SMTP/S</td>
+<td>Anwendung</td>
+<td>Simple Mail Transfer Protocol/Secure</td>
+<td>Überträgt E-Mails zwischen Servern.</td>
+</tr>
+<tr>
+<td>HTTP/S</td>
+<td>Anwendung</td>
+<td>Hypertext Transfer Protocol/Secure</td>
+<td>Überträgt Webseiteninhalte über das Internet.</td>
+</tr>
+<tr>
+<td>IPSEC</td>
+<td>Sicherung</td>
+<td>IP Security</td>
+<td>Bietet Sicherheit für die Kommunikation auf Netzwerkschicht.</td>
+</tr>
+<tr>
+<td>IP</td>
+<td>Netzwerk</td>
+<td>Internet Protocol</td>
+<td>Ermöglicht die Übertragung von Datenpaketen im Netzwerk.</td>
+</tr>
+<tr>
+<td>TCP</td>
+<td>Transport</td>
+<td>Transmission Control Protocol</td>
+<td>Gewährleistet zuverlässige, geordnete Datenübertragung.</td>
+</tr>
+<tr>
+<td>UDP</td>
+<td>Transport</td>
+<td>User Datagram Protocol</td>
+<td>Überträgt Daten ohne Bestätigung oder Verbindungsaufbau.</td>
+</tr>
+<tr>
+<td>SSH</td>
+<td>Anwendung</td>
+<td>Secure Shell</td>
+<td>Sichert die Kommunikation über unsichere Netzwerke.</td>
+</tr>
+<tr>
+<td>DHCP</td>
+<td>Anwendung</td>
+<td>Dynamic Host Configuration Protocol</td>
+<td>Automatisiert die Vergabe von Netzwerkkonfigurationen.</td>
+</tr>
+<tr>
+<td>ARP</td>
+<td>Sicherung</td>
+<td>Address Resolution Protocol</td>
+<td>Ermittelt die Hardwareadresse zu einer IP-Adresse im lokalen Netzwerk.</td>
+</tr>
+<tr>
+<td>TLS</td>
+<td>Sicherung</td>
+<td>Transport Layer Security</td>
+<td>Gewährleistet sichere Datenübertragung über das Internet.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="aufgabe-2_3">Aufgabe 2</h4>
+<p><strong>Allgemein</strong></p>
+<ul>
+<li><strong>Benutzername und Passwort:</strong></li>
+<li><em>Benutzername:</em> Die E-Mail-Adresse des Kontos, z.B. "benutzername@example.com".</li>
+<li><em>Passwort:</em> Das Passwort, das mit dem E-Mail-Konto verknüpft ist.</li>
+<li><strong>E-Mail-Protokoll und Serverinformationen:</strong></li>
+<li><em>E-Mail-Protokoll:</em> IMAP (Internet Message Access Protocol) oder POP3 (Post Office Protocol).</li>
+<li><em>Eingangsserver (IMAP/POP3):</em> z.B. "imap.example.com" oder "pop.example.com".</li>
+<li><em>Ausgangsserver (SMTP):</em> z.B. "smtp.example.com".</li>
+<li><strong>Verschlüsselungsmethoden:</strong></li>
+<li><em>SSL/TLS:</em> Informationen darüber, ob SSL (Secure Sockets Layer) oder TLS (Transport Layer Security) für die Verschlüsselung verwendet werden sollen. Dies betrifft sowohl den Eingangs- als auch den Ausgangsserver.</li>
+<li><strong>Portnummern:</strong></li>
+<li>IMAP-Port: Normalerweise 143 (unverschlüsselt) oder 993 (verschlüsselt).</li>
+<li>POP3-Port: Normalerweise 110 (unverschlüsselt) oder 995 (verschlüsselt).</li>
+<li>SMTP-Port: Normalerweise 25 (unverschlüsselt), 587 (verschlüsselt), oder 465 (verschlüsselt).</li>
+<li><strong>Authentifizierungsmethode:</strong></li>
+<li>Informationen darüber, ob die Authentifizierung über Passwort, OAuth (Open Authorization) oder ein anderes Verfahren erfolgt.</li>
+<li><strong>Domaininformationen (falls zutreffend):</strong></li>
+<li>Manchmal erfordern bestimmte E-Mail-Anbieter die Eingabe der Domäne, z.B. "example.com".</li>
+</ul>
+<p><strong>E-Mail-Konfiguration für die MMBbS:</strong></p>
+<ul>
+<li>Empfangsserver (IMAP): mail.mm-bbs.de</li>
+<li>Server-Port (IMAP): 143</li>
+<li>Sendeserver (SMTP): mail.mm-bbs.de</li>
+<li>Server-Port (SMTP): 25</li>
+<li>Benutzername: Ihre E-Mail Adresse (@mm-bbs.de)</li>
+<li>Passwort: Ihr Portal (WLAN) Passwort</li>
+<li>Verschlüsselung: STARTTLS</li>
+</ul>
+<h4 id="aufgabe-3_3">Aufgabe 3</h4>
+<p><strong>HTTP (Hypertext Transfer Protocol):</strong></p>
+<ul>
+<li>
+<p><strong>Nicht sicher:</strong> HTTP ist ein unverschlüsseltes Protokoll, was bedeutet, dass die Daten, die zwischen dem Webserver und dem Browser übertragen werden, in Klartext lesbar sind.</p>
+</li>
+<li>
+<p><strong>Port:</strong> HTTP verwendet normalerweise Port 80 für die Kommunikation.</p>
+</li>
+<li>
+<p><strong>Keine Authentifizierung:</strong> HTTP bietet keine integrierte Möglichkeit zur Authentifizierung von Servern oder Clients.</p>
+</li>
+</ul>
+<p><strong>HTTPS (Hypertext Transfer Protocol Secure):</strong></p>
+<ul>
+<li>
+<p><strong>Sicher:</strong> HTTPS ist die sichere Version von HTTP. Hierbei werden die Daten zwischen dem Webserver und dem Browser verschlüsselt, was die Vertraulichkeit und Integrität der übertragenen Daten gewährleistet.</p>
+</li>
+<li>
+<p><strong>Verschlüsselung:</strong> HTTPS verwendet SSL (Secure Sockets Layer) oder das modernere TLS (Transport Layer Security) zur Verschlüsselung der Datenübertragung.</p>
+</li>
+<li>
+<p><strong>Port:</strong> HTTPS verwendet normalerweise Port 443 für die Kommunikation.</p>
+</li>
+<li>
+<p><strong>Authentifizierung:</strong> HTTPS ermöglicht die Authentifizierung des Servers durch digitale Zertifikate. Dadurch kann der Browser sicherstellen, dass er mit dem tatsächlichen Server und nicht mit einem potenziell bösartigen Server verbunden ist.</p>
+</li>
+</ul>
+<p><strong>SSL (Secure Sockets Layer) Verschlüsselung:</strong></p>
+<p>Die SSL-Verschlüsselung, die jetzt oft durch das sicherere TLS-Protokoll ersetzt wurde, funktioniert folgendermaßen:</p>
+<ol>
+<li>
+<p><strong>Handshake:</strong> Der SSL/TLS-Handshake ist der Prozess, bei dem der Server und der Client sich auf die Verschlüsselungsmethoden einigen und die erforderlichen Schlüssel austauschen. Dies beinhaltet auch die Überprüfung der Integrität der erhaltenen Zertifikate.</p>
+</li>
+<li>
+<p><strong>Verschlüsselung:</strong> Nach dem Handshake wird eine sichere Verbindung hergestellt, und die Datenübertragung zwischen Server und Client erfolgt verschlüsselt. Dies bedeutet, dass selbst wenn ein Angreifer die übertragenen Daten abfängt, er sie nicht ohne den richtigen Schlüssel entschlüsseln kann.</p>
+</li>
+<li>
+<p><strong>Entschlüsselung beim Empfänger:</strong> Der Empfänger (Server oder Client) entschlüsselt die empfangenen Daten mit dem entsprechenden Schlüssel, um sie im Klartext zu erhalten.</p>
+</li>
+</ol>
+<p>SSL/TLS bietet somit eine sichere Kommunikation über unsichere Netzwerke wie das Internet, indem es die Vertraulichkeit, Integrität und Authentizität der übertragenen Daten gewährleistet.</p>
+<h4 id="aufgabe-4_2">Aufgabe 4</h4>
+<p>HTTPS-Inspection, auch als HTTPS Interception oder SSL/TLS Inspection bekannt, bezieht sich auf einen Prozess, bei dem der Inhalt von verschlüsselten HTTPS-Verbindungen von einem Sicherheitsgerät (z.B., Firewalls, Proxy-Server, Content-Filter) entschlüsselt, inspiziert und anschließend wieder verschlüsselt wird, bevor er an den ursprünglichen Empfänger gesendet wird. Dieser Vorgang wird oft in Unternehmensnetzwerken und Sicherheitsinfrastrukturen eingesetzt, um die Sicherheit und Kontrolle über den Datenverkehr zu erhöhen.</p>
+<p>Hier sind die grundlegenden Schritte des HTTPS-Inspection-Prozesses:</p>
+<ol>
+<li><strong>Entschlüsselung des HTTPS-Verkehrs:</strong></li>
+<li>
+<p>Das Sicherheitsgerät, das HTTPS-Inspection durchführt, fungiert als sogenannter "Man-in-the-Middle". Es empfängt die verschlüsselten Daten, entschlüsselt sie und kann somit den Klartextinhalt einsehen.</p>
+</li>
+<li>
+<p><strong>Inspektion des Datenverkehrs:</strong></p>
+</li>
+<li>
+<p>Der entschlüsselte Datenverkehr wird vom Sicherheitsgerät inspiziert. Dies kann verschiedene Sicherheitsmaßnahmen umfassen, wie das Überprüfen auf schädliche Inhalte, Filtern unerwünschter Websites, Implementierung von Sicherheitsrichtlinien oder Überwachung der Aktivitäten im Netzwerk.</p>
+</li>
+<li>
+<p><strong>Wieder-Verschlüsselung und Weiterleitung:</strong></p>
+</li>
+<li>Nachdem der Datenverkehr inspiziert wurde, wird er vom Sicherheitsgerät wieder verschlüsselt, um die ursprüngliche Verschlüsselung beizubehalten. Anschließend wird der Datenverkehr an das ursprüngliche Ziel (z.B., Webserver) weitergeleitet.</li>
+</ol>
+<p>Die Gründe für die Implementierung von HTTPS-Inspection können sein:</p>
+<ul>
+<li>
+<p><strong>Sicherheitskontrolle:</strong> Die Möglichkeit, verschlüsselten Datenverkehr zu inspizieren, ermöglicht es Sicherheitslösungen, bösartige Aktivitäten zu erkennen, schädliche Inhalte zu blockieren und Sicherheitsrichtlinien durchzusetzen.</p>
+</li>
+<li>
+<p><strong>Compliance:</strong> In einigen Branchen und Organisationen sind Sicherheitsüberprüfungen und Kontrollen erforderlich, um bestimmten Compliance-Anforderungen zu entsprechen.</p>
+</li>
+</ul>
+<p><strong>Soziale und sicherheitsbezogene Gesichtspunkte</strong></p>
+<p>HTTPS-Inspection hat auch kontroverse Aspekte, insbesondere im Hinblick auf die Privatsphäre. Da es eine Entschlüsselung des Datenverkehrs erfordert, kann dies zu Bedenken hinsichtlich der Vertraulichkeit und des Datenschutzes führen. Daher sollte der Einsatz von HTTPS-Inspection sorgfältig abgewogen und transparent kommuniziert werden, um die Erwartungen der Benutzer in Bezug auf Privatsphäre zu berücksichtigen.</p>
+<p>Die Entschlüsselung und Inspektion des HTTPS-Verkehrs durch HTTPS-Inspection-Punkte kann potenziell von Angreifern ausgenutzt werden, wenn nicht angemessen implementiert und geschützt. Eine der bekannteren Methoden stellen die Man-in-the-Middle-Angriffe (MitM) dar. Ein Angreifer könnte versuchen, die Rolle des "Man-in-the-Middle" zu übernehmen, indem er die Entschlüsselungspunkte im HTTPS-Inspection-System ausnutzt. Dies könnte durch falsche Zertifikate oder Schwächen in der Implementierung erreicht werden.</p>
+<h2 id="netzwerkkomponenten-unterscheiden">Netzwerkkomponenten unterscheiden</h2>
+<h3 id="arbeitsauftrag-netzwerkkomponenten-unterscheiden">Arbeitsauftrag - Netzwerkkomponenten unterscheiden</h3>
+<h4 id="aufgabe-1_4">Aufgabe 1</h4>
+<p><strong>Kopplungselemente vom Internet bis zum Client:</strong></p>
+<ul>
+<li>Anschlussdose des Internetproviders, je nach Anschlussart</li>
+<li>Übergabepunkt für die Glasfaserverbindung</li>
+<li>ein Glasfaser-Modem (von Glasfaser zu Kupferkabel) vor allem bei Fiber-To-The-Home (FTTH)</li>
+<li>Router</li>
+<li>Patchkabel zur Firewall</li>
+<li>Patchkabel zum Router</li>
+<li>Patchkabel zum Patchpanel</li>
+<li>Drahtlos</li>
+<li>Verlegekabel vom Patchpanel zur Netzwerkdose</li>
+<li>Patchkabel von der Netwerkdose zum Access-Point</li>
+<li>WLAN-Strecke vom Access-Point zum Client</li>
+<li>Kabelgebunden</li>
+<li>Verlegekabel vom Patchpanel zur Netzwerkdose</li>
+<li>Patchkabel von der Netwerkdose zum Client</li>
+</ul>
+<h4 id="aufgabe-2_4">Aufgabe 2</h4>
+<p>Ein Router ist ein Netzwerkgerät, das Datenpakete zwischen verschiedenen Computernetzwerken weiterleitet. Seine Hauptaufgabe besteht darin, den Datenverkehr effizient und sicher zwischen verschiedenen Netzwerken zu steuern. Dies geschieht durch die Weiterleitung von Datenpaketen zwischen verschiedenen IP-Adressen.</p>
+<p><strong>Beispiel:</strong></p>
+<p>Angenommen, Sie haben ein Heimnetzwerk mit mehreren Geräten, wie Computern, Smartphones und Druckern. Jedes Gerät in Ihrem Netzwerk hat eine eindeutige IP-Adresse, damit es identifiziert werden kann.</p>
+<ul>
+<li>Ihr Computer hat die IP-Adresse 192.168.1.2.</li>
+<li>Ihr Smartphone hat die IP-Adresse 192.168.1.3.</li>
+<li>Ihr Drucker hat die IP-Adresse 192.168.1.4.</li>
+</ul>
+<p>Ihr Heimnetzwerk ist über einen Breitband-Internetdienstanbieter mit dem Internet verbunden. Hier erhält der Router als Gateway eine zweite IP-Adresse, die öffentliche IP z.B. 81.100.100.100. Der Router in Ihrem Netzwerk hat zwei Hauptaufgaben:</p>
+<p><strong>Weiterleitung von Daten innerhalb des lokalen Netzwerks:</strong></p>
+<p>Wenn Sie beispielsweise Dateien von Ihrem Computer (192.168.1.2) zu Ihrem Drucker (192.168.1.4) senden möchten, leitet der im Heim-Router enthaltene Switch oder je nach Setup ein separater Switch die Datenpakete innerhalb des lokalen Netzwerks weiter, ohne dass diese das Netzwerk verlassen.</p>
+<p><strong>Weiterleitung von Daten zwischen lokalem Netzwerk und dem Internet:</strong></p>
+<p>Wenn Sie jedoch eine Webseite aufrufen, sendet Ihr Computer (192.168.1.2) eine Anfrage an den Router 192.168.1.1. Der Router leitet dann diese Anfrage an den Internetdienstanbieter über die IP 81.100.100.100 weiter und gibt die Antwort vom Internet an Ihren Computer (192.168.1.2) zurück.</p>
+<h4 id="aufgabe-3_4">Aufgabe 3</h4>
+<p>Die Größe eines Server-Racks wird in der Regel in Höheneinheiten (HE oder "U") gemessen. Eine Höheneinheit entspricht 1,75 Zoll oder etwa 4,45 cm. Die Höheneinheiten werden verwendet, um die vertikale Höhe des Racks zu messen und die Höhe von Geräten und Ausrüstungen anzugeben, die in das Rack montiert werden sollen.</p>
+<p>Die Breite von Server-Racks wird normalerweise in Zoll gemessen. Standardbreiten sind 19 Zoll (ca. 482,6 mm) für Ausrüstung, die in IT-Umgebungen verwendet wird. Es gibt jedoch auch schmalere Racks, zum Beispiel 10 Zoll, die in einigen speziellen Anwendungen in kleineren Umgebungen vorkommen können.</p>
+<p>Zusätzlich zur Höhe und Breite können auch die Tiefe eines Racks und andere spezifische Abmessungen wichtig sein, je nach den Anforderungen der in das Rack montierten Geräte (bspw. Medizin-Sektor, wissenschaftliche Instrumente, ...).</p>
+<h4 id="aufgabe-4_3">Aufgabe 4</h4>
+<p><strong>Unmanaged Switch:</strong></p>
+<p><em>Vorteile:</em>
+1. <strong>Einfachheit:</strong> Unmanaged Switches sind einfach zu bedienen und erfordern in der Regel keine Konfiguration. Sie können direkt aus der Box heraus verwendet werden.
+2. <strong>Kosten:</strong> Unmanaged Switches sind oft kostengünstiger als ihre verwaltbaren Gegenstücke. Dies kann für kleine Unternehmen mit begrenzten Budgets attraktiv sein.</p>
+<p><em>Nachteile:</em>
+1. <strong>Begrenzte Kontrolle:</strong> Unmanaged Switches bieten wenig bis keine Kontrolle über den Datenverkehr im Netzwerk. Es fehlen Funktionen wie Quality of Service (QoS) oder VLAN-Unterstützung.
+2. <strong>Geringere Flexibilität:</strong> Da keine Konfiguration möglich ist, sind unmanaged Switches in Bezug auf die Anpassungsfähigkeit an spezifische Netzwerkanforderungen begrenzt.</p>
+<p><strong>Managed Switch:</strong></p>
+<p><em>Vorteile:</em>
+1. <strong>Netzwerksteuerung:</strong> Managed Switches bieten erweiterte Funktionen zur Steuerung des Datenverkehrs, wie z. B. VLANs, Quality of Service (QoS) und Bandbreitenmanagement.
+2. <strong>Fernzugriff und Überwachung:</strong> Administratoren können den Switch aus der Ferne überwachen, konfigurieren und verwalten. Das ermöglicht eine effiziente Netzwerkverwaltung, besonders wenn das Unternehmen mehrere Standorte hat.
+3. <strong>Sicherheit:</strong> Einige Managed Switches bieten Funktionen wie Port-Sicherheit und Zugangskontrolle, die die Netzwerksicherheit verbessern können.</p>
+<p><em>Nachteile:</em>
+1. <strong>Komplexität:</strong> Die Konfiguration und Verwaltung von Managed Switches erfordern technisches Know-how. Kleine Unternehmen ohne dedizierten IT-Personal könnten Schwierigkeiten haben, diese Geräte optimal zu nutzen.
+2. <strong>Kosten:</strong> Managed Switches sind in der Regel teurer als unmanaged Switches, sowohl in der Anschaffung als auch in der Wartung.</p>
+<p><strong>Fazit:</strong>
+Die Entscheidung zwischen einem managed und unmanaged Switch hängt von den spezifischen Anforderungen und Ressourcen des Unternehmens ab. Für kleine Unternehmen mit einfachen Netzwerkanforderungen und begrenztem Budget kann ein unmanaged Switch ausreichend sein. Wenn jedoch erweiterte Netzwerkkontrolle, Sicherheit und Skalierbarkeit erforderlich sind, ist ein managed Switch die bessere Wahl, auch wenn dies mit höheren Kosten und einer gewissen Komplexität verbunden ist.</p>
+<h2 id="verkabelung-von-netzwerkkomponenten-dimensionieren">Verkabelung von Netzwerkkomponenten dimensionieren</h2>
+<h3 id="arbeitsauftrag-verkabelung-von-netzwerkkomponenten-dimensionieren">Arbeitsauftrag - Verkabelung von Netzwerkkomponenten dimensionieren</h3>
+<h4 id="aufgabe-1_5">Aufgabe 1</h4>
+<p>Die strukturierte Verkabelung ist ein standardisierter Ansatz für die Gestaltung und Installation von Verkabelungssystemen in Gebäuden, um eine effiziente, flexible und zukunftssichere Netzwerkinfrastruktur zu gewährleisten.</p>
+<p><strong>Primärer Bereich:</strong></p>
+<ul>
+<li>Der primäre Bereich ist die zentrale Verkabelungsbasis, die sich im Hauptverteilerraum (Hauptverteiler oder Main Distribution Area, MDA) befindet.</li>
+<li>Hier laufen alle Backbone-Verbindungen aus verschiedenen Bereichen des Gebäudes zusammen. Diese Verbindungen können Glasfaser- oder Kupferkabel sein und dienen der Hochgeschwindigkeitskommunikation zwischen den Hauptverteilerräumen und anderen wichtigen Punkten im Gebäude oder Campus.</li>
+<li>Der primäre Bereich ist strategisch platziert, um eine optimale Konnektivität zu gewährleisten und eine einfache Erweiterung oder Aktualisierung des Netzwerks zu ermöglichen.</li>
+</ul>
+<p><strong>Sekundärer Bereich:</strong></p>
+<ul>
+<li>Der sekundäre Bereich wird auch als Horizontalverkabelung bezeichnet und erstreckt sich von den Verteilerräumen (Distribution Areas) zu den Endgeräten in einem bestimmten Bereich oder Stockwerk des Gebäudes.</li>
+<li>Hier werden die Verbindungen zu den einzelnen Arbeitsplatzdosen, Telefonen, Access Points und anderen Endgeräten hergestellt.</li>
+<li>Die sekundäre Verkabelung besteht typischerweise aus horizontalen Kabeln, die von Verteilerräumen zu den Anschlussdosen in den Büros oder Arbeitsbereichen verlaufen.</li>
+</ul>
+<p><strong>Tertiärer Bereich:</strong></p>
+<ul>
+<li>Der tertiäre Bereich ist der letzte Abschnitt der strukturierten Verkabelung und umfasst die Verkabelung, die direkt mit den Endgeräten verbunden ist.</li>
+<li>Hierzu gehören Patchkabel, die von den Anschlussdosen zu den Endgeräten wie Computern, Druckern und IP-Telefonen führen.</li>
+<li>Der tertiäre Bereich ist flexibel und ermöglicht einfache Änderungen oder Aktualisierungen auf Benutzerebene ohne Beeinträchtigung der primären oder sekundären Verkabelung.</li>
+</ul>
+<h4 id="aufgabe-2_5">Aufgabe 2</h4>
+<p><strong>Twisted-Pair-Kabel (Verdrillte Paare):</strong></p>
+<ul>
+<li><strong>Unshielded Twisted Pair (UTP):</strong> UTP-Kabel sind die am häufigsten verwendeten Kabel für Ethernet-Verbindungen. Sie enthalten mehrere verdrillte Drahtpaare und sind in verschiedenen Kategorien (z.B. Cat5e, Cat6, Cat6a, Cat7) erhältlich, wobei jede Kategorie verschiedene Übertragungsgeschwindigkeiten unterstützt.</li>
+<li><strong>Shielded Twisted Pair (STP):</strong> Im Gegensatz zu UTP-Kabeln haben STP-Kabel eine zusätzliche Schirmung, die dazu dient, elektromagnetische Interferenzen (EMI) zu reduzieren. Sie bieten eine verbesserte Abschirmung gegen Störungen und sind in Umgebungen mit potenziell hoher elektromagnetischer Störung, wie z.B. industriellen Anwendungen, nützlich.</li>
+</ul>
+<p><strong>Koaxialkabel:</strong></p>
+<p>Koaxialkabel werden weniger häufig in modernen Netzwerkinfrastrukturen eingesetzt, sind jedoch für bestimmte Anwendungen wie Sat- oder Kabelfernsehen und ältere Netzwerktechnologien relevant. Sie haben einen zentralen Draht, der von einer isolierenden Schicht und einem leitenden Schirm umgeben ist.</p>
+<p><strong>Glasfaserkabel:</strong>
+   - <strong>Single-Mode-Faseroptikkabel (SMF):</strong> Single-Mode-Glasfaserkabel werden für große Entfernungen und hohe Bandbreiten eingesetzt. Sie ermöglichen die Übertragung von Daten über eine einzige Lichtwelle und werden oft in Unternehmensnetzwerken und Telekommunikationsinfrastrukturen verwendet.
+   - <strong>Multimode-Faseroptikkabel (MMF):</strong> Multimode-Glasfaserkabel sind für kürzere Strecken konzipiert und unterstützen mehrere Lichtmoden. Sie werden häufig in Rechenzentren und Campus-Netzwerken eingesetzt.</p>
+<p><strong>Kabel nach Art der Verlegung:</strong>
+   - <strong>Verlegekabel:</strong> Kabel oft als Meterware zum Verlegen von einem Patchfeld zu einer Anschlussdose oder einem weiteren Patchfeld. Die Verlegekabel haben in einer Ader i.d.R. keine einzelnen Litzen, sondern massive Kupfer-Leitungen, die daher auch das Auflegen auf Dose oder Patchfeld vereinfachen.
+   - <strong>Patchkabel:</strong> Kurze, flexible Kabel, die für die direkte Verbindung von Endgeräten zu Anschlussdosen oder Switch-Ports verwendet werden. Sie sind oft mit RJ-45-Steckern für Ethernet-Verbindungen ausgestattet.</p>
+<h4 id="aufgabe-3_5">Aufgabe 3</h4>
+<p>Hier ist eine tabellarische Gegenüberstellung von Kupferkabeln (UTP) und Lichtwellenleitern (Glasfaser) in Bezug auf einige wichtige Eigenschaften:</p>
+<table>
+<thead>
+<tr>
+<th>Eigenschaft</th>
+<th>Kupferkabel (UTP)</th>
+<th>Lichtwellenleiter (Glasfaser)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Übertragungsmedium</strong></td>
+<td>Elektrische Signale (Elektronenfluss)</td>
+<td>Lichtsignale (Photonen)</td>
+</tr>
+<tr>
+<td><strong>Elektromagnetische Störungen</strong></td>
+<td>Anfällig für elektromagnetische Interferenzen (EMI)</td>
+<td>Immun gegenüber elektromagnetischen Störungen</td>
+</tr>
+<tr>
+<td><strong>Distanzen</strong></td>
+<td>Begrenzte Distanzen (abhängig von der Kategorie)</td>
+<td>Große Distanzen ohne signifikante Signalverluste</td>
+</tr>
+<tr>
+<td><strong>Bandbreite</strong></td>
+<td>Begrenzte Bandbreite im Vergleich zu Glasfaser</td>
+<td>Hohe Bandbreite, unterstützt hohe Übertragungsraten</td>
+</tr>
+<tr>
+<td><strong>Sicherheit</strong></td>
+<td>Anfälliger für Abhören und Abgreifen von Signalen</td>
+<td>Schwieriger abzuhören, da Licht nicht leicht abzufangen ist</td>
+</tr>
+<tr>
+<td><strong>Biegsamkeit</strong></td>
+<td>verhältnismäßig gut biegsam</td>
+<td>Kurven-Radien müssen eingehalten werden, da sonst der LWL bricht</td>
+</tr>
+<tr>
+<td><strong>Installation</strong></td>
+<td>Einfach zu installieren und zu handhaben</td>
+<td>Erfordert spezielle Kenntnisse, aufwändigere Installation</td>
+</tr>
+<tr>
+<td><strong>Kosten</strong></td>
+<td>In der Regel kostengünstiger als Glasfaser</td>
+<td>In der Regel teurer als Kupfer, aber Preise sinken</td>
+</tr>
+<tr>
+<td><strong>Anwendungen</strong></td>
+<td>Kurze bis mittlere Distanzen, typischerweise in Gebäuden</td>
+<td>Lange Distanzen, High-Performance-Netzwerke, Rechenzentren</td>
+</tr>
+</tbody>
+</table>
+<h4 id="aufgabe-4_4">Aufgabe 4</h4>
+<ul>
+<li><strong>Bedarfsanalyse:</strong> Identifizieren Sie die spezifischen Anforderungen des Netzwerks, einschließlich der benötigten Bandbreite, der Anzahl der Benutzer, der zukünftigen Erweiterungsmöglichkeiten und der Art der übertragenen Daten.</li>
+<li><strong>Standortwahl für Verteilerräume:</strong> Wählen Sie strategisch günstige Standorte für Verteilerräume (Hauptverteilerraum, Verteilerräume auf den Etagen), um eine effiziente Verbindung zwischen den verschiedenen Bereichen des Gebäudes sicherzustellen.</li>
+<li><strong>Kabeltyp und Kategorien:</strong> Wählen Sie den geeigneten Kabeltyp (z.B., UTP, STP, Glasfaser) basierend auf den Netzwerkanforderungen und Umgebungsbedingungen. Verwenden Sie die richtige Kategorie von Twisted-Pair-Kabeln (z.B., Cat5e, Cat6, Cat6a, Cat7) in Abhängigkeit von der benötigten Bandbreite und den zukünftigen Anforderungen.</li>
+<li><strong>Lichtwellenleiter für spezielle Anwendungen:</strong> Wenn hohe Bandbreiten oder große Distanzen erforderlich sind, erwägen Sie den Einsatz von Glasfaserkabeln (Single-Mode oder Multimode).</li>
+<li><strong>Sicherheitsüberlegungen:</strong> Implementieren Sie Sicherheitsmaßnahmen wie Zugangskontrollen zu Verteilerräumen, um unbefugten Zugriff zu verhindern. Schützen Sie Kabel vor äußeren Einflüssen, die die Signalintegrität beeinträchtigen können.</li>
+<li><strong>Leistungsreserven:</strong> Planen Sie Kapazitätsreserven ein, um zukünftige Netzwerkanforderungen und Technologieupgrades zu berücksichtigen.</li>
+<li><strong>Dokumentation:</strong> Führen Sie eine detaillierte Dokumentation der Netzwerkverkabelung, einschließlich Kabeltypen, Längen, Anschlüsse und Verbindungen.</li>
+<li><strong>Qualitätsprüfung:</strong> Führen Sie umfassende Tests und Qualitätsprüfungen durch, um sicherzustellen, dass die Verkabelung den spezifizierten Anforderungen entspricht.</li>
+</ul>
+<h2 id="ipv4-netzwerke-planen">IPv4-Netzwerke planen</h2>
+<h3 id="arbeitsauftrag-ipv4-netzwerke-planen">Arbeitsauftrag - IPv4-Netzwerke planen</h3>
+<h4 id="aufgabe-1_6">Aufgabe 1</h4>
+<p>In IPv4 wurden historisch gesehen drei Netzklassen definiert: A, B und C. Jede Klasse hat einen festgelegten Bereich von IP-Adressen. Hier sind die Informationen tabellarisch aufgeführt:</p>
+<table>
+<thead>
+<tr>
+<th>Netzklassen</th>
+<th>Bereich der ersten Oktett</th>
+<th>Standard Subnetzmaske</th>
+<th>Anzahl der Netzwerke</th>
+<th>Anzahl der Hosts pro Netzwerk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Klasse A</td>
+<td>1-126</td>
+<td>255.0.0.0 (8 Bit)</td>
+<td>128</td>
+<td>~16 Millionen</td>
+</tr>
+<tr>
+<td>Klasse B</td>
+<td>128-191</td>
+<td>255.255.0.0 (16 Bit)</td>
+<td>16.384</td>
+<td>65.534</td>
+</tr>
+<tr>
+<td>Klasse C</td>
+<td>192-223</td>
+<td>255.255.255.0 (24 Bit)</td>
+<td>2.097.152</td>
+<td>254</td>
+</tr>
+</tbody>
+</table>
+<h4 id="aufgabe-2_6">Aufgabe 2</h4>
+<p>Für private Netze wurden die folgenden IPv4-Bereiche definiert:</p>
+<ul>
+<li>Klasse A: 10.0.0.0 bis 10.255.255.255</li>
+<li>Klasse B: 172.16.0.0 bis 172.31.255.255</li>
+<li>Klasse C: 192.168.0.0 bis 192.168.255.255</li>
+</ul>
+<h4 id="aufgabe-3_6">Aufgabe 3</h4>
+<p>Das Netz 192.168.178.0 mit einer Subnetzmaske von 255.255.255.0 kann in CIDR-Schreibweise als "192.168.178.0/24" dargestellt werden. Die CIDR-Schreibweise kombiniert die IP-Adresse und die Anzahl der gesetzten Bits (Anzahl der 1 in der binären Schreibweise der Subnetzmaske) für das Netzwerkpräfix.</p>
+<p>Im Allgemeinen funktioniert die CIDR-Schreibweise so, dass die IP-Adresse und die Anzahl der gesetzten Bits für das Netzwerkpräfix durch einen Schrägstrich getrennt werden. Zum Beispiel repräsentiert "/24" eine Subnetzmaske mit den ersten 24 Bits, was der üblichen Subnetzmaske 255.255.255.0 entspricht.</p>
+<h4 id="aufgabe-4_5">Aufgabe 4</h4>
+<p>Subnetting ist ein Konzept in Computernetzwerken, bei dem ein großes IP-Netzwerk in kleinere, logische Subnetze aufgeteilt wird. Dies ermöglicht eine effizientere Nutzung von IP-Adressen und verbessert die Netzwerkleistung und Sicherheit. Durch Subnetting können Organisationen ihre IP-Adressen besser organisieren und den Datenverkehr innerhalb ihres Netzwerks effektiver steuern.</p>
+<p>Bei Subnetting wird die Subnetzmaske eines Netzwerks verfeinert, indem Bits aus dem Host-Teil der Adresse in den Netzwerk-Teil verschoben werden. Dies führt zu kleineren, logischen Subnetzen mit jeweils einer begrenzten Anzahl von Hosts. Subnetting ist besonders nützlich in großen Netzwerken, in denen die Aufteilung in Subnetze die Verwaltung und den Datenverkehr optimiert.</p>
+<h4 id="aufgabe-5_1">Aufgabe 5</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Geräte/<br>Angaben</th>
+<th style="text-align: left;">NAS-System</th>
+<th style="text-align: left;">Desktop PC Client 1</th>
+<th style="text-align: left;">Netzwerk-Drucker</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">IP-Adresse</td>
+<td style="text-align: left;">192.168.1.98-110</td>
+<td style="text-align: left;">192.168.1.98-110</td>
+<td style="text-align: left;">192.168.1.98-110</td>
+</tr>
+<tr>
+<td style="text-align: left;">Subnetzmaske</td>
+<td style="text-align: left;">255.255.255.240</td>
+<td style="text-align: left;">255.255.255.240</td>
+<td style="text-align: left;">255.255.255.240</td>
+</tr>
+<tr>
+<td style="text-align: left;">Standardgateway</td>
+<td style="text-align: left;">192.168.1.97</td>
+<td style="text-align: left;">192.168.1.97</td>
+<td style="text-align: left;">192.168.1.97</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>IP-Adresse vom NAS-System und Client 1 und dem Netzwerkdrucker dürfen nicht gleich sein.</li>
+<li>IP-Adressbereich 192.168.1.98 bis 192.168.1.110</li>
+<li>Subnetzmaske /28 oder 255.255.255.240</li>
+</ul>
+<h4 id="aufgabe-6">Aufgabe 6</h4>
+<ul>
+<li>Klasse A ist bis 127.0.0.0 definiert, 15.0.0.0 passt damit in Klasse A</li>
+<li>Subnetzmaske muss zu Klasse A gehören, Standard-Subnetmaske 255.0.0.0</li>
+<li>Anzahl der benötigten Subnetze: 10. Anzahl Bit, die hierfür notwendig sind betragen 2^4 = 16 Bit (bei 2^3 wären es lediglich 8, also 2 zu wenig).</li>
+<li>Umrechnung des Teils der Subnetzmaske von BIN zu DEZ: 11110000 -&gt; 240</li>
+<li>Zusammensetzen der Standard-Subnetzmaske und der Anpassung nach Subnetzbildung: 255.240.0.0 bzw. bei klassenlosem Routing (CIDR) 255.255.255.240.</li>
+</ul>
+<p>Lösung: 255.240.0.0</p>
+<h4 id="aufgabe-7">Aufgabe 7</h4>
+<ul>
+<li>Netzadresse steht für ein Klasse C Netzwerk, Standard-Subnetzmaske 255.255.255.0</li>
+<li>Anzahl der benötigten Subnetze: 6. Anzahl Bit, die hierfür notwendig sind betragen 2^3 = 8 Bit (bei 2^2 wären es lediglich 4, also 2 zu wenig).</li>
+<li>Umrechnung des Teils der Subnetzmaske von BIN zu DEZ: 1110000 -&gt; 224</li>
+<li>Zusammensetzen der Standard-Subnetzmaske und der Anpassung nach Subnetzbildung: 255.255.255.224</li>
+</ul>
+<h4 id="aufgabe-8">Aufgabe 8</h4>
+<ul>
+<li>192.168.10.0: Netzadresse darf/sollte nicht vergeben werden</li>
+<li>192.168.10.200: Kann für den Server genutzt werden, ist gültig</li>
+<li>127.0.0.1: Loop-Back-IP für Loop-Back und Diagnosefunktion reserviert</li>
+</ul>
+<h2 id="ipv6-netzwerke-planen">IPv6-Netzwerke planen</h2>
+<h3 id="arbeitsauftrag-ipv6-netzwerke-planen">Arbeitsauftrag - IPv6-Netzwerke planen</h3>
+<h4 id="aufgabe-1_7">Aufgabe 1</h4>
+<ul>
+<li><strong>Adresslänge:</strong></li>
+<li>IPv4 verwendet 32-Bit-Adressen, was zu einer begrenzten Anzahl von etwa 4,3 Milliarden eindeutigen Adressen führt.</li>
+<li>IPv6 verwendet 128-Bit-Adressen, was eine nahezu unbegrenzte Anzahl von Adressen ermöglicht. Die Anzahl der IPv6-Adressen ist so groß, dass sie praktisch unerschöpflich ist.</li>
+<li><strong>Schreibweise:</strong></li>
+<li>IPv4-Adressen werden in vier Oktetten mit dezimalen Zahlen dargestellt, getrennt durch Punkte. Zum Beispiel: <code>192.168.0.1</code>.</li>
+<li>IPv6-Adressen werden in acht Gruppen von je vier Hexadezimalziffern dargestellt, getrennt durch Doppelpunkte. Zum Beispiel: <code>2001:0db8:85a3:0000:0000:8a2e:0370:7334</code>.</li>
+<li><strong>Notation und Kürzung:</strong></li>
+<li>IPv6-Adressen erlauben die Kürzung von aufeinanderfolgenden Nullblöcken und die Verwendung der Doppelpunktnotation für eine kompaktere Darstellung. Dies ermöglicht eine leichtere Lesbarkeit und Handhabung.</li>
+<li><strong>Adressarten:</strong></li>
+<li>IPv4-Adressen können in öffentliche (im Internet routbare) und private (für den internen Gebrauch in lokalen Netzwerken reservierte) Adressen unterteilt werden.</li>
+<li>IPv6-Adressen haben verschiedene Typen, darunter Unicast (für die Einzel-zu-Einzel-Kommunikation), Multicast (für die Ein-zu-Viele-Kommunikation) und Anycast (für die Kommunikation mit einem beliebigen Knoten einer Gruppe).</li>
+<li><strong>Automatische Konfiguration:</strong></li>
+<li>IPv6 unterstützt die automatische Konfiguration durch Stateless Address Autoconfiguration (SLAAC), was es Geräten ermöglicht, Adressen ohne die Notwendigkeit eines zentralen DHCP-Servers zu erhalten.</li>
+<li>In IPv4 ist dies durch DHCP (Dynamic Host Configuration Protocol) üblicherweise umgesetzt.</li>
+</ul>
+<h4 id="aufgabe-2_7">Aufgabe 2</h4>
+<p>2001:db8::42:0:8a2e:370:7334</p>
+<h4 id="aufgabe-3_7">Aufgabe 3</h4>
+<p>Link-Local-Adressen sind auf das lokale Netzwerksegment (auch als Link oder Subnetz bezeichnet) beschränkt, in dem das IPv6-Gerät aktiv ist. Sie sind nicht routenfähig und können daher nur für die Kommunikation auf dem lokalen Netzwerk verwendet werden.</p>
+<p>Link-Local-Adressen können automatisch von den Geräten auf einem Netzwerksegment generiert werden, ohne dass dazu ein zentraler DHCP-Server erforderlich ist. Dies wird durch das Stateless Address Autoconfiguration (SLAAC) ermöglicht.</p>
+<p>Bspw.: <strong>fe80</strong>::abcd:1234:5678:9abc</p>
+<h4 id="aufgabe-4_6">Aufgabe 4</h4>
+<p>Nehmen Sie die IPv6-Adresse 2001:0db8:abcd:0023::/64 und erstellen Sie vier Subnetze. Geben Sie die Subnetz-IDs und Range für jedes Subnetz an.</p>
+<ul>
+<li>Subnetz 1: 2001:db8:abcd:23::/66</li>
+<li>Expanded IPv6: 2001:0db8:abcd:0023:0000:0000:0000:0000/66</li>
+<li>First Address: 2001:0db8:abcd:0023:0000:0000:0000:0000</li>
+<li>Last Address: 2001:0db8:abcd:0023:3fff:ffff:ffff:ffff</li>
+<li>Subnetz 2: 2001:db8:abcd:23:4000::/66</li>
+<li>Expanded IPv6: 2001:0db8:abcd:0023:4000:0000:0000:0000/66</li>
+<li>First Address: 2001:0db8:abcd:0023:4000:0000:0000:0000</li>
+<li>Last Address: 2001:0db8:abcd:0023:7fff:ffff:ffff:ffff</li>
+<li>Subnetz 3: 2001:db8:abcd:23:8000::/66</li>
+<li>Expanded IPv6: 2001:0db8:abcd:0023:8000:0000:0000:0000/66</li>
+<li>First Address: 2001:0db8:abcd:0023:8000:0000:0000:0000</li>
+<li>Last Address: 2001:0db8:abcd:0023:bfff:ffff:ffff:ffff</li>
+<li>Subnetz 4: 2001:db8:abcd:23:c000::/66</li>
+<li>Expanded IPv6: 2001:0db8:abcd:0023:c000:0000:0000:0000/66</li>
+<li>First Address: 2001:0db8:abcd:0023:c000:0000:0000:0000</li>
+<li>Last Address: 2001:0db8:abcd:0023:ffff:ffff:ffff:ffff</li>
+</ul>
+<h4 id="aufgabe-5_2">Aufgabe 5</h4>
+<p>Die "Loopback-Adresse" in IPv6 hat den gleichen Zweck wie in IPv4. Sie dient dazu, dass ein Netzwerkgerät mit sich selbst kommunizieren kann, ohne den gesamten Netzwerkstack und die Netzwerkschnittstelle zu belasten. In IPv6 wird die Loopback-Adresse durch <code>::1</code> repräsentiert.</p>
+<p>Die Loopback-Adresse <code>::1</code> ist die IPv6-Äquivalente zur IPv4-Loopback-Adresse <code>127.0.0.1</code>. Wenn ein Gerät versucht, mit der Loopback-Adresse zu kommunizieren (zum Beispiel durch Pingen von <code>::1</code>), wird der Datenverkehr nicht über das physische Netzwerk übertragen. Stattdessen bleibt er innerhalb des lokalen Geräts und wird auf der Loopback-Schnittstelle verarbeitet.</p>
+<p>Zweck der Loopback-Schnittstelle:</p>
+<ul>
+<li><strong>Lokale Netzwerktests:</strong> Entwickler können die Loopback-Adresse verwenden, um Netzwerkanwendungen lokal zu testen, ohne eine tatsächliche Netzwerkverbindung herstellen zu müssen.</li>
+<li><strong>Selbsttests von Netzwerkschnittstellen:</strong> Netzwerkschnittstellen und -protokolle können auf ihre Funktionstüchtigkeit überprüft werden, indem Datenverkehr zur Loopback-Adresse gesendet wird.</li>
+<li><strong>Interne Kommunikation zwischen Prozessen auf demselben Gerät:</strong> Anwendungen können die Loopback-Adresse nutzen, um intern miteinander zu kommunizieren, insbesondere wenn mehrere Prozesse auf demselben Gerät laufen.</li>
+</ul>
+<h2 id="wlan-planen">WLAN planen</h2>
+<h3 id="arbeitsauftrag-wlan-planen">Arbeitsauftrag - WLAN planen</h3>
+<h4 id="aufgabe-1_8">Aufgabe 1</h4>
+<table>
+<thead>
+<tr>
+<th>IEEE-Standard</th>
+<th>Maximale Übertragungsrate</th>
+<th>Frequenz-Band</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>802.11b</td>
+<td>11 Mbps</td>
+<td>2.4 GHz</td>
+</tr>
+<tr>
+<td>802.11a</td>
+<td>54 Mbps</td>
+<td>5 GHz</td>
+</tr>
+<tr>
+<td>802.11g</td>
+<td>54 Mbps</td>
+<td>2.4 GHz</td>
+</tr>
+<tr>
+<td>802.11n</td>
+<td>Bis zu 600 Mbps</td>
+<td>2.4 GHz / 5 GHz</td>
+</tr>
+<tr>
+<td>802.11ac</td>
+<td>Bis zu 3.5 Gbps</td>
+<td>5 GHz</td>
+</tr>
+<tr>
+<td>802.11ax</td>
+<td>Bis zu 9.6 Gbps</td>
+<td>2.4 GHz / 5 GHz</td>
+</tr>
+</tbody>
+</table>
+<h4 id="aufgabe-2_8">Aufgabe 2</h4>
+<ul>
+<li><strong>Drahtlose Verbindung:</strong> WLAN ermöglicht die drahtlose Verbindung von Geräten, was Kabelsalat vermeidet und die Flexibilität erhöht.</li>
+<li><strong>Einfache Einrichtung:</strong> WLAN-Netzwerke lassen sich einfach einrichten und erweitern, ohne physische Kabel verlegen zu müssen.</li>
+<li><strong>Mobilität:</strong> Nutzer können sich innerhalb der Reichweite des WLAN-Netzwerks frei bewegen, ohne die Verbindung zu verlieren.</li>
+<li><strong>Breite Verfügbarkeit:</strong> WLAN ist weit verbreitet und in vielen öffentlichen Orten, Unternehmen und Privathaushalten verfügbar.</li>
+</ul>
+<h4 id="aufgabe-3_8">Aufgabe 3</h4>
+<ul>
+<li><strong>Begrenzte Reichweite:</strong> WLAN hat eine begrenzte Reichweite im Vergleich zu kabelgebundenen Netzwerken.</li>
+<li><strong>Störanfälligkeit:</strong> Drahtlose Signale können durch Interferenzen, Wände und andere Hindernisse gestört werden.</li>
+<li><strong>Sicherheitsrisiken:</strong> WLAN-Netzwerke können anfällig für Sicherheitsrisiken wie unautorisierten Zugriff sein, wenn sie nicht ordnungsgemäß geschützt sind.</li>
+<li><strong>Geschwindigkeitsverlust:</strong> Die tatsächliche Übertragungsgeschwindigkeit kann aufgrund von Störungen und Entfernungen von Access Points variieren.</li>
+</ul>
+<h4 id="aufgabe-4_7">Aufgabe 4</h4>
+<p>SSID steht für "Service Set Identifier" und ist der Name, der einem drahtlosen Netzwerk zugeordnet ist. Er dient dazu, Netzwerke voneinander zu unterscheiden. Beim Verbinden mit einem WLAN wird die SSID verwendet, um das gewünschte Netzwerk auszuwählen.</p>
+<h4 id="aufgabe-5_3">Aufgabe 5</h4>
+<ul>
+<li><strong>WEP (Wired Equivalent Privacy):</strong> Eine veraltete und unsichere Methode, die leicht geknackt werden kann.</li>
+<li><strong>WPA (Wi-Fi Protected Access):</strong> Eine verbesserte Version von WEP, aber dennoch anfällig für Angriffe.</li>
+<li><strong>WPA2:</strong> Eine weiterentwickelte Version von WPA mit stärkeren Sicherheitsmechanismen.</li>
+<li><strong>WPA3:</strong> Der aktuellste Standard mit verbesserter Verschlüsselung und Sicherheit gegen Brute-Force-Angriffe.</li>
+</ul>
+<h4 id="aufgabe-6_1">Aufgabe 6</h4>
+<ul>
+<li><strong>Repeater:</strong> Ein Repeater empfängt das WLAN-Signal, verstärkt es und sendet es erneut aus, um die Reichweite des WLAN-Netzwerks zu vergrößern. Er fungiert als Verstärker, um das Signal über größere Entfernungen zu tragen.</li>
+<li><strong>Access Point:</strong> Ein Access Point (AP) ist ein Gerät, das in ein kabelgebundenes Netzwerk integriert ist und drahtlose Verbindungen zu WLAN-Geräten ermöglicht. Im Gegensatz zum Repeater erstellt ein Access Point ein neues WLAN-Netzwerk und ermöglicht es Geräten, sich direkt mit diesem Netzwerk zu verbinden.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

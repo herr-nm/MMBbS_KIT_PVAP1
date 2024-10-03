@@ -1,0 +1,1912 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://herr-nm.github.io/MMBbS_KIT_PVAP1/loesungen/05_it_sicherheit_loesungen.html">
+      
+      
+      
+      
+      <link rel="icon" href="../bilder/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
+    
+    
+      
+        <title>IT-Sicherheit - KIT Prüfungsvorbereitung AP1</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#it-sicherheit" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../index.html" title="KIT Prüfungsvorbereitung AP1" class="md-header__button md-logo" aria-label="KIT Prüfungsvorbereitung AP1" data-md-component="logo">
+      
+  <img src="../bilder/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            KIT Prüfungsvorbereitung AP1
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              IT-Sicherheit
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/herr-nm/MMBbS_KIT_PVAP1" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="KIT Prüfungsvorbereitung AP1" class="md-nav__button md-logo" aria-label="KIT Prüfungsvorbereitung AP1" data-md-component="logo">
+      
+  <img src="../bilder/logo.png" alt="logo">
+
+    </a>
+    KIT Prüfungsvorbereitung AP1
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/herr-nm/MMBbS_KIT_PVAP1" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Informationen zur Kurslizenz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../00_aufbau_und_inhalt.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aufbau und Inhalt der IHK-Prüfung (AP1)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_projektmanagement.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projektmanagement (div. LF)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_wirtschaftliche_grundlagen.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wirtschaftliche Grundlagen (LF1 & LF2)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03_it_grundlagen.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IT-Grundlagen (LF2)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04_netzwerktechnik.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Netzwerktechnik (LF3)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05_it_sicherheit.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IT-Sicherheit (LF4)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_anwendungsentwicklung.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anwendungsentwicklung (LF5)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07_pruefungstraining.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Prüfungstraining
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08_themeninputs.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Themeninputs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09_lernpartner_kursangebote_material.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lernpartner, Kursangebote & Material
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#grundlagen-der-informationssicherheit-anwenden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Grundlagen der Informationssicherheit anwenden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Grundlagen der Informationssicherheit anwenden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-dimensionen-der-informationssicherheit-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Dimensionen der Informationssicherheit unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Dimensionen der Informationssicherheit unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-angriffsszenarien-einordnen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Angriffsszenarien einordnen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Angriffsszenarien einordnen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-grundlagen-der-computersicherheit-einhalten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Grundlagen der Computersicherheit einhalten
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Grundlagen der Computersicherheit einhalten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-technisch-organisatorische-manahmen-anwenden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Technisch-organisatorische Maßnahmen anwenden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Technisch-organisatorische Maßnahmen anwenden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#it-grundschutz-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      IT-Grundschutz planen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="IT-Grundschutz planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-it-grundschutz-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - IT-Grundschutz planen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - IT-Grundschutz planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dsgvo-konform-handeln" class="md-nav__link">
+    <span class="md-ellipsis">
+      DSGVO-konform handeln
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DSGVO-konform handeln">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-dsgvo-konform-handeln" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - DSGVO-konform handeln
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - DSGVO-konform handeln">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 6
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abwehr-von-angriffen-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abwehr von Angriffen planen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Abwehr von Angriffen planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-abwehr-von-angriffen-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Abwehr von Angriffen planen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Abwehr von Angriffen planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-6_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 6
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 7
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verfugbarkeit-sicherstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verfügbarkeit sicherstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Verfügbarkeit sicherstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-unterbrechungsfreie-stromversorgung-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Unterbrechungsfreie Stromversorgung planen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Unterbrechungsfreie Stromversorgung planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-backupverfahren-anwenden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Backupverfahren anwenden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Backupverfahren anwenden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-6_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 6
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-7_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 7
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integritat-gewahrleisten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrität gewährleisten
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Integrität gewährleisten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-integritat-von-daten-kontrollieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Integrität von Daten kontrollieren
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Integrität von Daten kontrollieren">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vertraulichkeit-herstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vertraulichkeit herstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vertraulichkeit herstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-verschlusselung-von-daten-durchfuhren" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Verschlüsselung von Daten durchführen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Verschlüsselung von Daten durchführen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-6_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 6
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-benutzer-und-rollen-systematisch-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Benutzer und Rollen systematisch planen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Benutzer und Rollen systematisch planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="it-sicherheit">IT-Sicherheit</h1>
+<h2 id="grundlagen-der-informationssicherheit-anwenden">Grundlagen der Informationssicherheit anwenden</h2>
+<h3 id="arbeitsauftrag-dimensionen-der-informationssicherheit-unterscheiden">Arbeitsauftrag - Dimensionen der Informationssicherheit unterscheiden</h3>
+<h4 id="aufgabe-1">Aufgabe 1</h4>
+<p>Das Schutzziel "Vertraulichkeit" bedeutet, dass Informationen vor unbefugtem Zugriff oder Offenlegung geschützt werden sollen. Ziel ist es sicherzustellen, dass nur autorisierte Personen oder Systeme auf sensible Daten zugreifen können.</p>
+<p>Beispiel: Ein Unternehmen speichert Kundeninformationen, einschließlich persönlicher Daten und finanzieller Informationen. Um die Vertraulichkeit zu gewährleisten, sollten nur autorisierte Mitarbeiter mit entsprechenden Zugriffsrechten auf diese sensiblen Daten zugreifen können, um Datenschutz und Privatsphäre zu gewährleisten.</p>
+<h4 id="aufgabe-2">Aufgabe 2</h4>
+<p>Das Schutzziel "Integrität" zielt darauf ab, sicherzustellen, dass Informationen unverändert und korrekt bleiben. Es geht darum, Manipulationen oder unautorisierte Änderungen an Daten zu verhindern.</p>
+<p>Beispiel: Eine Bankdatenbank enthält Transaktionsaufzeichnungen. Um die Integrität zu wahren, müssen Mechanismen implementiert werden, die sicherstellen, dass keine unautorisierten Änderungen an den Transaktionsdaten vorgenommen werden können, um so die Genauigkeit und Zuverlässigkeit der Daten zu gewährleisten.</p>
+<h4 id="aufgabe-3">Aufgabe 3</h4>
+<p>Das Schutzziel "Verfügbarkeit" bedeutet, dass Informationen und Systeme stets verfügbar sein sollten, wenn sie benötigt werden. Ziel ist es, den Zugriff auf Informationen und Dienste sicherzustellen, ohne dabei durch unautorisierte Einflüsse oder Ausfälle beeinträchtigt zu werden.</p>
+<p>Beispiel: Ein E-Commerce-Unternehmen muss sicherstellen, dass seine Website ständig verfügbar ist, damit Kunden jederzeit online einkaufen können. Maßnahmen zur Redundanz und Disaster Recovery können dazu beitragen, die Verfügbarkeit sicherzustellen.</p>
+<h4 id="aufgabe-4">Aufgabe 4</h4>
+<p><strong>Vertraulichkeit:</strong>
+   - Implementierung von Benutzerzugriffskontrollen auf dem Convertible-Laptop, um sicherzustellen, dass nur autorisierte Benutzer auf die darauf gespeicherten sensiblen Geschäftsdaten zugreifen können.
+   - Verschlüsselung von Daten auf dem Laptop, um sicherzustellen, dass selbst bei physischem Diebstahl der Datenzugriff erschwert wird.</p>
+<p><strong>Integrität:</strong>
+   - Einrichtung von Mechanismen zur Überprüfung der Datei- und Systemintegrität, um sicherzustellen, dass keine unbemerkten Änderungen an Dateien oder Einstellungen vorgenommen werden.
+   - Implementierung von Sicherheitsrichtlinien, die sicherstellen, dass nur autorisierte Softwareinstallationen und Konfigurationsänderungen erlaubt sind.</p>
+<p><strong>Verfügbarkeit:</strong>
+   - Implementierung von Backup- und Wiederherstellungsprozessen, um sicherzustellen, dass im Falle eines Geräteausfalls die Daten wiederhergestellt und das System schnell wieder in Betrieb genommen werden kann.
+   - Überwachung der Netzwerkkonnektivität und Remote-Unterstützungsmöglichkeiten, um sicherzustellen, dass der Außendienstmitarbeiter bei Problemen schnell technische Unterstützung erhalten kann und die Arbeitsfähigkeit des Convertible-Laptops gewährleistet ist.</p>
+<h3 id="arbeitsauftrag-angriffsszenarien-einordnen">Arbeitsauftrag - Angriffsszenarien einordnen</h3>
+<h4 id="aufgabe-1_1">Aufgabe 1</h4>
+<ul>
+<li><strong>Viren:</strong> Selbstreplizierende schädliche Software, die sich an legitime Programme anhängt und sich so verbreitet.</li>
+<li><strong>Würmer:</strong> Eigenständige, sich selbst verbreitende Programme, die Netzwerke infizieren und oft dazu verwendet werden, Schadcode zu verbreiten.</li>
+<li><strong>Trojaner:</strong> Täuscht vor, nützliche Software zu sein, während sie heimlich schädliche Funktionen ausführt, oft durch Hintertüren für Angreifer.</li>
+<li><strong>Ransomware:</strong> Schädliche Software, die Dateien oder Systeme verschlüsselt und Lösegeld verlangt, um die Daten wiederherzustellen.</li>
+<li><strong>Phishing:</strong> Täuschung von Personen, um vertrauliche Informationen preiszugeben, indem gefälschte Kommunikation oder Websites genutzt werden.</li>
+<li><strong>Spoofing:</strong> Vortäuschung einer falschen Identität oder Quelle, um eine legitime zu imitieren, z.B., indem gefälschte E-Mails von vertrauenswürdigen Absendern verschickt werden.</li>
+<li><strong>Spam:</strong> Unverlangte Massen-E-Mails oder Nachrichten, oft für betrügerische Zwecke.
+ <strong>Spyware:</strong> Software, die heimlich Informationen über einen Benutzer sammelt und an externe Quellen übermittelt.</li>
+<li><strong>Adware:</strong> Anzeigenunterstützte Software, die unerwünschte Anzeigen auf dem Computer des Benutzers anzeigt, oft mit der Absicht, Einnahmen für den Angreifer zu generieren.</li>
+<li><strong>DDoS-Attacken:</strong> Überflutung eines Netzwerks oder einer Website mit Traffic, um sie unzugänglich zu machen.</li>
+<li><strong>APT-Attacken (Advanced Persistent Threats):</strong> Langfristige, zielgerichtete Angriffe, bei denen Angreifer unauffällig und beharrlich versuchen, in Netzwerke einzudringen, um sensible Informationen zu stehlen.</li>
+</ul>
+<h4 id="aufgabe-2_1">Aufgabe 2</h4>
+<ol>
+<li><strong>Infektion:</strong> Ransomware gelangt durch Phishing-E-Mails, infizierte Websites oder verwundbare Software ins Unternehmensnetzwerk.</li>
+<li><strong>Übernahme des Verzeichnisdienstes:</strong> Versuch der Übernahme des Verzeichnisdienstes, um dort registrierte Backupserver zu finden und die Backups zu kompromittieren.</li>
+<li><strong>Download der Datenbestände:</strong> Datenbestände werden heruntergeladen, um als weiteres Druckmittel die Veröffentlichung der Daten bei Nicht-Zahlung zu erhalten.</li>
+<li><strong>Verschlüsselung:</strong> Die Ransomware verschlüsselt Dateien auf infizierten Systemen, macht sie unzugänglich.</li>
+<li><strong>Lösegeldforderung:</strong> Die Angreifer fordern Lösegeld und drohen mit dauerhaftem Datenverlust oder Veröffentlichung sensibler Informationen.</li>
+<li><strong>Kommunikation:</strong> Die Opfer erhalten Anweisungen zur Zahlung des Lösegelds, oft in Kryptowährung. Oftmals werden Beweis-Dateien angeboten, um zu sehen, dass die Angreifer wirklich in der Lage sind die Daten zu entschlüsseln. Ebenfalls ist oftmals ein gesamtes Datenverzeichnis der erbeuteten Daten verfügbar, um den Schaden einschätzen zu können (aus Angreifersicht zeigen, dass es ernst ist / aus Opfersicht wichtig für realistische Einschätzung des Angriffs sowie zur Information der Betroffenen).</li>
+<li><strong>Entschlüsselung (optional):</strong> Nach Zahlung des Lösegelds liefern die Angreifer den Entschlüsselungsschlüssel (nicht immer garantiert und nicht empfohlen).</li>
+</ol>
+<h4 id="aufgabe-3_1">Aufgabe 3</h4>
+<ul>
+<li><strong>Isolierung:</strong> Infizierte Systeme vom Netzwerk trennen.</li>
+<li><strong>Meldung:</strong> Vorfall den Behörden und ggf. Kunden melden (je nach Datenschutzbestimmungen).</li>
+<li><strong>Lösegeldzahlung:</strong> Wird oft nicht empfohlen, da dies keine Garantie für die Datenwiederherstellung bietet und kriminelle Aktivitäten unterstützen kann.</li>
+<li><strong>Wiederherstellung:</strong> Daten aus Backups wiederherstellen.</li>
+<li><strong>Rechtliche Schritte:</strong> Zusammenarbeit mit Strafverfolgungsbehörden und Einhaltung von Datenschutzbestimmungen.</li>
+</ul>
+<h4 id="aufgabe-4_1">Aufgabe 4</h4>
+<ul>
+<li><strong>Backup-Strategien:</strong> Regelmäßige Backups und Tests der Wiederherstellungsfähigkeit implementieren.</li>
+<li><strong>Sicherheitsschulungen:</strong> Mitarbeiter auf Phishing und sicheres Verhalten schulen.</li>
+<li><strong>Aktualisierte Software:</strong> Software und Systeme regelmäßig aktualisieren, um Sicherheitslücken zu schließen.</li>
+<li><strong>Netzwerksicherheit:</strong> Firewalls, Intrusion Detection/Prevention Systeme einsetzen.</li>
+<li><strong>Notfallpläne:</strong> Erstellung von Notfallplänen für den Umgang mit Ransomware-Angriffen. Dabei für produzierende Unternehmen die schnelle Aufnahme der Produktion im Fokus haben (die zeitlich aktuellen Daten sind dafür zu priorisieren).</li>
+</ul>
+<h4 id="aufgabe-5">Aufgabe 5</h4>
+<p><strong>Ablauf einer DDoS-Attacke:</strong>
+   1. <strong>Überlastung:</strong> Angreifer überfluten das Ziel mit einer großen Anzahl von Anfragen.
+   2. <strong>Serverüberlastung:</strong> Die Zielserver können die große Anzahl von Anfragen nicht bewältigen, was zu Ausfällen führt.
+   3. <strong>Dienstunzugänglichkeit:</strong> Die Dienste des Ziels stehen nicht mehr zur Verfügung.</p>
+<p><strong>Gegenmaßnahmen:</strong>
+   - <strong>DDoS-Schutzdienste:</strong> Verwendung von Diensten, die den eingehenden Traffic filtern und schädliche Anfragen blockieren können.
+   - <strong>Lastenausgleich:</strong> Verteilung des Traffics auf mehrere Server, um Überlastungen zu verhindern.
+   - <strong>Netzwerkinfrastruktur optimieren:</strong> Implementierung von Technologien wie Content Delivery Networks (CDNs) zur effizienten Verteilung von Inhalten.
+   - <strong>Frühzeitige Erkennung:</strong> Überwachung des Netzwerkverkehrs, um Anomalien frühzeitig zu erkennen und Gegenmaßnahmen zu ergreifen.</p>
+<h3 id="arbeitsauftrag-grundlagen-der-computersicherheit-einhalten">Arbeitsauftrag - Grundlagen der Computersicherheit einhalten</h3>
+<h4 id="aufgabe-1_2">Aufgabe 1</h4>
+<ul>
+<li><strong>Länge:</strong> Ein sicheres Passwort sollte ausreichend lang sein, üblicherweise mindestens 12 Zeichen.</li>
+<li><strong>Komplexität:</strong> Verwenden Sie eine Kombination aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen.</li>
+<li><strong>Einzigartigkeit:</strong> Vermeiden Sie leicht erratbare Informationen wie Namen, Geburtsdaten oder Wörter aus dem Wörterbuch.</li>
+<li><strong>Regelmäßige Aktualisierung:</strong> Ändern Sie Ihr Passwort in regelmäßigen Abständen (die auch etwas größer sein können), um die Sicherheit zu erhöhen.</li>
+<li><strong>Keine Wiederholungen:</strong> Vermeiden Sie die Verwendung von bereits verwendeten Passwörtern für verschiedene Konten.</li>
+</ul>
+<h4 id="aufgabe-2_2">Aufgabe 2</h4>
+<p>Die 2-Faktor-Authentifizierung (2FA) ist eine Methode zur Sicherung von Konten, die auf zwei unabhängigen Bestätigungsfaktoren basiert. Die zwei Faktoren sind in der Regel:</p>
+<ol>
+<li><strong>Etwas, das Sie wissen:</strong> Zum Beispiel Ihr Passwort oder PIN.</li>
+<li><strong>Etwas, das Sie besitzen:</strong> Dies kann ein physisches Gerät wie Ihr Smartphone oder eine Sicherheitstoken sein.</li>
+</ol>
+<p>Die Idee ist, dass selbst wenn ein Angreifer Ihr Passwort kennt, er immer noch den zweiten Faktor benötigt, um Zugriff zu erhalten.</p>
+<h4 id="aufgabe-3_2">Aufgabe 3</h4>
+<ol>
+<li><strong>Registrierung:</strong> Der Benutzer meldet sich bei einem Dienst an und aktiviert die 2FA-Option.</li>
+<li><strong>Gerät verbinden:</strong> Das Gerät des Benutzers wird mit dem Dienst verbunden, normalerweise durch Scannen eines QR-Codes.</li>
+<li><strong>Erzeugung von TOTP-Codes:</strong> Eine TOTP-App auf dem Gerät generiert zeitbasierte Einmalpasswörter (TOTP-Codes).</li>
+<li><strong>Eingabe des Codes:</strong> Bei der Anmeldung gibt der Benutzer neben seinem Passwort auch den aktuellen TOTP-Code ein.</li>
+<li><strong>Zeitbasierte Synchronisation:</strong> Der Dienst und die TOTP-App sind zeitsynchronisiert, um sicherzustellen, dass der generierte Code korrekt ist.</li>
+</ol>
+<h4 id="aufgabe-4_2">Aufgabe 4</h4>
+<p><strong>Vorteile der biometrischen 2FA:</strong>
+- <strong>Bequemlichkeit:</strong> Biometrische Daten wie Fingerabdrücke oder Gesichtserkennung sind für den Benutzer bequem und erfordern keine zusätzlichen Passwörter oder Codes.
+- <strong>Hohe Genauigkeit:</strong> Biometrische Merkmale sind in der Regel eindeutig und schwer zu fälschen, was die Sicherheit erhöht.</p>
+<p><strong>Nachteile der biometrischen 2FA:</strong>
+- <strong>Datenschutzbedenken:</strong> Die Speicherung biometrischer Daten kann Datenschutzbedenken hervorrufen, insbesondere wenn diese in zentralen Datenbanken gespeichert sind.
+- <strong>Fälschungsmöglichkeiten:</strong> Während biometrische Merkmale schwer zu fälschen sind, gibt es dennoch Möglichkeiten zur Überlistung, z. B. durch Fingerabdruckkopien oder Gesichtsimitationen.
+- <strong>Nicht änderbar:</strong> Im Gegensatz zu Passwörtern können biometrische Merkmale nicht einfach geändert werden. Wenn sie einmal kompromittiert sind, bleibt dies eine dauerhafte Sicherheitslücke.</p>
+<h3 id="arbeitsauftrag-technisch-organisatorische-manahmen-anwenden">Arbeitsauftrag - Technisch-organisatorische Maßnahmen anwenden</h3>
+<h4 id="aufgabe-1_3">Aufgabe 1</h4>
+<p>Technisch-organisatorische Maßnahmen (TOM) sind Sicherheitsvorkehrungen, die sowohl technische als auch organisatorische Aspekte berücksichtigen, um die Sicherheit von Informationssystemen und Daten zu gewährleisten. Diese Maßnahmen dienen dazu, Risiken zu minimieren, Schutzmechanismen zu implementieren und die Verfügbarkeit, Integrität und Vertraulichkeit von Informationen sicherzustellen. Technisch-organisatorische Maßnahmen können beispielsweise Richtlinien, Prozesse, Schulungen, Zugriffskontrollen, Verschlüsselungstechnologien, Firewalls und andere Sicherheitsinfrastrukturen umfassen.</p>
+<h4 id="aufgabe-2_3">Aufgabe 2</h4>
+<ul>
+<li><strong>Zugriffskontrolle:</strong> Begrenzung des physischen Zugangs zum Serverraum durch biometrische Authentifizierung, Schlüsselkarten oder andere Zugangskontrollsysteme. Zudem sollten strenge Zugriffsrichtlinien für autorisiertes Personal festgelegt werden.</li>
+<li><strong>Videoüberwachung:</strong> Installation von Überwachungskameras im Serverraum, um unbefugten Zugriff zu überwachen und aufzuzeichnen.</li>
+<li><strong>Brandschutzmaßnahmen:</strong> Implementierung von Brandmeldesystemen, automatischen Feuerlöschanlagen und anderen Brandschutzvorkehrungen, um die physische Sicherheit des Serverraums zu gewährleisten.</li>
+<li><strong>Klimatisierung:</strong> Kontrolle der Temperatur und Luftfeuchtigkeit im Serverraum, um optimale Bedingungen für die Serverhardware sicherzustellen und Überhitzung zu verhindern.</li>
+<li><strong>Stromversorgung:</strong> Einsatz von unterbrechungsfreien Stromversorgungen (USV) und Generatoren, um einen kontinuierlichen Betrieb der Server bei Stromausfällen zu gewährleisten.</li>
+<li><strong>Alarmierungssysteme:</strong> Einrichtung von Alarmen bei ungewöhnlichen Aktivitäten, wie zum Beispiel unbefugten Zutritt oder Temperaturabweichungen.</li>
+<li><strong>Dokumentation und Schulung:</strong> Erstellung von klaren Richtlinien und Prozeduren für den Zugang zum Serverraum sowie Schulungen für Mitarbeiter, um sicherzustellen, dass alle Sicherheitsmaßnahmen bekannt sind und eingehalten werden.</li>
+<li><strong>Regelmäßige Überprüfungen und Audits:</strong> Durchführung regelmäßiger Sicherheitsüberprüfungen und Audits, um sicherzustellen, dass die etablierten Sicherheitsmaßnahmen wirksam sind und den aktuellen Bedrohungen standhalten können.</li>
+</ul>
+<h4 id="aufgabe-3_3">Aufgabe 3</h4>
+<ul>
+<li><strong>Firewalls:</strong> Konfiguration und Einsatz von Firewalls, um den Netzwerkverkehr zu überwachen und unerwünschten Datenverkehr zu blockieren.</li>
+<li><strong>Intrusion Detection/Prevention System (IDS/IPS):</strong> Einrichtung von Systemen zur Erkennung und Prävention von Eindringversuchen, um unautorisierte Zugriffsversuche zu erkennen und zu blockieren.</li>
+<li><strong>Verschlüsselung:</strong> Verschlüsselung von Daten auf dem Server, insbesondere bei der Übertragung sensibler Informationen über das Netzwerk (z.B., HTTPS für Webanwendungen).</li>
+<li><strong>Patches und Updates:</strong> Regelmäßige Aktualisierung von Betriebssystemen, Anwendungen und anderen Softwarekomponenten, um bekannte Sicherheitslücken zu schließen.</li>
+<li><strong>Zugriffskontrolle:</strong> Implementierung von strikten Zugriffskontrollen und Berechtigungen für Benutzer und Prozesse, um den Zugang zu sensiblen Daten zu beschränken.</li>
+<li><strong>Authentifizierungsmethoden:</strong> Verwendung von starken Authentifizierungsmethoden wie Multi-Faktor-Authentifizierung (MFA), um die Sicherheit von Zugriffen auf den Server zu erhöhen.</li>
+<li><strong>Logging und Überwachung:</strong> Einrichtung von Protokollierungssystemen, um Aktivitäten auf dem Server zu überwachen und verdächtige Aktivitäten frühzeitig zu erkennen.</li>
+<li><strong>Antivirus-Software:</strong> Installation von Antivirus-Programmen, um schädliche Software zu erkennen und zu entfernen.</li>
+<li><strong>Backup-Strategien:</strong> Implementierung von regelmäßigen Backup-Strategien, um im Falle eines Datenverlusts oder einer Systembeschädigung eine Wiederherstellung zu ermöglichen.</li>
+<li><strong>Netzwerksicherheit:</strong> Konfiguration von Netzwerksicherheitsmaßnahmen wie VLANs (Virtual Local Area Networks) und sichere Konfiguration von Netzwerkprotokollen.</li>
+<li><strong>Ressourcenüberwachung:</strong> Überwachung der Serverressourcen wie CPU-Auslastung, Speicherverbrauch und Netzwerkauslastung, um Engpässe oder Anomalien frühzeitig zu identifizieren.</li>
+<li><strong>Richtlinien und Schulungen:</strong> Erstellung von Sicherheitsrichtlinien und Durchführung von Schulungen für das Serverpersonal, um bewusstes Handeln im Sinne der Informationssicherheit zu fördern.</li>
+</ul>
+<h2 id="it-grundschutz-planen">IT-Grundschutz planen</h2>
+<h3 id="arbeitsauftrag-it-grundschutz-planen">Arbeitsauftrag - IT-Grundschutz planen</h3>
+<h4 id="aufgabe-1_4">Aufgabe 1</h4>
+<p>Die Norm, die die Gewährleistung der IT-Sicherheit und den Aufbau eines IT-Sicherheitsmanagementsystems betrifft, ist die ISO/IEC 27001. Diese Norm gehört zur ISO/IEC 27000-Familie, die sich mit Informationssicherheitsmanagement befasst. Die ISO/IEC 27001 spezifiziert die Anforderungen für das Einrichten, Umsetzen, Aufrechterhalten und ständige Verbessern eines Informationssicherheitsmanagementsystems (ISMS). Sie bietet einen systematischen Ansatz zur Verwaltung sensibler Unternehmensinformationen und zur Gewährleistung ihrer Integrität, Vertraulichkeit und Verfügbarkeit.</p>
+<h4 id="aufgabe-2_4">Aufgabe 2</h4>
+<p>Der PDCA-Zyklus steht für Plan-Do-Check-Act und ist ein zyklischer Ansatz zur kontinuierlichen Verbesserung. Im Kontext eines IT-Sicherheitssystems, insbesondere eines Informationssicherheitsmanagementsystems (ISMS) nach ISO/IEC 27001, könnten die Schritte wie folgt aussehen:</p>
+<ul>
+<li><strong>Plan (Planen):</strong></li>
+<li>Festlegung der Sicherheitsziele und -politik.</li>
+<li>Durchführung einer Risikobewertung und Definition von Maßnahmen zur Risikominderung.</li>
+<li>Entwicklung und Implementierung von Prozessen und Verfahren für das IT-Sicherheitsmanagement.</li>
+<li><strong>Do (Umsetzen):</strong></li>
+<li>Implementierung der geplanten Maßnahmen.</li>
+<li>Schulung der Mitarbeiter bezüglich Sicherheitsrichtlinien und Verfahren.</li>
+<li>Einführung von Sicherheitskontrollen und -technologien.</li>
+<li><strong>Check (Überprüfen):</strong></li>
+<li>Durchführung von regelmäßigen Audits und Überwachung der Sicherheitsleistung.</li>
+<li>Überprüfung von Sicherheitsvorfällen und Problemen.</li>
+<li>Auswertung von Metriken und Leistungskennzahlen im Hinblick auf die Sicherheitsziele.</li>
+<li><strong>Act (Handeln):</strong></li>
+<li>Initiierung von Korrekturmaßnahmen für identifizierte Schwachstellen oder Verbesserungspotenziale.</li>
+<li>Anpassung von Sicherheitsrichtlinien und -prozessen basierend auf den Überprüfungsergebnissen.</li>
+<li>Einleiten von vorbeugenden Maßnahmen, um zukünftige Sicherheitsprobleme zu verhindern.</li>
+</ul>
+<h4 id="aufgabe-3_4">Aufgabe 3</h4>
+<p><strong>Prozess-Bausteine:</strong></p>
+<ul>
+<li>ISMS: Sicherheitsmanagement</li>
+<li>z.B. ISMS.1 Sicherheitsmanagement</li>
+<li>ORP: Organisation und Personal</li>
+<li>z.B. ORP.1 Organisation</li>
+<li>z.B. ORP.2 Personal</li>
+<li>z.B. ORP.3 Sensibilisierung und Schulung</li>
+<li>z.B. ORP.4 Identitäts- und Berechtigungsmanagement</li>
+<li>CON: Konzeption und Vorgehensweisen</li>
+<li>z.B. CON.1 Kryptokonzept</li>
+<li>z.B. CON.2 Datenschutz</li>
+<li>z.B. CON.3 Datensicherungskonzept</li>
+<li>z.B. CON.4 Auswahl und Einsatz von Standardsoftware</li>
+<li>z.B. CON.5 Entwicklung und Einsatz von Allgemeinen Anwendungen</li>
+<li>z.B. CON.6 Löschen und Vernichten</li>
+<li>OPS: Betrieb, aufgeteilt in die vier Teilschichten Eigener IT-Betrieb, Betrieb von Dritten, Betrieb für Dritte und Betriebliche Aspekte</li>
+<li>z.B. OPS.1.1.2 Ordnungsgemäße IT-Administration</li>
+<li>z.B. OPS.1.1.3 Patch- und Änderungsmanagement</li>
+<li>z.B. OPS.1.1.4 Schutz vor Schadprogrammen, </li>
+<li>z.B. OPS.1.1.5 Protokollierung, </li>
+<li>z.B. OPS.2.1 Outsourcing für Kunden, </li>
+<li>z.B. OPS.2.4 Fernwartung</li>
+<li>DER: Detektion und Reaktion</li>
+<li>z.B. DER.1 Detektion von sicherheitsrelevanten Ereignissen, D</li>
+<li>z.B. DER.2.1 Behandlung von Sicherheitsvorfällen</li>
+<li>z.B. DER2.2 Vorsorge für die IT-Forensik</li>
+<li>z.B. DER.3.1 Audits und Revisionen</li>
+<li>z.B. DER.4 Notfallmanagement</li>
+</ul>
+<p><strong>System-Bausteine:</strong></p>
+<ul>
+<li>APP: Anwendungen</li>
+<li>z.B. APP.1.1 Office Produkte, </li>
+<li>z.B. APP.1.2 Webbrowser, </li>
+<li>z.B. APP.3.2 Webserver, </li>
+<li>z.B. APP.5.1 Allgemeine Groupware, </li>
+<li>z.B. APP.5.2 Microsoft Exchange und Outlook</li>
+<li>SYS: IT-Systeme</li>
+<li>z.B. SYS.1.1 Allgemeiner Server, </li>
+<li>z.B. SYS.1.2.2 Windows Server 2012, </li>
+<li>z.B. SYS.1.5 Virtualisierung</li>
+<li>z.B. SYS.2.3 Client unter Windows 10</li>
+<li>z.B. SYS.3.1 Laptops</li>
+<li>z.B. SYS 3.2.1 Allgemeine Smartphones und Tablets</li>
+<li>IND: Industrielle IT</li>
+<li>z.B. IND.1 Betriebs- und Steuerungstechnik</li>
+<li>NET: Netze und Kommunikation</li>
+<li>z.B. NET.1.1 Netzarchitektur und Design, </li>
+<li>z.B. NET.1.2 Netzmanagement, </li>
+<li>z.B. NET.2.1 WLAN-Betrieb, </li>
+<li>z.B. NET.2.2 WLAN-Nutzung</li>
+<li>z.B. NET.3.1 Router und Switches</li>
+<li>z.B. NET.3.2 Firewall</li>
+<li>INF: Infrastruktur</li>
+<li>z.B. INF.1 Allgemeines Gebäude</li>
+<li>z.B. INF.2 Rechenzentrum sowie Serverraum</li>
+<li>z.B. INF.7 Büroarbeitsplatz</li>
+<li>z.B. INF.8 Häuslicher Arbeitsplatz</li>
+</ul>
+<h4 id="aufgabe-4_3">Aufgabe 4</h4>
+<ol>
+<li><strong>Schutzbedarfsfeststellung:</strong></li>
+<li>Identifikation der zu schützenden Informationen und Datentypen (z.B., Produktbezogene Dateien, Kundenanfragen, Geschäftsbriefe).</li>
+<li>
+<p>Einstufung der Schutzbedarfskategorien (niedrig, normal, hoch, sehr hoch) für die identifizierten Informationen.</p>
+</li>
+<li>
+<p><strong>Anwendung des IT-Grundschutz-Kompendiums:</strong></p>
+</li>
+<li>Nutzung des IT-Grundschutz-Kompendiums, um die notwendigen Maßnahmen für den identifizierten Schutzbedarf zu ermitteln.</li>
+<li>
+<p>Auswahl von Bausteinen und Maßnahmen aus dem Kompendium, die für den Schutz der spezifischen Informationen relevant sind. In diesem Fall <a href="https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/Kompendium_Einzel_PDFs_2021/07_SYS_IT_Systeme/SYS_1_8_Speicherloesungen_Edition_2021.pdf?__blob=publicationFile&amp;v=2">BSI SYS.1.8: Speicherlösungen</a>.</p>
+</li>
+<li>
+<p><strong>Risikoanalyse:</strong></p>
+</li>
+<li>Identifikation potenzieller Risiken und Bedrohungen für den Datenspeicher der Vertriebsabteilung.</li>
+<li>
+<p>Bewertung der Eintrittswahrscheinlichkeit und der möglichen Auswirkungen der identifizierten Risiken.</p>
+</li>
+<li>
+<p><strong>Maßnahmenplanung:</strong></p>
+</li>
+<li>Entwicklung eines Maßnahmenplans zur Minimierung der Risiken.</li>
+<li>
+<p>Auswahl und Umsetzung von Sicherheitsmaßnahmen, die auf den identifizierten Schutzbedarf und die ermittelten Risiken abgestimmt sind.</p>
+</li>
+<li>
+<p><strong>Überwachung und Anpassung:</strong></p>
+</li>
+<li>Kontinuierliche Überwachung der Wirksamkeit der implementierten Maßnahmen.</li>
+<li>Anpassung der Sicherheitsmaßnahmen bei veränderten Bedrohungsszenarien oder Anforderungen.</li>
+</ol>
+<h4 id="aufgabe-5_1">Aufgabe 5</h4>
+<p>Die Schutzbedarfskategorien nach BSI-Standard unterscheiden sich in den Schutzzielen und den erwarteten Auswirkungen von Beeinträchtigungen. Hier sind die Kategorien mit Beispielen:</p>
+<ul>
+<li><strong>Niedrig:</strong></li>
+<li><strong>Schutzziel:</strong> Schutz vor Beeinträchtigungen mit geringen Auswirkungen.</li>
+<li><strong>Beispiel:</strong> Allgemeine Unternehmensinformationen, die öffentlich verfügbar sind.</li>
+<li><strong>Normal:</strong></li>
+<li><strong>Schutzziel:</strong> Schutz vor Beeinträchtigungen mit spürbaren Auswirkungen.</li>
+<li><strong>Beispiel:</strong> Kundenkontaktinformationen, Standardproduktinformationen.</li>
+<li><strong>Hoch:</strong></li>
+<li><strong>Schutzziel:</strong> Schutz vor schwerwiegenden Auswirkungen auf die Geschäftsprozesse.</li>
+<li><strong>Beispiel:</strong> Vertrauliche Geschäftsbriefe, detaillierte Produktentwicklungspläne.</li>
+<li><strong>Sehr Hoch:</strong></li>
+<li><strong>Schutzziel:</strong> Schutz vor schwerwiegenden Auswirkungen auf das Unternehmen oder die öffentliche Sicherheit. Verstoß gegen Gesetze, Vorschriften oder Verträge.</li>
+<li><strong>Beispiel:</strong> Forschungsergebnisse, Strategiepläne, hochsensible Kundendaten.</li>
+</ul>
+<h2 id="dsgvo-konform-handeln">DSGVO-konform handeln</h2>
+<h3 id="arbeitsauftrag-dsgvo-konform-handeln">Arbeitsauftrag - DSGVO-konform handeln</h3>
+<h4 id="aufgabe-1_5">Aufgabe 1</h4>
+<p>Personenbezogene Daten sind Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Dazu gehören alle Daten, die direkt oder indirekt Rückschlüsse auf eine bestimmte Person zulassen, wie beispielsweise Name, Adresse, Telefonnummer, E-Mail-Adresse, Sozialversicherungsnummer, Standortdaten oder IP-Adressen.</p>
+<h4 id="aufgabe-2_5">Aufgabe 2</h4>
+<p>Besonders schützenswerte personenbezogene Daten unterscheiden sich von allgemeinen personenbezogenen Daten durch ihre Sensibilität und das damit verbundene höhere Schutzbedürfnis. Zu den besonders schützenswerten Daten gehören Informationen über die ethnische Herkunft, politische Meinungen, religiöse oder weltanschauliche Überzeugungen, Gewerkschaftszugehörigkeit, Gesundheitsdaten, genetische Daten, biometrische Daten sowie Daten zum Sexualleben oder der sexuellen Orientierung.</p>
+<h4 id="aufgabe-3_5">Aufgabe 3</h4>
+<p>Die Aussage des Mitarbeiters des Personaldienstleisters ist korrekt im Hinblick auf Datenschutz. Die Nennung des durchschnittlichen Gehalts einer spezifischen Mitarbeitergruppe könnte dazu führen, dass einzelne Personen identifiziert werden könnten. Dies würde gegen die Grundsätze des Datenschutzes verstoßen, insbesondere gegen das Prinzip der Datensparsamkeit.</p>
+<h4 id="aufgabe-4_4">Aufgabe 4</h4>
+<p>Als Kunde eines Onlineshops haben Betroffene verschiedene Rechte im Zusammenhang mit ihren personenbezogenen Daten. Zu den wichtigsten gehören das Recht auf Auskunft über die gespeicherten Daten, das Recht auf Berichtigung fehlerhafter Daten, das Recht auf Löschung ("Recht auf Vergessenwerden"), das Recht auf Datenübertragbarkeit, das Widerspruchsrecht gegen bestimmte Datenverarbeitungen sowie das Recht, nicht einer ausschließlich auf automatisierter Verarbeitung beruhenden Entscheidung unterworfen zu werden.</p>
+<h4 id="aufgabe-5_2">Aufgabe 5</h4>
+<p>Im Falle eines DSGVO-Verstoßes oder eines Cyberangriffs mit Erbeutung von Kundendaten ergeben sich für das betroffene Unternehmen verschiedene Verpflichtungen. Dazu gehören die unverzügliche Benachrichtigung der Aufsichtsbehörde über den Datenschutzverstoß, die Information der betroffenen Personen über den Vorfall, die Dokumentation des Vorfalls sowie gegebenenfalls die Durchführung einer Datenschutz-Folgenabschätzung. Zudem können Geldbußen und Schadensersatzforderungen gegen das Unternehmen verhängt werden. Es ist wichtig, dass das betroffene Unternehmen angemessene Sicherheitsmaßnahmen trifft, um Datenschutzverletzungen zu verhindern.</p>
+<h4 id="aufgabe-6">Aufgabe 6</h4>
+<p>Identifizierbare Daten, pseudonymisierte Daten und anonyme Daten unterscheiden sich in ihrem Grad der Personenbeziehbarkeit:</p>
+<ul>
+<li><strong>Identifizierbare Daten:</strong></li>
+<li>Identifizierbare Daten sind Informationen, die alleine oder in Verbindung mit anderen Daten dazu verwendet werden können, eine bestimmte Person direkt zu identifizieren.</li>
+<li>Beispiele hierfür sind der vollständige Name, die Adresse oder die Sozialversicherungsnummer einer Person.</li>
+<li>Solche Daten ermöglichen eine eindeutige Zuordnung zu einer identifizierbaren natürlichen Person.</li>
+<li><strong>Pseudonymisierte Daten:</strong></li>
+<li>Pseudonymisierte Daten sind personenbezogene Daten, bei denen der direkte Bezug zu einer bestimmten Person durch die Verwendung eines Pseudonyms erschwert wird.</li>
+<li>Dabei werden Identifikationsmerkmale durch ein Pseudonym ersetzt, sodass die Daten zwar noch einer Person zugeordnet werden können, aber der direkte Rückschluss erschwert wird.</li>
+<li>Die Zuordnung erfordert zusätzliche Informationen, die separat aufbewahrt werden.</li>
+<li><strong>Anonyme Daten:</strong></li>
+<li>Anonyme Daten sind Informationen, die so stark verfremdet oder aggregiert wurden, dass keine Möglichkeit mehr besteht, die Daten einer bestimmten Person zuzuordnen.</li>
+<li>Selbst durch Kombination mit anderen Daten oder den Einsatz von zusätzlichen Analysemethoden ist keine Identifikation möglich.</li>
+<li>Anonyme Daten unterliegen in vielen Rechtsordnungen nicht den Datenschutzregelungen, da sie keine personenbezogenen Informationen mehr darstellen.</li>
+</ul>
+<h2 id="abwehr-von-angriffen-planen">Abwehr von Angriffen planen</h2>
+<h3 id="arbeitsauftrag-abwehr-von-angriffen-planen">Arbeitsauftrag - Abwehr von Angriffen planen</h3>
+<h4 id="aufgabe-1_6">Aufgabe 1</h4>
+<ul>
+<li><strong>Signaturerkennung:</strong> Das Antiviren-Programm vergleicht Dateien und Programme auf dem Computer mit einer Datenbank bekannter Malware-Signaturen. Wenn eine Übereinstimmung gefunden wird, wird die Datei als schädlich identifiziert.</li>
+<li><strong>Heuristische Analyse:</strong> Das Programm analysiert das Verhalten von Dateien und Programmen. Verdächtiges Verhalten, auch wenn keine genaue Signatur bekannt ist, kann auf eine Bedrohung hinweisen.</li>
+<li><strong>Verhaltensanalyse:</strong> Fortschrittlichere Antiviren-Programme überwachen das Verhalten von Anwendungen in Echtzeit. Abweichungen von normalem Verhalten können auf eine Infektion hinweisen.</li>
+<li><strong>Sandboxing:</strong> Einige Antiviren-Programme isolieren potenziell gefährliche Dateien in einer sicheren Umgebung (Sandbox) und beobachten deren Verhalten, um festzustellen, ob sie schädlich sind.</li>
+<li><strong>Automatische Updates:</strong> Die Antiviren-Software aktualisiert regelmäßig ihre Signaturen und Datenbanken, um gegen neu auftretende Bedrohungen gewappnet zu sein.</li>
+</ul>
+<h4 id="aufgabe-2_6">Aufgabe 2</h4>
+<p>Eine portbasierte Firewall arbeitet auf Netzwerkschicht und entscheidet, ob Datenpakete zwischen verschiedenen Netzwerken passieren dürfen oder nicht. Die Funktionsweise umfasst:</p>
+<ul>
+<li><strong>Portfilterung:</strong> Die Firewall überprüft die Ziel- und Quell-Ports der Datenpakete. Portnummern sind numerische Identifikatoren für bestimmte Dienste. Die Firewall kann Regeln haben, die den Datenverkehr basierend auf diesen Portnummern erlauben oder blockieren.</li>
+<li><strong>Zustandsbasierte Überwachung:</strong> Die Firewall verfolgt den Zustand der Netzwerkverbindungen und erlaubt nur den Datenverkehr, der zu einer bestehenden, erlaubten Verbindung gehört. Dies erhöht die Sicherheit, da nur erwarteter und autorisierter Datenverkehr durchgelassen wird.</li>
+<li><strong>Protokollüberwachung:</strong> Die Firewall kann bestimmte Netzwerkprotokolle überwachen und den Datenverkehr basierend auf diesen Protokollen steuern.</li>
+<li><strong>NAT (Network Address Translation):</strong> Die Firewall kann NAT verwenden, um die internen Netzwerkadressen vor externen Netzwerken zu verbergen und den ausgehenden Datenverkehr zu verwalten.</li>
+</ul>
+<h4 id="aufgabe-3_6">Aufgabe 3</h4>
+<ul>
+<li><strong>Paketinspektion auf Anwendungsebene:</strong> DPI geht über traditionelle Firewall-Methoden hinaus, indem es den gesamten Inhalt der Datenpakete auf Anwendungsebene analysiert. Dies schließt die Überprüfung von Protokollen, Headerinformationen und dem eigentlichen Nutzdateninhalt ein.</li>
+<li><strong>Entschlüsselung von HTTPS-Traffic:</strong> Da DPI den gesamten Inhalt der Pakete analysiert, kann es auch verschlüsselten HTTPS-Verkehr entschlüsseln, um den Inhalt zu inspizieren. Dies erfordert jedoch den Einsatz von Methoden wie SSL/TLS-Man-in-the-Middle (MitM)-Angriffen, bei denen die Firewall sich zwischen dem Benutzer und dem Server positioniert und den verschlüsselten Verkehr entschlüsselt, um ihn zu überprüfen.</li>
+<li><strong>Protokoll- und Anwendungserkennung:</strong> DPI identifiziert nicht nur Ports und IP-Adressen, sondern auch die spezifischen Anwendungen und Protokolle, die für den Datenverkehr verwendet werden. Dies ermöglicht es, genauere Sicherheitsrichtlinien basierend auf Anwendungen zu erstellen.</li>
+<li><strong>Mustererkennung und Signaturen:</strong> DPI sucht nach spezifischen Mustern oder Signaturen in den Datenpaketen, um schädliche Inhalte wie Viren, Malware oder verdächtige Aktivitäten zu identifizieren. Die Firewall kann dabei auf eine umfassende Datenbank von Signaturen zurückgreifen.</li>
+<li><strong>Content-Filtering:</strong> Die Firewall kann den Zugriff auf bestimmte Arten von Inhalten basierend auf dem analysierten Inhalt blockieren oder erlauben. Dies umfasst die Filterung von Websites, Dateitypen oder spezifischem Content.</li>
+<li><strong>Zustandsbezogene Überwachung:</strong> DPI kann den Zustand von Netzwerkverbindungen überwachen und sicherstellen, dass nur erwarteter und autorisierter Datenverkehr zugelassen wird. Dies trägt zur Erhöhung der Sicherheit bei.</li>
+<li><strong>Verschlüsselte HTTPS-Inspektion (SSL/TLS-Decryption):</strong> Bei verschlüsseltem HTTPS-Verkehr setzt die Firewall möglicherweise SSL/TLS-Decryption ein. Hierbei wird der verschlüsselte Datenverkehr entschlüsselt, inspiziert und dann wieder verschlüsselt, bevor er weitergeleitet wird. Dies ermöglicht die Analyse des Inhalts, selbst wenn er über HTTPS übertragen wird.</li>
+</ul>
+<h4 id="aufgabe-4_5">Aufgabe 4</h4>
+<p>Die Entschlüsselung von HTTPS-Datenverkehr kann mit Datenschutz- und Compliance-Anforderungen in Konflikt stehen kann, und Organisationen müssen sicherstellen, dass sie dies unter Einhaltung der relevanten Gesetze und Vorschriften durchführen.</p>
+<h4 id="aufgabe-5_3">Aufgabe 5</h4>
+<ul>
+<li><strong>Packet Sniffing:</strong> Erfassen und analysieren Sie den Datenverkehr im Netzwerk, um Anomalien oder verdächtige Aktivitäten zu erkennen.</li>
+<li><strong>Log-Analyse:</strong> Überwachen und analysieren Sie Logdateien von Netzwerkkomponenten, Betriebssystemen und Anwendungen auf ungewöhnliche Ereignisse.</li>
+<li><strong>Netzwerk-Scans:</strong> Führen Sie regelmäßige Scans durch, um Schwachstellen und potenzielle Sicherheitslücken im Netzwerk zu identifizieren.</li>
+<li><strong>Intrusion Detection System (IDS):</strong> Implementieren Sie ein IDS, das Anomalien und potenzielle Angriffe erkennt und Alarme auslöst.</li>
+<li><strong>Flow-Monitoring:</strong> Überwachen Sie den Fluss von Datenpaketen im Netzwerk, um Muster und Abweichungen zu identifizieren.</li>
+<li><strong>Verhaltensanalyse:</strong> Analysieren Sie das normale Verhalten des Netzwerks, um Anomalien oder ungewöhnliche Aktivitäten zu erkennen.</li>
+</ul>
+<h4 id="aufgabe-6_1">Aufgabe 6</h4>
+<ul>
+<li><strong>Segmentierung:</strong> VLANs ermöglichen die logische Segmentierung eines physischen Netzwerks in separate virtuelle Netzwerke. Dies hilft, den Datenverkehr zu isolieren und die Ausbreitung von Angriffen zu begrenzen.</li>
+<li><strong>Sicherheitszonen:</strong> Durch die Zuweisung von VLANs zu bestimmten Sicherheitszonen können Sicherheitsrichtlinien und Zugriffskontrollen effektiv durchgesetzt werden.</li>
+<li><strong>Broadcast-Isolation:</strong> VLANs reduzieren Broadcast-Domänen, wodurch die Auswirkungen von Broadcast-Stürmen minimiert werden und die Netzwerksicherheit verbessert wird.</li>
+<li><strong>Ressourcenisolierung:</strong> Kritische Ressourcen können in separaten VLANs platziert werden, um den Zugriff zu beschränken und die Sicherheit zu erhöhen.</li>
+<li><strong>Einfachere Verwaltung:</strong> Die Verwaltung von Netzwerkressourcen wird durch die Verwendung von VLANs vereinfacht, da Änderungen in einem VLAN die anderen Bereiche des Netzwerks nicht beeinträchtigen.</li>
+</ul>
+<h4 id="aufgabe-7">Aufgabe 7</h4>
+<ul>
+<li><strong>Internet-facing Firewall:</strong> Diese Firewall verbindet das interne Netzwerk über den Router mit dem Internet. Sie filtert den ein- und ausgehenden Datenverkehr und leitet den relevanten Datenverkehr zur DMZ weiter.</li>
+<li><strong>DMZ-Server:</strong> In der DMZ platzierte Server, wie Webserver, E-Mail-Server oder öffentlich zugängliche Dienste, sind für den externen Verkehr zugänglich. Diese Server sind von den internen Ressourcen getrennt, um das interne Netzwerk vor direkten Angriffen zu schützen.</li>
+<li><strong>Internes Firewall-Gateway:</strong> Dieses Firewall-Gateway trennt die DMZ von internen Netzwerken und sorgt für zusätzliche Sicherheit durch Regelwerke und Zugriffskontrollen.</li>
+</ul>
+<p>Unterscheidung der Netzbereiche:</p>
+<ul>
+<li><strong>Interne Netzwerke (LAN):</strong> Hier befinden sich die Unternehmensressourcen, Daten und Mitarbeitergeräte. Der Zugriff ist normalerweise auf autorisierte Benutzer beschränkt.</li>
+<li><strong>DMZ:</strong> Diese Zone enthält öffentlich zugängliche Server und Dienste. Der Zugriff ist beschränkt, um sicherzustellen, dass externe Angriffe nicht direkt auf das interne Netzwerk zugreifen können.</li>
+<li><strong>Externes Netzwerk (Internet):</strong> Das öffentliche Internet, von dem aus Datenverkehr in die DMZ und das interne Netzwerk geleitet wird.</li>
+</ul>
+<h2 id="verfugbarkeit-sicherstellen">Verfügbarkeit sicherstellen</h2>
+<h3 id="arbeitsauftrag-unterbrechungsfreie-stromversorgung-planen">Arbeitsauftrag - Unterbrechungsfreie Stromversorgung planen</h3>
+<h4 id="aufgabe-1_7">Aufgabe 1</h4>
+<p><strong>Notstrom:</strong>
+- <strong>Ziel:</strong> Bereitstellung von elektrischer Energie während eines Stromausfalls, um den Betrieb für eine begrenzte Zeit aufrechtzuerhalten.
+- <strong>Realisierung:</strong> Verwendung von Dieselgeneratoren oder anderen primären Energiequellen, die kontinuierlich elektrische Energie liefern können.</p>
+<p><strong>Unterbrechungsfreie Stromversorgung (USV):</strong>
+- <strong>Ziel:</strong> Gewährleistung einer unterbrechungsfreien Stromversorgung, indem sie während eines Stromausfalls sofort auf interne Batterien umschaltet.
+- <strong>Realisierung:</strong> Verwendung von Batterien, die kontinuierlich aufgeladen werden, während das Netzstrom verfügbar ist. Bei Stromausfall erfolgt der nahtlose Übergang auf die Batterieversorgung.</p>
+<h4 id="aufgabe-2_7">Aufgabe 2</h4>
+<p>Die Last ist permanent über die Batterien mit Wechselstrom versorgt. Der Wechselrichter wandelt die Batterie-Gleichspannung kontinuierlich in Wechselspannung um. Der Netzstrom wird kontinuierlich genutzt, um die Batterien aufzuladen. Bei einem Stromausfall schaltet die USV sofort auf Batteriebetrieb um, ohne eine Unterbrechung in der Stromversorgung zu verursachen.</p>
+<h4 id="aufgabe-3_7">Aufgabe 3</h4>
+<p>Der Netzstrom versorgt die angeschlossene Last und lädt gleichzeitig die Batterien über einen internen Laderegler auf. Bei einem Stromausfall schaltet die USV auf Batteriebetrieb um. Bei Spannungsschwankungen oder -störungen wird die Netzspannung durch den internen Wechselrichter korrigiert.</p>
+<h4 id="aufgabe-4_6">Aufgabe 4</h4>
+<p>Die Last wird normalerweise direkt vom Netzstrom versorgt. Die Batterien sind nicht ständig mit der Last verbunden, sondern nur im Falle eines Stromausfalls. Bei einem Ausfall schaltet die USV auf Batteriebetrieb um und versorgt die Last über den internen Wechselrichter.</p>
+<h4 id="aufgabe-5_4">Aufgabe 5</h4>
+<p>zu 1.:</p>
+<ul>
+<li><span class="arithmatex">\(\text{Autonomiezeit (in Stunden)} = \frac{\text{Batteriekapazität in kWh}}{\text{Leistungsaufnahme des Racks in kW}}\)</span></li>
+<li>Autonomiezeit = 5 kWh * 0,95 / 2,5 kW = 1,9 Stunden = 114 Minuten</li>
+<li><span class="arithmatex">\(\text{Autonomiezeit}=\frac{5\,\text{kWh} * 0,95}{2,5\,\text{kWh}} = 1,9\,\text{Stunden} = 114\,\text{Minuten}\)</span></li>
+</ul>
+<p>zu 2.:</p>
+<ul>
+<li><span class="arithmatex">\(\text{Neue Leistungsaufnahme} = 2,5\,\text{kW} - 1\,\text{kW} = 1,5\,\text{kW}\)</span></li>
+<li><span class="arithmatex">\(\text{Neue Autonomiezeit} = \frac{5\,\text{kWh} * 0,95}{1,5\,\text{kW}} = 3,17\,\text{Stunden} = 190\,\text{Minuten}\)</span></li>
+</ul>
+<p>zu 3.:</p>
+<ul>
+<li><span class="arithmatex">\(\text{Gesamtzeit ohne Strom} = 1\,\text{Stunde (Februar)} + 2\,\text{Stunden (Oktober)} + 2\,\text{Stunden (November)} = 5\,\text{Stunden}\)</span></li>
+<li><span class="arithmatex">\(\text{Verfügbarkeit} = \frac{(365\,\text{Tage} * 24\,\text{Stunden} - \text{Gesamtzeit ohne Strom)}}{365\,\text{Tage} * 24\,\text{Stunden}} * 100\)</span></li>
+<li><span class="arithmatex">\(\text{Verfügbarkeit} = \frac{(8.760\,\text{Std.} - 5\,\text{Std.})}{8.760\,\text{Std.}} * 100 = 99,94\,\text{%}\)</span></li>
+</ul>
+<h3 id="arbeitsauftrag-backupverfahren-anwenden">Arbeitsauftrag - Backupverfahren anwenden</h3>
+<h4 id="aufgabe-1_8">Aufgabe 1</h4>
+<ul>
+<li><strong>Differenzielles Backup:</strong> Sichert alle Daten, die seit dem letzten Vollbackup geändert wurden. Es beinhaltet nur die Unterschiede zwischen dem letzten Vollbackup und dem aktuellen Zustand.</li>
+<li><strong>Inkrementelles Backup:</strong> Sichert nur die Daten, die seit dem letzten Backup (egal ob Voll- oder Inkrementell) hinzugefügt oder geändert wurden. Es nimmt nur die Änderungen seit dem letzten Backup auf. Ganz vorne in der Kette steht ein Vollbackup.</li>
+</ul>
+<h4 id="aufgabe-2_8">Aufgabe 2</h4>
+<ul>
+<li><strong>Verständnis:</strong> Unveränderliche Backups sind Sicherungskopien, die nach ihrer Erstellung nicht mehr geändert werden können.</li>
+<li><strong>Nutzung:</strong> Diese Backups werden oft für die langfristige Aufbewahrung von Daten eingesetzt, um sicherzustellen, dass die gesicherten Informationen unverändert bleiben, insbesondere im Kontext von Compliance-Anforderungen. Unveränderbare Backups spielen außerdem eine entscheidende Rolle im Rahmen von Ransomware-Angriffen. In diesem Kontext sind unveränderliche Backups von großer Bedeutung, da sie als wirksame Schutzmaßnahme vor Datenverlust bei einem Angriff dienen können.</li>
+</ul>
+<h4 id="aufgabe-3_8">Aufgabe 3</h4>
+<ul>
+<li><strong>3 Kopien der Daten:</strong> Erstellen Sie mindestens drei Kopien Ihrer Daten, um Redundanz zu gewährleisten.</li>
+<li><strong>2 verschiedene Medientypen:</strong> Verwenden Sie unterschiedliche Medientypen (z.B., Festplatten, Bänder, Cloud), um sich vor Ausfallrisiken zu schützen.</li>
+<li><strong>1 Kopie extern speichern:</strong> Speichern Sie mindestens eine Kopie Ihrer Daten an einem externen Ort, um vor physischen Katastrophen zu schützen.</li>
+</ul>
+<h4 id="aufgabe-4_7">Aufgabe 4</h4>
+<ul>
+<li><strong>Großvater:</strong> Regelmäßige Vollbackups, typischerweise wöchentlich, die für eine längere Zeit aufbewahrt werden.</li>
+<li><strong>Vater:</strong> Tägliche oder inkrementelle Backups, die über eine mittlere Zeitspanne aufbewahrt werden.</li>
+<li><strong>Sohn:</strong> Häufige, inkrementelle Backups, die nur für kurze Zeiträume aufbewahrt werden.</li>
+</ul>
+<p>Dieses Prinzip ermöglicht eine effiziente und langfristige Aufbewahrung von Backups bei gleichzeitiger Minimierung des Speicherplatzbedarfs.</p>
+<h4 id="aufgabe-5_5">Aufgabe 5</h4>
+<ul>
+<li><strong>Verschlüsselung:</strong> Verwenden Sie starke Verschlüsselung für Backup-Daten, um die Vertraulichkeit zu gewährleisten. Dies gilt insbesondere für cloudbasierte Backupverfahren.</li>
+<li><strong>Zugriffskontrolle:</strong> Implementieren Sie strenge Zugriffskontrollen, um unbefugten Zugriff auf Backup-Dateien zu verhindern. Backup-Server sollten besonders geschützt und von Remote-Zugriffen mit Lese- und Löschrechten abgesehen werden. Der User, der befähigt ist, auf dem Backupserver zu schreiben sollte keine Berechtigung zum Löschen haben. Der "Master-Root-Admin" sollte bestenfalls gar nicht für Remoteverbindungen eingerichtet sein. </li>
+<li><strong>Backup-Verfahren testen:</strong> Führen Sie regelmäßige Tests von Wiederherstellungsverfahren durch, um sicherzustellen, dass Backups erfolgreich wiederhergestellt werden können. Oftmals wird leider erst im Fall eines Datenverlustes festgestellt, dass der Backup-Mechanismus an einer Stelle nicht funktioniert hat.</li>
+</ul>
+<h4 id="aufgabe-6_2">Aufgabe 6</h4>
+<ul>
+<li><strong>Einwilligung:</strong> Stellen Sie sicher, dass Sie die Einwilligung der Betroffenen für das Speichern ihrer Daten in der Cloud haben.</li>
+<li><strong>Datensicherheit:</strong> Gewährleisten Sie, dass die Cloud-Plattform den erforderlichen Datenschutz- und Sicherheitsstandards entspricht.</li>
+<li><strong>Datentransparenz:</strong> Informieren Sie die Nutzer darüber, wie und wo ihre Daten gespeichert und verarbeitet werden.</li>
+</ul>
+<h4 id="aufgabe-7_1">Aufgabe 7</h4>
+<p>Notfallwiederherstellung bezieht sich auf die Fähigkeit einer Organisation, nach schwerwiegenden Störungen oder Katastrophen den normalen Geschäftsbetrieb so schnell wie möglich wiederherzustellen.</p>
+<p>Wenn Ihr Ausbildungsbetrieb zu den Unternehmen der kritischen Infrastruktur (KRITIS) zählt, werden ggf. weitere Maßnahmen notwendig sein.</p>
+<ul>
+<li><strong>Notfallwiederherstellungspläne:</strong></li>
+<li>Erstellung von detaillierten Plänen, die den Prozess und die Verfahren zur Wiederherstellung von IT-Systemen im Falle eines Notfalls beschreiben.</li>
+<li>Identifikation kritischer Systeme und Daten, die priorisiert wiederhergestellt werden sollten.</li>
+<li><strong>RTO und RPO:</strong></li>
+<li><strong>Recovery Time Objective (RTO):</strong> Die maximale tolerierbare Zeit, die benötigt wird, um einen bestimmten Service oder eine Anwendung nach einem Ausfall wiederherzustellen.</li>
+<li><strong>Recovery Point Objective (RPO):</strong> Der maximale akzeptable Datenverlust, der im Falle eines Notfalls toleriert werden kann.</li>
+<li><strong>Backup-Tests und Simulationen:</strong></li>
+<li>Durchführung von regelmäßigen Tests und Simulationen von Notfallszenarien, um sicherzustellen, dass die Wiederherstellungspläne effektiv sind.</li>
+<li>Identifizierung von Schwachstellen und kontinuierliche Verbesserung der Notfallwiederherstellungsstrategien.</li>
+<li><strong>Notfallwiederherstellungsteams:</strong></li>
+<li>Benennung und Schulung von Notfallwiederherstellungsteams, die im Falle eines Notfalls die Verantwortung für die Umsetzung der Wiederherstellungspläne übernehmen.</li>
+<li>Klare Zuweisung von Aufgaben und Verantwortlichkeiten im Team.</li>
+<li><strong>Sicherung von Notfallstandorten:</strong></li>
+<li>Einrichtung von physischen oder virtuellen Notfallstandorten, an denen kritische Systeme und Daten im Notfall wiederhergestellt werden können.</li>
+<li>Sicherstellung, dass die Notfallstandorte die erforderlichen Ressourcen und Infrastruktur für eine schnelle Wiederherstellung bereitstellen können.</li>
+<li><strong>Kommunikationsstrategien:</strong></li>
+<li>Entwicklung von Kommunikationsstrategien, um interne und externe Stakeholder während eines Notfalls angemessen zu informieren.</li>
+<li>Klare Kommunikationswege und Verfahren für den Informationsaustausch während der Notfallwiederherstellung.</li>
+<li><strong>Dokumentation:</strong></li>
+<li>Umfassende Dokumentation aller Notfallwiederherstellungspläne, -verfahren und -tests, um eine einfache Überprüfung und Aktualisierung zu ermöglichen.</li>
+<li>Einbeziehung von Inventarlisten, Konfigurationen und Kontaktdaten in die Dokumentation.</li>
+</ul>
+<h2 id="integritat-gewahrleisten">Integrität gewährleisten</h2>
+<h3 id="arbeitsauftrag-integritat-von-daten-kontrollieren">Arbeitsauftrag - Integrität von Daten kontrollieren</h3>
+<h4 id="aufgabe-1_9">Aufgabe 1</h4>
+<p>Eine Hash-Funktion ist ein mathematischer Algorithmus, der dazu dient, Daten jeder Größe in eine feste Länge von Zeichen, den sogenannten Hash-Wert, umzuwandeln. Dieser Hash-Wert ist ein eindeutiger, pseudozufälliger String, der charakteristisch für die ursprünglichen Daten ist. Hash-Funktionen sind so konzipiert, dass geringfügige Änderungen an den Daten zu völlig unterschiedlichen Hash-Werten führen.</p>
+<p>Die Prüfung der Integrität von Daten mithilfe von Hash-Funktionen erfolgt in der Regel, indem der Sender einen Hash-Wert der Daten erstellt und diesen zusammen mit den Daten übermittelt. Der Empfänger kann dann denselben Hash-Algorithmus auf die empfangenen Daten anwenden und den generierten Hash-Wert mit dem vom Sender übermittelten Hash-Wert vergleichen. Stimmen die Hash-Werte überein, kann davon ausgegangen werden, dass die Daten unverändert sind. Eine Änderung an den Daten würde zu einem unterschiedlichen Hash-Wert führen, was auf eine mögliche Manipulation hinweist.</p>
+<p>Als Beispiel sind hier SHA256 oder auch MD5 als Hash-Algorithmus zu nennen. </p>
+<h4 id="aufgabe-2_9">Aufgabe 2</h4>
+<p>Eine Checksumme ist eine Zahl oder eine Zeichenfolge, die aus den Daten berechnet wird, um Fehler oder Veränderungen während der Übertragung oder Speicherung zu erkennen. Die Berechnung der Checksumme erfolgt durch Anwendung eines speziellen Algorithmus auf die Daten. Diese Checksumme wird zusammen mit den Daten übertragen.</p>
+<p>Um die Integrität von Daten mithilfe von Checksummen zu überprüfen, berechnet der Empfänger eine neue Checksumme der empfangenen Daten und vergleicht sie mit der ursprünglichen Checksumme. Wenn die beiden Checksummen übereinstimmen, wird angenommen, dass die Daten unverändert sind. Eine Veränderung an den Daten würde zu einer unterschiedlichen Checksumme führen, was auf mögliche Fehler oder Manipulationen hinweist.</p>
+<p>Bspw. ist hier CRC-32 (cyclic redundancy check) als Methode zu nennen.</p>
+<h4 id="aufgabe-3_9">Aufgabe 3</h4>
+<p>Eine Digitale Signatur ist ein kryptografisches Verfahren, bei dem der Sender einer Nachricht oder Daten einen eindeutigen digitalen Code, die Signatur, mithilfe seines privaten Schlüssels erstellt. Der Empfänger kann dann die Signatur mit dem öffentlichen Schlüssel des Senders überprüfen.</p>
+<p>Die Integrität von Daten wird durch digitale Signaturen auf folgende Weise sichergestellt: Der Sender erzeugt einen Hash-Wert der Daten und signiert diesen mit seinem privaten Schlüssel. Der Empfänger kann dann den Hash-Wert mithilfe des öffentlichen Schlüssels des Senders entschlüsseln und mit einem selbst berechneten Hash-Wert der empfangenen Daten vergleichen. Stimmen die Hash-Werte überein und die Signatur kann erfolgreich verifiziert werden, zeigt dies an, dass die Daten unverändert und authentisch sind. Eine Änderung an den Daten oder eine ungültige Signatur würde den Prüfprozess scheitern lassen, was auf mögliche Manipulationen hinweist.</p>
+<p>Ein Beispiel wären DocuSign oder Adobe PDF Digital Signature zu nennen.</p>
+<h2 id="vertraulichkeit-herstellen">Vertraulichkeit herstellen</h2>
+<h3 id="arbeitsauftrag-verschlusselung-von-daten-durchfuhren">Arbeitsauftrag - Verschlüsselung von Daten durchführen</h3>
+<h4 id="aufgabe-1_10">Aufgabe 1</h4>
+<ol>
+<li><strong>Schlüsselgenerierung:</strong></li>
+<li>
+<p>Sender und Empfänger müssen denselben geheimen Schlüssel teilen.</p>
+</li>
+<li>
+<p><strong>Verschlüsselung:</strong></p>
+</li>
+<li>
+<p>Der Sender verwendet den gemeinsamen Schlüssel, um die Mitteilung zu verschlüsseln. Dies erzeugt den verschlüsselten Text.</p>
+</li>
+<li>
+<p><strong>Übertragung:</strong></p>
+</li>
+<li>
+<p>Der verschlüsselte Text wird über das unsichere Netzwerk übertragen.</p>
+</li>
+<li>
+<p><strong>Empfang:</strong></p>
+</li>
+<li>Der Empfänger verwendet den gemeinsamen Schlüssel, um die Mitteilung zu entschlüsseln und den ursprünglichen Text wiederherzustellen.</li>
+</ol>
+<h4 id="aufgabe-2_10">Aufgabe 2</h4>
+<ol>
+<li><strong>Schlüsselgenerierung:</strong></li>
+<li>
+<p>Der Empfänger erstellt ein Schlüsselpaar mit einem öffentlichen und einem privaten Schlüssel. Der öffentliche Schlüssel wird veröffentlicht, während der private Schlüssel geheim bleibt.</p>
+</li>
+<li>
+<p><strong>Verschlüsselung:</strong></p>
+</li>
+<li>
+<p>Der Sender verwendet den öffentlichen Schlüssel des Empfängers, um die Mitteilung zu verschlüsseln.</p>
+</li>
+<li>
+<p><strong>Übertragung:</strong></p>
+</li>
+<li>
+<p>Der verschlüsselte Text wird über das unsichere Netzwerk übertragen.</p>
+</li>
+<li>
+<p><strong>Entschlüsselung:</strong></p>
+</li>
+<li>Nur der Empfänger kann die Mitteilung mit seinem privaten Schlüssel entschlüsseln.</li>
+</ol>
+<h4 id="aufgabe-3_10">Aufgabe 3</h4>
+<p>Bei einer Ende-zu-Ende-Verschlüsselung werden Daten so verschlüsselt, dass nur der beabsichtigte Empfänger in der Lage ist, sie zu entschlüsseln. Dies erfolgt, unabhängig von der Anzahl der Server oder Übertragungspunkte auf dem Übertragungsweg. Selbst der Serviceanbieter, der die Daten übermittelt, kann die verschlüsselten Daten nicht lesen. Ein Beispiel hierfür ist die Ende-zu-Ende-Verschlüsselung in Messaging-Apps wie WhatsApp oder Signal.</p>
+<h4 id="aufgabe-4_8">Aufgabe 4</h4>
+<p>Eine Public Key Infrastructure ist eine Infrastruktur, die die Erzeugung, Verwaltung und Verteilung von Schlüsselpaaren in der asymmetrischen Verschlüsselung unterstützt. Eine PKI umfasst Zertifizierungsstellen (CAs), die digitale Zertifikate ausstellen, die die Echtheit von öffentlichen Schlüsseln bestätigen. Diese Zertifikate werden verwendet, um das Vertrauen in die asymmetrische Verschlüsselung zu stärken.</p>
+<h4 id="aufgabe-5_6">Aufgabe 5</h4>
+<p>Verschlüsselung und Virtual Private Networks (VPNs) sind eng miteinander verbunden. VPNs verwenden Verschlüsselungstechniken, um den Datenverkehr zwischen einem Benutzer und einem entfernten Server zu schützen. Durch die Verschlüsselung werden die Daten während der Übertragung über unsichere Netzwerke geschützt, wodurch die Privatsphäre und Sicherheit der Benutzer verbessert werden.</p>
+<h4 id="aufgabe-6_3">Aufgabe 6</h4>
+<p>Zero-Knowledge-Proof ist ein Beweisverfahren, bei dem eine Partei nachweisen kann, dass sie eine Information kennt, ohne die Information selbst preiszugeben. Das bedeutet, dass eine Partei in der Lage ist, etwas zu beweisen, ohne genaue Details oder den tatsächlichen Inhalt preiszugeben. Dieses Konzept wird in der Kryptografie verwendet, um Authentifizierung oder Besitz ohne Offenlegung sensibler Informationen zu ermöglichen.</p>
+<h3 id="arbeitsauftrag-benutzer-und-rollen-systematisch-planen">Arbeitsauftrag - Benutzer und Rollen systematisch planen</h3>
+<h4 id="aufgabe-1_11">Aufgabe 1</h4>
+<p>Ein Verzeichnisdienst ist eine zentrale Datenbank, die Informationen über Ressourcen in einem Netzwerk speichert und verwaltet. Er spielt eine Schlüsselrolle bei der Organisation, Suche und Bereitstellung von Informationen über Benutzer, Gruppen, Computer und andere Netzwerkressourcen.</p>
+<h4 id="aufgabe-2_11">Aufgabe 2</h4>
+<ul>
+<li><strong>Zentralisierter Verzeichnisdienst:</strong> Hier werden alle Informationen an einem zentralen Ort gespeichert und verwaltet. Vorteile sind zentrale Kontrolle und einfache Verwaltung, aber Nachteile könnten Single Points of Failure und Skalierbarkeitsprobleme sein.</li>
+<li><strong>Dezentralisierter Verzeichnisdienst:</strong> Informationen sind auf mehrere Standorte verteilt. Vorteile sind höhere Ausfallsicherheit und Skalierbarkeit, aber die Verwaltung kann komplexer sein.</li>
+</ul>
+<h4 id="aufgabe-3_11">Aufgabe 3</h4>
+<ul>
+<li>Authentifizierung und Autorisierung sind entscheidend.</li>
+<li>Verschlüsselung für Datenübertragung.</li>
+<li>Überwachung von Zugriffen und Aktivitäten.</li>
+<li>Regelmäßige Aktualisierung von Passwörtern und Zugriffsrechten.</li>
+<li>Implementierung von Firewalls und Intrusion Detection Systems.</li>
+</ul>
+<h4 id="aufgabe-4_9">Aufgabe 4</h4>
+<p><strong>Rollen im Active Directory:</strong></p>
+<ul>
+<li><strong>Domain Controller:</strong></li>
+<li>Ein Domain Controller (DC) ist ein Server, der das Active Directory speichert und verwaltet.</li>
+<li>Er spielt eine Schlüsselrolle bei der Authentifizierung und Autorisierung von Benutzern und Ressourcen in einer Domäne.</li>
+<li><strong>Flexible Single Master Operations (FSMO) Rollen:</strong></li>
+<li>Es gibt fünf verschiedene FSMO-Rollen im Active Directory, die bestimmte Aufgaben wie die Verwaltung von Kennwörtern und die Wartung der Verzeichnisreplikation übernehmen.</li>
+<li>Dazu gehören Rollen wie der Schema-Master, Domain Naming Master, RID Master, PDC Emulator und Infrastructure Master.</li>
+<li><strong>Organizational Units (OU):</strong></li>
+<li>OUs sind Container in einer Domäne, die dazu dienen, Objekte wie Benutzer, Gruppen und Computer zu organisieren.</li>
+<li>Sie ermöglichen eine logische Strukturierung des Verzeichnisses und erleichtern die Delegation von Verwaltungsaufgaben.</li>
+</ul>
+<p><strong>Benutzer im Active Directory:</strong></p>
+<ul>
+<li><strong>Benutzerkonten:</strong></li>
+<li>Benutzerkonten repräsentieren individuelle Benutzer in der Active Directory-Domäne.</li>
+<li>Sie enthalten Informationen wie Benutzername, Kennwort, E-Mail-Adresse und andere Attribute.</li>
+<li><strong>Gruppen:</strong></li>
+<li>Gruppen sind Sammlungen von Benutzern, die gemeinsame Berechtigungen oder Richtlinien erhalten können.</li>
+<li>Es gibt Sicherheitsgruppen und Verteilergruppen, die jeweils unterschiedliche Funktionen erfüllen.</li>
+<li><strong>Benutzerprofile:</strong></li>
+<li>Benutzerprofile speichern individuelle Einstellungen und Anpassungen für Benutzer, wenn sie sich an einem beliebigen Computer in der Domäne anmelden.</li>
+<li>Profile können lokal oder zentral (roaming) gespeichert werden.</li>
+<li><strong>Richtlinien und Berechtigungen:</strong></li>
+<li>Das Active Directory ermöglicht die Definition von Gruppenrichtlinien, die das Verhalten von Benutzerkonten und Computern in der Domäne steuern.</li>
+<li>Berechtigungen können auf Objekte in der Domäne angewendet werden, um den Zugriff zu regeln.</li>
+</ul>
+<p><strong>Delegation von Verwaltung:</strong></p>
+<ul>
+<li>Die Delegation von Verwaltung ermöglicht es, bestimmte administrative Aufgaben an Benutzer oder Gruppen zu übertragen, ohne ihnen volle Kontrolle über das gesamte Verzeichnis zu geben.</li>
+<li>Dies erleichtert die Verteilung von Verantwortlichkeiten und die effiziente Verwaltung.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

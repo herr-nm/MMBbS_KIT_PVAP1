@@ -1,0 +1,127 @@
+<mxfile host="65bd71144e">
+    <diagram id="Zbx_HM8xOeFd_NG9Yo-7" name="Seite-1">
+        <mxGraphModel dx="799" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Hardware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="440" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Hardware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="440" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Hardware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="440" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Hypervisor&lt;br&gt;&lt;br&gt;z.B. Proxmox" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="360" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Host Betriebssystem&lt;br&gt;&lt;br&gt;z.B. Windows" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="360" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Host Betriebssystem&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;z.B. Ubuntu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="360" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="110" width="120" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="VM #1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="330" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="110" width="120" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="VM #2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="330" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Gast Betriebssystem&lt;br&gt;&lt;br&gt;z.B. Windows" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="260" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Gast Betriebssystem&lt;br&gt;&lt;br&gt;z.B. Ubuntu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="260" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Gast Anwendung&lt;br&gt;&lt;br&gt;z.B. MS Word" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="120" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Gast Anwendung&lt;br&gt;&lt;br&gt;z.B. Libre Writer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="120" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Host Anwendung&lt;br&gt;&lt;br&gt;z.B. MS Teams" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="20" width="80" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Hypervisor&lt;br&gt;(als Host Anwendung)&lt;br&gt;&lt;br&gt;z.B. VirtualBox" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="280" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Gast&amp;nbsp;OS&lt;br&gt;Kernel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="190" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Gast OS&lt;br&gt;Kernel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="190" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="20" width="80" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="VM #1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="250" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="20" width="80" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="VM #2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="250" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Gast Betriebs-system&lt;br&gt;&lt;br&gt;z.B. Windows" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="407.5" y="150" width="65" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Gast Anwendung&lt;br&gt;&lt;br&gt;z.B. MS Word" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="407.5" y="30" width="65" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Gast&amp;nbsp; OS Kernel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="407.5" y="110" width="65" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Gast Betriebs-system&lt;br&gt;&lt;br&gt;z.B.&lt;br&gt;Ubuntu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="487.5" y="150" width="65" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Gast Anwendung&lt;br&gt;&lt;br&gt;z.B. Libre Writer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="487.5" y="30" width="65" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Gast OS Kernel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="487.5" y="110" width="65" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Host Anwendung&lt;br&gt;&lt;br&gt;z.B. MS Teams" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="160" width="80" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Container Engine&lt;br&gt;(als Host Anwendung)&lt;br&gt;&lt;br&gt;z.B. Docker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="280" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="160" width="80" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Container #1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="250" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="160" width="80" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Container #2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="250" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Gast Micro-Service&lt;br&gt;&lt;br&gt;z.B. Wordpress" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="687.5" y="170" width="65" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Gast Micro-Service&lt;br&gt;&lt;br&gt;z.B. MySQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="767.5" y="170" width="65" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Typ-1-Virtualisierung" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="520" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Typ-2-Virtualisierung" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="520" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Containerisierung" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="520" width="240" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

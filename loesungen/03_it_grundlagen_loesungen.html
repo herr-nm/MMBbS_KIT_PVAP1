@@ -1,0 +1,1651 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://herr-nm.github.io/MMBbS_KIT_PVAP1/loesungen/03_it_grundlagen_loesungen.html">
+      
+      
+      
+      
+      <link rel="icon" href="../bilder/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
+    
+    
+      
+        <title>IT-Grundlagen - KIT Prüfungsvorbereitung AP1</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#it-grundlagen" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../index.html" title="KIT Prüfungsvorbereitung AP1" class="md-header__button md-logo" aria-label="KIT Prüfungsvorbereitung AP1" data-md-component="logo">
+      
+  <img src="../bilder/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            KIT Prüfungsvorbereitung AP1
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              IT-Grundlagen
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/herr-nm/MMBbS_KIT_PVAP1" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="KIT Prüfungsvorbereitung AP1" class="md-nav__button md-logo" aria-label="KIT Prüfungsvorbereitung AP1" data-md-component="logo">
+      
+  <img src="../bilder/logo.png" alt="logo">
+
+    </a>
+    KIT Prüfungsvorbereitung AP1
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/herr-nm/MMBbS_KIT_PVAP1" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Informationen zur Kurslizenz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../00_aufbau_und_inhalt.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aufbau und Inhalt der IHK-Prüfung (AP1)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_projektmanagement.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projektmanagement (div. LF)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_wirtschaftliche_grundlagen.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wirtschaftliche Grundlagen (LF1 & LF2)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03_it_grundlagen.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IT-Grundlagen (LF2)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04_netzwerktechnik.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Netzwerktechnik (LF3)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05_it_sicherheit.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IT-Sicherheit (LF4)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_anwendungsentwicklung.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anwendungsentwicklung (LF5)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07_pruefungstraining.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Prüfungstraining
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08_themeninputs.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Themeninputs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09_lernpartner_kursangebote_material.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lernpartner, Kursangebote & Material
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#raid-level-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      RAID-Level unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="RAID-Level unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-raid-level-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - RAID-Level unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - RAID-Level unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ubertragung-von-daten-berechnen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Übertragung von Daten berechnen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Übertragung von Daten berechnen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-ubertragung-von-daten-berechnen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Übertragung von Daten berechnen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Übertragung von Daten berechnen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#energieeffizienz-von-it-systemen-vergleichen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Energieeffizienz von IT-Systemen vergleichen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Energieeffizienz von IT-Systemen vergleichen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-energieeffizienz-von-it-systemen-vergleichen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Energieeffizienz von IT-Systemen vergleichen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Energieeffizienz von IT-Systemen vergleichen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ergonomie-am-arbeitsplatz-herstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ergonomie am Arbeitsplatz herstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ergonomie am Arbeitsplatz herstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-ergonomie-am-arbeitsplatz-herstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Ergonomie am Arbeitsplatz herstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Ergonomie am Arbeitsplatz herstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloudlosungen-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cloudlösungen unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cloudlösungen unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-cloudlosungen-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Cloudlösungen unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Cloudlösungen unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hardwarekomponenten-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hardwarekomponenten unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hardwarekomponenten unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-hardwarekomponenten-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Hardwarekomponenten unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Hardwarekomponenten unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virtualisierung-nutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Virtualisierung nutzen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Virtualisierung nutzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-virtualisierung-nutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Virtualisierung nutzen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Virtualisierung nutzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logische-grundfunktionen-der-digitaltechnik-auswerten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logische Grundfunktionen der Digitaltechnik auswerten
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Logische Grundfunktionen der Digitaltechnik auswerten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-logische-grundfunktionen-der-digitaltechnik-auswerten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Logische Grundfunktionen der Digitaltechnik auswerten
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Logische Grundfunktionen der Digitaltechnik auswerten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="it-grundlagen">IT-Grundlagen</h1>
+<h2 id="raid-level-unterscheiden">RAID-Level unterscheiden</h2>
+<h3 id="arbeitsauftrag-raid-level-unterscheiden">Arbeitsauftrag - RAID-Level unterscheiden</h3>
+<h4 id="aufgabe-1">Aufgabe 1</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Kriterium</th>
+<th style="text-align: left;">RAID 0</th>
+<th style="text-align: left;">RAID 1</th>
+<th style="text-align: left;">RAID 5</th>
+<th style="text-align: left;">RAID 6</th>
+<th style="text-align: left;">RAID 10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Mindestanzahl der Festplatten</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">Funktionsweise</td>
+<td style="text-align: left;">Striping</td>
+<td style="text-align: left;">Mirroring</td>
+<td style="text-align: left;">Striping mit Parity</td>
+<td style="text-align: left;">Striping mit Double-Parity</td>
+<td style="text-align: left;">Striping mit anschließendem Mirroring</td>
+</tr>
+<tr>
+<td style="text-align: left;">Nettospeicherkapazität allgemein</td>
+<td style="text-align: left;">Kapazität der kleinsten Festplatte * Anzahl der Festplatten</td>
+<td style="text-align: left;">Kapazität der kleinsten Festplatte</td>
+<td style="text-align: left;">Kapazität der kleinsten Festplatte * (Anzahl der Festplatten - eine Festplatte)</td>
+<td style="text-align: left;">Kapazität der kleinsten Festplatte * (Anzahl der Festplatten - zwei Festplatten)</td>
+<td style="text-align: left;">Kapazität der kleinsten Festplatte * Anzahl der Festplatten / 2</td>
+</tr>
+<tr>
+<td style="text-align: left;">Nettospeicherkapazität am Beispiel</td>
+<td style="text-align: left;">8 TB * 4 = 32 TB</td>
+<td style="text-align: left;">8 TB</td>
+<td style="text-align: left;">8 TB * (4 - 1) = 24 TB</td>
+<td style="text-align: left;">8 TB * (4 - 2) = 16 TB</td>
+<td style="text-align: left;">8 TB * 4 / 2 = 16 TB</td>
+</tr>
+<tr>
+<td style="text-align: left;">Festplattenausfall ohne Datenverlust allgemein</td>
+<td style="text-align: left;">keine</td>
+<td style="text-align: left;">alle bis auf eine</td>
+<td style="text-align: left;">max. eine</td>
+<td style="text-align: left;">max. zwei</td>
+<td style="text-align: left;">max. die Hälfte, wenn immer nur eine aus dem jeweiligen RAID 1 Verbund betroffen ist</td>
+</tr>
+<tr>
+<td style="text-align: left;">Festplattenausfall ohne Datenverlust am Beispiel</td>
+<td style="text-align: left;">keine</td>
+<td style="text-align: left;">max. 3</td>
+<td style="text-align: left;">max. 1</td>
+<td style="text-align: left;">max. 2</td>
+<td style="text-align: left;">Best-Case: max. 2 (aus unterschiedlichem RAID 1 Verbund) / Worst-Case: max. 1 (wenn sonst die zweite Festplatte eines RAID 1 Verbunds betroffen sind)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Erweiterung des RAID-Verbunds</td>
+<td style="text-align: left;">immer um eine Festplatte möglich</td>
+<td style="text-align: left;">immer um eine Festplatte möglich</td>
+<td style="text-align: left;">immer um eine Festplatte möglich</td>
+<td style="text-align: left;">immer um eine Festplatte möglich</td>
+<td style="text-align: left;">immer um zwei Festplatten als weiteren RAID 1 Verbund möglich</td>
+</tr>
+</tbody>
+</table>
+<h4 id="aufgabe-2">Aufgabe 2</h4>
+<p>Das NAS hat 8 Laufwerke. Ein Laufwerk davon dient als Hot Spare (nicht im Verbund befindlich und bereit für ein ausgefallenes Laufwerk an die Stelle zu treten) und damit 7 aktiven Laufwerken eine ungerade Anzahl.</p>
+<p>In näheren Betracht kommen die RAID-Level 6 und 10, da bei beiden Konzepten zwei Laufwerke ohne Datenverlust ausfallen dürfen (bei RAID 10 und Best-Case sogar mehr).</p>
+<p>Da das RAID-Level 10 allerdings eine gerade Anzahl Laufwerke benötigt, würde die Kapazität der 7. aktiven Festplatte nicht eingebracht werden können. Damit bleibt lediglich RAID 6 als Option übrig.</p>
+<p>Die Mindestnettokapazität von drei Festplatten ist beim RAID 6 bei 7 aktiven Laufwerken gegeben, es werden zwei Laufwerke für Paritäten verwendet, es bleiben damit fünf Laufwerke für die Nettokapazität:</p>
+<ul>
+<li>5 Laufwerke Nettokapazität</li>
+<li>2 Laufwerke für Paritäten</li>
+<li>1 Laufwerk als Hot Spare</li>
+</ul>
+<h4 id="aufgabe-3">Aufgabe 3</h4>
+<p>RAID und Backups sind beide wichtige Strategien zur Sicherung von Daten, insbesondere hinsichtlich des Schutzziels der Verfügbarkeit. Sie ergänzen sich jedoch, anstatt sich zu ersetzen, aus verschiedenen Gründen:</p>
+<ul>
+<li><strong>Fehlerhafte Datenspeicherung:</strong> RAID-Systeme bieten Redundanz auf Hardwareebene und sind in der Lage, den Ausfall eines oder mehrerer Festplatten zu tolerieren, ohne dass Datenverlust auftritt. Dies trägt zur kontinuierlichen Verfügbarkeit bei, da der Betrieb weitergehen kann, selbst wenn Hardwarefehler auftreten. Allerdings schützt RAID nicht vor Datenverlust aufgrund von Fehlern auf Dateiebene, menschlichen Fehlern oder schädlicher Software.</li>
+<li><strong>Datenkorruption und Löschungen:</strong> RAID schützt zwar vor physischen Festplattenausfällen, kann jedoch nicht vor Datenkorruption oder versehentlichen Löschungen schützen. In diesen Fällen sind Backups von entscheidender Bedeutung. Backups speichern Daten zu einem bestimmten Zeitpunkt und ermöglichen die Wiederherstellung von Daten, die in der Vergangenheit verloren gegangen sind.</li>
+<li><strong>Katastrophenschutz:</strong> Backups sind unerlässlich, wenn es darum geht, Daten vor größeren Katastrophen zu schützen, wie zum Beispiel Naturkatastrophen, Brand oder Diebstahl. RAID-Systeme können den Ausfall von Festplatten in derselben physischen Umgebung bewältigen, bieten jedoch keinen Schutz, wenn die gesamte Umgebung zerstört wird. Backups, die an einem externen Ort aufbewahrt werden, stellen sicher, dass Daten selbst nach solchen katastrophalen Ereignissen wiederhergestellt werden können.</li>
+<li><strong>Historische Daten und Versionierung:</strong> Backups ermöglichen es, auf historische Daten zuzugreifen und verschiedene Versionen von Dateien wiederherzustellen. RAID bietet in der Regel keine umfassende Versionierung. Dies ist wichtig, wenn es darum geht, frühere Datenzustände wiederherzustellen oder geänderte Dateien zu vergleichen.</li>
+</ul>
+<h4 id="aufgabe-4">Aufgabe 4</h4>
+<p>S.M.A.R.T. steht für "Self-Monitoring, Analysis, and Reporting Technology", was auf Deutsch etwa "Selbstüberwachung, Analyse und Berichterstattungstechnologie" bedeutet. Es handelt sich um einen branchenweiten Standard, der in Festplatten und SSD eingebaut ist. Die Hauptfunktion von S.M.A.R.T. besteht darin, die Gesundheit und Leistungsfähigkeit der Speichermedien zu überwachen und frühzeitig auf potenzielle Probleme oder drohende Ausfälle hinzuweisen.</p>
+<p>S.M.A.R.T. sammelt eine Vielzahl von Daten und Parametern von der Festplatte, wie beispielsweise die Anzahl der fehlerhaften Sektoren, die Betriebstemperatur, die Anzahl der Betriebsstunden und vieles mehr. Diese Informationen werden von der Festplatte selbst überwacht, um Veränderungen oder Abweichungen von den erwarteten Werten zu erkennen. Wenn kritische Schwellenwerte überschritten werden oder Anomalien auftreten, kann S.M.A.R.T. Warnmeldungen generieren, um den Benutzer oder das System darauf hinzuweisen, dass eine Wartung oder ein Austausch der Festplatte erforderlich sein könnte.</p>
+<p>Durch die regelmäßige Überwachung von S.M.A.R.T.-Daten können Benutzer und Systemadministratoren frühzeitig auf Probleme reagieren, bevor es zu einem vollständigen Ausfall der Festplatte kommt. Dies ermöglicht eine bessere Planung für die Datensicherung und den Austausch von Festplatten, um Datenverlust und Unterbrechungen zu minimieren. S.M.A.R.T. ist daher ein wichtiges Instrument zur Verbesserung der Verfügbarkeit und Zuverlässigkeit von Datenspeichergeräten.</p>
+<h4 id="aufgabe-5">Aufgabe 5</h4>
+<p>MTBF, oder "Meantime Between Failure" (deutsch: "Mittlere Betriebsdauer zwischen Ausfällen"), ist eine Kennzahl, die in der Informatik und insbesondere bei Speichermedien wie Festplatten und SSDs verwendet wird, um die erwartete durchschnittliche Zeitdauer zwischen Ausfällen oder Störungen zu quantifizieren. Die MTBF ist ein wichtiger Wert zur Bewertung der Zuverlässigkeit und Haltbarkeit von Hardwarekomponenten.</p>
+<p>Die MTBF wird in Stunden oder Betriebszyklen gemessen und gibt an, wie lange ein Gerät im Durchschnitt zwischen zwei aufeinanderfolgenden Ausfällen oder Störungen funktionieren sollte. Je höher die MTBF ist, desto zuverlässiger wird das Speichermedium angesehen. Es ist jedoch wichtig zu beachten, dass die MTBF keine Garantie für die genaue Betriebsdauer eines einzelnen Geräts ist, sondern vielmehr eine statistische Schätzung basierend auf umfangreichen Tests und Erfahrungen mit ähnlichen Geräten.</p>
+<p>Die MTBF ist ein nützlicher Indikator, um die Ausfallsicherheit von Speichermedien und anderen Hardwarekomponenten bei der Planung von IT-Infrastrukturen zu berücksichtigen. Organisationen können die MTBF-Werte verwenden, um Redundanz- und Backup-Strategien zu entwickeln, um sicherzustellen, dass Datenverlust und Betriebsunterbrechungen aufgrund von Hardwareausfällen minimiert werden.</p>
+<h2 id="ubertragung-von-daten-berechnen">Übertragung von Daten berechnen</h2>
+<h3 id="arbeitsauftrag-ubertragung-von-daten-berechnen">Arbeitsauftrag - Übertragung von Daten berechnen</h3>
+<h4 id="aufgabe-1_1">Aufgabe 1</h4>
+<p><img alt="Aufgabe 1" src="../bilder/kap_03_uebertragung_von_daten_aufgabe_1.png" /></p>
+<h4 id="aufgabe-2_1">Aufgabe 2</h4>
+<p><img alt="Aufgabe 2" src="../bilder/kap_03_uebertragung_von_daten_aufgabe_2.png" /></p>
+<h4 id="aufgabe-3_1">Aufgabe 3</h4>
+<p><img alt="Aufgabe 3" src="../bilder/kap_03_uebertragung_von_daten_aufgabe_3.png" /></p>
+<h2 id="energieeffizienz-von-it-systemen-vergleichen">Energieeffizienz von IT-Systemen vergleichen</h2>
+<h3 id="arbeitsauftrag-energieeffizienz-von-it-systemen-vergleichen">Arbeitsauftrag - Energieeffizienz von IT-Systemen vergleichen</h3>
+<h4 id="aufgabe-1_2">Aufgabe 1</h4>
+<p><strong>Elektrische Leistung</strong></p>
+<p>Elektrische Leistung (P) = Elektrische Spannung (U) * Elektrischer Strom (I)</p>
+<p><code>P = U * I</code></p>
+<p>Beachten Sie dabei:
+- Die Maßeinheit von P ist Watt (W).
+- Die Maßeinheit von I ist Ampere (A).
+- Die Maßeinheit von U ist Volt (V).</p>
+<p><strong>Elektrische Energie</strong></p>
+<p>Elektrische Energie (E) = Elektrische Leistung (P) * Zeit (t)</p>
+<p><code>E = P * t</code></p>
+<p>Beachten Sie dabei:
+- Die Maßeinheit von E ist Wattstunden (Wh).
+- Die Maßeinheit der Zeit ist für diesen Aufgabentyp in Stunden zu berechnen.</p>
+<p><strong>Kosten</strong></p>
+<p>Kosten = Elektrische Energie (E) * Preis (€)</p>
+<p><code>Kosten = E * Preis</code></p>
+<p>Beachten Sie dabei:
+- Der Preis wird in der Regel in €/kWh angegeben.
+- Die elektrische Energie muss in der Regel von Wattstunden (Wh) in Kilowattstunden (kWh) umgerechnet werden.</p>
+<h4 id="aufgabe-2_2">Aufgabe 2</h4>
+<ul>
+<li>gegeben: <span class="arithmatex">\(I = 1.750\,\text{mAh}\)</span>; 100 mal aufladen; <span class="arithmatex">\(U = 5\,\text{V}\)</span>; <span class="arithmatex">\(\text{Preis} = 35\,\text{ct/kWh}\)</span></li>
+<li>gesucht: monatliche Kosten</li>
+</ul>
+<p><strong>Lösung:</strong></p>
+<p><span class="arithmatex">\(E = Spannung * Kapazität = 5\,\text{V} * 1.750\,\text{mAh} = 5\,\text{V} * 1,75\,\text{Ah} = 8,75\,\text{Wh}\)</span>
+<span class="arithmatex">\(Gesamtenergie = 8,75\,\text{Wh} * 100\,\text{Ladungen} = 875\,\text{Wh} = 0,875 \,\text{kWh}\)</span>
+<span class="arithmatex">\(Kosten = 0,875 \,\text{kWh} * 0,35\,\text{€/kWh} = 0,31\,\text{€}\)</span></p>
+<h4 id="aufgabe-3_2">Aufgabe 3</h4>
+<p><img alt="Rechenweg" src="../bilder/kap_03_energieeffizienz_berechnen_aufgabe_3.png" /></p>
+<ul>
+<li>gegeben:</li>
+<li>40 Arbeitsplätze, 250 Tage pro Jahr, 10 Stunden pro Tag, Strompreis von 31 ct/kWh, Server 24/7 365 Tage im Jahr in Betrieb</li>
+<li>Option A: Leistung mit 15 W je Arbeitsplatz und 800 W bei 95% Auslastung des Servers</li>
+<li>Option B: Leistung mit 40 W je Arbeitsplatz und 2x 800 W bei 85% Auslastung des Servers</li>
+<li>gesucht: Gesamtkosten</li>
+</ul>
+<p><em>Lösung Option A:</em></p>
+<p><span class="arithmatex">\(P_{Arbeitsplatz} = 15\,\text{W}\)</span>
+<span class="arithmatex">\(P_{Server} = 800\,\text{W} * 0,95 = 760\,\text{W}\)</span>
+<span class="arithmatex">\(E_{Arbeitsplatz} = 15\,\text{W} * 10\,\text{h} * 250\,\text{Tage} = 37.500\,\text{Wh} = 37,5\,\text{kWh}\)</span>
+<span class="arithmatex">\(E_{Server} = 760\,\text{W} * 24\,\text{h} * 365\,\text{Tage} = 6.657.600\,\text{Wh} = 6.657,6\,\text{kWh}\)</span>
+<span class="arithmatex">\(E_{Gesamt} = 37,5\,\text{kWh} * 40\,\text{Arbeitsplätze} + 6.657,6\,\text{kWh} = 8.157,6\,\text{kWh}\)</span>
+<span class="arithmatex">\(Kosten = 8.157,6\,\text{kWh} * 0,31\,\text{€/kWh} = 2.528,86\,\text{€}\)</span></p>
+<p><em>Lösung Option B:</em></p>
+<p><span class="arithmatex">\(P_{Arbeitsplatz} = 40\,\text{W}\)</span>
+<span class="arithmatex">\(P_{Server} = 800\,\text{W} * 0,85 = 680\,\text{W}\)</span>
+<span class="arithmatex">\(E_{Arbeitsplatz} = 40\,\text{W} * 10\,\text{h} * 250\,\text{Tage} = 100.000\,\text{Wh} = 100\,\text{kWh}\)</span>
+<span class="arithmatex">\(E_{Server} = 680\,\text{W} * 24\,\text{h} * 365\,\text{Tage} = 5.956.800\,\text{Wh} = 5.956,8\,\text{kWh}\)</span>
+<span class="arithmatex">\(E_{Gesamt} = 100\,\text{kWh} * 40\,\text{Arbeitsplätze} + 5.956,8\,\text{kWh} * 2\,\text{Server} = 15.913,6\,\text{kWh}\)</span>
+<span class="arithmatex">\(Kosten = 15.913,6\,\text{kWh} * 0,31\,\text{€/kWh} = 4.933,22\,\text{€}\)</span></p>
+<h4 id="aufgabe-4_1">Aufgabe 4</h4>
+<p><strong>Frage 1:</strong></p>
+<p>Power Usage Effectiveness (PUE) ist eine Metrik, die zur Schätzung der Energieeffizienz eines Rechenzentrums verwendet werden kann. Es wird berechnet, indem die Gesamtmenge an Energie, die in ein Rechenzentrum eingeht, durch die Energie geteilt wird, die nur für den Betrieb der IT-Ausrüstung im Rechenzentrum erforderlich ist. Je näher dieser Wert 1,0 kommt, desto effizienter ist das Rechenzentrum.</p>
+<p><em>"Power Usage Effectiveness (PUE) is a metric that can be used to estimate the energy efficiency of a data center. It is calculated by dividing the total amount of energy entering a data center by the energy required only to operate the IT equipment in the data center."</em></p>
+<p><strong>Frage 2:</strong></p>
+<p>Die Überwachung einer Metrik wie PUE ist nützlich, um die Effizienz eines Rechenzentrums zu benchmarken. Unternehmen und Rechenzentrumsmanager verwenden die Metrik, um die aktuelle Effizienz ihrer Infrastruktur und den Erfolg von Modernisierungsbemühungen festzustellen. Dies hilft dabei, den Energieverbrauch und die Energiekosten zu senken.</p>
+<p><em>"Monitoring a metric like PUE is useful for benchmarking data center efficiency. Companies and data center managers use the metric to determine the current efficiency of their infrastructure and the success of modernization efforts. This helps reduce power consumption and energy costs."</em></p>
+<p><strong>Frage 3:</strong></p>
+<p>Vorteile von Power Usage Effectiveness (PUE):</p>
+<ol>
+<li><strong>Laufende Bewertung</strong>: PUE kann kontinuierlich neu berechnet werden, um die Effektivität von Energieeinsparungsmaßnahmen zu überwachen.</li>
+<li><strong>Effizientere Praktiken</strong>: Effizienz kann gut gemessen werden, da sie sich in der Kennzahl niederschlägt.</li>
+<li><strong>Beliebte Metrik</strong>: PUE ist eine weit verbreitete Metrik in Data Center Infrastructure Management (DCIM) Software.</li>
+<li><strong>Wettbewerbsvorteil</strong>: Unternehmen mit guten PUE-Werten können diese in ihrer Werbematerialien verwenden.</li>
+</ol>
+<p>(s. Aufzählung im Text)</p>
+<p><strong>Frage 4:</strong></p>
+<p>Nachteile von Power Usage Effectiveness (PUE):</p>
+<ol>
+<li><strong>Schwierige Gesamtleistungsberechnung</strong>: Die genaue Berechnung der Gesamtleistung ist oft schwierig und kann zu ungenauen Ergebnissen führen.</li>
+<li><strong>Rack-Ebene nicht erfasst</strong>: PUE erfasst nicht den Energieverbrauch auf Rack-Ebene, was die Genauigkeit beeinträchtigen kann.</li>
+<li><strong>Keine Marketingmetrik</strong>: Obwohl PUE von Unternehmen für Marketingzwecke verwendet werden kann, ist es eigentlich eine Bewertungs- und Verbesserungsmetrik und sollte nicht übermäßig für Marketingzwecke genutzt werden.</li>
+<li><strong>Berücksichtigt nicht die Rechenzentrumsgröße und Softwareeffizienz</strong>: PUE sagt nichts darüber aus, ob ein Rechenzentrum angemessen dimensioniert ist oder ob effiziente Software verwendet wird.</li>
+<li><strong>Berücksichtigt nicht alle Umweltaspekte</strong>: PUE berücksichtigt nicht andere Umweltaspekte wie Wasserverbrauch, die Lebensdauer von Geräten oder das Recycling von Altgeräten. Es ist möglich, den PUE durch umweltschädliche Maßnahmen zu senken, was der Umwelt insgesamt schaden kann.</li>
+</ol>
+<p>(s. Aufzählung im Text)</p>
+<p><strong>Frage 5:</strong></p>
+<p>Um den PUE-Wert näher an 1,0 zu bringen, sind verschiedene Maßnahmen möglich, einschließlich der Virtualisierung von Servern, Optimierung der Kühlung, Nutzung von "free cooling", Stilllegung ineffizienter Hardware, Einsatz effizienterer USV-Systeme und effizienterer Beleuchtung.</p>
+<p><em>"To bring your PUE closer to 1.0, the following measures are possible: Virtualize servers, Optimize cooling, Use free cooling, Retire inefficient hardware, Deploy a more efficient UPS, Don't forget lighting."</em></p>
+<p><strong>Frage 6:</strong></p>
+<p>Welche Rolle spielt die Virtualisierung bei der Verbesserung des PUE-Werts?</p>
+<p>Virtualisierung ermöglicht es, die gleichen Workloads auf weniger Servern auszuführen, was zu mehr Rechenleistung bei gleicher oder kleinerer Infrastruktur führt.</p>
+<p><em>"Virtualization enables you to run the same workloads on fewer servers. This gives you more computing power with the same or smaller infrastructure."</em></p>
+<p><strong>Frage 7:</strong></p>
+<p>Warum ist die Optimierung der Kühlung in einem Rechenzentrum wichtig?</p>
+<p>Kühlsysteme gehören zu den energieintensivsten Komponenten der Rechenzentrumsinfrastruktur. Durch eine optimale Kühlungsplanung können Hotspots vermieden werden, wodurch zusätzliche Kühlleistung nicht erforderlich ist.</p>
+<p><em>"Air conditioning systems are among the most energy-intensive components of data center infrastructure. Depending on how you plan your layout, you can avoid hotspots and thus the need for additional cooling power."</em></p>
+<p><strong>Frage 8:</strong></p>
+<p>Free cooling" bezieht sich auf die Nutzung von Außenluftkühlung, die wesentlich weniger Energie verbraucht als Klimaanlagen. Die Verwendung von "free cooling" kann dazu beitragen, den PUE-Wert zu senken.</p>
+<p><em>"Because air-conditioning systems are so power-hungry, rely on outside air cooling as often as possible, which uses much less power."</em></p>
+<p><strong>Frage 9:</strong></p>
+<p>USVs sind entscheidend, um den Betrieb aufrechtzuerhalten. Die Wahl eines effizienten USV-Systems kann zur Senkung des Energieverbrauchs beitragen.</p>
+<p><em>"UPSs are essential to maintain operations throughout. But there are more or less efficient options here."</em></p>
+<p><strong>Frage 10:</strong></p>
+<p>Es gibt verschiedene Maßnahmen, wie die Verwendung von Bewegungssensoren oder Zeitschaltern, um Licht nur dann einzuschalten, wenn es wirklich benötigt wird, sowie den Einsatz von LEDs zur Beleuchtung.</p>
+<p><em>"While the energy used for lighting is only a small part of the data center's power needs, it's especially easy to reduce that portion. Make sure lights are only on when employees really need them (for example, through a motion detector or timer) and switch light sources to LEDs."</em></p>
+<h2 id="ergonomie-am-arbeitsplatz-herstellen">Ergonomie am Arbeitsplatz herstellen</h2>
+<h3 id="arbeitsauftrag-ergonomie-am-arbeitsplatz-herstellen">Arbeitsauftrag - Ergonomie am Arbeitsplatz herstellen</h3>
+<h4 id="aufgabe-1_3">Aufgabe 1</h4>
+<p><img alt="Mindmap" src="../bilder/03_ergonomie_aufgabe_1.png" /></p>
+<h4 id="aufgabe-2_3">Aufgabe 2</h4>
+<ul>
+<li><strong>Blendung vermeiden:</strong> Die Bildschirmhelligkeit sollte so eingestellt sein, dass keine Blendung auf dem Bildschirm zu sehen ist. Blendung kann zu Augenbelastung und Unbehagen führen. Der Bildschirm sollte so positioniert werden, dass keine direkte Sonneneinstrahlung darauf fällt, und Reflexionen von Lichtquellen wie Fenstern oder Lampen vermieden werden.</li>
+<li><strong>Helligkeit an die Umgebung anpassen:</strong> In hellen Umgebungen kann eine höhere Helligkeit erforderlich sein, während in dunklen Räumen eine niedrigere Helligkeit ausreichend ist.</li>
+<li><strong>Kontrast anpassen:</strong> Der Kontrast des Bildschirms sollte so eingestellt sein, dass der Text klar und leicht lesbar ist, ohne übermäßigen Kontrast zwischen Text und Hintergrund.</li>
+<li><strong>Farbtemperatur einstellen:</strong> Die Farbtemperatur des Bildschirms kann ebenfalls angepasst werden. Ein wärmerer Farbton (z.B. gelblicher) kann in den Abendstunden angenehmer für die Augen sein, während ein kühlerer Farbton (bläulicher) tagsüber bevorzugt werden kann. Diese Funktion wird als Automatik von den Betriebssystemen wie Windows und MacOS sowie von mobilen Betriebssystemen angeboten.</li>
+<li><strong>Regelmäßige Pausen einplanen:</strong> Selbst bei optimaler Bildschirmhelligkeit sollten regelmäßige Pausen eingelegt werden, um die Augen zu entlasten. Den sogenannten 20-20-20-Regel befolgen: Alle 20 Minuten für 20 Sekunden auf einen Punkt mindestens 20 Fuß (ca. 6 Meter) in die Ferne schauen. Es ist im Allgemeinen sinnvoll an einem Arbeitstag am Bildschirm des Öfteren einen Punkt ab ca. 40 m anzusehen, damit die Augen eine Entspannung im fern Sehen erhalten.</li>
+<li><strong>Augenuntersuchungen:</strong> Regelmäßig Augenuntersuchungen sind sinnvoll, um sicherzustellen, dass die Sehkraft in Ordnung ist und um etwaige Probleme frühzeitig erkannt werden.</li>
+<li><strong>Helligkeit am Gerät einstellen:</strong> Die Bildschirmhelligkeit sollte der Umgebungsbeleuchtung entsprechend angepasst werden.</li>
+<li><strong>Bildschirm pflegen:</strong> Bildschirme sollten sauber gehalten werden, um Staub und Schmutzablagerungen zu vermeiden, die die Bildqualität beeinträchtigen könnten.</li>
+</ul>
+<h2 id="cloudlosungen-unterscheiden">Cloudlösungen unterscheiden</h2>
+<h3 id="arbeitsauftrag-cloudlosungen-unterscheiden">Arbeitsauftrag - Cloudlösungen unterscheiden</h3>
+<h4 id="aufgabe-1_4">Aufgabe 1</h4>
+<p>Cloud-Computing ist ein Ansatz zur Bereitstellung von IT-Ressourcen und Diensten über das Internet. Anstatt eigene physische Hardware und Software bereitzustellen und zu verwalten, können Unternehmen und Benutzer auf virtuelle Ressourcen in Rechenzentren zugreifen, die von Cloud-Anbietern betrieben werden. Diese Ressourcen umfassen Rechenleistung, Speicher, Netzwerkressourcen und Anwendungen. Cloud-Computing ermöglicht es, skalierbare und flexible IT-Infrastrukturen und Dienste nach Bedarf zu nutzen, ohne sich um die technischen Details und Wartung kümmern zu müssen.</p>
+<h4 id="aufgabe-2_4">Aufgabe 2</h4>
+<p>Die "... as a Service"-Konzepte, auch als XaaS abgekürzt, umfassen verschiedene Bereitstellungsmodelle, bei denen Dienste und Ressourcen über das Internet zur Verfügung gestellt werden.</p>
+<ul>
+<li><strong>Infrastructure as a Service (IaaS):</strong> Bei IaaS werden virtuelle Hardwarekomponenten wie Server, Speicher und Netzwerkressourcen bereitgestellt. Benutzer können diese Ressourcen nutzen, um eigene Betriebssysteme und Anwendungen zu hosten.</li>
+<li><strong>Platform as a Service (PaaS):</strong> PaaS bietet eine Entwicklungsplattform, auf der Entwickler Anwendungen erstellen, testen und bereitstellen können. Dabei müssen sie sich nicht um die zugrunde liegende Infrastruktur kümmern.</li>
+<li><strong>Software as a Service (SaaS):</strong> SaaS-Dienste bieten fertige Softwareanwendungen, die über das Internet genutzt werden können. Benutzer mieten oder abonnieren diese Anwendungen, anstatt sie zu kaufen und lokal zu installieren.</li>
+</ul>
+<p>Etwas seltener genannt:</p>
+<ul>
+<li><strong>Storage as a Service (StaaS)</strong>: StaaS bildet Onlinespeicher ab, die es Kund:innen erlauben Dateien hochzuladen. In der Regel gibt es für den Zugriff browsergestützte Versionen, die durch Clients ergänzt werden können.</li>
+<li><strong>Function as a Service (FaaS):</strong> FaaS ermöglicht die Ausführung von Funktionen oder Code in einer serverlosen Umgebung. Entwickler laden ihren Code hoch, und die Plattform führt ihn aus, wenn er benötigt wird.</li>
+<li><strong>Database as a Service (DBaaS):</strong> DBaaS stellt Datenbanken als Dienst zur Verfügung, wodurch Benutzer Datenbanken erstellen, verwalten und abfragen können, ohne sich um die zugrunde liegende Datenbankinfrastruktur kümmern zu müssen.</li>
+</ul>
+<h4 id="aufgabe-3_3">Aufgabe 3</h4>
+<p>Die Abrechnung von Cloud-Diensten erfolgt in der Regel auf Grundlage von Verbrauch und Nutzung. Die üblichen Bezahlmodelle sind:</p>
+<ul>
+<li><strong>Pay-as-you-go (Pay-per-Use):</strong> Benutzer zahlen nur für die tatsächlich in Anspruch genommenen Ressourcen und Dienste. Dieses Modell ist flexibel und erfordert keine langfristigen Verpflichtungen.</li>
+<li><strong>Abonnementbasiert:</strong> Benutzer zahlen regelmäßig, oft monatlich oder jährlich, einen festen Betrag für den Zugriff auf bestimmte Dienste oder Ressourcen. Dieses Modell bietet Vorhersehbarkeit, erfordert jedoch langfristige Verträge.</li>
+<li><strong>Kostenfreie Stufen (Freemium):</strong> Einige Cloud-Dienste bieten eine kostenlose Stufe mit begrenztem Funktionsumfang. Benutzer können gegen Aufpreis auf erweiterte Funktionen oder höhere Nutzungsgrenzen zugreifen.</li>
+<li><strong>Reservierte Instanzen:</strong> Benutzer können im Voraus Kapazitäten oder Ressourcen reservieren und erhalten dafür oft einen Rabatt im Vergleich zur pay-as-you-go-Abrechnung.</li>
+<li><strong>Spot-Instanzen:</strong> Bei diesem Modell bieten Benutzer Gebote für ungenutzte Ressourcen, um sie zu einem reduzierten Preis zu nutzen. Die Verfügbarkeit kann jedoch begrenzt sein.</li>
+</ul>
+<h4 id="aufgabe-4_2">Aufgabe 4</h4>
+<ul>
+<li><strong>Datenschutzrichtlinien des Anbieters:</strong> Cloud-Anbieter haben Datenschutzrichtlinien und Sicherheitsmaßnahmen, die den Schutz der Daten der Benutzer gewährleisten sollen. Die Einhaltung dieser Richtlinien ist entscheidend.</li>
+<li><strong>Verschlüsselung:</strong> Die Verschlüsselung von Daten während der Übertragung und im Ruhezustand ist ein wichtiger Schutzmechanismus.</li>
+<li><strong>Zugriffskontrolle:</strong> Cloud-Anbieter bieten oft Möglichkeiten zur Verwaltung von Zugriffsrechten und Berechtigungen, um den Zugriff auf Daten zu kontrollieren.</li>
+<li><strong>Compliance und Zertifizierungen:</strong> Anbieter können Zertifizierungen für Sicherheitsstandards wie ISO 27001 oder SOC 2 vorweisen, die auf die Einhaltung strenger Sicherheitsrichtlinien hinweisen.</li>
+<li><strong>Datensicherung und Wiederherstellung:</strong> Cloud-Anbieter bieten oft Möglichkeiten zur Datensicherung und -wiederherstellung, um den Schutz vor Datenverlust zu gewährleisten.</li>
+</ul>
+<h2 id="hardwarekomponenten-unterscheiden">Hardwarekomponenten unterscheiden</h2>
+<h3 id="arbeitsauftrag-hardwarekomponenten-unterscheiden">Arbeitsauftrag - Hardwarekomponenten unterscheiden</h3>
+<h4 id="aufgabe-1_5">Aufgabe 1</h4>
+<p><strong>Komponenten eines Desktop-PC</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Abbildung</th>
+<th style="text-align: left;">Komponente</th>
+<th style="text-align: left;">Beschreibung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="CPU" src="../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_CPU.png" /></td>
+<td style="text-align: left;">Zentrale Verarbeitungseinheit (CPU)</td>
+<td style="text-align: left;">Die CPU ist das Gehirn des Computers und führt die meisten Berechnungen und Aufgaben aus. Sie besteht aus einem Mikroprozessor.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="RAM" src="../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_RAM.png" /></td>
+<td style="text-align: left;">Arbeitsspeicher (RAM)</td>
+<td style="text-align: left;">RAM dient als temporärer Speicher für laufende Programme und Daten. Je mehr RAM ein Computer hat, desto besser kann er mit verschiedenen Aufgaben gleichzeitig umgehen.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="HDD" src="../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_HDD.png" /></td>
+<td style="text-align: left;">HDD oder SSD</td>
+<td style="text-align: left;">Die HDD oder SSD ist der langfristige Speicher des Computers. Hier werden das Betriebssystem, Programme und Dateien dauerhaft gespeichert.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="GPU" src="../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_GPU.png" /></td>
+<td style="text-align: left;">Grafikkarte (GPU)</td>
+<td style="text-align: left;">Die Grafikkarte ist für die Anzeige von Grafiken und Videos verantwortlich. In einigen Fällen kann sie auch zur Beschleunigung von Berechnungen eingesetzt werden, z.B. bei 3D-Anwendungen und Spielen.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="Mainboard" src="../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Motherboard.png" /></td>
+<td style="text-align: left;">Mainboard (Hauptplatine)</td>
+<td style="text-align: left;">Das Mainboard ist die Hauptplatine, auf der die meisten Komponenten des Computers miteinander verbunden sind. Es enthält Anschlüsse für die CPU, den RAM, die Grafikkarte und andere Erweiterungskarten.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="Netzteil" src="../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Netzteil.png" /></td>
+<td style="text-align: left;">Netzteil</td>
+<td style="text-align: left;">Das Netzteil versorgt den Computer mit Strom und wandelt den Wechselstrom aus der Steckdose in Gleichstrom um, den der Computer benötigt.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notwendige Peripherie</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Abbildung</th>
+<th style="text-align: left;">Komponente</th>
+<th style="text-align: left;">Beschreibung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="Tastatur" src="../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Tastatur.png" /></td>
+<td style="text-align: left;">Tastatur</td>
+<td style="text-align: left;">Eingabegerät zur Eingabe von Text und Befehlen.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="Maus" src="../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Maus.png" /></td>
+<td style="text-align: left;">Maus</td>
+<td style="text-align: left;">Eingabegerät zur Steuerung des Mauszeigers auf dem Bildschirm.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="Monitor" src="../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Monitor.png" /></td>
+<td style="text-align: left;">Monitor</td>
+<td style="text-align: left;">Ausgabegerät, das den Bildschirminhalt anzeigt.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Übliche Peripherie</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Abbildung</th>
+<th style="text-align: left;">Komponente</th>
+<th style="text-align: left;">Beschreibung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="Drucker" src="../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Drucker.png" /></td>
+<td style="text-align: left;">Drucker</td>
+<td style="text-align: left;">Zum Drucken von Dokumenten und Bildern.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="Headset" src="../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Headset.png" /></td>
+<td style="text-align: left;">Headset</td>
+<td style="text-align: left;">Zur Audioausgabe sowie Mikrofon zur Aufnahme der Stimme.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="Webcam" src="../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Webcam.png" /></td>
+<td style="text-align: left;">Webcam</td>
+<td style="text-align: left;">Für Videoaufnahmen und Videokonferenzen.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="Scanner" src="../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_Scanner.png" /></td>
+<td style="text-align: left;">Scanner</td>
+<td style="text-align: left;">Zum Digitalisieren von Dokumenten.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="USB" src="../bilder/03_hardwarekomponenten_unterscheiden_aufgabe_1_usb.png" /></td>
+<td style="text-align: left;">weitere USB-Geräte</td>
+<td style="text-align: left;">wie externe Festplatten, USB-Sticks, ...</td>
+</tr>
+</tbody>
+</table>
+<h4 id="aufgabe-2_5">Aufgabe 2</h4>
+<p>Eingabegeräte können nach ihrer Art der Dateneingabe und Interaktion mit dem System unterschieden werden. Zum Beispiel können Tastatur und Maus als physische Eingabegeräte klassifiziert werden, während ein Touchscreen ein berührungsempfindliches Eingabegerät ist. Mikrofone und Scanner sind Beispiele für Geräte, die analoge Daten in digitale Daten umwandeln.</p>
+<h4 id="aufgabe-3_4">Aufgabe 3</h4>
+<p>Verarbeitungsgeräte in IT-Systemen sind im Wesentlichen CPUs (Zentrale Verarbeitungseinheiten) oder Prozessoren. Sie sind verantwortlich für die Ausführung von Berechnungen und Aufgaben. Diese Prozessoren können unterschieden werden:</p>
+<ul>
+<li><strong>Zentrale Verarbeitungseinheit (CPU):</strong> Dies ist der Standardprozessor in einem Computer und wird für allgemeine Aufgaben verwendet. Es gibt verschiedene CPU-Architekturen, wie x86, ARM usw., die je nach Gerät variieren.</li>
+<li><strong>Grafikprozessor (GPU):</strong> GPUs sind spezialisierte Prozessoren, die hauptsächlich für grafikintensive Aufgaben und parallele Berechnungen in 3D-Anwendungen und wissenschaftlichen Anwendungen verwendet werden.</li>
+<li><strong>Koprozessor:</strong> Ein Koprozessor ist ein zusätzlicher Prozessor, der spezielle Aufgaben wie Verschlüsselung, Signalverarbeitung oder künstliche Intelligenz beschleunigen kann.</li>
+</ul>
+<h4 id="aufgabe-4_3">Aufgabe 4</h4>
+<p>Ausgabegeräte werden nach dem Typ der ausgegebenen Informationen unterschieden, z.B. visuell (Monitor), auditiv (Lautsprecher), physisch (Drucker) usw. Sie dienen dazu, Informationen aus dem IT-System für den Benutzer zugänglich zu machen.</p>
+<h2 id="virtualisierung-nutzen">Virtualisierung nutzen</h2>
+<h3 id="arbeitsauftrag-virtualisierung-nutzen">Arbeitsauftrag - Virtualisierung nutzen</h3>
+<h4 id="aufgabe-1_6">Aufgabe 1</h4>
+<p>Die Virtualisierung von IT-Systemen ist eine Technologie, die es ermöglicht, mehrere virtuelle Instanzen von Computern, Betriebssystemen oder Anwendungen auf einer physischen Hardwareplattform auszuführen. Dabei wird die physische Hardware logisch in mehrere virtuelle Umgebungen unterteilt, wodurch Ressourcen effizienter genutzt werden können. Diese Virtualisierungstechnik bietet eine flexiblere und kosteneffizientere Möglichkeit, IT-Ressourcen bereitzustellen und zu verwalten.</p>
+<h4 id="aufgabe-2_6">Aufgabe 2</h4>
+<p><strong>Typ-1-Hypervisor</strong></p>
+<ul>
+<li>Typ-1-Hypervisoren sind auch als Bare-Metal-Hypervisoren bekannt.</li>
+<li>Sie laufen direkt auf der physischen Hardware, ohne ein zugrunde liegendes Betriebssystem.</li>
+<li>Dies macht sie leistungsstark und sicherer.</li>
+<li>Geeignet für Servervirtualisierung und Cloud-Infrastrukturen, bei denen hohe Leistung und Isolation erforderlich sind.</li>
+</ul>
+<p><strong>Typ-2-Hypervisor</strong></p>
+<ul>
+<li>Typ-2-Hypervisoren laufen auf einem zugrunde liegenden Betriebssystem.</li>
+<li>Sie sind einfacher zu installieren und zu verwenden, eignen sich jedoch nicht so gut für leistungsintensive Anwendungen.</li>
+<li>Geeignet für Entwicklungs- und Testumgebungen, bei denen Leistung weniger kritisch ist.</li>
+</ul>
+<p>Hier ein Schaubild, welches bereits Virtualisierung mit Containern (s. Aufgabe 3) enthält:</p>
+<p><img alt="VM" src="../bilder/03_virtualisierung_nutzen_aufgabe_2-3.png" /></p>
+<h4 id="aufgabe-3_5">Aufgabe 3</h4>
+<p><strong>Virtualisierung mit Containern (z.B. Docker)</strong></p>
+<p>Container sind leichtgewichtige Virtualisierungseinheiten, die Anwendungen und ihre Abhängigkeiten isoliert ausführen.
+Container teilen das Betriebssystem des Hosts und sind daher ressourceneffizienter.
+Sie ermöglichen eine schnellere Bereitstellung von Anwendungen und eine einfachere Skalierbarkeit.</p>
+<p><strong>Vorteile von Docker gegenüber "klassischer" Virtualisierung</strong></p>
+<ul>
+<li><strong>Effizienz:</strong> Container benötigen weniger Ressourcen im Vergleich zu Virtualisierung mit Hypervisoren, da sie das Betriebssystem des Hosts teilen.</li>
+<li><strong>Schnelle Bereitstellung:</strong> Container können sehr schnell gestartet und gestoppt werden, was die Anwendungsbereitstellung beschleunigt.</li>
+<li><strong>Konsistenz:</strong> Docker-Container sorgen für eine konsistente Umgebung und eliminieren "Es funktioniert auf meinem System" -Probleme.</li>
+<li><strong>Skalierbarkeit:</strong> Container können einfach skaliert werden, um Anwendungen je nach Bedarf zu erweitern.</li>
+</ul>
+<p><strong>Nachteile von Docker gegenüber "klassischer" Virtualisierung</strong></p>
+<ul>
+<li><strong>Isolation:</strong> Container teilen das Betriebssystem mit dem Host, was die Isolation von Anwendungen im Vergleich zur Hypervisor-Virtualisierung verringert.</li>
+<li><strong>Anwendungsbeschränkungen:</strong> Docker eignet sich am besten für Anwendungen, die in einem Linux-Umfeld laufen. Einige Windows-Anwendungen sind nicht gut geeignet für Container.</li>
+<li><strong>Sicherheit:</strong> Container-Sicherheit erfordert spezielle Konfiguration und Überwachung, um potenzielle Risiken zu minimieren.</li>
+</ul>
+<h4 id="aufgabe-4_4">Aufgabe 4</h4>
+<p>Gemäß <a href="https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_5_Virtualisierung_Edition_2023.pdf?__blob=publicationFile&amp;v=3#download=1"><em>SYS.1.5 Virtualisierung</em></a> hält das Bundesamt für Sicherheit in der Informationstechnik (BSI) folgende Aspekte zur Gefährdungslage beim Einsatz von Virutalisierung fest:</p>
+<ul>
+<li><strong>Fehlerhafte Planung der Virtualisierung:</strong> Eine unzureichende Planung der Integration von Virtualisierungsservern in die bestehende IT-Infrastruktur kann zu unklaren Zuständigkeiten und Überschneidungen führen. Es kann auch dazu führen, dass keine angemessene Rechtestruktur vorhanden ist, um administrative Zugriffe für verschiedene Bereiche zu trennen.</li>
+<li><strong>Fehlerhafte Konfiguration der Virtualisierung:</strong> Die Umstellung auf Virtualisierung ändert die Art und Weise, wie Server bereitgestellt werden. Fehlerhafte Konfigurationen können auftreten, wenn beispielsweise schutzbedürftige virtuelle IT-Systeme in einer unsicheren Umgebung platziert werden, was ein erhöhtes Sicherheitsrisiko darstellt.</li>
+<li><strong>Unzureichende Ressourcen für virtuelle IT-Systeme:</strong> Wenn nicht ausreichend Speicherplatz, Prozessorleistung, Arbeitsspeicher oder Netzwerkressourcen für virtuelle IT-Systeme zur Verfügung stehen, können dies zu Verfügbarkeitsproblemen, Datenintegrität und Betriebsstörungen führen. Dies betrifft sowohl den Speicherplatz auf Festplatten und im Speichernetzwerk als auch die Ressourcen für CPU, RAM und Netzwerkanbindung. Eine sorgfältige Ressourcenplanung und Überwachung sind entscheidend, um solche Probleme zu vermeiden.</li>
+<li><strong>Informationsabfluss oder Ressourcen-Engpass durch Snapshots:</strong> Wenn Snapshots von virtuellen Maschinen erstellt und wiederhergestellt werden, gehen alle nachträglichen Änderungen verloren. Dies kann zu erneuten Sicherheitslücken, inkonsistenten Daten und Speicherplatzproblemen führen. Zudem könnten Snapshots bei Angriffen verwendet werden, um auf Daten zuzugreifen, und sie können sehr groß werden.</li>
+<li><strong>Ausfall des Verwaltungsservers für Virtualisierungssysteme:</strong> Der Verwaltungsserver ist zentral für die Steuerung und Verwaltung der virtuellen Infrastruktur verantwortlich. Ein Ausfall dieses Servers führt dazu, dass keine Konfigurationsänderungen vorgenommen werden können, und es ist nicht möglich, auf auftretende Probleme zu reagieren oder die Infrastruktur zu erweitern.</li>
+<li><strong>Missbräuchliche Nutzung von Gastwerkzeugen:</strong> Gastwerkzeuge, die in virtuellen Maschinen mit hohen Berechtigungen laufen, können für Denial-of-Service-Angriffe missbraucht werden und könnten es Angreifern ermöglichen, den gesamten Virtualisierungsserver zu übernehmen.</li>
+<li><strong>Kompromittierung der Virtualisierungssoftware:</strong> Die Virtualisierungssoftware (Hypervisor) ist die zentrale Komponente eines Virtualisierungsservers. Wenn sie erfolgreich angegriffen wird, können alle virtuellen IT-Systeme auf dem Server gefährdet sein.</li>
+</ul>
+<h2 id="logische-grundfunktionen-der-digitaltechnik-auswerten">Logische Grundfunktionen der Digitaltechnik auswerten</h2>
+<h3 id="arbeitsauftrag-logische-grundfunktionen-der-digitaltechnik-auswerten">Arbeitsauftrag - Logische Grundfunktionen der Digitaltechnik auswerten</h3>
+<h4 id="aufgabe-1_7">Aufgabe 1</h4>
+<p><strong>AND</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">A</th>
+<th style="text-align: center;">B</th>
+<th style="text-align: center;">X</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+</tr>
+</tbody>
+</table>
+<p><em>Symbolik für das AND</em></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Symbol</th>
+<th style="text-align: left;">Zusammenhang</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="AND" src="../bilder/03_logik_aufgabe_1_AND.png" /></td>
+<td style="text-align: left;">Elektrotechnik</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="AND" src="../bilder/03_logik_aufgabe_1_EAND.png" /></td>
+<td style="text-align: left;">EPK</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="AND" src="../bilder/03_logik_aufgabe_1_BAND.png" /></td>
+<td style="text-align: left;">BPMN</td>
+</tr>
+</tbody>
+</table>
+<p><strong>OR</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">A</th>
+<th style="text-align: center;">B</th>
+<th style="text-align: center;">X</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+</tr>
+</tbody>
+</table>
+<p><em>Symbolik für das OR</em></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Symbol</th>
+<th style="text-align: left;">Zusammenhang</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="OR" src="../bilder/03_logik_aufgabe_1_OR.png" /></td>
+<td style="text-align: left;">Elektrotechnik</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="OR" src="../bilder/03_logik_aufgabe_1_EOR.png" /></td>
+<td style="text-align: left;">EPK</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="OR" src="../bilder/03_logik_aufgabe_1_BOR.png" /></td>
+<td style="text-align: left;">BPMN</td>
+</tr>
+</tbody>
+</table>
+<p><strong>XOR</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">A</th>
+<th style="text-align: center;">B</th>
+<th style="text-align: center;">X</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+</tr>
+</tbody>
+</table>
+<p><em>Symbolik für das XOR</em></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Symbol</th>
+<th style="text-align: left;">Zusammenhang</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="XOR" src="../bilder/03_logik_aufgabe_1_XOR.png" /></td>
+<td style="text-align: left;">Elektrotechnik</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="XOR" src="../bilder/03_logik_aufgabe_1_EXOR.png" /></td>
+<td style="text-align: left;">EPK</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="XOR" src="../bilder/03_logik_aufgabe_1_BXOR.png" /></td>
+<td style="text-align: left;">BPMN</td>
+</tr>
+</tbody>
+</table>
+<p><strong>NOT</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">A</th>
+<th style="text-align: center;">B</th>
+<th style="text-align: center;">X</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+</tr>
+</tbody>
+</table>
+<p><em>Symbolik für das NOT</em></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Symbol</th>
+<th style="text-align: left;">Zusammenhang</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="NOT" src="../bilder/03_logik_aufgabe_1_NOT.png" /></td>
+<td style="text-align: left;">Elektrotechnik (Hinweis, das NOT ist lediglich der rot markierte Kreis, dieser kann bspw. an anderen Bausteinen am Ein- oder Ausgang angebracht werden)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="aufgabe-2_7">Aufgabe 2</h4>
+<p>Es wird das OR-Gatter benötigt. Die Protokollierung soll gestartet werden, wenn Tür A geöffnet wird, wenn Tür B geöffnet wird oder wenn gleichzeitig Tür A und B geöffnet werden.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

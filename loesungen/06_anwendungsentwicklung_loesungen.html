@@ -1,0 +1,2160 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://herr-nm.github.io/MMBbS_KIT_PVAP1/loesungen/06_anwendungsentwicklung_loesungen.html">
+      
+      
+      
+      
+      <link rel="icon" href="../bilder/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
+    
+    
+      
+        <title>Anwendungsentwicklung - KIT Prüfungsvorbereitung AP1</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#anwendungsentwicklung" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../index.html" title="KIT Prüfungsvorbereitung AP1" class="md-header__button md-logo" aria-label="KIT Prüfungsvorbereitung AP1" data-md-component="logo">
+      
+  <img src="../bilder/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            KIT Prüfungsvorbereitung AP1
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Anwendungsentwicklung
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/herr-nm/MMBbS_KIT_PVAP1" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="KIT Prüfungsvorbereitung AP1" class="md-nav__button md-logo" aria-label="KIT Prüfungsvorbereitung AP1" data-md-component="logo">
+      
+  <img src="../bilder/logo.png" alt="logo">
+
+    </a>
+    KIT Prüfungsvorbereitung AP1
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/herr-nm/MMBbS_KIT_PVAP1" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Informationen zur Kurslizenz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../00_aufbau_und_inhalt.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aufbau und Inhalt der IHK-Prüfung (AP1)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_projektmanagement.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projektmanagement (div. LF)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_wirtschaftliche_grundlagen.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wirtschaftliche Grundlagen (LF1 & LF2)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03_it_grundlagen.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IT-Grundlagen (LF2)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04_netzwerktechnik.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Netzwerktechnik (LF3)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05_it_sicherheit.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IT-Sicherheit (LF4)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_anwendungsentwicklung.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anwendungsentwicklung (LF5)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07_pruefungstraining.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Prüfungstraining
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08_themeninputs.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Themeninputs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09_lernpartner_kursangebote_material.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lernpartner, Kursangebote & Material
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#idealtypische-vorgehensmodelle-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Idealtypische Vorgehensmodelle unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Idealtypische Vorgehensmodelle unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-klassische-und-agile-vorgehensmodelle-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Klassische und agile Vorgehensmodelle unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Klassische und agile Vorgehensmodelle unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 6
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 7
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 8
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 9
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#betriebssystem-und-anwendungssoftware-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Betriebssystem und Anwendungssoftware unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Betriebssystem und Anwendungssoftware unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-betriebssysteme-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Betriebssysteme unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Betriebssysteme unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-anwendungssoftware-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Anwendungssoftware unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Anwendungssoftware unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-programmiersprachen-fur-software-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Programmiersprachen für Software unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Programmiersprachen für Software unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uml-anwendungsfalldiagramme-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      UML-Anwendungsfalldiagramme erstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UML-Anwendungsfalldiagramme erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-uml-anwendungsfalldiagramme-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - UML-Anwendungsfalldiagramme erstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - UML-Anwendungsfalldiagramme erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uml-klassendiagramme-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      UML-Klassendiagramme erstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UML-Klassendiagramme erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-uml-klassendiagramme-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - UML-Klassendiagramme erstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - UML-Klassendiagramme erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#struktogramme-zur-planung-von-anwendungen-nutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Struktogramme zur Planung von Anwendungen nutzen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Struktogramme zur Planung von Anwendungen nutzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-struktogramme-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Struktogramme erstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Struktogramme erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-struktogramme-mithilfe-des-schreibtischtests-prufen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Struktogramme mithilfe des Schreibtischtests prüfen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Struktogramme mithilfe des Schreibtischtests prüfen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="anwendungsentwicklung">Anwendungsentwicklung</h1>
+<h2 id="idealtypische-vorgehensmodelle-unterscheiden">Idealtypische Vorgehensmodelle unterscheiden</h2>
+<h3 id="arbeitsauftrag-klassische-und-agile-vorgehensmodelle-unterscheiden">Arbeitsauftrag - Klassische und agile Vorgehensmodelle unterscheiden</h3>
+<h4 id="aufgabe-1">Aufgabe 1</h4>
+<p>Ein Vorgehensmodell in der Projektplanung bzw. der Softwareentwicklung ist ein strukturierter Ansatz oder eine Methode, die den Prozess beschreibt, wie ein Projekt geplant, durchgeführt und abgeschlossen wird. Es bietet Richtlinien und Schritte, die Teams dabei unterstützen, ihre Ziele zu erreichen und die Qualität ihrer Arbeit zu verbessern.</p>
+<h4 id="aufgabe-2">Aufgabe 2</h4>
+<p>Das Wasserfallmodell ist ein lineares Vorgehensmodell, bei dem der Entwicklungsprozess in aufeinanderfolgende Phasen unterteilt ist. Jede Phase muss abgeschlossen sein, bevor die nächste beginnt. Die Phasen umfassen Anforderungsanalyse, Systementwurf, Implementierung, Testen, Deployment und Wartung. </p>
+<p><em>Vorteile:</em>
+- Klare Struktur und einfache Handhabung.
+- Gut geeignet für kleine Projekte mit klaren Anforderungen.</p>
+<p><em>Nachteile:</em>
+- Starre Natur, Anpassungen sind schwer.
+- Kundenrückmeldungen werden erst spät berücksichtigt.</p>
+<h4 id="aufgabe-3">Aufgabe 3</h4>
+<p>Das Spiralmodell ist iterativ und inkrementell. Es kombiniert Ideen des Wasserfallmodells mit Prototyping. Der Prozess besteht aus sich wiederholenden Zyklen, die schrittweise die Entwicklung vorantreiben. Jede Spirale repräsentiert eine Iteration.</p>
+<p><em>Vorteile:</em>
+- Flexibilität durch iterative Natur.
+- Risikomanagement ist integriert.</p>
+<p><em>Nachteile:</em>
+- Komplexität und Aufwand der Planung.</p>
+<h4 id="aufgabe-4">Aufgabe 4</h4>
+<p>Das V-Modell ist ein Vorgehensmodell, das speziell auf die Verbindung von Entwicklungsphasen und dazugehörigen Testphasen Wert legt. Es zeigt die Beziehung zwischen jeder Entwicklungsphase und ihrer zugehörigen Testphase in einem V-Diagramm.</p>
+<p><em>Vorteile:</em>
+- Betonung von Testaktivitäten.
+- Klare Verknüpfung von Entwicklungs- und Testprozessen.</p>
+<p><em>Nachteile:</em>
+- Starre Struktur.
+- Wenig Flexibilität bei Änderungen.</p>
+<h4 id="aufgabe-5">Aufgabe 5</h4>
+<p>Scrum ist ein agiles Framework für die Softwareentwicklung, das auf iterativen, inkrementellen Prozessen basiert. Es verwendet Sprints (typischerweise 2-4 Wochen) für die Entwicklung von funktionsfähigen Softwareteilen.</p>
+<p><em>Vorteile:</em>
+- Hohe Flexibilität und Anpassungsfähigkeit.
+- Enge Zusammenarbeit im Team.</p>
+<p><em>Nachteile:</em>
+- Nicht immer geeignet für Projekte mit festen Anforderungen.
+- Komplexität der Implementierung.</p>
+<h4 id="aufgabe-6">Aufgabe 6</h4>
+<p>Kanban ist ein agiles Framework, das den Fokus auf kontinuierliche Lieferung legt. Es verwendet visuelle Boards zur Darstellung des Arbeitsprozesses und begrenzt die gleichzeitige Arbeit in den verschiedenen Phasen.</p>
+<p><em>Vorteile:</em>
+- Flexibilität und kontinuierliche Lieferung.
+- Geringe Overhead-Kosten.</p>
+<p><em>Nachteile:</em>
+- Möglicher Mangel an Struktur.
+- Nicht für komplexe Projekte geeignet.</p>
+<h4 id="aufgabe-7">Aufgabe 7</h4>
+<p>Extreme Programming ist eine agile Methode, die auf intensiver Zusammenarbeit und kontinuierlichem Feedback basiert. Sie betont Praktiken wie Paarprogrammierung, Testgetriebene Entwicklung und kurze Entwicklungszyklen.</p>
+<p><em>Vorteile:</em>
+- Hohe Softwarequalität durch Fokus auf Tests.
+- Flexibilität und Anpassungsfähigkeit.</p>
+<p><em>Nachteile:</em>
+- Kann für traditionelle Organisationen zu radikal sein.
+- Erfordert hochmotivierte Teams.</p>
+<h4 id="aufgabe-8">Aufgabe 8</h4>
+<p>Die klassischen Vorgehensmodelle wie Wasserfall, Spiral und V-Modell zeichnen sich durch ihre linearen und plangetriebenen Ansätze aus. Sie setzen auf detaillierte Planung und Dokumentation im Voraus, was zu einer geringen Flexibilität bei Änderungen führen kann. Diese Modelle eignen sich gut für Projekte mit stabilen Anforderungen und klaren Spezifikationen.</p>
+<p>Im Gegensatz dazu sind agile Vorgehensmodelle wie Scrum, Kanban und Extreme Programming iterative und inkrementelle Ansätze. Sie betonen Flexibilität, schnelle Anpassung an Änderungen und kontinuierliche Lieferung von funktionierender Software. Agile Modelle sind besonders effektiv in Umgebungen, in denen sich Anforderungen häufig ändern oder nicht von Anfang an klar definiert sind.</p>
+<h4 id="aufgabe-9">Aufgabe 9</h4>
+<p>Ein MVP, oder Minimal Viable Product (Minimales Produkt mit Überlebensfähigkeit), ist ein zentrales Konzept in der Produktentwicklung, insbesondere im Zusammenhang mit verschiedenen Vorgehensmodellen, einschließlich agiler Methoden. Es bezieht sich auf die Entwicklung und Bereitstellung einer grundlegenden Version eines Produkts oder einer Anwendung, die gerade ausreichend ist, um die Kernfunktionalitäten zu demonstrieren und einen Wert für die Benutzer zu bieten.</p>
+<p>Die Idee hinter einem MVP ist es, schnell auf den Markt zu kommen und Feedback von echten Benutzern zu erhalten. Dieses Feedback wird dann genutzt, um das Produkt weiter zu verbessern und besser an die tatsächlichen Bedürfnisse der Benutzer anzupassen. Das MVP-Konzept unterstützt somit den iterativen und inkrementellen Ansatz, der in vielen agilen Vorgehensmodellen wie Scrum und Extreme Programming betont wird.</p>
+<p>Ein MVP zeichnet sich durch folgende Merkmale aus:</p>
+<ul>
+<li><strong>Minimale Funktionalität:</strong> Es enthält nur die grundlegenden Funktionen, die notwendig sind, um das Produkt als brauchbar zu betrachten. Alle zusätzlichen Funktionen werden zurückgestellt, bis das Feedback der Benutzer ausgewertet wurde.</li>
+<li><strong>Validierung von Annahmen:</strong> Das MVP hilft bei der Überprüfung von Annahmen und Hypothesen über das Produkt. Durch die Bereitstellung einer minimalen Version kann das Team schnell feststellen, ob ihre Ideen und Konzepte den tatsächlichen Bedürfnissen der Benutzer entsprechen.</li>
+<li><strong>Schnelle Markteinführung:</strong> Der Fokus liegt darauf, das Produkt so schnell wie möglich auf den Markt zu bringen, anstatt monatelang an einer umfassenden Version zu arbeiten. Dies ermöglicht es, frühzeitig Rückmeldungen zu sammeln und den Entwicklungsprozess entsprechend anzupassen.</li>
+<li><strong>Iterative Entwicklung:</strong> Nachdem das MVP veröffentlicht wurde, folgen weitere Iterationen, um das Produkt basierend auf dem Feedback und den gewonnenen Erkenntnissen zu verbessern. Dieser iterative Ansatz ermöglicht eine ständige Anpassung an sich ändernde Anforderungen und Kundenwünsche.</li>
+</ul>
+<h2 id="betriebssystem-und-anwendungssoftware-unterscheiden">Betriebssystem und Anwendungssoftware unterscheiden</h2>
+<h3 id="arbeitsauftrag-betriebssysteme-unterscheiden">Arbeitsauftrag - Betriebssysteme unterscheiden</h3>
+<h4 id="aufgabe-1_1">Aufgabe 1</h4>
+<ul>
+<li><strong>Microsoft Windows:</strong> Betrieben auf Desktop- und Laptop-Computern.</li>
+<li><strong>macOS:</strong> Exklusiv auf Apple-Computern (MacBooks, iMacs) verwendet.</li>
+<li><strong>Linux:</strong> In verschiedenen Distributionen für Server, Embedded Systems und teilweise auch auf Desktops.</li>
+<li><strong>Unix:</strong> In verschiedenen Varianten, hauptsächlich in Unternehmensumgebungen und wissenschaftlichen Anwendungen.</li>
+<li><strong>Android:</strong> Betriebssystem für Mobilgeräte, insbesondere Smartphones und Tablets.</li>
+<li><strong>iOS:</strong> Exklusiv für iPhones, iPads und iPods von Apple.</li>
+</ul>
+<h4 id="aufgabe-2_1">Aufgabe 2</h4>
+<ul>
+<li>Das <strong>BIOS/UEFI</strong> (Basic Input/Output System / Unified Extensible Firmware Interface) ist eine Firmware, die den Computer beim Start initialisiert. Es stellt grundlegende Hardwarefunktionen bereit.</li>
+<li>Das <strong>Betriebssystem</strong> (z. B. Windows, Linux) wird nach dem BIOS/UEFI geladen und verwaltet Ressourcen, Treiber und Anwendungen auf dem Computer.</li>
+<li><strong>Anwendungssoftware</strong> sind Programme, die auf dem Betriebssystem laufen und bestimmte Aufgaben für den Benutzer erledigen.</li>
+</ul>
+<p>Die Beziehung besteht darin, dass das BIOS/UEFI die Plattform vorbereitet, das Betriebssystem geladen wird, und daraufhin Anwendungssoftware auf dem Betriebssystem ausgeführt wird.</p>
+<h4 id="aufgabe-3_1">Aufgabe 3</h4>
+<ul>
+<li><strong>dir:</strong> </li>
+<li>Zeigt den Inhalt des aktuellen Verzeichnisses an.</li>
+<li>Beispiel: <code>dir</code></li>
+<li><strong>mkdir:</strong></li>
+<li>Erstellt ein neues Verzeichnis.</li>
+<li>Beispiel: <code>mkdir NeuerOrdner</code> erstellt einen Ordner namens "NeuerOrdner".</li>
+<li><strong>cd:</strong></li>
+<li>Wechselt das aktuelle Verzeichnis.</li>
+<li>Beispiel: <code>cd Pfad\Zum\Verzeichnis</code> wechselt in das angegebene Verzeichnis.</li>
+<li><strong>ipconfig:</strong></li>
+<li>Zeigt die IP-Konfiguration für alle Netzwerkadapter an.</li>
+<li>Beispiel: <code>ipconfig /all</code> zeigt detaillierte Netzwerkinformationen an.</li>
+<li><strong>ping:</strong></li>
+<li>Überprüft die Erreichbarkeit eines Netzwerkziels.</li>
+<li>Beispiel: <code>ping www.example.com</code> sendet Ping-Anfragen an die angegebene Website.</li>
+<li><strong>del:</strong></li>
+<li>Löscht eine oder mehrere Dateien.</li>
+<li>Beispiel: <code>del Dateiname.txt</code> löscht die Datei mit dem angegebenen Namen.</li>
+<li><strong>copy:</strong></li>
+<li>Kopiert eine oder mehrere Dateien von einem Ort an einen anderen.</li>
+<li>Beispiel: <code>copy Quelldatei Zielverzeichnis</code> kopiert die Datei in das angegebene Verzeichnis.</li>
+<li><strong>tracert:</strong></li>
+<li>Zeigt den Weg, den ein Datenpaket von der Quelle zu einem Ziel nimmt.</li>
+<li>Beispiel: <code>tracert www.example.com</code> zeigt den Netzwerkpfad zu "www.example.com" an.</li>
+</ul>
+<h4 id="aufgabe-4_1">Aufgabe 4</h4>
+<ul>
+<li><strong>ls:</strong></li>
+<li>Listet den Inhalt des aktuellen Verzeichnisses auf.</li>
+<li>Beispiel: <code>ls -l</code> zeigt eine detaillierte Liste der Dateien im Verzeichnis an.</li>
+<li><strong>mkdir:</strong></li>
+<li>Erstellt ein neues Verzeichnis.</li>
+<li>Beispiel: <code>mkdir NeuerOrdner</code> erstellt einen Ordner namens "NeuerOrdner".</li>
+<li><strong>cd:</strong></li>
+<li>Wechselt das aktuelle Verzeichnis.</li>
+<li>Beispiel: <code>cd Pfad/Zum/Verzeichnis</code> wechselt in das angegebene Verzeichnis.</li>
+<li><strong>ifconfig:</strong></li>
+<li>Zeigt die IP-Konfiguration für Netzwerkadapter an.</li>
+<li>Beispiel: <code>ifconfig</code> zeigt die Netzwerkkonfiguration an.</li>
+<li><strong>ping:</strong></li>
+<li>Überprüft die Erreichbarkeit eines Netzwerkziels.</li>
+<li>Beispiel: <code>ping www.example.com</code> sendet Ping-Anfragen an die angegebene Website.</li>
+<li><strong>iproute2:</strong></li>
+<li>Bietet fortgeschrittene Netzwerkkonfigurationsfunktionen.</li>
+<li>Beispiel: <code>ip route show</code> zeigt die Routing-Tabelle an.</li>
+<li><strong>arp:</strong></li>
+<li>Zeigt die ARP-Tabelle mit den MAC-Adressen an.</li>
+<li>Beispiel: <code>arp -a</code> zeigt die ARP-Tabelle an.</li>
+<li><strong>cp:</strong></li>
+<li>Kopiert Dateien oder Verzeichnisse.</li>
+<li>Beispiel: <code>cp Quelldatei Zielverzeichnis</code> kopiert die Datei in das angegebene Verzeichnis.</li>
+<li><strong>chmod:</strong></li>
+<li>Ändert die Berechtigungen einer Datei.</li>
+<li>Beispiel: <code>chmod +x Dateiname</code> gibt Ausführungsrechte für die Datei.</li>
+<li><strong>alias:</strong></li>
+<li>Erstellt eine Abkürzung für einen Befehl oder eine Befehlskette.</li>
+<li>Beispiel: <code>alias ll='ls -l'</code> erstellt eine Abkürzung, sodass <code>ll</code> das gleiche wie <code>ls -l</code> ist.</li>
+<li><strong>traceroute:</strong></li>
+<li>Zeigt den Netzwerkpfad zu einem Ziel an.</li>
+<li>Beispiel: <code>traceroute www.example.com</code> zeigt den Netzwerkpfad zu "www.example.com" an.</li>
+</ul>
+<h3 id="arbeitsauftrag-anwendungssoftware-unterscheiden">Arbeitsauftrag - Anwendungssoftware unterscheiden</h3>
+<h4 id="aufgabe-1_2">Aufgabe 1</h4>
+<p><strong>Standardsoftware</strong> bezieht sich auf vorgefertigte Softwareprodukte, die allgemein auf dem Markt verfügbar sind und für eine breite Palette von Anwendern oder Unternehmen geeignet sind. Diese Softwareprodukte sind nicht speziell auf die individuellen Anforderungen eines bestimmten Benutzers oder einer bestimmten Organisation zugeschnitten. Stattdessen bieten sie eine Reihe von Funktionen und Merkmalen, die von vielen Benutzern in verschiedenen Branchen genutzt werden können. Beispiele für Standardsoftware sind Betriebssysteme wie Windows oder macOS, Office-Anwendungen wie Microsoft Office und Softwarepakete wie Adobe Photoshop.</p>
+<h4 id="aufgabe-2_2">Aufgabe 2</h4>
+<p><strong>Branchensoftware</strong>, auch als Industriesoftware oder Fachsoftware bezeichnet, ist Software, die speziell für die Anforderungen und Prozesse einer bestimmten Branche entwickelt wurde. Diese Softwarelösungen sind darauf ausgerichtet, die spezifischen Bedürfnisse, Abläufe und Anforderungen einer bestimmten Branche zu unterstützen. Branchensoftware kann in verschiedenen Sektoren eingesetzt werden, darunter Gesundheitswesen, Finanzwesen, Produktion, Einzelhandel, Bildung und mehr. Beispiele für Branchensoftware sind Krankenhausinformationssysteme (KIS) im Gesundheitswesen, Buchhaltungssoftware für das Finanzwesen oder CAD/CAM-Software in der Fertigungsindustrie.</p>
+<h4 id="aufgabe-3_2">Aufgabe 3</h4>
+<p><strong>Individualsoftware</strong> bezieht sich auf maßgeschneiderte Softwarelösungen, die speziell für die spezifischen Anforderungen und Bedürfnisse eines bestimmten Benutzers, Unternehmens oder einer Organisation entwickelt werden. Anders als Standardsoftware, die für eine breite Nutzerbasis ausgelegt ist, wird Individualsoftware auf die einzigartigen Geschäftsprozesse, Anforderungen und Strukturen eines spezifischen Kunden zugeschnitten. Die Entwicklung von Individualsoftware ermöglicht eine hohe Anpassbarkeit und die Integration spezifischer Funktionen, die in Standardlösungen möglicherweise nicht vorhanden sind. Dieser Ansatz wird oft gewählt, wenn die vorhandenen Standardsoftwareprodukte nicht alle erforderlichen Funktionen abdecken oder wenn eine spezifische Wettbewerbsvorteil geschaffen werden soll.</p>
+<h3 id="arbeitsauftrag-programmiersprachen-fur-software-unterscheiden">Arbeitsauftrag - Programmiersprachen für Software unterscheiden</h3>
+<h4 id="aufgabe-1_3">Aufgabe 1</h4>
+<ul>
+<li><strong>Abstraktionsniveau:</strong> Wie nah an der Maschine oder wie abstrakt die Sprache ist.</li>
+<li><strong>Paradigma:</strong> Welche grundlegende Herangehensweise an die Programmierung sie fördern (z.B., imperativ, deklarativ, objektorientiert, funktional).</li>
+<li><strong>Typisierung:</strong> Ob die Sprache statisch oder dynamisch typisiert ist.</li>
+<li><strong>Syntax:</strong> Die Grammatik und Struktur der Sprache.</li>
+<li><strong>Verwendungsbereich:</strong> Ob die Sprache spezialisiert ist (z.B., Webentwicklung, Datenanalyse, eingebettete Systeme).</li>
+<li><strong>Zielplattform:</strong> Auf welchen Arten von Systemen oder Geräten die Sprache ausgeführt wird.</li>
+</ul>
+<h4 id="aufgabe-2_3">Aufgabe 2</h4>
+<ul>
+<li><strong>Objekte:</strong> Programmierung basiert auf der Konzeptualisierung und Modellierung von echten oder virtuellen Objekten.</li>
+<li><strong>Klassen:</strong> Objekte werden durch Klassen beschrieben, die den Bauplan für die Objekte darstellen.</li>
+<li><strong>Vererbung:</strong> Erlaubt es einer Klasse, Eigenschaften und Methoden von einer anderen Klasse zu erben.</li>
+<li><strong>Polymorphismus:</strong> Erlaubt es Objekten, sich je nach Kontext unterschiedlich zu verhalten.</li>
+<li><strong>Kapselung:</strong> Verbergt die internen Details einer Klasse und erlaubt den Zugriff nur durch definierte Schnittstellen.</li>
+</ul>
+<h4 id="aufgabe-3_3">Aufgabe 3</h4>
+<p><strong>Kompilierte Sprachen:</strong> Der Quellcode wird vor der Ausführung in Maschinencode übersetzt, und der resultierende ausführbare Code wird direkt ausgeführt. Der Übersetzungsprozess erzeugt oft eine separate ausführbare Datei.</p>
+<p><em>Beispiel:</em> C, C++, Java (teilweise kompiliert).</p>
+<p><strong>Interpretierte Sprachen:</strong> Der Quellcode wird zeilenweise von einem Interpreter interpretiert und direkt ausgeführt, ohne eine separate Übersetzung in Maschinencode zu erzeugen.</p>
+<p><em>Beispiel:</em> Python, JavaScript, Ruby.</p>
+<h4 id="aufgabe-4_2">Aufgabe 4</h4>
+<ul>
+<li><strong>Native Anwendungen:</strong> Werden speziell für eine bestimmte Plattform (Betriebssystem oder Hardware) entwickelt und laufen nur auf dieser Plattform, ohne Anpassungen für andere Systeme.</li>
+<li><strong>Cross-Platform Anwendungen:</strong> Sind so entwickelt, dass sie auf mehreren Plattformen laufen können, ohne den Code für jede Plattform separat zu schreiben. Dies kann durch Verwendung von Frameworks, Bibliotheken oder plattformunabhängigen Technologien erreicht werden.</li>
+</ul>
+<h2 id="uml-anwendungsfalldiagramme-erstellen">UML-Anwendungsfalldiagramme erstellen</h2>
+<h3 id="arbeitsauftrag-uml-anwendungsfalldiagramme-erstellen">Arbeitsauftrag - UML-Anwendungsfalldiagramme erstellen</h3>
+<h4 id="aufgabe-1_4">Aufgabe 1</h4>
+<p>Das UML-Anwendungsfalldiagramm ist in der objektorientierten Programmierung (OOP) ein wichtiges Werkzeug zur Modellierung und Visualisierung der funktionalen Anforderungen eines Systems. Es dient dazu, die verschiedenen Funktionen oder Aufgaben (Anwendungsfälle) zu identifizieren, die ein System für seine Benutzer oder externe Systeme bereitstellen soll.</p>
+<ol>
+<li><strong>Identifikation von Anwendungsfällen:</strong> Das Anwendungsfalldiagramm hilft dabei, die verschiedenen Aktivitäten oder Aufgaben zu identifizieren, die ein System für Benutzer oder externe Systeme ausführt.</li>
+<li><strong>Darstellung von Benutzerinteraktionen:</strong> Es visualisiert die Interaktionen zwischen den Benutzern (Akteuren) und dem System. Das zeigt, wie die Benutzer mit dem System agieren und welche Funktionen sie ausführen können.</li>
+<li><strong>Definition von Systemgrenzen:</strong> Das Diagramm hilft dabei, klare Grenzen für das System zu setzen, indem es zeigt, wer die Hauptakteure sind und welche Aufgaben innerhalb des Systems durchgeführt werden.</li>
+<li><strong>Festlegung von Systemfunktionen:</strong> Es unterstützt die Festlegung und Dokumentation der Funktionen, die das System für seine Benutzer bereitstellt. Dies erleichtert die Kommunikation zwischen Stakeholdern, Entwicklern und anderen Beteiligten.</li>
+<li><strong>Basis für Systementwicklung:</strong> Das Anwendungsfalldiagramm dient als Grundlage für die weitere Systementwicklung in der OOP. Es unterstützt die Definition von Klassen, Methoden und anderen relevanten Systemkomponenten.</li>
+<li><strong>Schnittstellenidentifikation:</strong> Es hilft bei der Identifikation von Schnittstellen zwischen dem System und seinen Benutzern oder anderen Systemen.</li>
+<li><strong>Testfallableitung:</strong> Es unterstützt die Ableitung von Testfällen, indem es klare Szenarien für die Nutzung des Systems definiert. Dies erleichtert die Überprüfung, ob das System die definierten Anforderungen erfüllt.</li>
+</ol>
+<h4 id="aufgabe-2_4">Aufgabe 2</h4>
+<ul>
+<li><strong>Akteur:</strong> Ein Akteur repräsentiert eine externe Entität, die mit dem System interagiert. Dies können Personen, Gruppen von Personen, andere Systeme oder sogar Hardware sein. Akteure werden durch Piktogramme in der Form von Kästen dargestellt, normalerweise oben auf dem Diagramm platziert.</li>
+<li><strong>Systemgrenze:</strong> Die Systemgrenze definiert den Umfang des Systems und zeigt an, welche Elemente als Teil des Systems betrachtet werden. Die Systemgrenze wird durch eine Linie um das gesamte Diagramm dargestellt und gibt an, welche Akteure und Anwendungsfälle innerhalb des Systems modelliert werden.</li>
+<li><strong>Anwendungsfall:</strong> Ein Anwendungsfall repräsentiert eine spezifische Funktion oder Aufgabe, die das System für einen oder mehrere Akteure durchführt. Ein Anwendungsfall wird durch einen Ellipsen-förmigen Kasten dargestellt und normalerweise mit einem Namen beschriftet.</li>
+<li><strong>Beziehung:</strong> Beziehungen verbinden Akteure und Anwendungsfälle miteinander. Sie zeigen an, wie die Akteure mit den Anwendungsfällen interagieren. Es gibt zwei Hauptarten von Beziehungen: include und extend.</li>
+<li><strong>include-Beziehung:</strong> Die include-Beziehung zeigt an, dass ein Anwendungsfall einen anderen Anwendungsfall einschließt. Dies bedeutet, dass der eingeschlossene Anwendungsfall unabhängig vom umfassenden Anwendungsfall existieren und ausgeführt werden kann. Die include-Beziehung wird durch eine gestrichelte Linie mit einem offenen Pfeil dargestellt, der auf den eingeschlossenen Anwendungsfall zeigt.</li>
+<li><strong>extend-Beziehung:</strong> Die extend-Beziehung zeigt an, dass ein Anwendungsfall optional erweitert werden kann. Der erweiternde Anwendungsfall wird nur unter bestimmten Bedingungen oder Szenarien ausgeführt. Die extend-Beziehung wird durch eine gestrichelte Linie mit einem offenen Pfeil dargestellt, der vom erweiternden Anwendungsfall zum erweiterten Anwendungsfall zeigt.</li>
+</ul>
+<h4 id="aufgabe-3_4">Aufgabe 3</h4>
+<div class="admonition info">
+<p class="admonition-title">User Stories</p>
+</div>
+<p>User Stories sind eine Methode in der agilen Softwareentwicklung, um Anforderungen aus der Perspektive des Benutzers zu formulieren. Sie sind kurz, prägnant und fokussieren sich darauf, welchen Nutzen der Benutzer aus einer bestimmten Funktionalität zieht. Eine typische User Story folgt dem Format:</p>
+<p>"Als [Rolle] möchte ich [Funktionalität], um [Nutzen/Ziel]."</p>
+<ul>
+<li>Als Benutzer möchte ich den Druckfortschritt überwachen, um die Auslastung des Druckers zu optimieren.</li>
+<li>Als Benutzer möchte ich den Druck abbrechen, um bei Fehlerfällen schnell reagieren zu können.</li>
+<li>Als Benutzer möchte ich ein 3D-Modell auswählen, um dieses drucken zu können.</li>
+<li>Als Benutzer möchte ich den Druckauftrag starten, um die Produktion eines Bauteils zu beginnen.</li>
+<li>Als Wartungspersonal möchte ich die Wartung durchführen, um ohne Unterbrechungen am Drucker Einstellungen vorzunehmen.</li>
+<li>Als Wartungspersonal möchte ich die Druckparameter einstellen, um ein möglichst optimales Produktionsergebnis zu erhalten.</li>
+</ul>
+<h4 id="aufgabe-4_3">Aufgabe 4</h4>
+<p><img alt="UML-Anwendungsfalldiagramm zum Veranstaltungsticketverkauf" src="../bilder/06_umlanwendungsfall_aufgabe_4_Veranstaltungstickets.png" /></p>
+<h2 id="uml-klassendiagramme-erstellen">UML-Klassendiagramme erstellen</h2>
+<h3 id="arbeitsauftrag-uml-klassendiagramme-erstellen">Arbeitsauftrag - UML-Klassendiagramme erstellen</h3>
+<h4 id="aufgabe-1_5">Aufgabe 1</h4>
+<p>Eine Klasse im Sinne der objektorientierten Programmierung (OOP) ist ein Bauplan oder eine Vorlage, die die Struktur und das Verhalten von Objekten in einem Programm definiert. Eine Klasse enthält Attribute (Daten) und Methoden (Funktionen), die die Eigenschaften und das Verhalten der damit erstellten Objekte festlegen.</p>
+<p><img alt="Klassendiagramm Klasse" src="../bilder/06_umlklassen_aufgabe_1_Klasse.png" /></p>
+<p>In dem Beispiel wird die Klasse "User" gezeigt. Diese hat die privaten (private) Attribute (Eigenschaften) um den Vor- und Nachnamen sowie das Geburtsdatum zu speichern. Die Datentypen werden hierzu aufgeführt (String für Texte, Date für das Datum). Außerdem sind öffentliche (public) Methoden genannt, welche zur Ausgabe des Namens sowie des Alters (auf Basis des hinterlegten Geburtsdatums berechnet) dienen.</p>
+<h4 id="aufgabe-2_5">Aufgabe 2</h4>
+<p>Vererbung in der objektorientierten Programmierung (OOP) ist ein Konzept, bei dem eine neue Klasse (abgeleitete Klasse oder Subklasse) von einer bestehenden Klasse (Basis- oder Elternklasse) erbt. Die abgeleitete Klasse übernimmt die Attribute und Methoden der Basisklasse und kann diese erweitern, ändern oder spezialisieren, ohne die ursprüngliche Klasse zu ändern.</p>
+<p>Beispielsweise ist in einem Stundenplan-System der User in der allgemeinen Form nicht realisierbar (abstrakte Klasse), es können aber die vom User erbenden Schüler und Lehrer erstellt werden.</p>
+<p><img alt="Klassendiagramm User" src="../bilder/06_umlklassen_aufgabe_2_user.png" /></p>
+<p>Die Klassen Schueler und Lehrer erben aus der Klasse User (das machen die Pfeile mit der geschlossenen nicht ausgefüllten Pfeilspitze klar) die allgemeinen Attribute und Methoden. Schüler als auch Lehrer erhalten damit Vor- und Nachnamen, ein Geburtsdatum, die Methode zur Ausgabe des Namen und des Alters. Die Lehrer erhalten zusätzlich zu den allgemeinen Attributen ein Kürzel.</p>
+<h4 id="aufgabe-3_5">Aufgabe 3</h4>
+<p>Im Zusammenhang mit der Vererbung von Klassen bedeutet Generalisierung, dass eine abgeleitete Klasse allgemeinere Eigenschaften oder Verhaltensweisen von der Basisklasse erbt. Also haben Lehrer und Schüler als User im Stundenplan-System jeweils Vor- und Nachnamen, die in der Oberklasse User hinterlegt - und damit generalisiert - werden können.</p>
+<p>Spezialisierung hingegen bedeutet, dass eine abgeleitete Klasse spezifischere Eigenschaften oder Verhaltensweisen hinzufügt oder vorhandene Eigenschaften und Verhaltensweisen der Basisklasse weiter einschränkt. Hier haben aus der Perspektive der User die allgemeinen Attribute Vor- und Nachnamen. Im Stundenplan-System können die Lehrkräfte aber noch ein Kürzel haben, dies wäre die Spezialisierung von User zur Klasse Lehrer.</p>
+<h4 id="aufgabe-4_4">Aufgabe 4</h4>
+<p>Polymorphie in der objektorientierten Programmierung (OOP) bezieht sich auf die Fähigkeit von Objekten unterschiedlicher Klassen, auf dieselbe Weise auf Anfragen oder Methodenaufrufe zu reagieren. Es gibt zwei Hauptarten von Polymorphie: statische Polymorphie, die zur Compilezeit auftritt und Methodenüberladung ermöglicht, und dynamische Polymorphie, die zur Laufzeit auftritt und durch Vererbung und Methodenüberschreibung ermöglicht wird. Polymorphie ermöglicht eine flexible und erweiterbare Gestaltung von OOP-Programmen.</p>
+<p><img alt="Klassendiagramm Polymorphie" src="../bilder/06_umlklassen_aufgabe_4_poly.png" /></p>
+<p>Im Beispiel gibt es eine allgemeingültige Weise, den individuellen Stundenplan zu erhalten, diese ist in der Klasse User hinterlegt und wird an Schüler vererbt. Auch der Lehrer erbt aus der Klasse User die Methode, diese wird beim Lehrer aber überschrieben und in anderer Art und Weise ausgeführt. Bspw. können Lehrer auch einen Raum-Stundenplan erhalten, um zu sehen, welche Klasse gerade parallel in welchem Raum der Schule ist.</p>
+<h4 id="aufgabe-5_1">Aufgabe 5</h4>
+<p><img alt="UML-Klassendiagramm Lego" src="../bilder/06_umlklassen_aufgabe_5_lego.png" /></p>
+<ul>
+<li>Die oberste Klasse legoDuploTeil ist eine abstrakte Klasse. Das bedeutet, dass hieraus keine Instanz also kein Objekt gebildet werden kann. Die Klasse dient nur zur Sammlung von Attributen und Methoden, um diese dann weiterzuvererben.</li>
+<li>In dem genutzten Programm (plantuml) wird die Darstellung der Sichtbarkeit über Symbole geregelt:</li>
+<li><img alt="UML-Klassendiagramm Sichtbarkeit" src="../bilder/06_umlklassen_aufgabe_5_sichtbarkeit.png" /></li>
+<li>Ein <strong>basisstein</strong> kann als Objekt aus dem Bauplan zusammengestellt werden. Aus der vererbenden Klasse <strong>legoDuploTeil</strong> werden die Bezeichnung, Farbe und Anzahl der Noppen geerbt und durch die Eigenschaft der Lego-Kompatibilität ergänzt.</li>
+<li>Der <strong>konstruktionsstein</strong> ist ebenfalls eine abstrakte Klasse ohne eigene Instanzen und dient der Vererbung an <strong>schiene</strong> und <strong>platte</strong>. Wenn Sie also in der Lego-Duplo-Spielecke aufgefordert würden, einen Konstruktionsstein zu reichen, müssten Sie sich für eine Schiene oder eine Platte entscheiden.</li>
+<li>Die benutzten Datentypen sind wie folgt:</li>
+<li>String: Textdatentyp - hier z.B. "Brick 2x2"</li>
+<li>Double: Gleitkommazahl - hier z.B. "12.5" (cm)</li>
+<li>Integer: Ganzzahl - hier z.B. "4"</li>
+<li>Boolean: Wahrheitswert, der entweder True oder False bzw. 1 oder 0 ist - hier z.B. True</li>
+<li>Ein Beispiel wäre nun der Basisstein:<br> <img alt="UML-Klassendiagramm Basisstein" src="../bilder/06_umlklassen_aufgabe_5_basisstein.png" /></li>
+</ul>
+<div class="highlight"><pre><span></span><code>bezeichnung = &quot;Brick 2x2&quot;   # (geerbt aus der Klasse legoDuploTeil)
+farbe = &quot;Flat Dark Gold&quot;    # (geerbt aus der Klasse legoDuploTeil)
+anzahlNoppen = 4            # (geerbt aus der Klasse legoDuploTeil)
+legoKompatibel = True       # (aus der Klasse basisstein)
+</code></pre></div>
+<h2 id="struktogramme-zur-planung-von-anwendungen-nutzen">Struktogramme zur Planung von Anwendungen nutzen</h2>
+<h3 id="arbeitsauftrag-struktogramme-erstellen">Arbeitsauftrag - Struktogramme erstellen</h3>
+<h4 id="aufgabe-1_6">Aufgabe 1</h4>
+<ul>
+<li><strong>Anweisungen:</strong></li>
+<li>Eingabe: Hier werden Daten eingegeben, sei es durch den Benutzer oder durch andere Teile des Programms.</li>
+<li>Ausgabe: Hier erfolgt die Ausgabe von Daten in der Kommandozeile.</li>
+<li>Standardanweisung: Eine einzelne Operation oder Aktion.</li>
+<li><strong>Schleifen:</strong></li>
+<li>Zählergesteuerte Schleife: Sie wird verwendet, wenn die Anzahl der Schleifendurchläufe im Voraus bekannt ist.</li>
+<li>Kopfgesteuerte Schleife: Eine Schleife, bei der die Bedingung am Anfang überprüft wird.</li>
+<li>Fußgesteuerte Schleife: Die Bedingung wird am Ende der Schleife überprüft.</li>
+<li><strong>Kontrollstrukturen:</strong></li>
+<li>Verzweigung: Je nach Bedingung wird der Programmfluss in zwei verschiedene Richtungen (Wahr oder Falsch) verzweigt.</li>
+<li>Fallunterscheidung: Ähnlich wie Verzweigung, jedoch mit mehreren Bedingungen und verschiedenen Pfaden.</li>
+<li>Try-Catch: Wird verwendet, um Ausnahmen oder Fehler zu behandeln. Der "Try"-Block enthält den auszuführenden Code, während der "Catch"-Block aufgerufen wird, wenn eine Ausnahme auftritt.</li>
+<li><strong>Funktionen:</strong></li>
+<li>Sie repräsentieren einen separaten Abschnitt des Codes, der eine bestimmte Aufgabe erfüllt. Funktionen können Parameter enthalten, die als Eingabe dienen (sogeannte Übergabeparameter), und können Werte zurückgeben.</li>
+</ul>
+<h4 id="aufgabe-2_6">Aufgabe 2</h4>
+<p><strong>Ziel der Verwendung von Struktogrammen:</strong></p>
+<p>Das Hauptziel der Verwendung von Struktogrammen liegt in der klaren und verständlichen Planung von Programmlogiken. Struktogramme bieten eine grafische Darstellung von Algorithmen und Programmen, die es ermöglicht, den Ablauf und die Struktur des Codes visuell zu erfassen. Durch die Verwendung dieser Notationsform soll die Entwicklung von Software effizienter und fehlerärmer gestaltet werden. Die wichtigsten Ziele sind:</p>
+<ol>
+<li><strong>Klare Darstellung:</strong> Struktogramme bieten eine klare und gut strukturierte Darstellung der Programmlogik, wodurch Entwickler leicht verstehen können, wie der Code funktionieren soll.</li>
+<li><strong>Logische Strukturierung:</strong> Die grafische Notation hilft dabei, die logische Struktur des Codes zu visualisieren, einschließlich Verzweigungen, Schleifen und Funktionen. Dies erleichtert die Planung und Organisation des Codes.</li>
+<li><strong>Fehlervermeidung:</strong> Durch die frühzeitige Visualisierung des Algorithmus können potenzielle Fehler oder Inkonsistenzen leichter erkannt und behoben werden, bevor der eigentliche Programmcode geschrieben wird.</li>
+<li><strong>Kommunikation:</strong> Struktogramme dienen als effektives Kommunikationsmittel zwischen Entwicklern, indem sie eine gemeinsame visuelle Sprache bieten. Teammitglieder können die Logik leichter besprechen und verstehen.</li>
+</ol>
+<p><strong>Vor- und Nachteile von Struktogrammen:</strong></p>
+<p><strong>Vorteile:</strong></p>
+<ol>
+<li><strong>Klarheit und Verständlichkeit:</strong> Die grafische Darstellung erleichtert das Verständnis der Programmlogik, sowohl für den Entwickler, der den Code erstellt, als auch für andere Teammitglieder.</li>
+<li><strong>Fehlererkennung:</strong> Durch die visuelle Darstellung können Fehler und Unstimmigkeiten in der Logik frühzeitig erkannt und behoben werden, was zur Verbesserung der Codequalität beiträgt.</li>
+<li><strong>Planungshilfe:</strong> Struktogramme dienen als nützliche Werkzeuge in der Planungsphase, indem sie Entwicklern helfen, den Algorithmus zu entwerfen, bevor der eigentliche Code geschrieben wird.</li>
+<li><strong>Effektive Kommunikation:</strong> Sie bieten eine gemeinsame Notation, die die Kommunikation zwischen Teammitgliedern erleichtert und Missverständnisse reduziert.</li>
+</ol>
+<p><strong>Nachteile:</strong></p>
+<ol>
+<li><strong>Begrenzte Detailtiefe:</strong> Struktogramme können in komplexen Programmen manchmal an Detailtiefe verlieren, insbesondere wenn es um komplexe Datenstrukturen oder spezifische Implementierungsdetails geht.</li>
+<li><strong>Nicht immer maschinenlesbar:</strong> Struktogramme sind primär für den menschlichen Leser gedacht und werden nicht direkt von Computern interpretiert. Der eigentliche Programmcode muss separat geschrieben werden.</li>
+<li><strong>Zeitaufwändig:</strong> Das Erstellen detaillierter Struktogramme kann zeitaufwändig sein, insbesondere für umfangreiche Programme. In einigen Fällen kann dies als zusätzlicher Schritt wahrgenommen werden.</li>
+<li><strong>Abstraktion:</strong> Manchmal kann die Abstraktion in Struktogrammen zu einer gewissen Entfremdung von konkreten Code-Implementierungen führen, was für einige Entwickler eine Herausforderung darstellen könnte.</li>
+</ol>
+<h4 id="aufgabe-3_6">Aufgabe 3</h4>
+<p><img alt="Struktogramm" src="../bilder/06_struktog_aufgabe_3_python.png" /></p>
+<h4 id="aufgabe-4_5">Aufgabe 4</h4>
+<p><img alt="Struktogramm" src="../bilder/06_struktog_aufgabe_4_powershell.png" /></p>
+<h4 id="aufgabe-5_2">Aufgabe 5</h4>
+<p><img alt="Struktogramm" src="../bilder/06_struktog_aufgabe_5_b%C3%BCcherei.png" /></p>
+<h3 id="arbeitsauftrag-struktogramme-mithilfe-des-schreibtischtests-prufen">Arbeitsauftrag - Struktogramme mithilfe des Schreibtischtests prüfen</h3>
+<h4 id="aufgabe-1_7">Aufgabe 1</h4>
+<p>Der Schreibtischtest wird wie folgt vorgenommen:</p>
+<ol>
+<li>Jede Anweisung / jedes Element im Struktogramm erhält eine Nummer, welche es möglicht, die aktuelle Position festzuhalten.</li>
+<li>Anlegen einer Tabelle</li>
+<li>In der ersten Spalte wird mit der Überschrift Position (Pos.) der aktuelle Programmschritt festgehalten.</li>
+<li>Für jede im Struktogramm vorkommende Variable wird eine Spalte angelegt, diese erhält den Namen der Variablen als Überschrift.</li>
+<li>Optional können zwei Spalten für die User-Eingaben sowie die Programmausgaben ergänzt werden.</li>
+</ol>
+<h4 id="aufgabe-2_7">Aufgabe 2</h4>
+<p>zu 1.</p>
+<p><img alt="Struktogramm für Schreibtischtest" src="../bilder/06_schreibtischtest_aufgabe_2_schlangestruktog_l%C3%B6sung.png" /></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Pos.</th>
+<th style="text-align: center;">punkte</th>
+<th style="text-align: center;">anzahlBewegungen</th>
+<th style="text-align: center;">anzahlAepfel</th>
+<th style="text-align: center;">laenge</th>
+<th style="text-align: center;">geschwindigkeit</th>
+<th style="text-align: center;">kollision</th>
+<th style="text-align: center;">aktuellePositionX</th>
+<th style="text-align: center;">aktuellePositionY</th>
+<th style="text-align: center;">feldMitWand</th>
+<th style="text-align: center;">feldMitSchlange</th>
+<th style="text-align: center;">feldMitApfel</th>
+<th style="text-align: center;">pfeilrichtungNaechsterSchritt</th>
+<th style="text-align: left;">User-Eingabe</th>
+<th style="text-align: left;">Spiel-Ausgabe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">24</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">True</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">19</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">Vorwärts</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">24</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">Vorwärts</td>
+<td style="text-align: left;">Ende des Programms</td>
+<td style="text-align: left;">-</td>
+</tr>
+</tbody>
+</table>
+<p>zu 2.</p>
+<p>Die Schlange wird zwei mal vorwärts geleitet, sodass der Apfel auf 23, K gefressen wird. Hierdurch ist die Schlange um 2 Felder länger und um 1 mal schneller. Der Spieler hat einen Punktestand von 1 Punkt und die der Apfel ist nicht mehr zu sehen. Danach wird die Schlange vorwärts gesteuert und würde damit ein weiteres Feld auf die Wand zu gehen. Der User hat aber das Programm vorher beendet</p>
+<p>zu 3.</p>
+<ul>
+<li>Ein Fehler im Struktogramm bezieht sich auf die Anzahl der Äpfel. Diese wird zu Beginn im Programm auf 7 Stück festgelegt. Im Rahmen des Programms wird die Anzahl allerdings nicht gemindert. Hieraus entsteht eine Art Endlosschleife, da die Abbruchbedingung des Programms entweder eine Kollision oder aber das Auffressen aller Äpfel beinhalten sollte (solange kollision == False AND anzahlAepfel &gt;=1). Damit wäre ein Spielende immer nur mit einer Kollision möglich.</li>
+<li>Der zweite Fehler betrifft die Variable feldMitApfel. Diese wird nach dem fressen des vorhandenen Apfels nicht zurückgesetzt. Dadurch würde im nächsten Programmdurchlauf auch bei einem leeren Feld die Methode apfelEntfernen() [s. 19] erneut aufgerufen werden, ohne dass ein Apfel vorhanden wäre und damit das Programm durch einen Fehler beendet werden.</li>
+<li></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

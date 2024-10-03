@@ -1,0 +1,1938 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://herr-nm.github.io/MMBbS_KIT_PVAP1/06_anwendungsentwicklung.html">
+      
+      
+        <link rel="prev" href="05_it_sicherheit.html">
+      
+      
+        <link rel="next" href="07_pruefungstraining.html">
+      
+      
+      <link rel="icon" href="bilder/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
+    
+    
+      
+        <title>Anwendungsentwicklung (LF5) - KIT Prüfungsvorbereitung AP1</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.8c3ca2c6.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#anwendungsentwicklung" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="index.html" title="KIT Prüfungsvorbereitung AP1" class="md-header__button md-logo" aria-label="KIT Prüfungsvorbereitung AP1" data-md-component="logo">
+      
+  <img src="bilder/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            KIT Prüfungsvorbereitung AP1
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Anwendungsentwicklung (LF5)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/herr-nm/MMBbS_KIT_PVAP1" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="KIT Prüfungsvorbereitung AP1" class="md-nav__button md-logo" aria-label="KIT Prüfungsvorbereitung AP1" data-md-component="logo">
+      
+  <img src="bilder/logo.png" alt="logo">
+
+    </a>
+    KIT Prüfungsvorbereitung AP1
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/herr-nm/MMBbS_KIT_PVAP1" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Informationen zur Kurslizenz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="00_aufbau_und_inhalt.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aufbau und Inhalt der IHK-Prüfung (AP1)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="01_projektmanagement.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projektmanagement (div. LF)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="02_wirtschaftliche_grundlagen.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wirtschaftliche Grundlagen (LF1 & LF2)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="03_it_grundlagen.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IT-Grundlagen (LF2)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="04_netzwerktechnik.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Netzwerktechnik (LF3)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="05_it_sicherheit.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IT-Sicherheit (LF4)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Anwendungsentwicklung (LF5)
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="06_anwendungsentwicklung.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Anwendungsentwicklung (LF5)
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#idealtypische-vorgehensmodelle-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Idealtypische Vorgehensmodelle unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Idealtypische Vorgehensmodelle unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-klassische-und-agile-vorgehensmodelle-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Klassische und agile Vorgehensmodelle unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Klassische und agile Vorgehensmodelle unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 6
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 7
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 8
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 9
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#betriebssystem-und-anwendungssoftware-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Betriebssystem und Anwendungssoftware unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Betriebssystem und Anwendungssoftware unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-betriebssysteme-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Betriebssysteme unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Betriebssysteme unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-anwendungssoftware-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Anwendungssoftware unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Anwendungssoftware unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-programmiersprachen-fur-software-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Programmiersprachen für Software unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Programmiersprachen für Software unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uml-anwendungsfalldiagramme-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      UML-Anwendungsfalldiagramme erstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UML-Anwendungsfalldiagramme erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uml-klassendiagramme-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      UML-Klassendiagramme erstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UML-Klassendiagramme erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-uml-klassendiagramme-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - UML-Klassendiagramme erstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - UML-Klassendiagramme erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#struktogramme-zur-planung-von-anwendungen-nutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Struktogramme zur Planung von Anwendungen nutzen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Struktogramme zur Planung von Anwendungen nutzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-struktogramme-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Struktogramme erstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Struktogramme erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Aufgabe 5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#programmbeschreibung-bibliotheksverwaltung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Programmbeschreibung: Bibliotheksverwaltung
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-struktogramme-mithilfe-des-schreibtischtests-prufen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Struktogramme mithilfe des Schreibtischtests prüfen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Struktogramme mithilfe des Schreibtischtests prüfen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="07_pruefungstraining.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Prüfungstraining
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="08_themeninputs.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Themeninputs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="09_lernpartner_kursangebote_material.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lernpartner, Kursangebote & Material
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#idealtypische-vorgehensmodelle-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Idealtypische Vorgehensmodelle unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Idealtypische Vorgehensmodelle unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-klassische-und-agile-vorgehensmodelle-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Klassische und agile Vorgehensmodelle unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Klassische und agile Vorgehensmodelle unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 6
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 7
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 8
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 9
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#betriebssystem-und-anwendungssoftware-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Betriebssystem und Anwendungssoftware unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Betriebssystem und Anwendungssoftware unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-betriebssysteme-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Betriebssysteme unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Betriebssysteme unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-anwendungssoftware-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Anwendungssoftware unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Anwendungssoftware unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-programmiersprachen-fur-software-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Programmiersprachen für Software unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Programmiersprachen für Software unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uml-anwendungsfalldiagramme-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      UML-Anwendungsfalldiagramme erstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UML-Anwendungsfalldiagramme erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uml-klassendiagramme-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      UML-Klassendiagramme erstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UML-Klassendiagramme erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-uml-klassendiagramme-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - UML-Klassendiagramme erstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - UML-Klassendiagramme erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#struktogramme-zur-planung-von-anwendungen-nutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Struktogramme zur Planung von Anwendungen nutzen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Struktogramme zur Planung von Anwendungen nutzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-struktogramme-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Struktogramme erstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Struktogramme erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Aufgabe 5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#programmbeschreibung-bibliotheksverwaltung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Programmbeschreibung: Bibliotheksverwaltung
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-struktogramme-mithilfe-des-schreibtischtests-prufen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Struktogramme mithilfe des Schreibtischtests prüfen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Struktogramme mithilfe des Schreibtischtests prüfen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="anwendungsentwicklung">Anwendungsentwicklung</h1>
+<p><img alt="Kapitelbild" src="bilder/kap_06_kapitelbild.jpg" /></p>
+<ul>
+<li>Idealtypische Vorgehensmodelle unterscheiden</li>
+<li>Betriebssystem und Anwendungssoftware unterscheiden</li>
+<li>UML-Anwendungsfalldiagramme erstellen</li>
+<li>UML-Klassendiagramme erstellen</li>
+<li>Struktogramme zur Planung von Anwendungen nutzen</li>
+<li>Datenbanken mit ER-Modellen planen</li>
+<li>Datenbanken abfragen</li>
+</ul>
+<h2 id="idealtypische-vorgehensmodelle-unterscheiden">Idealtypische Vorgehensmodelle unterscheiden</h2>
+<h3 id="arbeitsauftrag-klassische-und-agile-vorgehensmodelle-unterscheiden">Arbeitsauftrag - Klassische und agile Vorgehensmodelle unterscheiden</h3>
+<h4 id="aufgabe-1">Aufgabe 1</h4>
+<p>Beschreiben Sie in eigenen Worten, was ein Vorgehensmodell in der Projektplanung bzw. der Softwareentwicklung ist.</p>
+<h4 id="aufgabe-2">Aufgabe 2</h4>
+<p>Beschreiben Sie das Wasserfallmodell. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.</p>
+<h4 id="aufgabe-3">Aufgabe 3</h4>
+<p>Beschreiben Sie das Spiralmodell. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.</p>
+<h4 id="aufgabe-4">Aufgabe 4</h4>
+<p>Beschreiben Sie das V-Modell. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.</p>
+<h4 id="aufgabe-5">Aufgabe 5</h4>
+<p>Beschreiben Sie Scrum. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.</p>
+<h4 id="aufgabe-6">Aufgabe 6</h4>
+<p>Beschreiben Sie Kanban. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.</p>
+<h4 id="aufgabe-7">Aufgabe 7</h4>
+<p>Beschreiben Sie Extreme Programming. Gehen Sie dabei insbesondere auf die Funktionsweise und die Vor- und Nachteile ein.</p>
+<h4 id="aufgabe-8">Aufgabe 8</h4>
+<p>Zu den klassischen Vorgehensmodellen gehören unter anderem das Wasserfallmodell, das Spiralmodell sowie das V-Modell. Wie unterscheiden sich diese von den agilen Vorgehensmodellen wie bspw. Scrum, Kanban oder Extreme Programming?</p>
+<h4 id="aufgabe-9">Aufgabe 9</h4>
+<p>Beschreiben Sie, was im Zusammenhang mit den Vorgehensmodellen ein MVP (Minimal Viable Product) ist.</p>
+<h2 id="betriebssystem-und-anwendungssoftware-unterscheiden">Betriebssystem und Anwendungssoftware unterscheiden</h2>
+<h3 id="arbeitsauftrag-betriebssysteme-unterscheiden">Arbeitsauftrag - Betriebssysteme unterscheiden</h3>
+<h4 id="aufgabe-1_1">Aufgabe 1</h4>
+<p>Welche marktüblichen Betriebssysteme kennen Sie? Auf welcher Art von IT-System werden diese üblicherweise betrieben?</p>
+<h4 id="aufgabe-2_1">Aufgabe 2</h4>
+<p>Stellen Sie in eigenen Worten dar, wie das Betriebssystem mit dem BIOS/UEFI und Anwendungssoftware in Beziehung steht.</p>
+<h4 id="aufgabe-3_1">Aufgabe 3</h4>
+<p>Unter Windows wird die Kommandozeile / Commandline genutzt, um das Betriebssystem über Text-Befehle zu steuern. Hierauf sattelt die PowerShell (eine ursprünlich für Windows entwickelte Programmiersprache) auf. Geben Sie die Funktion der folgenden Kommandozeilenbefehle für Windows-Systeme an und zeigen Sie an einem Beispiel, wie der Befehl benutzt wird.</p>
+<ul>
+<li>dir</li>
+<li>mkdir</li>
+<li>cd</li>
+<li>ipconfig</li>
+<li>ping</li>
+<li>del</li>
+<li>copy</li>
+<li>tracert</li>
+</ul>
+<h4 id="aufgabe-4_1">Aufgabe 4</h4>
+<p>Unter Linux wird das Terminal genutzt, um das Betriebssystem über Text-Befehle zu steuern. Geben Sie die Funktion der folgenden Kommandozeilenbefehle für Windows-Systeme an und zeigen Sie an einem Beispiel, wie der Befehl benutzt wird.</p>
+<ul>
+<li>ls</li>
+<li>mkdir</li>
+<li>cd</li>
+<li>ifconfig</li>
+<li>ping</li>
+<li>iproute2</li>
+<li>arp</li>
+<li>cp</li>
+<li>chmod</li>
+<li>alias</li>
+<li>traceroute</li>
+</ul>
+<h3 id="arbeitsauftrag-anwendungssoftware-unterscheiden">Arbeitsauftrag - Anwendungssoftware unterscheiden</h3>
+<h4 id="aufgabe-1_2">Aufgabe 1</h4>
+<p>Anwendungen können sogenannte Standardsoftware sein, was bedeutet dies?</p>
+<h4 id="aufgabe-2_2">Aufgabe 2</h4>
+<p>Beschreiben Sie, was mit Branchensoftware gemeint ist.</p>
+<h4 id="aufgabe-3_2">Aufgabe 3</h4>
+<p>Beschreiben Sie was Individualsoftware ist.</p>
+<h3 id="arbeitsauftrag-programmiersprachen-fur-software-unterscheiden">Arbeitsauftrag - Programmiersprachen für Software unterscheiden</h3>
+<h4 id="aufgabe-1_3">Aufgabe 1</h4>
+<p>Nach welchen Kriterien können Programmiersprachen unterschieden werden?</p>
+<h4 id="aufgabe-2_3">Aufgabe 2</h4>
+<p>Was macht objektorientierte Sprachen aus?</p>
+<h4 id="aufgabe-3_3">Aufgabe 3</h4>
+<p>Was ist der Unterschied zwischen kompilierten und interpretierten Programmiersprachen?</p>
+<h4 id="aufgabe-4_2">Aufgabe 4</h4>
+<p>Was ist der Unterschied zwischen der Programmierung nativer und cross-platform Anwendungen?</p>
+<h2 id="uml-anwendungsfalldiagramme-erstellen">UML-Anwendungsfalldiagramme erstellen</h2>
+<h4 id="aufgabe-1_4">Aufgabe 1</h4>
+<p>Welche Aufgabe kommt dem UML-Anwendungsfalldiagramm im Rahmen der objektorientierten Programmierung (OOP) zu?</p>
+<h4 id="aufgabe-2_4">Aufgabe 2</h4>
+<p>Beschreiben Sie die einzelnen Bausteine/Elemente, die in einem UML-Anwendungsfalldiagramm verwendet werden können.</p>
+<ul>
+<li>Akteur</li>
+<li>Systemgrenze</li>
+<li>Anwendungsfall</li>
+<li>Beziehung</li>
+<li>include-Beziehung</li>
+<li>extend-Beziehung</li>
+</ul>
+<h4 id="aufgabe-3_4">Aufgabe 3</h4>
+<p>Ihnen ist das folgende UML-Anwendungsfalldiagramm gegeben. Formulieren Sie aus den Anwendungsfallen (Use-Cases) mindestens drei User-Stories.</p>
+<p><img alt="UML-Anwendungsfalldiagramm zum 3D-Drucker" src="bilder/06_umlanwendungsfall_aufgabe_3_3D-Drucker.png" /></p>
+<h4 id="aufgabe-4_3">Aufgabe 4</h4>
+<p>Erstellen Sie das UML-Anwendungsfalldiagramm zu dem im Folgenden beschriebenen Online-Ticket-Verkauf:</p>
+<p>Das UML-Anwendungsfalldiagramm für den Online-Ticket-Verkauf repräsentiert die Interaktionen zwischen verschiedenen Akteuren und den definierten Anwendungsfällen. Die Hauptakteure in diesem System sind normalerweise der Kunde, der Veranstalter und das Ticket-System selbst. Die Anwendungsfälle stellen die verschiedenen Funktionen dar, die das System den Benutzern zur Verfügung stellt.</p>
+<ul>
+<li>Kunde:</li>
+<li>Anmelden: Der Kunde kann sich im System anmelden, um personalisierte Funktionen wie den Zugriff auf die Bestellhistorie und spezielle Angebote abzurufen.</li>
+<li>Tickets durchsuchen: Der Kunde kann nach seiner Anmeldung nach verfügbaren Veranstaltungen und Tickets suchen, indem er Filter und Suchkriterien anwendet.</li>
+<li>Ticket kaufen: Der Kunde kann nach Anmeldung am System Tickets für eine ausgewählte Veranstaltung kaufen.</li>
+<li>Veranstalter:</li>
+<li>Veranstaltung erstellen: Der Veranstalter kann eine neue Veranstaltung mit relevanten Informationen wie Name, Datum, Ort usw. erstellen.</li>
+<li>Tickettypen festlegen: Der Veranstalter kann verschiedene Tickettypen für eine Veranstaltung definieren, z.B. reguläre Tickets, VIP-Tickets usw.</li>
+<li>Verkaufsberichte einsehen: Der Veranstalter kann Berichte über den Ticketverkauf für seine Veranstaltungen einsehen.</li>
+<li>Ticket-System:</li>
+<li>Bestellungsverwaltung: Das System ermöglicht die Verwaltung von Bestellungen, einschließlich Stornierungen, Bestellhistorie und Zahlungsinformationen.</li>
+<li>Verfügbarkeit prüfen: Das System überprüft die Verfügbarkeit von Tickets für eine bestimmte Veranstaltung. Wenn der Kunde nach Tickets sucht, wird dieser Anwendungsfall immer mit einbezogen.</li>
+<li>Benachrichtigungen senden: Das System kann automatische Benachrichtigungen an Kunden und Veranstalter senden, z.B. Bestätigungsmails und E-Tickets.</li>
+</ul>
+<h2 id="uml-klassendiagramme-erstellen">UML-Klassendiagramme erstellen</h2>
+<h3 id="arbeitsauftrag-uml-klassendiagramme-erstellen">Arbeitsauftrag - UML-Klassendiagramme erstellen</h3>
+<h4 id="aufgabe-1_5">Aufgabe 1</h4>
+<p>Was ist eine Klasse im Sinne der objektorientieren Programmierung (OOP)?</p>
+<h4 id="aufgabe-2_5">Aufgabe 2</h4>
+<p>Was ist Vererbung im Sinne der objektorientieren Programmierung (OOP)?</p>
+<h4 id="aufgabe-3_5">Aufgabe 3</h4>
+<p>Beschreiben Sie im Zusammenhang mit der Vererbung von Klassen, was mit Generalisierung bzw. Spezialisierung gemeint ist.</p>
+<h4 id="aufgabe-4_4">Aufgabe 4</h4>
+<p>Was ist Polymorphie im Sinne der objektorientieren Programmierung (OOP)?</p>
+<h4 id="aufgabe-5_1">Aufgabe 5</h4>
+<p>Erstellen Sie das UML-Klassendiagramm zu folgendem Fall:</p>
+<p><em>Es soll für einen Onlineshop für Klemmbausteine eine Anwendung zum Angebot von Ersatzteilen erstellt werden. Von jedem Klemmbaustein wird die Bezeichnung, die Farbe und die Anzahl der Noppen gespeichert. Es gibt unter anderem folgende Arten von Klemmbausteinen: Basissteine, Konstruktionssteine, Tiere und Menschen. Bei einem Basissteinen wird gespeichert, ob dieser zum Hersteller</em> Lego <em>kompatibel ist, bei jedem Mensch wird gespeichert, ob er/sie den Kopf drehen kann oder nicht. Bei den Tieren wird gespeichert, ob obendrauf ein Mensch oder ein weiteres Tier reiten kann. Es gibt genau zwei Arten von Konstruktionssteinen, Schienen – von ihnen wird die Länge gespeichert – und Platten, von denen Länge und Breite gespeichert werden.</em></p>
+<h2 id="struktogramme-zur-planung-von-anwendungen-nutzen">Struktogramme zur Planung von Anwendungen nutzen</h2>
+<h3 id="arbeitsauftrag-struktogramme-erstellen">Arbeitsauftrag - Struktogramme erstellen</h3>
+<h4 id="aufgabe-1_6">Aufgabe 1</h4>
+<p>Beschreiben Sie in eigenen Worten alle Elemente, die in einem Struktogramm verwendet werden können. Sie können sich die Bausteine des Struktogramms im hier empfohlenen Editor <a href="https://dditools.inf.tu-dresden.de/struktog/index.html">Struktog.</a> ansehen.</p>
+<ul>
+<li>Anweisungen</li>
+<li>Eingabe</li>
+<li>Ausgabe</li>
+<li>Standardanweisung</li>
+<li>Schleifen</li>
+<li>Zählergesteuerte Schleife</li>
+<li>Kopfgesteuerte Schleife</li>
+<li>Fußgesteuerte Schleife</li>
+<li>Kontrollstrukturen</li>
+<li>Verzweigung</li>
+<li>Fallunterscheidung</li>
+<li>Try-Catch</li>
+<li>Funktionen</li>
+</ul>
+<h4 id="aufgabe-2_6">Aufgabe 2</h4>
+<p>Struktogramme werden für die Planung von Programmlogiken verwendet. Beschreiben Sie das Ziel in der Verwendung in eigenen Worten und nennen Sie Vor- und Nachteile dieser Notationsform.</p>
+<h4 id="aufgabe-3_6">Aufgabe 3</h4>
+<p>Ihnen liegt das folgende Python-Script vor. Erstellen Sie das hierzu passende Struktogramm:</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Struktogramm-Beispiel in Python</span>
+
+<span class="c1"># Ein- und Ausgabe</span>
+<span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Gib deinen Namen ein: &quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hallo, &quot;</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s2">&quot;!&quot;</span><span class="p">)</span>
+
+<span class="c1"># Verzweigung (if-Anweisung)</span>
+<span class="n">alter</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Gib dein Alter ein: &quot;</span><span class="p">))</span>
+<span class="k">if</span> <span class="n">alter</span> <span class="o">&gt;=</span> <span class="mi">18</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Du bist volljährig.&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Du bist minderjährig.&quot;</span><span class="p">)</span>
+
+<span class="c1"># Schleife (while-Schleife)</span>
+<span class="n">zahl</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="n">zahl</span> <span class="o">&lt;=</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">zahl</span><span class="p">)</span>
+    <span class="n">zahl</span> <span class="o">+=</span> <span class="mi">1</span>
+
+<span class="c1"># Schleife (for-Schleife)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Schleifendurchlauf: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+
+<span class="c1"># Funktion</span>
+<span class="k">def</span> <span class="nf">quadrat</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span>
+
+<span class="c1"># Funktionsaufruf</span>
+<span class="n">ergebnis</span> <span class="o">=</span> <span class="n">quadrat</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Das Quadrat von 4 ist: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">ergebnis</span><span class="p">))</span>
+</code></pre></div>
+<h4 id="aufgabe-4_5">Aufgabe 4</h4>
+<p>In einer Softwaresammlung eines Kollegen finden Sie das folgende PowerShell-Script. Erstellen Sie auch hierzu das passende Struktogramm:</p>
+<div class="highlight"><pre><span></span><code><span class="c"># PowerShell-Beispiel: Erweiterter Datei-Scan und Ausgabe</span>
+
+<span class="c"># Ein- und Ausgabe</span>
+<span class="nv">$verzeichnis</span> <span class="p">=</span> <span class="nb">Read-Host</span> <span class="s2">&quot;Gib das Verzeichnis ein: &quot;</span>
+<span class="nb">Write-Host</span> <span class="s2">&quot;Das ausgewählte Verzeichnis ist: $verzeichnis&quot;</span>
+
+<span class="c"># Verzweigung (if-Anweisung)</span>
+<span class="k">if</span> <span class="p">(</span><span class="nb">Test-Path</span> <span class="nv">$verzeichnis</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nb">Write-Host</span> <span class="s2">&quot;Das Verzeichnis existiert.&quot;</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="nb">Write-Host</span> <span class="s2">&quot;Das Verzeichnis existiert nicht.&quot;</span>
+    <span class="k">return</span>
+<span class="p">}</span>
+
+<span class="c"># Schleife (while-Schleife)</span>
+<span class="nv">$zahl</span> <span class="p">=</span> <span class="n">1</span>
+<span class="k">while</span> <span class="p">(</span><span class="nv">$zahl</span> <span class="o">-le</span> <span class="n">3</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nb">Write-Host</span> <span class="s2">&quot;Schleifendurchlauf: $zahl&quot;</span>
+    <span class="nv">$zahl</span><span class="p">++</span>
+<span class="p">}</span>
+
+<span class="c"># Alle Dateien im Verzeichnis auflisten</span>
+<span class="nv">$dateien</span> <span class="p">=</span> <span class="nb">Get-ChildItem</span> <span class="n">-Path</span> <span class="nv">$verzeichnis</span>
+
+<span class="c"># Schleife (foreach-Schleife)</span>
+<span class="k">foreach</span> <span class="p">(</span><span class="nv">$datei</span> <span class="k">in</span> <span class="nv">$dateien</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nb">Write-Host</span> <span class="s2">&quot;Datei: </span><span class="p">$(</span><span class="nv">$datei</span><span class="p">.</span><span class="n">FullName</span><span class="p">)</span><span class="s2">&quot;</span>
+
+    <span class="c"># Inhalt der Textdateien ausgeben</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nv">$datei</span><span class="p">.</span><span class="n">Extension</span> <span class="o">-eq</span> <span class="s2">&quot;.txt&quot;</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nv">$inhalt</span> <span class="p">=</span> <span class="nb">Get-Content</span> <span class="n">-Path</span> <span class="nv">$datei</span><span class="p">.</span><span class="n">FullName</span>
+        <span class="nb">Write-Host</span> <span class="s2">&quot;Inhalt:&quot;</span>
+        <span class="nb">Write-Host</span> <span class="nv">$inhalt</span>
+    <span class="p">}</span>
+
+    <span class="c"># Verzweigung (switch-Anweisung)</span>
+    <span class="k">switch</span> <span class="p">(</span><span class="nv">$datei</span><span class="p">.</span><span class="n">Extension</span><span class="p">)</span> <span class="p">{</span>
+        <span class="s2">&quot;.txt&quot;</span> <span class="p">{</span> <span class="nb">Write-Host</span> <span class="s2">&quot;Dies ist eine Textdatei.&quot;</span> <span class="p">}</span>
+        <span class="s2">&quot;.csv&quot;</span> <span class="p">{</span> <span class="nb">Write-Host</span> <span class="s2">&quot;Dies ist eine CSV-Datei.&quot;</span> <span class="p">}</span>
+        <span class="k">default</span> <span class="p">{</span> <span class="nb">Write-Host</span> <span class="s2">&quot;Dateityp nicht erkannt.&quot;</span> <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="nb">Write-Host</span> <span class="s2">&quot;------------------------&quot;</span>
+<span class="p">}</span>
+
+<span class="c"># Funktion</span>
+<span class="k">function</span> <span class="n">Quadrat</span><span class="p">(</span><span class="nv">$x</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nv">$x</span> <span class="p">*</span> <span class="nv">$x</span>
+<span class="p">}</span>
+
+<span class="c"># Funktionsaufruf</span>
+<span class="nv">$ergebnis</span> <span class="p">=</span> <span class="n">Quadrat</span> <span class="n">-x</span> <span class="n">4</span>
+<span class="nb">Write-Host</span> <span class="s2">&quot;Das Quadrat von 4 ist: $ergebnis&quot;</span>
+</code></pre></div>
+<h4 id="aufgabe-5_2">Aufgabe 5</h4>
+<p>Die Bücherei eines Dorfes in der Nähe von Hannover arbeitet bisher zur Verwaltung des Bestandes sowie der Ausleihvorgänge mit einer Excel-Tabelle. Eine neue Anwendung soll hierfür geschrieben werden. Aus den ersten Gesprächen mit dem Bücherei-Team haben sich folgende Beschreibungen zur gewünschten Funktionalität des Programms ergeben:</p>
+<h5 id="programmbeschreibung-bibliotheksverwaltung">Programmbeschreibung: Bibliotheksverwaltung</h5>
+<ol>
+<li>Initialisierung:</li>
+<li>Das Programm startet und initialisiert eine leere Liste für die Buchdatenbank.</li>
+<li>Hauptmenü:</li>
+<li>Das Hauptmenü wird angezeigt:<ul>
+<li>Option 1: Buch hinzufügen</li>
+<li>Option 2: Buch suchen</li>
+<li>Option 3: Alle Bücher anzeigen</li>
+<li>Option 4: Programm beenden</li>
+</ul>
+</li>
+<li>Buch hinzufügen:</li>
+<li>Der Benutzer wählt Option 1:<ul>
+<li>Eingabe des Buchtitels, Autors und Erscheinungsjahrs.</li>
+<li>Überprüfe, ob das Buch bereits in der Datenbank existiert.<ul>
+<li>Falls ja, gib eine Warnung aus und kehre zum Hauptmenü zurück.</li>
+<li>Falls nein, füge das Buch zur Datenbank hinzu.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Buch suchen:</li>
+<li>Der Benutzer wählt Option 2:<ul>
+<li>Eingabe des Buchtitels oder Autors.</li>
+<li>Suche in der Datenbank nach Übereinstimmungen und gib die Ergebnisse aus.</li>
+<li>Falls keine Übereinstimmung gefunden wurde, gib eine entsprechende Meldung aus.</li>
+</ul>
+</li>
+<li>Alle Bücher anzeigen:</li>
+<li>Der Benutzer wählt Option 3:<ul>
+<li>Zeige alle Bücher in der Datenbank an, sortiert nach dem Erscheinungsjahr.</li>
+</ul>
+</li>
+<li>Programm beenden:</li>
+<li>Der Benutzer wählt Option 4:<ul>
+<li>Beende das Programm.</li>
+</ul>
+</li>
+<li>Hauptschleife:</li>
+<li>Nach jeder abgeschlossenen Aktion kehre zum Hauptmenü zurück.</li>
+<li>Die Benutzer können das Programm beenden, indem sie Option 4 auswählen.</li>
+</ol>
+<h3 id="arbeitsauftrag-struktogramme-mithilfe-des-schreibtischtests-prufen">Arbeitsauftrag - Struktogramme mithilfe des Schreibtischtests prüfen</h3>
+<h4 id="aufgabe-1_7">Aufgabe 1</h4>
+<p>Beschreiben Sie den Ablauf eines Schreibtischtests zur Prüfung von Struktogrammen im Allgemeinen.</p>
+<h4 id="aufgabe-2_7">Aufgabe 2</h4>
+<p>Sie haben ein Browsergame auf Ihrer Webseite implementiert. Einen User haben Sie eine Runde spielen lassen. Hieraus leiten Sie die Eingaben zur Kontrolle mit dem Struktogramm ab.</p>
+<p>Das Spiel "Schlange" wird durch folgendes Spielfeld beschrieben:</p>
+<p><img alt="Spielfeld" src="bilder/06_schreibtischtest_aufgabe_2_schlangefeld.png" /></p>
+<ul>
+<li>Die roten Felder sind "Äpfel", die es aufzusammeln gilt.</li>
+<li>Das orangene Feld ist der Kopf der Schlange. Diese kann sich nur nach vorne bewegen, wird aber in der Richtung (vorwärts, links, rechts) durch den User gesteuert.</li>
+<li>Die gelben Felder sind der Körper der Schlange.</li>
+<li>Wenn ein Apfel gefressen wurde:</li>
+<li>Der Spieler erhält einen Punkt.</li>
+<li>Außerdem verlängert sich die Schlange um zwei gelbe Felder und wird eine Geschwindigkeitsstufe schneller.</li>
+<li>Die Bewegung findet aber dennoch Feld für Feld statt und kann für jedes nächste Feld gesteuert werden.</li>
+<li>Der Apfel wird vom Spielfeld entfernt.</li>
+<li>Wenn der User keine Eingabe der Richtung vorgibt, wird automatisch vorwärts gewählt.</li>
+<li>Das Spiel endet sofort, wenn durch einen Schritt Vorwärts die Wand oder ein Teil der Schlange selbst  betreten wird.</li>
+<li>Wurde ein Hindernis getroffen, wird "Ooopsi" ausgegeben und die Kollisionserkennung ausgelöst.</li>
+<li>Nach Ende des Spiels wird der Punktestand sowie die Anzahl der Bewegungen auf den Feldern ausgegeben.</li>
+<li>Die Funktion getAktuellesFeldX() ermittelt die aktuelle Position auf der X-Achse. Die Schlange startet in dem Beispiel auf <code>20</code>.</li>
+<li>Die Funktion getAktuellesFeldY() ermittelt die aktuelle Position auf der Y-Achse. Die Schlange startet in dem Beispiel auf <code>K</code>.</li>
+<li>Die Funktion <code>getFeldInformationen(aktuellePositionX, aktuellePositionY)</code> erhält zwei Übergabeparameter in der Form <code>X-Wert, Y-Wert</code>. Der Rückgabewert der Funktion ist <code>False</code>, wenn das Feld frei ist. Wenn das Feld eine Wand enthält ist der Rückgabewert <code>True</code>.</li>
+<li>Die Funktion <code>getSchlangePosition(aktuellePositionX, aktuellePositionY)</code> erhält zwei Übergabeparameter in der Form <code>X-Wert, Y-Wert</code>. Der Rückgabewert der Funktion ist False, wenn das Feld frei ist. Wenn das <code>Feld</code> einen Teil der Schlange enthält ist der Rückgabewert <code>True</code>.</li>
+<li>Die Funktion <code>getApfelInformation(aktuellePositionX, aktuellePositionY)</code> erhält zwei Übergabeparameter in der Form <code>X-Wert, Y-Wert</code>. Der Rückgabewert der Funktion ist False, wenn das Feld frei ist. Wenn das <code>Feld</code> einen Apfel enthält ist der Rückgabewert <code>True</code>.</li>
+<li>Die Funktion <code>apfelEntfernen()</code> sorgt lediglich dafür, dass auf dem Spielfeld ein gefressener Apfel nicht mehr angezeigt wird.</li>
+</ul>
+<p>Das Struktogramm liegt Ihnen vor:</p>
+<p><img alt="Struktogramm Schlange" src="bilder/06_schreibtischtest_aufgabe_2_schlangestruktog.png" /></p>
+<p>Die User-Eingaben für den Test waren:</p>
+<ul>
+<li>Vorwärts</li>
+<li>Vorwärts</li>
+<li>
+<p>Danach hat der User das Programm bei dreheKopf(pfeilrichtungNaechsterSchritt) beendet.</p>
+</li>
+<li>
+<p>Führen Sie den Schreibtischtest dieser Spiel-Runde durch.</p>
+</li>
+<li>Beschreiben Sie den Ablauf der Test-Spielrunde durch den User in eigenen Worten.</li>
+<li>Welche zwei Fehler hinsichtlich der Programm-/Spiel-Logik sind im Struktogramm enthalten?</li>
+</ul>
+<!-- BEGIN INCLUDE inhalte/lizenzhinweis.md '&lt;!--include-start--&gt;' '&lt;!--include-end--&gt;' -->
+
+<div class="admonition info">
+<p class="admonition-title">Lizenz</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Der KIT PV AP1 Kurs</span> von <a xmlns:cc="http://creativecommons.org/ns#" href="https://herr-nm.github.io/MMBbS_KIT_PVAP1/" property="cc:attributionName" rel="cc:attributionURL">André Neumann</a> ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>. Fragen, Hinweise etc. an neumann@mmbbs.de.</p>
+</div>
+<!-- END INCLUDE -->
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.525ec568.min.js"></script>
+      
+        <script src="javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

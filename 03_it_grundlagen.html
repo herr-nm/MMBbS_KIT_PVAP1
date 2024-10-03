@@ -1,0 +1,1677 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://herr-nm.github.io/MMBbS_KIT_PVAP1/03_it_grundlagen.html">
+      
+      
+        <link rel="prev" href="02_wirtschaftliche_grundlagen.html">
+      
+      
+        <link rel="next" href="04_netzwerktechnik.html">
+      
+      
+      <link rel="icon" href="bilder/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
+    
+    
+      
+        <title>IT-Grundlagen (LF2) - KIT Prüfungsvorbereitung AP1</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.8c3ca2c6.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#it-grundlagen" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="index.html" title="KIT Prüfungsvorbereitung AP1" class="md-header__button md-logo" aria-label="KIT Prüfungsvorbereitung AP1" data-md-component="logo">
+      
+  <img src="bilder/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            KIT Prüfungsvorbereitung AP1
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              IT-Grundlagen (LF2)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/herr-nm/MMBbS_KIT_PVAP1" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="KIT Prüfungsvorbereitung AP1" class="md-nav__button md-logo" aria-label="KIT Prüfungsvorbereitung AP1" data-md-component="logo">
+      
+  <img src="bilder/logo.png" alt="logo">
+
+    </a>
+    KIT Prüfungsvorbereitung AP1
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/herr-nm/MMBbS_KIT_PVAP1" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Informationen zur Kurslizenz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="00_aufbau_und_inhalt.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aufbau und Inhalt der IHK-Prüfung (AP1)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="01_projektmanagement.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projektmanagement (div. LF)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="02_wirtschaftliche_grundlagen.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wirtschaftliche Grundlagen (LF1 & LF2)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    IT-Grundlagen (LF2)
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="03_it_grundlagen.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    IT-Grundlagen (LF2)
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#raid-level-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      RAID-Level unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="RAID-Level unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-raid-level-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - RAID-Level unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - RAID-Level unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ubertragung-von-daten-berechnen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Übertragung von Daten berechnen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Übertragung von Daten berechnen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-ubertragung-von-daten-berechnen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Übertragung von Daten berechnen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Übertragung von Daten berechnen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#energieeffizienz-von-it-systemen-vergleichen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Energieeffizienz von IT-Systemen vergleichen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Energieeffizienz von IT-Systemen vergleichen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-energieeffizienz-von-it-systemen-vergleichen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Energieeffizienz von IT-Systemen vergleichen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Energieeffizienz von IT-Systemen vergleichen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ergonomie-am-arbeitsplatz-herstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ergonomie am Arbeitsplatz herstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ergonomie am Arbeitsplatz herstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-ergonomie-am-arbeitsplatz-herstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Ergonomie am Arbeitsplatz herstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Ergonomie am Arbeitsplatz herstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloudlosungen-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cloudlösungen unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cloudlösungen unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-cloudlosungen-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Cloudlösungen unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Cloudlösungen unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hardwarekomponenten-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hardwarekomponenten unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hardwarekomponenten unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-hardwarekomponenten-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Hardwarekomponenten unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Hardwarekomponenten unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virtualisierung-nutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Virtualisierung nutzen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Virtualisierung nutzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-virtualisierung-nutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Virtualisierung nutzen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Virtualisierung nutzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logische-grundfunktionen-der-digitaltechnik-auswerten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logische Grundfunktionen der Digitaltechnik auswerten
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Logische Grundfunktionen der Digitaltechnik auswerten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="04_netzwerktechnik.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Netzwerktechnik (LF3)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="05_it_sicherheit.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IT-Sicherheit (LF4)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="06_anwendungsentwicklung.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anwendungsentwicklung (LF5)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="07_pruefungstraining.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Prüfungstraining
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="08_themeninputs.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Themeninputs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="09_lernpartner_kursangebote_material.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lernpartner, Kursangebote & Material
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#raid-level-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      RAID-Level unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="RAID-Level unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-raid-level-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - RAID-Level unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - RAID-Level unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 5
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ubertragung-von-daten-berechnen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Übertragung von Daten berechnen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Übertragung von Daten berechnen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-ubertragung-von-daten-berechnen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Übertragung von Daten berechnen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Übertragung von Daten berechnen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#energieeffizienz-von-it-systemen-vergleichen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Energieeffizienz von IT-Systemen vergleichen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Energieeffizienz von IT-Systemen vergleichen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-energieeffizienz-von-it-systemen-vergleichen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Energieeffizienz von IT-Systemen vergleichen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Energieeffizienz von IT-Systemen vergleichen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ergonomie-am-arbeitsplatz-herstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ergonomie am Arbeitsplatz herstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ergonomie am Arbeitsplatz herstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-ergonomie-am-arbeitsplatz-herstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Ergonomie am Arbeitsplatz herstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Ergonomie am Arbeitsplatz herstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloudlosungen-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cloudlösungen unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cloudlösungen unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-cloudlosungen-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Cloudlösungen unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Cloudlösungen unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hardwarekomponenten-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hardwarekomponenten unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hardwarekomponenten unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-hardwarekomponenten-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Hardwarekomponenten unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Hardwarekomponenten unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virtualisierung-nutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Virtualisierung nutzen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Virtualisierung nutzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-virtualisierung-nutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag - Virtualisierung nutzen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag - Virtualisierung nutzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logische-grundfunktionen-der-digitaltechnik-auswerten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logische Grundfunktionen der Digitaltechnik auswerten
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Logische Grundfunktionen der Digitaltechnik auswerten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabe 2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="it-grundlagen">IT-Grundlagen</h1>
+<p><img alt="Kapitelbild" src="bilder/kap_03_kapitelbild.jpg" /></p>
+<ul>
+<li>RAID-Level unterscheiden</li>
+<li>Übertragung von Daten berechnen</li>
+<li>Energieeffizienz von IT-Systemen vergleichen</li>
+<li>Ergonomie am Arbeitsplatz herstellen</li>
+<li>Cloudlösungen unterscheiden</li>
+<li>Hardwarekomponenten unterscheiden</li>
+<li>Virtualisierung nutzen</li>
+</ul>
+<h2 id="raid-level-unterscheiden">RAID-Level unterscheiden</h2>
+<h3 id="arbeitsauftrag-raid-level-unterscheiden">Arbeitsauftrag - RAID-Level unterscheiden</h3>
+<h4 id="aufgabe-1">Aufgabe 1</h4>
+<p>Beschreiben Sie die Funktionsprinzipien des RAID 0, 1, 5, 6 sowie 10 in tabellarischer Form. Berücksichtigen Sie:</p>
+<ul>
+<li>Mindestanzahl der Festplatten</li>
+<li>Funktionsweise</li>
+<li>Nettospeicherkapazität (allgemein und am Beispiel, wenn 4x 8TB-Festplatten zur Verfügung stehen)</li>
+<li>Festplattenausfall (allgemein und am Beispiel</li>
+<li>Erweiterung des RAID-Verbunds (Anzahl Festplatten)</li>
+</ul>
+<h4 id="aufgabe-2">Aufgabe 2</h4>
+<p>Ein Kunde kommt auf Sie zu und möchte eine Empfehlung für ein RAID-Level auf seinem NAS. Es soll bei Ausfall von mindestens 2 Festplatten keine Probleme der Verfügbarkeit geben. Das NAS hat insgesamt 8 Laufwerke. Wenn möglich soll eine Hot Spare Festplatte eingeplant werden. Es müssen mindestens 3 der Laufwerke als Nettokapazität übrig bleiben. Welche RAID-Level ziehen Sie in Betracht? Zu welchem RAID-Level würden Sie raten, begründen Sie dieses und auch, warum andere Alternativen aus Ihrer Sicht ausscheiden.</p>
+<h4 id="aufgabe-3">Aufgabe 3</h4>
+<p>Begründen Sie in eigenen Worten, warum RAID und Backups sich für das Schutzziel der Verfügbarkeit ergänzen und nicht ersetzen.</p>
+<h4 id="aufgabe-4">Aufgabe 4</h4>
+<p>Im Rahmen der Festplattenüberwachung gibt es den S.M.A.R.T.-Standard. Was steckt hinter der Abkürzung? Beschreiben Sie außerdem kurz, was diese Prüfung ist.</p>
+<h4 id="aufgabe-5">Aufgabe 5</h4>
+<p>Was bedeutet die MTBF (Meantime Between Failure) bei Speichermedien?</p>
+<h2 id="ubertragung-von-daten-berechnen">Übertragung von Daten berechnen</h2>
+<h3 id="arbeitsauftrag-ubertragung-von-daten-berechnen">Arbeitsauftrag - Übertragung von Daten berechnen</h3>
+<h4 id="aufgabe-1_1">Aufgabe 1</h4>
+<p>Ein 3D-Drucker in einem industriellen Umfeld soll ein 3D-Modell mit einer Dateigröße von 300 MiB drucken. Die Übertragung erfolgt über eine LAN-Verbindung. Berechnen Sie die Übertragungsgeschwindigkeit in MBit/s, wenn die Übertragung 5 Minuten dauern soll.</p>
+<h4 id="aufgabe-2_1">Aufgabe 2</h4>
+<p>Ein 3D-Drucker in einem Industrieunternehmen benötigt, um ein druckbereites 3D-Modell zu erhalten, eine CAD-Datei, die 1,5 GiB groß ist. Die Übertragung dieser Datei erfolgt drahtlos über eine schnelle Wi-Fi-Verbindung mit einer Geschwindigkeit von 300 MBit/s. Wie lange dauert es, bis die Datei vollständig übertragen ist? Geben Sie das Ergebnis gerundet auf ganze Sekunden an.</p>
+<h4 id="aufgabe-3_1">Aufgabe 3</h4>
+<p>Ein großer 3D-Drucker in einem industriellen Produktionsbetrieb druckt den Prototyp eines Produkts. Während des Druckvorgangs sendet der Computer des Druckers Daten an den Drucker. Der Ingenieur geht davon aus, dass die Druckdaten eine Größe von 4,5 TiB haben sollten. Berechnen Sie die reale Gesamtmenge an Daten, die während des gesamten Druckvorgangs an den 3D-Drucker übertragen werden, wenn der Druck 8 Stunden dauert und die Übertragungsgeschwindigkeit konstant bei 50 MBit/s liegt. Geben Sie die Dateigröße in TiB an.</p>
+<h2 id="energieeffizienz-von-it-systemen-vergleichen">Energieeffizienz von IT-Systemen vergleichen</h2>
+<h3 id="arbeitsauftrag-energieeffizienz-von-it-systemen-vergleichen">Arbeitsauftrag - Energieeffizienz von IT-Systemen vergleichen</h3>
+<h4 id="aufgabe-1_2">Aufgabe 1</h4>
+<p>Für die Berechnung der Energieeffizienz bzw. der Energiekosten eines IT-Systems werden Formeln benötigt:</p>
+<ul>
+<li>Welche Formel wird herangezogen, um die elektrische Leistung P zu berechnen?</li>
+<li>Welche Formel wird herangezogen, um die elektrische Energie E zu berechnen?</li>
+<li>Welche Formel wird herangezogen, um die Kosten des Energieverbrauchs zu berechnen?</li>
+</ul>
+<h4 id="aufgabe-2_2">Aufgabe 2</h4>
+<p>Berechnen Sie die Kosten des Energieverbrauchs für 100 mal Aufladen eines Smartphones. Dieses hat einen 1750 mAh Akku, welcher mit 5V Spannung geladen wird und damit 12 Stunden hält. Der Strompreis liegt bei 35 ct/kWh.</p>
+<h4 id="aufgabe-3_2">Aufgabe 3</h4>
+<p>Sie haben die Aufgabe, für ein Projekt bei einem Kunden mit zwei Lösungsvorschlägen für den Einsatz von IT-Systemen, die Energiekosten zu berechnen und zu vergleichen.</p>
+<p>Es handelt sich dabei um 40 Arbeitsplätze, die ausgestattet werden sollen. Ein Arbeitsplatz wird 250 Tage im Jahr für 10 Stunden je Tag betrieben. Server können nicht heruntergefahren werden, sodass diese 24/7 für 365 Tage im Jahr durchgehend laufen. Der Strompreis liegt bei 31 ct/kWh.</p>
+<ul>
+<li>Option A: Für jeden Arbeitsplatz einen Mini-Desktop-PCs (ZBOX PI336 pico) mit 15 Watt im normalen Anwendungsbetrieb sowie einem Server (HPE ProLiant DL360 Gen10) für verschiedene Anwendungen mit 800 Watt Netzteil. Der Server hat eine Energieauslastung von 95%.</li>
+<li>Option B: ThinClients (Dell OptiPlex 3000) mit 40 Watt im normalen Anwendungsbetrieb sowie zwei Server (HPE ProLiant DL360 Gen10) für die Virtual Desktop Interfaces (VDI) mit jeweils 800 Watt Netzteilen. Die Server haben eine Energieauslastung von 85%.</li>
+</ul>
+<p>Berechnen Sie die Gesamtkosten für beide Optionen je Kalenderjahr und benennen Sie die günstigere Lösung.</p>
+<h4 id="aufgabe-4_1">Aufgabe 4</h4>
+<p>Lesen Sie sich den folgenden englischsprachigen Beitrag zum Thema "Power Usage Effectiveness (PUE) durch und beantworten Sie die Fragen hierzu auf deutsch:</p>
+<p><strong>What is Power Usage Effectiveness (PUE)?</strong></p>
+<p>Power Usage Effectiveness (PUE) is a metric that can be used to estimate the energy efficiency of a data center. It is calculated by dividing the total amount of energy entering a data center by the energy required only to operate the IT equipment in the data center. The closer this value approaches 1.0, the more efficient the data center.</p>
+<p>Monitoring a metric like PUE is useful for benchmarking data center efficiency. Companies and data center managers use the metric to determine the current efficiency of their infrastructure and the success of modernization efforts. This helps reduce power consumption and energy costs.</p>
+<p>PUE was developed by members of the Green Grid, an industry group focused on data center energy efficiency. According to the Uptime Institute Annual Global Data Center Survey 2021, PUE and power consumption are among the best tracked metrics for improving sustainability. A similar benchmarking standard recognized by the Green Grid is Data Center Infrastructure Efficiency (DCiE).</p>
+<p><strong>How to calculate the PUE?</strong></p>
+<p>PUE is calculated by dividing the total facility power consumption by the power consumption of the IT equipment. Total facility power is the amount of energy consumed by the facility, which includes all data center hardware, power supply components, air conditioning systems, and lighting. IT equipment energy refers to the amount of energy used to power storage, compute, networking, and input/output devices (such as monitors).</p>
+<p><strong>Advantages of and criticism of PUE</strong></p>
+<p>Applying PUE to determine facility energy efficiency and environmental performance has some advantages:</p>
+<ul>
+<li>You can recalculate it as often as you like. The metric is designed to be recalculated on an ongoing basis to assess the effectiveness of countermeasures.</li>
+<li>More efficient practices are reflected in the PUE. The metric helps identify effective and non-effective ways to reduce energy consumption.</li>
+<li>The value is a popular metric in DCIM software. DCIM software usually calculates PUE in real time and reports on it.</li>
+<li>The PUE metric is useful in a competitive environment. Companies with good PUE metrics should include them in their promotional materials.</li>
+</ul>
+<p>However, the PUE metric for data centers is subject to some limitations, for example:</p>
+<ul>
+<li>It is difficult to accurately calculate the total power. However, this is an important factor that significantly influences the informative value of the PUE. If you have to estimate this number at your electricity meter, then even PUE is only a rough estimate.</li>
+<li>PUE does not capture consumption at the rack level. Energy used for rack-level infrastructure is not included in the overall PUE calculation, making PUE less accurate.</li>
+<li>PUE is not actually a marketing metric. Although companies can use the PUE metric for marketing purposes, it is intended as an improvement and evaluation metric. Marketers should not rely too heavily on PUE just because it is a widely known concept.</li>
+<li>PUE says nothing about whether the data center is reasonably sized and whether you are using efficient software. It's still possible to waste power with a low PUE if you're not using your IT resources wisely.</li>
+<li>PUE does not capture other environmental factors, such as water absorption, asset useful life, or the rate of recycling of retired assets. It is possible to lower PUE by making environmentally unfriendly, premature new purchases, but do more harm to the environment on balance.</li>
+</ul>
+<p><strong>How can you lower the PUE value?</strong></p>
+<p>To bring your PUE closer to 1.0, the following measures are possible:</p>
+<ul>
+<li>Virtualize servers. Virtualization enables you to run the same workloads on fewer servers. This gives you more computing power with the same or smaller infrastructure.</li>
+<li>Optimize cooling. Air conditioning systems are among the most energy-intensive components of data center infrastructure. Depending on how you plan your layout, you can avoid hotspots and thus the need for additional cooling power.</li>
+<li>Use free cooling. Because air-conditioning systems are so power-hungry, rely on outside air cooling as often as possible, which uses much less power.</li>
+<li>Retire inefficient hardware. First, the efficiency of hardware deteriorates as it ages, and second, new hardware on the market is becoming more efficient. But before you decide to upgrade, you should calculate whether the energy savings are worth the CO2 emissions of manufacturing a new device. In most cases, the equipment you already own is the most environmentally friendly.</li>
+<li>Deploy a more efficient UPS. UPSs are essential to maintain operations throughout. But there are more or less efficient options here.</li>
+<li>Don't forget lighting. While the energy used for lighting is only a small part of the data center's power needs, it's especially easy to reduce that portion. Make sure lights are only on when employees really need them (for example, through a motion detector or timer) and switch light sources to LEDs.</li>
+</ul>
+<p><em>Quelle: Fontecchio, Mark &amp; Gillis, Alexander S. (2023). Power Usage Effectiveness (PUE). URL: https://www.computerweekly.com/de/definition/Power-Usage-Effectiveness-PUE.</em></p>
+<p><strong>Fragen:</strong></p>
+<ol>
+<li>Was ist Power Usage Effectiveness (PUE) und wie wird diese berechnet?</li>
+<li>Warum ist es wichtig, die Energieeffizienz eines Rechenzentrums zu messen?</li>
+<li>Welche Vorteile bietet die Anwendung des PUE-Metriks für Rechenzentren?</li>
+<li>Welche Kritikpunkte gibt es in Bezug auf den PUE-Wert?</li>
+<li>Wie kann man den PUE-Wert senken und die Energieeffizienz steigern?</li>
+<li>Welche Rolle spielt die Virtualisierung bei der Verbesserung des PUE-Werts?</li>
+<li>Warum ist die Optimierung der Kühlung in einem Rechenzentrum wichtig?</li>
+<li>Was versteht man unter "free cooling" und wie trägt es zur Senkung des PUE bei?</li>
+<li>Warum ist die Wahl eines effizienten USV-Systems für die Energieeffizienz entscheidend?</li>
+<li>Welche Maßnahmen können ergriffen werden, um den Energieverbrauch für Beleuchtung in einem Rechenzentrum zu reduzieren?</li>
+</ol>
+<h2 id="ergonomie-am-arbeitsplatz-herstellen">Ergonomie am Arbeitsplatz herstellen</h2>
+<h3 id="arbeitsauftrag-ergonomie-am-arbeitsplatz-herstellen">Arbeitsauftrag - Ergonomie am Arbeitsplatz herstellen</h3>
+<h4 id="aufgabe-1_3">Aufgabe 1</h4>
+<p>Welche Themenbereiche sind bei der Ergonomie am Arbeitsplatz zu berücksichtigen? Geben Sie einen Überblick in Stichpunkten.</p>
+<h4 id="aufgabe-2_3">Aufgabe 2</h4>
+<p>Welche Faktoren sind bei der Auswahl und Bildeinstellung eines Monitors zu berücksichtigen?</p>
+<h2 id="cloudlosungen-unterscheiden">Cloudlösungen unterscheiden</h2>
+<h3 id="arbeitsauftrag-cloudlosungen-unterscheiden">Arbeitsauftrag - Cloudlösungen unterscheiden</h3>
+<h4 id="aufgabe-1_4">Aufgabe 1</h4>
+<p>Beschreiben Sie in eigenen Worten, was Cloud-Computing ist.</p>
+<h4 id="aufgabe-2_4">Aufgabe 2</h4>
+<p>Nennen und beschreiben Sie die "... as a Service"-Konzepte.</p>
+<h4 id="aufgabe-3_3">Aufgabe 3</h4>
+<p>Wie funktioniert die Abrechnung von Cloud-Diensten? Welche Bezahlmodelle sind hierfür üblich?</p>
+<h4 id="aufgabe-4_2">Aufgabe 4</h4>
+<p>Wie schätzen Sie die Sicherheit von Cloud-Diensten hinsichtlich des Datenschutzes ein?</p>
+<h2 id="hardwarekomponenten-unterscheiden">Hardwarekomponenten unterscheiden</h2>
+<h3 id="arbeitsauftrag-hardwarekomponenten-unterscheiden">Arbeitsauftrag - Hardwarekomponenten unterscheiden</h3>
+<h4 id="aufgabe-1_5">Aufgabe 1</h4>
+<p>Nennen und beschreiben Sie die Komponenten eines Desktop-Computers inkl. der notwendigen und der üblichen Peripherie. Suchen Sie außerdem ein repräsentatives Bild zu jeder Komponente heraus.</p>
+<h4 id="aufgabe-2_5">Aufgabe 2</h4>
+<p>Welche Eingabegeräte können IT-Systeme haben und wie sind die Geräte zu unterscheiden?</p>
+<h4 id="aufgabe-3_4">Aufgabe 3</h4>
+<p>Welche Verarbeitungsgeräte können IT-Systeme haben und wie sind die Geräte zu unterscheiden?</p>
+<h4 id="aufgabe-4_3">Aufgabe 4</h4>
+<p>Welche Ausgabegeräte können IT-Systeme haben und wie sind die Geräte zu unterscheiden?</p>
+<h2 id="virtualisierung-nutzen">Virtualisierung nutzen</h2>
+<h3 id="arbeitsauftrag-virtualisierung-nutzen">Arbeitsauftrag - Virtualisierung nutzen</h3>
+<h4 id="aufgabe-1_6">Aufgabe 1</h4>
+<p>Was ist die Virtualisierung von IT-Systemen?</p>
+<h4 id="aufgabe-2_6">Aufgabe 2</h4>
+<p>Unterscheiden Sie bei der Virtualisierung von IT-Systemen zwischen dem Typ-1- und Typ-2-Hypervisor. Beschreiben Sie beide Konzepte kurz in eigenen Worten und ordnen Sie zu, für welchen Einsatzzweck die jeweilige Art der Virtualisierung geeignet/optimiert ist.</p>
+<h4 id="aufgabe-3_5">Aufgabe 3</h4>
+<p>Unterscheiden Sie zu der Virtualisierung mit Typ-1- bzw. Typ-2-Hypervisor die Virtualisierung mittels Container wie bspw. Docker. Was sind die Vorteile von Docker bzw. was sind die Nachteile gegenüber der "klassischen" Virtualisierung.</p>
+<h4 id="aufgabe-4_4">Aufgabe 4</h4>
+<p>Welche Schwachstellen die Virtualisierung und wie ist die Gefährdungslage einzuschätzen?</p>
+<h2 id="logische-grundfunktionen-der-digitaltechnik-auswerten">Logische Grundfunktionen der Digitaltechnik auswerten</h2>
+<h4 id="aufgabe-1_7">Aufgabe 1</h4>
+<p>Stellen Sie die Wahrheitstabellen für die Logikbausteine AND, OR, XOR und NOT auf.</p>
+<h4 id="aufgabe-2_7">Aufgabe 2</h4>
+<p>Ein Serverraum soll anhand eines Systems gegen unbefugtes Betreten geschützt werden. Hierzu sind in den beiden Zugangstüren jeweils Sensoren verbaut, die eine Öffnung der Tür feststellen. Türöffnungen sollen in einer Logdatei protokolliert werden. Welcher Logikbaustein wird benötigt, um bei jeder Türöffnung die Protokollierung des Zeitstempels korrekt auszulösen.</p>
+<!-- BEGIN INCLUDE inhalte/lizenzhinweis.md '&lt;!--include-start--&gt;' '&lt;!--include-end--&gt;' -->
+
+<div class="admonition info">
+<p class="admonition-title">Lizenz</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Der KIT PV AP1 Kurs</span> von <a xmlns:cc="http://creativecommons.org/ns#" href="https://herr-nm.github.io/MMBbS_KIT_PVAP1/" property="cc:attributionName" rel="cc:attributionURL">André Neumann</a> ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>. Fragen, Hinweise etc. an neumann@mmbbs.de.</p>
+</div>
+<!-- END INCLUDE -->
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.525ec568.min.js"></script>
+      
+        <script src="javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
