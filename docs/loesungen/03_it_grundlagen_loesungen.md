@@ -145,7 +145,7 @@ Beachten Sie dabei:
 \(P_{Server} = 800\,\text{W} * 0,85 = 680\,\text{W}\)
 \(E_{Arbeitsplatz} = 40\,\text{W} * 10\,\text{h} * 250\,\text{Tage} = 100.000\,\text{Wh} = 100\,\text{kWh}\)
 \(E_{Server} = 680\,\text{W} * 24\,\text{h} * 365\,\text{Tage} = 5.956.800\,\text{Wh} = 5.956,8\,\text{kWh}\)
-\(E_{Gesamt} = 100\,\text{kWh} * 40\,\text{Arbeitsplätze} + 5.956,8\,\text{kWh} * 2\,\{Server} = 15.913,6\,\text{kWh}\)
+\(E_{Gesamt} = 100\,\text{kWh} * 40\,\text{Arbeitsplätze} + 5.956,8\,\text{kWh} * 2\,\text{Server} = 15.913,6\,\text{kWh}\)
 \(Kosten = 15.913,6\,\text{kWh} * 0,31\,\text{€/kWh} = 4.933,22\,\text{€}\)
 
 #### Aufgabe 4
