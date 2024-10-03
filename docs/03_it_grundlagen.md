@@ -70,7 +70,7 @@ Für die Berechnung der Energieeffizienz bzw. der Energiekosten eines IT-Systems
 
 #### Aufgabe 2
 
-Berechnen Sie die monatlichen Kosten des Energieverbrauchs für den Betrieb eines Einplatinencomputers, wie dem Raspberry Pi. Dieser hat einen Stromverbrauch im Normalbetrieb von 1750 mA, unter Verwendung des 5V Netzteils. Die Betriebsdauer liegt bei 12 Stunden pro Tag für 30 Tage je Monat. Der Strompreis liegt bei 35 ct/kWh.
+Berechnen Sie die Kosten des Energieverbrauchs für 100 mal Aufladen eines Smartphones. Dieses hat einen 1750 mAh Akku, welcher mit 5V Spannung geladen wird und damit 12 Stunden hält. Der Strompreis liegt bei 35 ct/kWh.
 
 #### Aufgabe 3
 

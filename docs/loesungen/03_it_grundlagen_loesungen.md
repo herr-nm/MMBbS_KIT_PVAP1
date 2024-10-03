@@ -110,11 +110,43 @@ Beachten Sie dabei:
 
 #### Aufgabe 2
 
-![Rechenweg](../bilder/kap_03_energieeffizienz_berechnen_aufgabe_2.png)
+- gegeben: \(I = 1.750\,\text{mAh}\); 100 mal aufladen; \(U = 5\,\text{V}\); \(\text{Preis} = 35\,\text{ct/kWh}\)
+- gesucht: monatliche Kosten
+
+**Lösung:**
+
+\(E = Spannung * Kapazität = 5\,\text{V} * 1.750\,\text{mAh} = 5\,\text{V} * 1,75\,\text{Ah} = 8,75\,\text{Wh}\)
+\(Gesamtenergie = 8,75\,\text{Wh} * 100\,\text{Ladungen} = 875\,\text{Wh} = 0,875 \,\text{kWh}\)
+\(Kosten = 0,875 \,\text{kWh} * 0,35\,\text{€/kWh} = 0,31\,\text{€}\)
+
 
 #### Aufgabe 3
 
 ![Rechenweg](../bilder/kap_03_energieeffizienz_berechnen_aufgabe_3.png)
+
+- gegeben:
+  - 40 Arbeitsplätze, 250 Tage pro Jahr, 10 Stunden pro Tag, Strompreis von 31 ct/kWh, Server 24/7 365 Tage im Jahr in Betrieb
+  - Option A: Leistung mit 15 W je Arbeitsplatz und 800 W bei 95% Auslastung des Servers
+  - Option B: Leistung mit 40 W je Arbeitsplatz und 2x 800 W bei 85% Auslastung des Servers
+- gesucht: Gesamtkosten
+
+*Lösung Option A:*
+
+\(P_{Arbeitsplatz} = 15\,\text{W}\)
+\(P_{Server} = 800\,\text{W} * 0,95 = 760\,\text{W}\)
+\(E_{Arbeitsplatz} = 15\,\text{W} * 10\,\text{h} * 250\,\text{Tage} = 37.500\,\text{Wh} = 37,5\,\text{kWh}\)
+\(E_{Server} = 760\,\text{W} * 24\,\text{h} * 365\,\text{Tage} = 6.657.600\,\text{Wh} = 6.657,6\,\text{kWh}\)
+\(E_{Gesamt} = 37,5\,\text{kWh} * 40\,\text{Arbeitsplätze} + 6.657,6\,\text{kWh} = 8.157,6\,\text{kWh}\)
+\(Kosten = 8.157,6\,\text{kWh} * 0,31\,\text{€/kWh} = 2.528,86\,\text{€}\)
+
+*Lösung Option B:*
+
+\(P_{Arbeitsplatz} = 40\,\text{W}\)
+\(P_{Server} = 800\,\text{W} * 0,85 = 680\,\text{W}\)
+\(E_{Arbeitsplatz} = 40\,\text{W} * 10\,\text{h} * 250\,\text{Tage} = 100.000\,\text{Wh} = 100\,\text{kWh}\)
+\(E_{Server} = 680\,\text{W} * 24\,\text{h} * 365\,\text{Tage} = 5.956.800\,\text{Wh} = 5.956,8\,\text{kWh}\)
+\(E_{Gesamt} = 100\,\text{kWh} * 40\,\text{Arbeitsplätze} + 5.956,8\,\text{kWh} * 2\,\{Server} = 15.913,6\,\text{kWh}\)
+\(Kosten = 15.913,6\,\text{kWh} * 0,31\,\text{€/kWh} = 4.933,22\,\text{€}\)
 
 #### Aufgabe 4
 
